@@ -1,0 +1,181 @@
+Query BDIS 
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("software engineering" OR "ingeniería de software" OR "ingenieria de software" OR "software development" OR "software architecture" OR "software testing" OR "software quality" OR "quality assurance" OR "requirements engineering" OR "software maintenance" OR "agile" OR "agile methodology" OR "database" OR "databases" OR "database system" OR "database systems" OR "relational database" OR "relational databases" OR "NoSQL" OR "bases de datos" OR "sistemas de bases de datos" OR "data warehouse" OR "data mining" OR "minería de datos" OR "mineria de datos" OR "data analysis" OR "análisis de datos" OR "analisis de datos" OR "data management" OR "information system" OR "information systems" OR "sistemas de información" OR "sistemas de informacion" OR "information retrieval" OR "cloud computing" OR "distributed systems" OR "big data") AND subject("Computer science" OR "Ciencias de la computación" OR "Informática" OR "Computer engineering" OR "Software engineering")
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND author("Maria del Pilar Angeles" OR "María del Pilar Angeles" OR "Maria Del Pilar Angeles" OR "Hanna J Oktaba" OR "Hanna Oktaba" OR "Guadalupe Ibarguengoitia" OR "Guadalupe Ibargüengoitia" OR "Javier Garcia Garcia" OR "Javier García García" OR "Gustavo Marquez" OR "Gustavo Márquez" OR "Jorge Ortega Arjona" OR "Jorge Luis Ortega Arjona" OR "Fernando Gamboa") AND subject("Computer science" OR "Ciencias de la computación" OR "Informática" OR "Computer engineering" OR "Software engineering")
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("software engineering" OR "ingeniería de software" OR "ingenieria de software" OR "software development" OR "software architecture" OR "software testing" OR "software quality" OR "quality assurance" OR "requirements engineering" OR "software maintenance" OR "agile" OR "agile methodology" OR "database" OR "databases" OR "database system" OR "database systems" OR "relational database" OR "relational databases" OR "NoSQL" OR "bases de datos" OR "sistemas de bases de datos" OR "data warehouse" OR "data mining" OR "minería de datos" OR "mineria de datos" OR "data analysis" OR "análisis de datos" OR "analisis de datos" OR "data management" OR "information system" OR "information systems" OR "sistemas de información" OR "sistemas de informacion" OR "information retrieval" OR "cloud computing" OR "distributed systems" OR "big data") AND author("Maria del Pilar Angeles" OR "María del Pilar Angeles" OR "Maria Del Pilar Angeles" OR "Hanna J Oktaba" OR "Hanna Oktaba" OR "Guadalupe Ibarguengoitia" OR "Guadalupe Ibargüengoitia" OR "Javier Garcia Garcia" OR "Javier García García" OR "Gustavo Marquez" OR "Gustavo Márquez" OR "Jorge Ortega Arjona" OR "Jorge Luis Ortega Arjona" OR "Fernando Gamboa") AND subject("Computer science" OR "Ciencias de la computación" OR "Informática" OR "Computer engineering" OR "Software engineering") 
+NO SE ENCONTRARON ARTICULOS
+
+
+
+
+Query Computacion cientifica
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("scientific computing" OR "computación científica" OR "computacion cientifica" OR "computational science" OR "high performance computing" OR "HPC" OR hpc OR "supercomputing" OR "parallel computing" OR "parallel algorithms" OR "numerical analysis" OR "numerical methods" OR "numerical simulation" OR "computational modeling" OR "computational modelling" OR "computational model" OR "computational models" OR "mathematical modeling" OR "mathematical modelling" OR "mathematical model" OR "mathematical models" OR "computational mathematics" OR "scientific visualization" OR "simulation model" OR "simulation models" OR "finite element method" OR "finite volume method" OR "computational fluid dynamics" OR "quantum computing") AND subject("Computer science" OR "Ciencias de la computación" OR "Computational science" OR "Scientific computing" OR "High performance computing" OR "Numerical analysis" OR "Mathematical models" OR "Simulation")
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND author("Maria del Pilar Angeles" OR "María del Pilar Angeles" OR "Maria Del Pilar Angeles" OR "Hanna J Oktaba" OR "Hanna Oktaba" OR "Guadalupe Ibarguengoitia" OR "Guadalupe Ibargüengoitia" OR "Javier Garcia Garcia" OR "Javier García García" OR "Gustavo Marquez" OR "Gustavo Márquez" OR "Jorge Ortega Arjona" OR "Jorge Luis Ortega Arjona" OR "Fernando Gamboa") AND subject("Computer science" OR "Ciencias de la computación" OR "Computational science" OR "Scientific computing" OR "High performance computing" OR "Numerical analysis" OR "Mathematical models" OR "Simulation")
+-noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("software engineering" OR "ingeniería de software" OR "ingenieria de software" OR "software development" OR "software architecture" OR "software testing" OR "software quality" OR "quality assurance" OR "requirements engineering" OR "software maintenance" OR "agile" OR "agile methodology" OR "database" OR "databases" OR "database system" OR "database systems" OR "relational database" OR "relational databases" OR "NoSQL" OR "bases de datos" OR "sistemas de bases de datos" OR "data warehouse" OR "data mining" OR "minería de datos" OR "mineria de datos" OR "data analysis" OR "análisis de datos" OR "analisis de datos" OR "data management" OR "information system" OR "information systems" OR "sistemas de información" OR "sistemas de informacion" OR "information retrieval" OR "cloud computing" OR "distributed systems" OR "big data") AND author("Maria del Pilar Angeles" OR "María del Pilar Angeles" OR "Maria Del Pilar Angeles" OR "Hanna J Oktaba" OR "Hanna Oktaba" OR "Guadalupe Ibarguengoitia" OR "Guadalupe Ibargüengoitia" OR "Javier Garcia Garcia" OR "Javier García García" OR "Gustavo Marquez" OR "Gustavo Márquez" OR "Jorge Ortega Arjona" OR "Jorge Luis Ortega Arjona" OR "Fernando Gamboa") AND subject("Computer science" OR "Ciencias de la computación" OR "Informática" OR "Computer engineering" OR "Software engineering")
+
+
+
+
+Query Inteligencia Artificial
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("artificial intelligence" OR "AI" OR "inteligencia artificial" OR "machine learning" OR "aprendizaje automático" OR "aprendizaje automatico" OR "aprendizaje de máquina" OR "aprendizaje de maquina" OR "deep learning" OR "aprendizaje profundo" OR "neural network" OR "neural networks" OR "redes neuronales" OR "natural language processing" OR "procesamiento de lenguaje natural" OR "NLP" OR "computer vision" OR "visión por computadora" OR "vision por computadora" OR "reinforcement learning" OR "aprendizaje por refuerzo" OR "expert systems" OR "sistemas expertos" OR "fuzzy logic" OR "lógica difusa" OR "logica difusa" OR "knowledge representation" OR "representación del conocimiento" OR "representacion del conocimiento" OR "multi-agent systems" OR "sistemas multiagente" OR "evolutionary computation" OR "computación evolutiva" OR "computacion evolutiva" OR "evolutionary algorithm" OR "evolutionary algorithms" OR "genetic algorithm" OR "genetic algorithms" OR "algoritmo genético" OR "algoritmo genetico" OR "swarm intelligence" OR "language model" OR "language models" OR "modelo de lenguaje" OR "modelos de lenguaje" OR "computational linguistics" OR "lingüística computacional" OR "linguistica computacional") AND subject("Artificial intelligence" OR "Machine learning" OR "Deep learning" OR "Neural networks" OR "Natural language processing" OR "Computer vision" OR "Expert systems" OR "Fuzzy logic" OR "Computational linguistics" OR "Computer science")
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND author("Tom Froese" OR "Atocha Aliseda" OR "Atocha Aliseda Llera" OR "Carlos Gershenson" OR "Carlos Gershenson Garcia" OR "Carlos Gershenson García" OR "Angel Kuri Morales" OR "Ángel Kuri Morales" OR "Luis A Pineda Cortes" OR "Luis Alberto Pineda Cortes" OR "Luis Alberto Pineda Cortés" OR "Katya Rodriguez Vazquez" OR "Katya Rodríguez Vázquez" OR "Christopher R Stephens" OR "Christopher Stephens" OR "Ernesto Perez Rueda" OR "Ernesto Pérez Rueda" OR "Gemma Bel Enguix" OR "Sofia Galicia Haro" OR "Sofía Galicia Haro" OR "Sofia N Galicia Haro" OR "Sofía N Galicia Haro" OR "Gibran Fuentes Pineda" OR "Jesus Savage" OR "Jesús Savage" OR "Jesus Savage Carmona" OR "Jesús Savage Carmona" OR "Helena Gomez Adorno" OR "Helena Gómez Adorno" OR "Edgardo Galan Vasquez" OR "Edgardo Galán Vásquez" OR "V M Lomas Barrie" OR "Carlos Ignacio Hernandez Castellanos" OR "Carlos Ignacio Hernández Castellanos" OR "Wendy E Aguilar Martinez" OR "Wendy E Aguilar Martínez" OR "Ana Lilia Laureano Cruces") AND subject("Artificial intelligence" OR "Machine learning" OR "Deep learning" OR "Neural networks" OR "Natural language processing" OR "Computer vision" OR "Expert systems" OR "Fuzzy logic" OR "Computational linguistics" OR "Computer science")
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("artificial intelligence" OR "AI" OR "inteligencia artificial" OR "machine learning" OR "aprendizaje automático" OR "aprendizaje automatico" OR "aprendizaje de máquina" OR "aprendizaje de maquina" OR "deep learning" OR "aprendizaje profundo" OR "neural network" OR "neural networks" OR "redes neuronales" OR "natural language processing" OR "procesamiento de lenguaje natural" OR "NLP" OR "computer vision" OR "visión por computadora" OR "vision por computadora" OR "reinforcement learning" OR "aprendizaje por refuerzo" OR "expert systems" OR "sistemas expertos" OR "fuzzy logic" OR "lógica difusa" OR "logica difusa" OR "knowledge representation" OR "representación del conocimiento" OR "representacion del conocimiento" OR "multi-agent systems" OR "sistemas multiagente" OR "evolutionary computation" OR "computación evolutiva" OR "computacion evolutiva" OR "evolutionary algorithm" OR "evolutionary algorithms" OR "genetic algorithm" OR "genetic algorithms" OR "algoritmo genético" OR "algoritmo genetico" OR "swarm intelligence" OR "language model" OR "language models" OR "modelo de lenguaje" OR "modelos de lenguaje" OR "computational linguistics" OR "lingüística computacional" OR "linguistica computacional") AND author("Tom Froese" OR "Atocha Aliseda" OR "Atocha Aliseda Llera" OR "Carlos Gershenson" OR "Carlos Gershenson Garcia" OR "Carlos Gershenson García" OR "Angel Kuri Morales" OR "Ángel Kuri Morales" OR "Luis A Pineda Cortes" OR "Luis Alberto Pineda Cortes" OR "Luis Alberto Pineda Cortés" OR "Katya Rodriguez Vazquez" OR "Katya Rodríguez Vázquez" OR "Christopher R Stephens" OR "Christopher Stephens" OR "Ernesto Perez Rueda" OR "Ernesto Pérez Rueda" OR "Gemma Bel Enguix" OR "Sofia Galicia Haro" OR "Sofía Galicia Haro" OR "Sofia N Galicia Haro" OR "Sofía N Galicia Haro" OR "Gibran Fuentes Pineda" OR "Jesus Savage" OR "Jesús Savage" OR "Jesus Savage Carmona" OR "Jesús Savage Carmona" OR "Helena Gomez Adorno" OR "Helena Gómez Adorno" OR "Edgardo Galan Vasquez" OR "Edgardo Galán Vásquez" OR "V M Lomas Barrie" OR "Carlos Ignacio Hernandez Castellanos" OR "Carlos Ignacio Hernández Castellanos" OR "Wendy E Aguilar Martinez" OR "Wendy E Aguilar Martínez" OR "Ana Lilia Laureano Cruces") AND subject("Artificial intelligence" OR "Machine learning" OR "Deep learning" OR "Neural networks" OR "Natural language processing" OR "Computer vision" OR "Expert systems" OR "Fuzzy logic" OR "Computational linguistics" OR "Computer science")
+
+
+
+
+Query Redes y Seguridad en Cómputo
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("computer networks" OR "computer network" OR "redes de computadoras" OR "redes de cómputo" OR "redes de computo" OR "network security" OR "seguridad de redes" OR "computer security" OR "seguridad informática" OR "seguridad informatica" OR cybersecurity OR "cyber security" OR ciberseguridad OR cryptography OR criptografía OR criptografia OR "information security" OR "network protocol" OR "network protocols" OR "protocolos de red" OR "wireless network" OR "wireless networks" OR "redes inalámbricas" OR "redes inalambricas" OR "wireless sensor networks" OR "internet of things" OR "internet de las cosas" OR IoT OR blockchain OR routing OR enrutamiento OR forwarding OR "distributed systems" OR "sistemas distribuidos" OR "intrusion detection" OR "detección de intrusos" OR "deteccion de intrusos" OR "access control" OR "control de acceso" OR "privacy-preserving" OR "privacy preserving" OR "software-defined networking" OR "software defined networking" OR SDN OR "network virtualization" OR "communication networks") AND subject("Computer science" OR "Computer networks" OR "Network security" OR Cybersecurity OR "Computer security" OR Cryptography OR "Information security" OR "Wireless networks" OR "Internet of things" OR "Distributed systems")
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND author("Sergio Rajsbaum" OR "Victor Rangel Licea" OR "Víctor Rangel Licea" OR "Javier Gomez" OR "Javier Gómez" OR "Jorge Luis Ortega Arjona" OR "Jorge Ortega Arjona" OR "D Fabian Garcia Nocetti" OR "D Fabián García Nocetti" OR "Fabian Garcia Nocetti" OR "Fabián García Nocetti" OR "Hector Benitez" OR "Héctor Benítez" OR "Fabian Romo Zamudio" OR "Fabián Romo Zamudio" OR "Arturo Miguel Bribiesca Argomedo" OR "Igor V Litvinchev" OR "Igor Litvinchev") AND subject("Computer science" OR "Computer networks" OR "Network security" OR Cybersecurity OR "Computer security" OR Cryptography OR "Information security" OR "Wireless networks" OR "Internet of things" OR "Distributed systems")
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("computer networks" OR "computer network" OR "redes de computadoras" OR "redes de cómputo" OR "redes de computo" OR "network security" OR "seguridad de redes" OR "computer security" OR "seguridad informática" OR "seguridad informatica" OR cybersecurity OR "cyber security" OR ciberseguridad OR cryptography OR criptografía OR criptografia OR "information security" OR "network protocol" OR "network protocols" OR "protocolos de red" OR "wireless network" OR "wireless networks" OR "redes inalámbricas" OR "redes inalambricas" OR "wireless sensor networks" OR "internet of things" OR "internet de las cosas" OR IoT OR blockchain OR routing OR enrutamiento OR forwarding OR "distributed systems" OR "sistemas distribuidos" OR "intrusion detection" OR "detección de intrusos" OR "deteccion de intrusos" OR "access control" OR "control de acceso" OR "privacy-preserving" OR "privacy preserving" OR "software-defined networking" OR "software defined networking" OR SDN OR "network virtualization" OR "communication networks") AND subject("Computer science" OR "Computer networks" OR "Network security" OR Cybersecurity OR "Computer security" OR Cryptography OR "Information security" OR "Wireless networks" OR "Internet of things" OR "Distributed systems") AND author("Sergio Rajsbaum" OR "Victor Rangel Licea" OR "Víctor Rangel Licea" OR "Javier Gomez" OR "Javier Gómez" OR "Jorge Luis Ortega Arjona" OR "Jorge Ortega Arjona" OR "D Fabian Garcia Nocetti" OR "D Fabián García Nocetti" OR "Fabian Garcia Nocetti" OR "Fabián García Nocetti" OR "Hector Benitez" OR "Héctor Benítez" OR "Fabian Romo Zamudio" OR "Fabián Romo Zamudio" OR "Arturo Miguel Bribiesca Argomedo" OR "Igor V Litvinchev" OR "Igor Litvinchev")
+
+
+
+
+Query Teoria de la computacion
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("theory of computation" OR "teoría de la computación" OR "teoria de la computacion" OR "computational complexity" OR "complejidad computacional" OR "automata theory" OR "teoría de autómatas" OR "teoria de automatas" OR "formal languages" OR "lenguajes formales" OR computability OR computabilidad OR decidability OR decidibilidad OR "algorithm design" OR "algorithm analysis" OR algorithms OR algoritmos OR "graph theory" OR "teoría de grafos" OR "teoria de grafos" OR "graph algorithms" OR "computational geometry" OR "geometría computacional" OR "geometria computacional" OR "discrete mathematics" OR "matemáticas discretas" OR "matematicas discretas" OR "distributed algorithms" OR "algoritmos distribuidos" OR "concurrency theory" OR "formal verification" OR "verificación formal" OR "verificacion formal" OR "model checking" OR "temporal logic" OR "lógica temporal" OR "logica temporal" OR "complexity classes" OR "approximation algorithms" OR "randomized algorithms") AND subject("Computer science" OR "Computational complexity" OR "Algorithms" OR "Graph theory" OR "Discrete mathematics" OR "Formal languages" OR "Automata theory" OR "Computability" OR "Formal verification" OR "Model checking")
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND author("Suemi Rodriguez Romo" OR "Suemi Rodríguez Romo" OR "Luis Alberto Pineda Cortes" OR "Luis Alberto Pineda Cortés" OR "Luis A Pineda Cortes" OR "Ricardo Strausz" OR "Ricardo Strausz Santiago" OR "Vladislav Khartchenko" OR "Vlad K Kharchenko" OR "Francisco Hernandez Quiroz" OR "Francisco Hernández Quiroz" OR "David Flores Penaloza" OR "David Flores Peñaloza" OR "Sergio Rajsbaum" OR "Sergio Rajsbaum Gorodezky" OR "Armando Castaneda" OR "Armando Castañeda" OR "Armando Castaneda Rojano" OR "Armando Castañeda Rojano" OR "Jorge Urrutia" OR "Jorge Urrutia Galicia" OR "David A Rosenblueth") AND subject("Computer science" OR "Computational complexity" OR "Algorithms" OR "Graph theory" OR "Discrete mathematics" OR "Formal languages" OR "Automata theory" OR "Computability" OR "Formal verification" OR "Model checking")
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("theory of computation" OR "teoría de la computación" OR "teoria de la computacion" OR "computational complexity" OR "complejidad computacional" OR "automata theory" OR "teoría de autómatas" OR "teoria de automatas" OR "formal languages" OR "lenguajes formales" OR computability OR computabilidad OR decidability OR decidibilidad OR "algorithm design" OR "algorithm analysis" OR algorithms OR algoritmos OR "graph theory" OR "teoría de grafos" OR "teoria de grafos" OR "graph algorithms" OR "computational geometry" OR "geometría computacional" OR "geometria computacional" OR "discrete mathematics" OR "matemáticas discretas" OR "matematicas discretas" OR "distributed algorithms" OR "algoritmos distribuidos" OR "concurrency theory" OR "formal verification" OR "verificación formal" OR "verificacion formal" OR "model checking" OR "temporal logic" OR "lógica temporal" OR "logica temporal" OR "complexity classes" OR "approximation algorithms" OR "randomized algorithms") AND subject("Computer science" OR "Computational complexity" OR "Algorithms" OR "Graph theory" OR "Discrete mathematics" OR "Formal languages" OR "Automata theory" OR "Computability" OR "Formal verification" OR "Model checking") AND author("Suemi Rodriguez Romo" OR "Suemi Rodríguez Romo" OR "Luis Alberto Pineda Cortes" OR "Luis Alberto Pineda Cortés" OR "Luis A Pineda Cortes" OR "Ricardo Strausz" OR "Ricardo Strausz Santiago" OR "Vladislav Khartchenko" OR "Vlad K Kharchenko" OR "Francisco Hernandez Quiroz" OR "Francisco Hernández Quiroz" OR "David Flores Penaloza" OR "David Flores Peñaloza" OR "Sergio Rajsbaum" OR "Sergio Rajsbaum Gorodezky" OR "Armando Castaneda" OR "Armando Castañeda" OR "Armando Castaneda Rojano" OR "Armando Castañeda Rojano" OR "Jorge Urrutia" OR "Jorge Urrutia Galicia" OR "David A Rosenblueth")
+
+
+
+
+Query Señales, Imágenes y Ambientes Virtuales
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("signal processing" OR "digital signal processing" OR "procesamiento de señales" OR "procesamiento de senales" OR "image processing" OR "procesamiento de imágenes" OR "procesamiento de imagenes" OR "computer vision" OR "visión por computadora" OR "vision por computadora" OR "pattern recognition" OR "reconocimiento de patrones" OR "image segmentation" OR "segmentación de imágenes" OR "segmentacion de imagenes" OR "image classification" OR "clasificación de imágenes" OR "clasificacion de imagenes" OR "object detection" OR "detección de objetos" OR "deteccion de objetos" OR "image reconstruction" OR "reconstrucción de imágenes" OR "reconstruccion de imagenes" OR "medical imaging" OR "remote sensing" OR "computer graphics" OR "gráficos por computadora" OR "graficos por computadora" OR "virtual reality" OR "realidad virtual" OR "augmented reality" OR "realidad aumentada" OR "mixed reality" OR "realidad mixta" OR "virtual environments" OR "ambientes virtuales" OR "entornos virtuales" OR "immersive systems" OR "sistemas inmersivos" OR "multimedia systems" OR "sistemas multimedia" OR "human computer interaction" OR "human-computer interaction" OR "interacción humano computadora" OR "interaccion humano computadora" OR "3d reconstruction" OR "reconstrucción 3d" OR "reconstruccion 3d" OR "scientific visualization") AND subject("Computer science" OR "Image processing" OR "Signal processing" OR "Computer vision" OR "Pattern recognition" OR "Computer graphics" OR "Virtual reality" OR "Augmented reality" OR "Multimedia systems" OR "Human computer interaction")
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND author("Jesus Savage" OR "Jesús Savage" OR "Jesus Savage Carmona" OR "Jesús Savage Carmona" OR "Fernando Arambula Cosio" OR "Fernando Arámbula Cosío" OR "Ernesto Bribiesca" OR "Boris Escalante Ramirez" OR "Boris Escalante Ramírez" OR "Francisco Garcia Ugalde" OR "Francisco García Ugalde" OR "Ma Elena Martinez Perez" OR "Ma Elena Martínez Pérez" OR "Maria Elena Martinez Perez" OR "María Elena Martínez Pérez" OR "Tetyana Baydyk" OR "Tatiana Baidyk" OR "Gabriel Corkidi" OR "Alfonso Gastelum Strozzi" OR "Alfonso Gastélum Strozzi" OR "Nidiyare Hevia Montiel" OR "Nidiyare Hevia-Montiel" OR "Erik Molino Minero Re" OR "Erik Molino-Minero-Re" OR "Jimena Olveres Montiel" OR "Jose Luis Gordillo" OR "José Luis Gordillo" OR "Gustavo de la Cruz Martinez" OR "Gustavo de la Cruz Martínez" OR "Edgar Armando Catalan" OR "Edgar Armando Catalán" OR "Miguel A Padilla Castañeda" OR "Miguel A Padilla Castaneda") AND subject("Computer science" OR "Image processing" OR "Signal processing" OR "Computer vision" OR "Pattern recognition" OR "Computer graphics" OR "Virtual reality" OR "Augmented reality" OR "Multimedia systems" OR "Human computer interaction")
+- noft("Universidad Nacional Autónoma de México" OR "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO" OR "universidad nacional autónoma de méxico" OR "Universidad Nacional Autonoma de Mexico" OR "UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO" OR "universidad nacional autonoma de mexico" OR "National Autonomous University of Mexico" OR "NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO" OR "national autonomous university of mexico" OR UNAM OR unam) AND noft("signal processing" OR "digital signal processing" OR "procesamiento de señales" OR "procesamiento de senales" OR "image processing" OR "procesamiento de imágenes" OR "procesamiento de imagenes" OR "computer vision" OR "visión por computadora" OR "vision por computadora" OR "pattern recognition" OR "reconocimiento de patrones" OR "image segmentation" OR "segmentación de imágenes" OR "segmentacion de imagenes" OR "image classification" OR "clasificación de imágenes" OR "clasificacion de imagenes" OR "object detection" OR "detección de objetos" OR "deteccion de objetos" OR "image reconstruction" OR "reconstrucción de imágenes" OR "reconstruccion de imagenes" OR "medical imaging" OR "remote sensing" OR "computer graphics" OR "gráficos por computadora" OR "graficos por computadora" OR "virtual reality" OR "realidad virtual" OR "augmented reality" OR "realidad aumentada" OR "mixed reality" OR "realidad mixta" OR "virtual environments" OR "ambientes virtuales" OR "entornos virtuales" OR "immersive systems" OR "sistemas inmersivos" OR "multimedia systems" OR "sistemas multimedia" OR "human computer interaction" OR "human-computer interaction" OR "interacción humano computadora" OR "interaccion humano computadora" OR "3d reconstruction" OR "reconstrucción 3d" OR "reconstruccion 3d" OR "scientific visualization") AND subject("Computer science" OR "Image processing" OR "Signal processing" OR "Computer vision" OR "Pattern recognition" OR "Computer graphics" OR "Virtual reality" OR "Augmented reality" OR "Multimedia systems" OR "Human computer interaction") AND author("Jesus Savage" OR "Jesús Savage" OR "Jesus Savage Carmona" OR "Jesús Savage Carmona" OR "Fernando Arambula Cosio" OR "Fernando Arámbula Cosío" OR "Ernesto Bribiesca" OR "Boris Escalante Ramirez" OR "Boris Escalante Ramírez" OR "Francisco Garcia Ugalde" OR "Francisco García Ugalde" OR "Ma Elena Martinez Perez" OR "Ma Elena Martínez Pérez" OR "Maria Elena Martinez Perez" OR "María Elena Martínez Pérez" OR "Tetyana Baydyk" OR "Tatiana Baidyk" OR "Gabriel Corkidi" OR "Alfonso Gastelum Strozzi" OR "Alfonso Gastélum Strozzi" OR "Nidiyare Hevia Montiel" OR "Nidiyare Hevia-Montiel" OR "Erik Molino Minero Re" OR "Erik Molino-Minero-Re" OR "Jimena Olveres Montiel" OR "Jose Luis Gordillo" OR "José Luis Gordillo" OR "Gustavo de la Cruz Martinez" OR "Gustavo de la Cruz Martínez" OR "Edgar Armando Catalan" OR "Edgar Armando Catalán" OR "Miguel A Padilla Castañeda" OR "Miguel A Padilla Castaneda")
+
+
+
+
+
+ORCID investigadores
+author(
+"Everardo Barcenas Patino"
+OR "Everardo Bárcenas Patiño"
+OR "Armando Castaneda Rojano"
+OR "Armando Castañeda Rojano"
+OR "David Flores Penaloza"
+OR "David Flores Peñaloza"
+OR "Cesar Hernandez Cruz"
+OR "César Hernández Cruz"
+OR "Francisco Hernandez Quiroz"
+OR "Francisco Hernández Quiroz"
+OR "Favio Ezequiel Miranda Perea"
+OR "Sergio Rajsbaum"
+OR "Sergio Rajsbaum Gorodesky"
+OR "David Arturo Rosenblueth"
+OR "David A Rosenblueth"
+OR "Jorge Urrutia"
+OR "Jorge Urrutia Galicia"
+OR "Carlos Velarde Velazquez"
+OR "Carlos Velarde Velázquez"
+OR "Rocio Alejandra Aldeco Perez"
+OR "Rocío Alejandra Aldeco Pérez"
+OR "Hector Benitez Perez"
+OR "Héctor Benítez Pérez"
+OR "Jose Jaime Camacho Escoto"
+OR "José Jaime Camacho Escoto"
+OR "Francisco Garcia Jimenez"
+OR "Francisco García Jiménez"
+OR "Fabian Garcia Nocetti"
+OR "Fabián García Nocetti"
+OR "Javier Gomez Castellanos"
+OR "Javier Gómez Castellanos"
+OR "Maria Elena Larraga Ramirez"
+OR "Ma Elena Larraga Ramirez"
+OR "Jorge Luis Ortega Arjona"
+OR "Victor Rangel Licea"
+OR "Gerardo Vega Hernandez"
+OR "Gerardo Vega Hernández"
+OR "Wendy Aguilar Martinez"
+OR "Wendy E Aguilar Martinez"
+OR "Luis Alvarez Icaza Longoria"
+OR "Luis Alvarez-Icaza"
+OR "Gemma Bel Enguix"
+OR "Gibran Fuentes Pineda"
+OR "Gibrán Fuentes Pineda"
+OR "Helena Gomez Adorno"
+OR "Helena Gómez-Adorno"
+OR "Elena Gomez Adorno"
+OR "Carlos Ignacio Hernandez Castellanos"
+OR "Carlos Ignacio Hernández Castellanos"
+OR "Angel Kuri Morales"
+OR "Ángel Kuri Morales"
+OR "Ana Lilia Laureano Cruces"
+OR "Ivan Vladimir Meza Ruiz"
+OR "Iván Vladimir Meza Ruiz"
+OR "Sergio Marcellin"
+OR "Jose Antonio Neme Castillo"
+OR "José Antonio Neme Castillo"
+OR "Ernesto Perez Rueda"
+OR "Ernesto Pérez Rueda"
+OR "Luis Alberto Pineda Cortes"
+OR "Luis Alberto Pineda Cortés"
+OR "Katya Rodriguez Vazquez"
+OR "Katya Rodríguez Vázquez"
+OR "Jesus Savage Carmona"
+OR "Jesús Savage Carmona"
+OR "Gerardo Sierra Martinez"
+OR "Gerardo Sierra Martínez"
+OR "Christopher Stephens"
+OR "Cristina Verde Rodarte"
+OR "Maria del Pilar Angeles"
+OR "María del Pilar Ángeles"
+OR "Gustavo Marquez Flores"
+OR "Gustavo Márquez Flores"
+OR "Ismael Herrera Revilla"
+OR "Vladislav Khartchenko"
+OR "Lukas Nellen"
+OR "Lukas Nellen Filla"
+OR "Suemi Rodriguez Romo"
+OR "Fernando Arambula Cosio"
+OR "Fernando Arámbula Cosío"
+OR "Ernesto Bribiesca"
+OR "Ernesto Bribiesca Correa"
+OR "Gabriel Corkidi"
+OR "Gabriel Corkidi Blanco"
+OR "Boris Escalante Ramirez"
+OR "Boris Escalante Ramírez"
+OR "Francisco Garcia Ugalde"
+OR "Francisco García Ugalde"
+OR "Edgar Garduno Angeles"
+OR "Edgar Garduño Ángeles"
+OR "Alfonso Gastelum Strozzi"
+OR "Nidiyare Hevia Montiel"
+OR "Jorge Alberto Marquez Flores"
+OR "Jorge Márquez Flores"
+OR "Maria Elena Martinez Perez"
+OR "María Elena Martínez Pérez"
+OR "Paul Erick Mendez Monroy"
+OR "Paul Erick Méndez Monroy"
+OR "Erik Molino Minero Re"
+OR "Jimena Olveres Montiel"
+OR "Miguel Angel Padilla Castaneda"
+OR "Miguel Ángel Padilla Castañeda"
+OR "Jorge Luis Perez Gonzalez"
+OR "Jorge Luis Pérez González"
+OR "Caleb Antonio Rascon Estebane"
+OR "Caleb Antonio Rascón Estebané" OR "Guadalupe Ibarguengoitia"
+OR "Guadalupe Ibargüengoitia"
+OR "Hanna Oktaba"
+OR "Hanna J Oktaba"
+OR "Fernando Gamboa Rodriguez"
+OR "Fernando Gamboa Rodríguez"
+OR "Javier Garcia Garcia"
+OR "Javier García García"
+OR "Atocha Aliseda"
+OR "Atocha Aliseda Llera"
+OR "Zbigniew Oziewicz"
+OR "Ricardo Strausz"
+OR "Tom Froese"
+OR "Carlos Gershenson"
+OR "Carlos Gershenson Garcia"
+OR "Carlos Gershenson García"
+OR "Sofia Natalia Galicia Haro"
+OR "Sofía Natalia Galicia Haro"
+OR "Edgardo Galan"
+OR "Edgardo Galán"
+OR "Victor Lomas"
+OR "Victor Lomas Barrie"
+OR "Tetyana Baydyk"
+OR "Abel Herrera Camacho")
