@@ -83,4 +83,5 @@ recolección manual
 ## Autor
 
 Luis David Aguilar Colorado
+
 Lic. en Física | Estudiante de Maestría (PCIC, UNAM)
