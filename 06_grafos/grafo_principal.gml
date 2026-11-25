@@ -1,7 +1,7 @@
 graph [
   nombre "Grafo bibliogr&#225;fico principal"
   fuente "04_Limpieza/06_Finales/Canonico_FINAL.csv"
-  sha256 "83547be2ffabaf81877332a3963ebb28b7b25dd7d5596296f289180e60090bc5"
+  sha256 "faef103b6110c3d0e85adab3739b188ab9f9abc0944848471e4db917b22554f7"
   criterioArticulo "Un nodo por indice del CSV"
   criterioAutor "Coincidencia exacta de Autor_norm"
   criterioKeyword "Separaci&#243;n por punto y coma; se conserva la escritura"
@@ -10,6 +10,7 @@ graph [
     label "articulo:1"
     tipo "articulo"
     nombre "A comparative study of NeuralODE and Universal ODE approaches to solving Chandrasekhar White Dwarf equation"
+    indice 1
     titulo "A comparative study of NeuralODE and Universal ODE approaches to solving Chandrasekhar White Dwarf equation"
     anio 2024
     isbn ""
@@ -20,7 +21,6 @@ graph [
     subarea ""
     keywords "White dwarfs; Neural networks; Breakdown points; Chandrasekhar&#8217;s white dwarf equation; Comparatives studies; Learning frameworks; Machine-learning; Robust hyper-parameters; Robust modeling; Scientific ML; Universal differential equation"
     abstract "In this study, we apply two pillars of Scientific Machine Learning: Neural Ordinary Differential Equations (Neural ODEs) and Universal Differential Equations (UDEs) to the Chandrasekhar White Dwarf Equation (CWDE). The CWDE is fundamental for understanding the life cycle of a star, and describes the relationship between the density of the white dwarf and its distance from the center. Despite the rise in Scientific Machine Learning frameworks, very less attention has been paid to the systematic applications of the above SciML pillars on astronomy based ODEs. Through robust modeling in the Julia programming language, we show that both Neural ODEs and UDEs can be used effectively for both prediction as well as forecasting of the CWDE. More importantly, we introduce the 'forecasting breakdown point' - the time at which forecasting fails for both Neural ODEs and UDEs. Through a robust hyperparameter optimization testing, we provide insights on the neural network architecture, activation functions and optimizers which provide the best results. This study provides opens a door to investigate the applicability of Scientific Machine Learning frameworks in forecasting tasks for a wide range of scientific domains."
-    indice 1
   ]
   node [
     id 1
@@ -93,6 +93,7 @@ graph [
     label "articulo:2"
     tipo "articulo"
     nombre "A Comparative Study of Numerical Laplace Inversion Methods for Heat Transfer in Fractured Reservoirs"
+    indice 2
     titulo "A Comparative Study of Numerical Laplace Inversion Methods for Heat Transfer in Fractured Reservoirs"
     anio 2025
     isbn "978-1-959025-61-0"
@@ -103,7 +104,6 @@ graph [
     subarea ""
     keywords "Offshore technology; Laplace transforms; Numerical methods; Petroleum reservoir evaluation; Time domain analysis; Comparatives studies; Comprehensive analysis; Fractured reservoir; Geothermal systems; Inversion algorithm; Inversion methods; Laplace space; Numerical inversion; Numerical Laplace inversion; Time domain"
     abstract "Some fractured geothermal systems present analytical solutions expressed in Laplace space, necessitating the application of numerical inversion algorithms for accurate translation to time domain. This paper conducts a comprehensive analysis of some inversion techniques applied to geothermal equations, aiming to enhance precision and efficiency in the inversion process. Selected algorithms, including Stehfest, Bran&#269;ik, Euler, and den Iseger undergo evaluation based on computational performance and accuracy in capturing the dynamic behavior of fractured geothermal systems. The study systematically compares the performance of these algorithms through testing against benchmark cases. Results reveal diverse levels of accuracy and efficiency, providing valuable insights into their applicability across different models. Furthermore, the research underscores the computational advantages of utilizing Laplace space solutions, recognizing their pragmatic benefits in addressing the inherent complexity of geothermal analytical solutions in real domain."
-    indice 2
   ]
   node [
     id 13
@@ -194,6 +194,7 @@ graph [
     label "articulo:3"
     tipo "articulo"
     nombre "A Greenfield Analysis for Supply Chains Enhanced with Agent-Based Simulation"
+    indice 3
     titulo "A Greenfield Analysis for Supply Chains Enhanced with Agent-Based Simulation"
     anio 2024
     isbn "978-3-031-34749-8"
@@ -204,7 +205,6 @@ graph [
     subarea ""
     keywords "Computer software; Discrete event simulation; Freight transportation; Agent based simulation; Anylogic softwares; Case-studies; Discrete-event simulations; Freight transport; Greenfield analysis; Multi-paradigm simulation; Simulation model; Supply chains"
     abstract "This chapter presents a strategy to improve the greenfield analysis of a supply chain. The proposed strategy is based on a multiparadigm simulation model that uses discrete event simulation and agent-based simulation for vehicles used in freight transport. The modeling was carried out using Anylogic software, which is the only software that allows the integration of different simulation methods in the same project. A hypothetical case study was developed to implement the strategy."
-    indice 3
   ]
   node [
     id 28
@@ -283,6 +283,7 @@ graph [
     label "articulo:4"
     tipo "articulo"
     nombre "A Hierarchical Approach to a Tri-Objective Portfolio Optimization Problem Considering an ESG Index"
+    indice 4
     titulo "A Hierarchical Approach to a Tri-Objective Portfolio Optimization Problem Considering an ESG Index"
     anio 2024
     isbn ""
@@ -293,7 +294,6 @@ graph [
     subarea ""
     keywords "Archiving techniques; ESG score; Multi-objective optimization; Portfolio optimization"
     abstract "Traditional portfolio construction primarily revolves around a bi-objective approach, focusing on minimizing portfolio variance while maximizing expected returns. However, this approach leaves out other objectives that could interest decision makers. In this work, we incorporate an extra objective, namely the environmental, social, and governance index (ESG), as a secondary objective. This addition empowers investors to customize their portfolios by defining explicit trade-off thresholds between expected returns and risk, considering the ESG index. To achieve this goal, we make use of external archiving techniques and evolutionary algorithms. In particular, we first find approximate solutions to the bi-objective problem; then, we look for efficient solutions for ESG. We tested our approach with data on the Dow Jones, S&#38;P500, and Nasdaq100 from Yahoo Finance. The results show that the proposed methodology can identify portfolios with good returns and risks considering ESG."
-    indice 4
   ]
   node [
     id 41
@@ -324,6 +324,7 @@ graph [
     label "articulo:5"
     tipo "articulo"
     nombre "A hybrid framework for assessing regional inertia estimation in bulk power systems using COI-driven spectral clustering"
+    indice 5
     titulo "A hybrid framework for assessing regional inertia estimation in bulk power systems using COI-driven spectral clustering"
     anio 2025
     isbn ""
@@ -334,7 +335,6 @@ graph [
     subarea ""
     keywords "Complex networks; Clustering algorithms; Electric power system stability; Hybrid power; Renewable energy; Wind turbines; Bulk power systems; Center of inertias; Clusterings; Hybrid framework; Integration of renewable energies; Power; Regional centres; Regional inertia estimation; Spectral clustering; Test systems; Clustering; Centre of inertia; Wind turbine"
     abstract "Modern power systems are facing growing challenges in frequency stability due to the increasing integration of renewable energy sources. Accurate regional inertia estimation is essential to address this issue. This paper proposes a novel grid partitioning method that enhances spectral clustering to identify regional centres of inertia (RCOIs) using complex network analysis. These RCOIs enable precise inertia estimation through an auto-regressive moving average (ARMAX) model, which combines data-driven and model-based approaches to achieve this. Validated on the NETS-NYPS test system under conventional and renewable generation scenarios and on the NPCC test system under traditional generation, the method achieves estimation errors below 3%, with renewable-specific accuracy nearing 10%. The framework offers a robust solution for monitoring regional inertia, thereby enhancing grid stability, operational efficiency, and resilience in dynamic power systems."
-    indice 5
   ]
   node [
     id 46
@@ -455,6 +455,7 @@ graph [
     label "articulo:6"
     tipo "articulo"
     nombre "A machine learning-based inverse analysis procedure for concrete softening law prediction using non-experimental datasets"
+    indice 6
     titulo "A machine learning-based inverse analysis procedure for concrete softening law prediction using non-experimental datasets"
     anio 2025
     isbn ""
@@ -465,7 +466,6 @@ graph [
     subarea ""
     keywords "Artificial intelligence; Beams (structures); Brittleness; Concrete; Cracks; Learning (artificial intelligence); Reinforced concrete; Softening; Structural engineering; Structural engineering computing; Concrete softening law prediction; Concrete structures; Experimental setups; Experimental test; Extreme loads; Indirect methods; Inverse analysis procedure; Machine learning-based algorithm; Mechanical behaviour; Mechanical parameters; Nonexperimental dataset; Quasibrittle construction materials; Sequentially Linear Analysis procedure; Softening curve; Inverse analysis; Machine learning; Softening law; Forecasting; Inverse problems; Large datasets; Learning algorithms; Learning systems; Parameter estimation; Statistical tests; Concrete softening; Mechanical behavior; Sequentially linear analysis; Softening curves; Concretes"
     abstract "This paper studies the mechanical behaviour of concrete as one of the most widely used quasi-brittle construction materials emphasizing on the importance of knowing its mechanical parameters and their evolution during the inelastic stage, i.e., the softening law. The softening curve, which describes the response of the material under damage or cracking, is critical for predicting the behaviour of concrete structures subjected to extreme loads. Experimental tests are commonly employed to obtain this information either directly or indirectly. Some of the indirect methods are based on inverse analysis and/or artificial intelligence techniques, both of which capable of predicting the mechanical parameters of concrete from the experimental results of one test, e.g., a notched beam subjected to vertical loads. However, an important drawback of these procedures is that they require a large dataset constructed from data gathered in multiple experiments in order to be developed. Consequently, most existing methods are tailored to specific types of experiments and even limited to certain specimen dimensions. Additionally, these procedures primarily focus on predicting mechanical parameters rather than determining the softening law. To address these limitations, this paper proposes a machine learning-based algorithm for the inverse analysis of an experimental test capable of predicting both the softening law and the mechanical parameters of concrete. By generating a non-experimental dataset through the Sequentially Linear Analysis (SLA) procedure, the proposed algorithm can be applied to other experimental setups suitable for analysis with SLA. The results of the application example demonstrate the effectiveness of the proposed approach."
-    indice 6
   ]
   node [
     id 66
@@ -706,6 +706,7 @@ graph [
     label "articulo:7"
     tipo "articulo"
     nombre "A Modeling and Position Control of a Marine Vehicle with Omnidirectional Configuration"
+    indice 7
     titulo "A Modeling and Position Control of a Marine Vehicle with Omnidirectional Configuration"
     anio 2025
     isbn ""
@@ -716,7 +717,6 @@ graph [
     subarea ""
     keywords "Backstepping controller; Marine systems; Omnidirectional configuration; PD+ controller; Vehicle dynamics"
     abstract "The paper presents a dynamic model and position-control strategies for a compact omnidirectional marine vehicle. PD+ and backstepping controllers are evaluated in simulation under environmental disturbances such as wind and waves, with performance metrics used to compare trajectory and position regulation."
-    indice 7
   ]
   node [
     id 106
@@ -753,6 +753,7 @@ graph [
     label "articulo:8"
     tipo "articulo"
     nombre "A modelling study to explore the effects of regional socio-economics on the spreading of epidemics"
+    indice 8
     titulo "A modelling study to explore the effects of regional socio-economics on the spreading of epidemics"
     anio 2024
     isbn ""
@@ -763,7 +764,6 @@ graph [
     subarea ""
     keywords "Agent-based Social Simulation; Hybrid Epidemic Modelling; Machine Learning Assisted Data Analysis"
     abstract "Epidemics, apart from affecting the health of populations, can have large impacts on their social and economic behavior and subsequently feed back to and influence the spreading of the disease. This calls for systematic investigation which factors affect significantly and either beneficially or adversely the disease spreading and regional socio-economics. Based on our recently developed hybrid agent-based socio-economy and epidemic spreading model we perform extensive exploration of its six-dimensional parameter space of the socio-economic part of the model, namely, the attitudes towards the spread of the pandemic, health and the economic situation for both, the population and government agents who impose regulations. We search for significant patterns from the resulting simulated data using basic classification tools, such as self-organizing maps and principal component analysis, and we monitor different quantities of the model output, such as infection rates, the propagation speed of the epidemic, economic activity, government regulations, and the compliance of population on government restrictions. Out of these, the ones describing the epidemic spreading were resulting in the most distinctive clustering of the data, and they were selected as the basis of the remaining analysis. We relate the found clusters to three distinct types of disease spreading: wave-like, chaotic, and transitional spreading patterns. The most important value parameter contributing to phase changes and the speed of the epidemic was found to be the compliance of the population agents towards the government regulations. We conclude that in compliant populations, the infection rates are significantly lower and the infection spreading is slower, while the population agents&#8217; health and economical attitudes show a weaker effect."
-    indice 8
   ]
   node [
     id 112
@@ -788,6 +788,7 @@ graph [
     label "articulo:9"
     tipo "articulo"
     nombre "A Reynolds-semi-robust and pressure-robust Hybrid High-Order method for the time dependent incompressible Navier&#8211;Stokes equations on general meshes"
+    indice 9
     titulo "A Reynolds-semi-robust and pressure-robust Hybrid High-Order method for the time dependent incompressible Navier&#8211;Stokes equations on general meshes"
     anio 2025
     isbn ""
@@ -798,7 +799,6 @@ graph [
     subarea ""
     keywords "General meshes; Hybrid high-order methods; Pressure-robustness; Re-semi-robust error estimates; Time-dependent incompressible flow; Convergence of numerical methods; Galerkin methods; Incompressible flow; Inverse problems; Navier Stokes equations; Reynolds equation; Reynolds number; Error estimates; General mesh; High-order methods; Higher-order methods; Hybrid high-order method; Re-semi-robust error estimate; Reynolds; Time dependent; Mesh generation"
     abstract "In this work we develop and analyze a Reynolds-semi-robust and pressure-robust Hybrid High-Order (HHO) discretization of the incompressible Navier&#8211;Stokes equations. Reynolds-semi-robustness refers to the fact that, under suitable regularity assumptions, the right-hand side of the velocity error estimate does not depend on the inverse of the viscosity. This property is obtained here through a penalty term which involves a subtle projection of the convective term on a subgrid space constructed element by element. Moreover, a method has the pressure-robustness property when it guarantees velocity error estimates that are independent of the pressure. The estimated convergence order for the L^&#8734;(L^2)- and L^2(energy)-norm of the velocity is h^(k+1/2), which matches the best results for continuous and discontinuous Galerkin methods and corresponds to the one expected for HHO methods in convection-dominated regimes. Two-dimensional numerical results on a variety of polygonal meshes complete the exposition."
-    indice 9
   ]
   node [
     id 116
@@ -925,6 +925,7 @@ graph [
     label "articulo:10"
     tipo "articulo"
     nombre "A robust nonsingular fixed-time controller: Application to robot manipulators"
+    indice 10
     titulo "A robust nonsingular fixed-time controller: Application to robot manipulators"
     anio 2025
     isbn ""
@@ -935,7 +936,6 @@ graph [
     subarea ""
     keywords "Fixed-time stability; Robot manipulators; Robustness; Trajectory tracking; Controllers; Data mining; Dynamics; Industrial robots; Manipulators; Modular robots; Robot applications; Sliding mode control; Tracking (position); External perturbations; Fixed time; Nonsingular; Robots manipulators; Time controller; Time stability; Robustness (control systems)"
     abstract "Sliding Mode Control (SMC) techniques allow accurate position tracking, where fixed-time stability has become an area of great interest. A kind of systems which has represented a control challenge for the last decades are robot manipulators due to their highly nonlinear dynamics and the presence of external perturbations. The current contribution introduces a novel singularity free fixed-time SMC scheme for position and velocity tracking of robot manipulators in the presence of external perturbations. The design of the controller and the sliding surface together improves transient performance by avoiding the presence of high-peaks, providing a natural saturation of the control input while at the same time reducing chattering effects. The result holds globally when the robot model is fully known and locally when this is not the case (partially known or completely unknown). Simulation results confirm the effectiveness and the performance improvement of the developed theory with respect to other well-known schemes."
-    indice 10
   ]
   node [
     id 137
@@ -1062,6 +1062,7 @@ graph [
     label "articulo:11"
     tipo "articulo"
     nombre "A single-cell transposable element atlas of human cell identity"
+    indice 11
     titulo "A single-cell transposable element atlas of human cell identity"
     anio 2025
     isbn ""
@@ -1072,7 +1073,6 @@ graph [
     subarea ""
     keywords "Bioinformatics; Computational biology; CP: genetics; CP: systems biology; Human endogenous retrovirus; Long interspersed nuclear elements; Machine learning; Retrotranscriptomics; Single-cell RNA sequencing; Stellarscope; Transcriptomics; Transposable elements; Algorithms; DNA Transposable Elements; Gene Expression Profiling; Humans; Leukocytes, Mononuclear; Sequence Analysis, RNA; Single-Cell Analysis; Transcriptome; Messenger RNA; Adult; Algorithm; Analytic method; Article; Cell function; Controlled study; Cytology; Female; Gene expression; Gene locus; Gene mapping; Genomics; Human; Human cell; Mathematical computing; Peripheral blood mononuclear cell; Process development; Quantitative analysis; RNA sequencing; Transposon; DNA transposon; Genetics; Metabolism; Mononuclear cell; Procedures"
     abstract "Single-cell RNA sequencing (scRNA-seq) is revolutionizing the study of complex biological systems. However, most sequencing studies overlook the contribution of transposable element (TE) expression to the transcriptome. The quantification of locus-specific TE expression in scRNA-seq experiments is challenging due to their repetitive sequence content and poorly characterized annotations. Here, we developed a computational tool for single-cell transposable element locus-level analysis of scRNA sequencing (Stellarscope) that reassigns multimapped reads to specific genomic loci using an expectation maximization algorithm. Using Stellarscope, we built an atlas of TE expression in human PBMCs. We found that locus-specific TEs delineate cell types and define cell subsets not identified by standard mRNA expression profiles. Altogether, this study provides comprehensive insights into the influence of TEs in human biology at the single-cell level."
-    indice 11
   ]
   node [
     id 158
@@ -1349,6 +1349,7 @@ graph [
     label "articulo:12"
     tipo "articulo"
     nombre "A Technological and Computational Framework for Modeling Complex Adaptive Systems"
+    indice 12
     titulo "A Technological and Computational Framework for Modeling Complex Adaptive Systems"
     anio 2024
     isbn ""
@@ -1359,7 +1360,6 @@ graph [
     subarea ""
     keywords "Multifactoriality; Explanatory models; Hybrid intelligence; Systems architecture"
     abstract "The article analyzes the computing, technological, scientific, and policy challenges associated with modeling complex adaptive systems and proposes a technological and computational framework based on experiences at the Laboratory for the Simulation of Complex Adaptive Systems (CHILAM), with an emphasis on multifactorial problems, explanatory models, and hybrid intelligence."
-    indice 12
   ]
   node [
     id 204
@@ -1390,6 +1390,7 @@ graph [
     label "articulo:13"
     tipo "articulo"
     nombre "A Virtual Laboratory on Recursive Least-Squares Estimation for Undergraduate Courses"
+    indice 13
     titulo "A Virtual Laboratory on Recursive Least-Squares Estimation for Undergraduate Courses"
     anio 2024
     isbn ""
@@ -1400,7 +1401,6 @@ graph [
     subarea ""
     keywords "Parametric Estimation; RLS algorithm; Forgetting factor; Real time; Educational tool"
     abstract "The paper presents a virtual laboratory for teaching recursive least-squares parameter estimation. The educational tool allows students to experiment with real-time estimation, forgetting-factor settings, and changing system parameters in a controlled computational environment."
-    indice 13
   ]
   node [
     id 209
@@ -1437,6 +1437,7 @@ graph [
     label "articulo:14"
     tipo "articulo"
     nombre "Addressing multidimensional highly correlated data for forecasting in precision beekeeping"
+    indice 14
     titulo "Addressing multidimensional highly correlated data for forecasting in precision beekeeping"
     anio 2024
     isbn ""
@@ -1447,7 +1448,6 @@ graph [
     subarea ""
     keywords "Correlation; Forecast; Machine learning; Precision beekeeping; Sensor data; Time series; Network security; Auto-regressive; Highly-correlated; Internal variables; Predictive models; Sensors data; Times series; Apiculture; Bee; Decision support system; Forecasting method; Sensor; Time series analysis; Prediction models"
     abstract "In recent years, there have been relevant advances in precision beekeeping. These advances are mainly focused on proposing sensor systems that collect crucial information for bee welfare, creating integrated architectures that allow beekeepers to monitor the current state of their hive through real-time data. However, there is a lack of predictive models that would allow beekeepers to anticipate specific events that endanger bee welfare and lead to a decline in productivity. Specifically, predictive approaches accounting for the high correlation among internal variables of beehives have not been developed to date. To address this research gap, multivariate predictive models, including auto-regressive state-space and time series models, have been implemented and applied to four different hives from the we4bee project. These models aim to predict the internal variables of beehives (four different temperatures, humidity, and weight) by utilizing the meteorological conditions to which the hives are exposed. A cross-validation adapted to time series data was employed for model generalization assessment. Prediction models based on vector time series exhibited superior performance in forecasting internal hive variables compared to multivariate auto-regressive state-space models. Overall, the approach based on the vector error correction model yielded the best balance between fit, prediction, and computational cost. The VEC-based approach produces predictions with maximum mean absolute errors of 177 (312)g in weight, 3.366 (3.802)% in humidity, and 1.122 (1.685)&#176;C in temperature at 1 (3)-days ahead when dealing with beehives exhibiting a high degree of correlation in their internal variables. Moreover, the VEC-based approach requires less than a second to perform the time series fitting process, which makes it particularly interesting for application in big data environments. The integration of such models into a decision support system would meet the need of beekeepers to anticipate potential threats to the welfare of their bee colonies, streamlining their monitoring processes while eliminating the need for continuous inspections."
-    indice 14
   ]
   node [
     id 215
@@ -1568,6 +1568,7 @@ graph [
     label "articulo:15"
     tipo "articulo"
     nombre "Addressing uncertainty in Participatory Integrated Assessment: qualitative modeling approach for risk estimation"
+    indice 15
     titulo "Addressing uncertainty in Participatory Integrated Assessment: qualitative modeling approach for risk estimation"
     anio 2024
     isbn ""
@@ -1578,7 +1579,6 @@ graph [
     subarea ""
     keywords "Environmental planning; Ecological risk; DMDU; KSIM; Early warning indicators; Forecasting"
     abstract "Participatory Integrated Assessment (PIA) has become a vital tool for decision-making for sustainable development, but it faces significant challenges due to the inherent uncertainty of socio-ecological systems. Uncertainty arises from multiple sources, such as incomplete data, knowledge gaps, and unpredictable events, which can lead to inadequate risk estimations and potentially undermine the effectiveness of environmental planning efforts. To address these challenges, this study proposes a qualitative modeling approach for risk estimation in PIA. The approach employs Decision Making under Deep Uncertainty (DMDU) to combine qualitative insights and information from stakeholders with available quantitative data. It allows for the exploration of alternative future states of the world and the identification of robust scenarios that promote sustainable development. The effectiveness of the proposed approach is demonstrated through the Ecological Ordinance of Yucat&#225;n, Mexico, a policy-making tool for multi-sectoral environmental planning. The study shows how qualitative DMDU can identify critical uncertainties and provide insights into regional management strategies. It also emphasizes the importance of stakeholder engagement and transparency in the decision-making process. Overall, this study presents a promising approach for addressing multiple forms of uncertainty in PIA and improving ecological risk estimation for decision-making in complex socio-ecological systems."
-    indice 15
   ]
   node [
     id 235
@@ -1615,6 +1615,7 @@ graph [
     label "articulo:16"
     tipo "articulo"
     nombre "AI-Driven Synthetic Cohorts to Explore Genetic Associations: Lessons from Testicular Cancer with Relevance to Rare Conditions"
+    indice 16
     titulo "AI-Driven Synthetic Cohorts to Explore Genetic Associations: Lessons from Testicular Cancer with Relevance to Rare Conditions"
     anio 2025
     isbn ""
@@ -1625,7 +1626,6 @@ graph [
     subarea ""
     keywords "Principal component analysis; Biomarkers; Diseases; Learning systems; Molecular biology; Statistics; Tumors; Bio-marker discovery; Cancer genomics; Condition; Germ cells; MC4R; Repurposing; Statistical power; Synthetic data; Synthpop; Testicular germ cell tumor"
     abstract "Objective Rare cancers often involve small patient cohorts, which limit statistical power and hinder biomarker discovery. This proof-of-concept study evaluates the feasibility of repurposing the Synthpop R package&#8212;originally designed for data anonymization&#8212;to generate synthetic datasets and improve statistical inference in rare cancer studies. We demonstrate this approach using the association between the MC4R rs79783591 variant and clinical outcomes in testicular germ cell tumors (TGCT). Materials and Methods A retrospective cohort of 220 Mexican TGCT patients was analyzed, identifying 9 heterozygous carriers of the MC4R variant. To overcome limited sample size, we used Synthpop to generate 234 synthetic carriers, maintaining the original data structure and statistical distributions. Dataset fidelity was validated using machine learning models, principal component analysis, and structural similarity metrics. Cox proportional hazards models and Kaplan&#8211;Meier survival analyses assessed associations with overall survival. Results Real carriers were diagnosed at a younger median age (22 vs. 26 years). In the synthetic cohort, the MC4R variant was associated with a threefold increased mortality risk (HR = 3.15; 95% CI: 2.06&#8211;4.82; p"
-    indice 16
   ]
   node [
     id 241
@@ -1728,6 +1728,7 @@ graph [
     label "articulo:17"
     tipo "articulo"
     nombre "AI-Enhanced Supercomputing for Next-Generation Astronomical Data Processing in Latin America: A Case Study of the ALMA Observatory"
+    indice 17
     titulo "AI-Enhanced Supercomputing for Next-Generation Astronomical Data Processing in Latin America: A Case Study of the ALMA Observatory"
     anio 2025
     isbn ""
@@ -1738,7 +1739,6 @@ graph [
     subarea ""
     keywords "ALMA Observatory; Artificial Intelligence; Data Processing; GPU Acceleration; High-Performance Computing; Radio Astronomy; Supercomputing; Computer architecture; Cost benefit analysis; Data handling; Image resolution; Information management; Observatories; Supercomputers; Technology transfer; Astronomical data; Atacama Large Millimeter/sub-millimeter Array (ALMA); Atacamum large millimeter/submillimeter array observatory; Case-studies; GPU accelerations; Latin America; Performance computing; Work-flows"
     abstract "This paper presents a proposal for improving the data processing workflow within an AI-powered supercomputing framework for the Atacama Large Millimetre/submillimeter Array (ALMA) Observatory. This framework aims to reduce processing times by 40% to 60%, improve image resolution, and increase data calibration accuracy. A high-performance computing (HPC) architecture with a GPU and artificial intelligence (AI) hardware for astronomical data management is described. The importance of such infrastructure for scientific advancement in developing countries is highlighted by analyzing implementation strategies, cost-benefit analyses, and technology transfer."
-    indice 17
   ]
   node [
     id 258
@@ -1877,6 +1877,7 @@ graph [
     label "articulo:18"
     tipo "articulo"
     nombre "Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations in Mexico City: A Multifaceted Analysis"
+    indice 18
     titulo "Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations in Mexico City: A Multifaceted Analysis"
     anio 2025
     isbn "978-3-031-83881-1"
@@ -1887,7 +1888,6 @@ graph [
     subarea ""
     keywords "Air pollution; Socioeconomic status; Avoidable hospitalizations; Mexico City; Machine learning"
     abstract "Previous studies have independently examined the relationships between air pollutants, socioeconomic status (SES), and disease incidence, often neglecting to consider both risk factors simultaneously. However, evidence suggests a correlation between SES and air pollution levels, implying their potential confounding effects. Failing to account for this could lead to inaccurate conclusions. Moreover, SES analyses frequently focus solely on income or residential area, overlooking crucial factors like educational attainment. Air pollution studies tend to concentrate on specific pollutants such as PM2.5 or PM10, disregarding other potentially relevant, highly correlated pollutants, potentially misidentifying the most influential ones. Incorporating multiple risk factors introduces complexities like multicollinearity, which can distort effect estimates and statistical significance. In this study, we analyzed 86,170 hospitalized patients from Mexico City between 2015 and 2019, utilizing composite social and economic indicators. We included various environmental pollutants to comprehensively examine their contributions and effects on both the number and severity of hospitalizations. The results showed that the economic factor of SES significantly influenced the incidence of diabetes complications, while the social factor impacted diseases related to prenatal care and hypertension. The PM10, PM2.5, and CO pollutant group had a statistically significant effect on the incidence of several conditions like influenza, asthma, and epilepsy. The NO2 and NOx group exhibited effects on the severity of diabetes complications and influenza. Notably, nonlinear effects and interactions between variables like age and weight were observed, highlighting the importance of accounting for these complexities."
-    indice 18
   ]
   node [
     id 281
@@ -1918,6 +1918,7 @@ graph [
     label "articulo:19"
     tipo "articulo"
     nombre "Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations: A Multifaceted Analysis"
+    indice 19
     titulo "Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations: A Multifaceted Analysis"
     anio 2025
     isbn ""
@@ -1928,7 +1929,6 @@ graph [
     subarea ""
     keywords "Avoidable hospitalizations; Ambulatory care sensitive conditions; Diabetes; Air pollution; Socioeconomic status; Environmental health; Epidemiology; Risk factors; Mexico City"
     abstract "The study combines environmental, socioeconomic and health data to analyze relationships among air pollution, socioeconomic conditions and avoidable hospitalizations, using computational and statistical methods."
-    indice 19
   ]
   node [
     id 286
@@ -1965,6 +1965,7 @@ graph [
     label "articulo:20"
     tipo "articulo"
     nombre "An approach to inertial distribution in power grids by a modularity index"
+    indice 20
     titulo "An approach to inertial distribution in power grids by a modularity index"
     anio 2025
     isbn "979-8-3315-4397-6"
@@ -1975,7 +1976,6 @@ graph [
     subarea ""
     keywords "Graph theory; Load flow; Power grids; Power system stability; Approach utilises topological data; Cohesive clusters; Community detection algorithms; Enhanced modularity index; Identified grid communities; Inertial distribution; Inertial modularity; Inertial robustness; Inertial Support Index; ISI; Novel graph theory; Power flow; Robust regional inertia distribution analysis; Strong internal connections; Structural analysis framework; Inertia distribution; Structural analysis; Community detection; Graph analysis; Modularity index; Power transmission lines; Stability criteria; Power system dynamics; Reliability engineering; Robustness; Power system reliability; Indexes; Security"
     abstract "This research introduces a novel graph theory and structural analysis framework to assess inertia distribution in power grids. We define the Inertial Support Index (ISI), derived from an enhanced modularity index, to evaluate inertial robustness within identified grid communities. By integrating community detection algorithms, the grid is partitioned into cohesive clusters with strong internal connections and clear boundaries, enabling robust regional inertia distribution analysis. Our approach utilises topological data, including generator locations, transmission line admittances, and power flow, to quantify the inertial modularity of each area. The proposed methodology is validated on the New England 39-bus test system, demonstrating its accuracy and effectiveness in assessing the ISI."
-    indice 20
   ]
   node [
     id 292
@@ -2168,6 +2168,7 @@ graph [
     label "articulo:21"
     tipo "articulo"
     nombre "Analysis of Covid-19 Transmission Using Complex Networks"
+    indice 21
     titulo "Analysis of Covid-19 Transmission Using Complex Networks"
     anio 2024
     isbn "978-3-031-68434-0"
@@ -2178,7 +2179,6 @@ graph [
     subarea ""
     keywords "Complex networks; Modeling; Pandemic; SARS-CoV-2-19 (COVID-19-9); Time series; Visibility algorithm; Development and testing; Global public health; Health crisis; High impact; Statistic modeling; Times series; SARS"
     abstract "The global public health crisis caused by the SARS-CoV-2-19 (COVID-19) pandemic has highlighted the need for research into contagion complexity. This challenge necessitates the development and testing of various approaches to manage rapidly changing information with high impact. In this paper, we employ time series analysis and complex networks analysis to compare the evolution, spread, and containment of COVID-19 pandemics in eleven countries and globally. Our analysis enables us to observe the dynamics of spread and the impact of different strategies employed by each country in increasing and decreasing cases through complex network techniques. Additionally, we explore the transformation of data behavior over time as our understanding of the virus improves. Our findings provide important insights into the limitations of using statistical models and suggest that simulation of new cases of COVID-19 data can be modeled using complex networks. The complex network model provides a general description of contagion dynamics in the 11 countries and worldwide situation. This paper contributes by highlighting the limitations of using statistical models to infer and study early time series data and proposing the use of a complex network approach to study contagion dynamics."
-    indice 21
   ]
   node [
     id 324
@@ -2245,6 +2245,7 @@ graph [
     label "articulo:22"
     tipo "articulo"
     nombre "Attitude tracking of rigid bodies using exponential coordinates and a disturbance observer"
+    indice 22
     titulo "Attitude tracking of rigid bodies using exponential coordinates and a disturbance observer"
     anio 2024
     isbn ""
@@ -2255,7 +2256,6 @@ graph [
     subarea ""
     keywords "Attitude tracking control; Disturbance observer; Exponential coordinates of rotation; Nonlinear systems; Rigid body; Asymptotic stability; Attitude control; Closed loop control systems; Control theory; Controllers; Navigation; Rigid structures; Attitude tracking; Control laws; Control loop; Exponential coordinate of rotation; Exponentials; External disturbances; Global exponential stability; Lyapunov functions"
     abstract "In this paper, we study the problem of attitude trajectory tracking of rigid bodies subject to external disturbances. The attitude control problem has been studied in the last decades and novel solutions have been proposed. Nevertheless, most of the proposed controllers only achieve local or almost global asymptotic stability without considering external disturbances. Contrary to other works, we focus on the problem of achieving almost global exponential stability of the attitude tracking errors in the presence of external disturbances using continuous control laws. We propose an attitude trajectory tracking controller based on the exponential coordinates of rotation in combination with a disturbance observer that estimates the exogenous signals. To solve this problem, we adopt a hierarchical approach, where the proposed control law is divided into a kinematic controller (outer control loop) and a velocity tracking controller (inner control loop). To design the disturbance observer, it is assumed that exogenous signals can be generated by a linear exosystem, i.e. the magnitude and phase of the disturbance are unknown. The almost global exponential stability of the closed-loop dynamics' equilibrium point was proved by a strict Lyapunov function. The performance of the proposed approach is assessed by numerical simulations and experimental tests on a low-cost quadrotor."
-    indice 22
   ]
   node [
     id 335
@@ -2376,6 +2376,7 @@ graph [
     label "articulo:23"
     tipo "articulo"
     nombre "Barrier function-based adaptive continuous higher-order sliding mode controllers"
+    indice 23
     titulo "Barrier function-based adaptive continuous higher-order sliding mode controllers"
     anio 2025
     isbn ""
@@ -2386,7 +2387,6 @@ graph [
     subarea ""
     keywords "Adaptive control; Nonlinear systems; Robust control; Sliding mode control; Uncertain systems; Adaptive control systems; Controllers; Nonlinear control systems; Robustness (control systems); Adaptive controllers; Adaptive sliding mode controller; Barriers functions; Chain of integrators; Control gains; High-order; High-order sliding mode controllers; Higher-order"
     abstract "In this paper, two classes of continuous higher order adaptive sliding mode controllers based on barrier functions are developed for a perturbed chain of integrators with perturbations bounded by unknown functions. Both classes provide finite-time convergence of the state of the system to a predefined domain using a continuous control signal. The first class of adaptive controllers require few assumptions about the perturbation. However, it can provide unbounded control gains in general. To ensure bounded control gains in the case of a Lipschitz perturbation, a second class of adaptive controllers, called the adaptive higher order Super-Twisting (HOST) algorithm, is developed. The effectiveness of the proposed adaptive controllers is specifically assessed for a cart-pendulum system. Simulation results illustrate high performance in achieving stabilization, even in cases where the disturbance upper bound and its derivative are unknown."
-    indice 23
   ]
   node [
     id 355
@@ -2471,6 +2471,7 @@ graph [
     label "articulo:24"
     tipo "articulo"
     nombre "Bioinformatics perspectives on transcriptomics: A comprehensive review of bulk and single-cell RNA sequencing analyses"
+    indice 24
     titulo "Bioinformatics perspectives on transcriptomics: A comprehensive review of bulk and single-cell RNA sequencing analyses"
     anio 2025
     isbn ""
@@ -2481,7 +2482,6 @@ graph [
     subarea ""
     keywords "Bioinformatics tools; Next generation sequencing; RNA-seq; scRNA-seq; Transcriptome"
     abstract "The transcriptome, the complete set of RNA molecules within a cell, plays a critical role in regulating physiological processes. The advent of RNA sequencing (RNA-seq) facilitated by Next Generation Sequencing (NGS) technologies, has revolutionized transcriptome research, providing unique insights into gene expression dynamics. This powerful strategy can be applied at both bulk tissue and single-cell levels. Bulk RNA-seq provides a gene expression profile within a tissue sample. Conversely, single-cell RNA sequencing (scRNA-seq) offers resolution at the cellular level, allowing the uncovering of cellular heterogeneity, identification of rare cell types, and distinction between distinct cell populations. As computational tools, machine learning techniques, and NGS sequencing platforms continue to evolve, the field of transcriptome research is poised for significant advancements. Therefore, to fully harness this potential, a comprehensive understanding of bulk RNA-seq and scRNA-seq technologies, including their advantages, limitations, and computational considerations, is crucial. This review provides a systematic comparison of the computational processes involved in both RNA-seq and scRNA-seq, highlighting their fundamental principles, applications, strengths, and limitations, while outlining future directions in transcriptome research."
-    indice 24
   ]
   node [
     id 369
@@ -2512,6 +2512,7 @@ graph [
     label "articulo:25"
     tipo "articulo"
     nombre "Bioinspired optimization on controlled anthropomorphic manipulator robots"
+    indice 25
     titulo "Bioinspired optimization on controlled anthropomorphic manipulator robots"
     anio 2025
     isbn ""
@@ -2522,7 +2523,6 @@ graph [
     subarea ""
     keywords "Active disturbance rejection control; Anthropomorphic manipulator robots; Artificial neural networks; Bacterial foraging optimization; Manufacturing applications; Motion&#8211;tracking control; Adaptive control systems; Anthropomorphic robots; Dynamics; Manipulators; Medical applications; Motion control; Motion tracking; Robust control; Uncertainty analysis; Active disturbances rejection controls; Anthropomorphic manipulator robot; Anthropomorphic Manipulators; Bio-inspired optimizations; Manipulators robot; Neural-networks; Optimization algorithms; Disturbance rejection"
     abstract "Bioinspired optimization algorithms, derived from biological processes such as bacterial foraging and swarm behavior, have shown increasing potential in addressing high-dimensional, nonlinear, and time-varying problems in engineering. Their integration into robotic control architectures enables the development of adaptive, model-flexible schemes that are robust to uncertainty and real-time constraints. Anthropomorphic manipulator robots, widely used in manufacturing and medical applications, require high-performance motion control under structural uncertainty, dynamic perturbations, and limited sensing. This paper proposes a unified and robust control scheme that integrates three key components: (i) a bacterial foraging optimization algorithm for offline initialization of controller weights, (ii) B-spline artificial neural networks for online adjustment of adaptive control gains, and (iii) a robust motion control law based on integral reconstruction theory, which eliminates the need for velocity measurement or full dynamic models and avoids high-gain compensation. This architecture overcomes several limitations of classical model-based, PID, or adaptive-only approaches by combining learning, compensation, and optimization within a scalable framework. The proposed method is validated through multiple simulation studies involving anthropomorphic manipulators with documented physical parameters and subjected to varying disturbances. Comparative analysis demonstrates superior tracking precision, reduced control effort, and faster convergence dynamics. These results confirm the practical viability of the proposed framework for motion control in dynamically uncertain robotic platforms."
-    indice 25
   ]
   node [
     id 374
@@ -2643,6 +2643,7 @@ graph [
     label "articulo:26"
     tipo "articulo"
     nombre "Cloud Computing Integration for Leak Diagnosis Using Meta-Heuristic Methods for Water Distribution Networks"
+    indice 26
     titulo "Cloud Computing Integration for Leak Diagnosis Using Meta-Heuristic Methods for Water Distribution Networks"
     anio 2025
     isbn "978-1-6654-5771-2"
@@ -2653,7 +2654,6 @@ graph [
     subarea ""
     keywords "Location awareness; Cloud computing; Costs; Accuracy; Metaheuristics; Distribution networks; Simulated annealing; Virtual machines; Pressure measurement; Resilience; Hydraulic machinery; Leak detection; Water distribution systems; Hydraulic system; In-field; Meta-heuristic methods; Operating condition; Performance; Pressure heads; Simulation model; Water distribution networks; Heuristic methods; Current"
     abstract "We present the implementation of a Cloud-Computing-based system for leak diagnosis in a water distribution network. Pressure head/flow rate measured in field is stored and processed in a virtual machine to provide a leak diagnosis in two stages: 1) first the leak is detected by comparing the current operating conditions and expected nominal operating conditions obtained from a previously adjusted simulation model, and 2) the leak exact location and its magnitude are determined using a meta-heuristic method. The performance of the proposed system is implemented for an experimental hydraulic system at a laboratory scale. Results demonstrate a good accuracy in the leak diagnosis metrics at a reduced economic and computational cost, demonstrating the potential results from the implementation of a similar system in a large-scale water distribution network."
-    indice 26
   ]
   node [
     id 394
@@ -2792,6 +2792,7 @@ graph [
     label "articulo:27"
     tipo "articulo"
     nombre "Comparative Genomics of Sigma Factors in Acidithiobacillia Sheds Light into the Transcriptional Regulatory Networks Involved in Biogeochemical Dynamics in Extreme Acidic Environments"
+    indice 27
     titulo "Comparative Genomics of Sigma Factors in Acidithiobacillia Sheds Light into the Transcriptional Regulatory Networks Involved in Biogeochemical Dynamics in Extreme Acidic Environments"
     anio 2025
     isbn ""
@@ -2802,7 +2803,6 @@ graph [
     subarea ""
     keywords "Sigma-factors; RpoN; Motility; Nitrogen metabolism; Hydrogen; Sulfur metabolism; Enhancer-binding proteins; Acidithiobacillia"
     abstract "The article uses comparative genomics to characterize sigma factors and associated regulatory functions in Acidithiobacillia. It examines the distribution of transcriptional regulators and enhancer-binding proteins linked to motility and nitrogen, hydrogen, and sulfur metabolism, providing a genomic view of regulatory adaptations to extremely acidic environments."
-    indice 27
   ]
   node [
     id 417
@@ -2857,6 +2857,7 @@ graph [
     label "articulo:28"
     tipo "articulo"
     nombre "Complex Network in Earthquakes and Aftershocks: The Mexico Case"
+    indice 28
     titulo "Complex Network in Earthquakes and Aftershocks: The Mexico Case"
     anio 2024
     isbn "978-3-031-67439-6"
@@ -2867,7 +2868,6 @@ graph [
     subarea ""
     keywords "Complex network; Earthquakes; Scale-free; Small-world; Earthquake effects; Large scale systems; Air traffics; AS-links; Gutenberg-Richter law; Mexico; Network traffic; Neural-networks; Seismic event; Small worlds; Traffic networks; Small-world networks"
     abstract "Some studies have demonstrated that earthquakes and their aftershocks can be described as complex networks such as neural networks and air traffic networks. These networks represent seismic events as nodes and the correlations between them (such as based on distance, time, and magnitude) as links. In the present study, the correlation of activity between main seismic events (earthquakes) and aftershocks occurring along the Mexican coast of Oaxaca in 2018 was quantified over a 15-day period. The correlation was based on the Gutenberg&#8211;Richter law, the fractal appearance of earthquake epicenters, and the Omori law based on the methodology of Baiesi and Paczuski; however, earthquakes with a moment magnitude greater than or equal to 5 are defined as mainshocks. The aim of this study is to create an earthquake network, specifically in the Oaxaca region, using complex network theory. Topological properties of the seismic network are analyzed, such as the degree distribution, network diameter, and clustering coefficient. It is found that the complex network associated with the earthquakes exhibits characteristics of a scale-free complex network and a small-world network."
-    indice 28
   ]
   node [
     id 426
@@ -2964,6 +2964,7 @@ graph [
     label "articulo:29"
     tipo "articulo"
     nombre "Comprehensive comparative analysis of the periodontal pathogen Porphyromonas gingivalis: exploring the pan-genome, the reconstruction of the gene regulatory network and genome-scale metabolic network"
+    indice 29
     titulo "Comprehensive comparative analysis of the periodontal pathogen Porphyromonas gingivalis: exploring the pan-genome, the reconstruction of the gene regulatory network and genome-scale metabolic network"
     anio 2024
     isbn ""
@@ -2974,7 +2975,6 @@ graph [
     subarea ""
     keywords "Porphyromonas gingivalis; Type IV secretion system; Periodontitis; Comparative genomics"
     abstract "The study performs a comparative genomic analysis of Porphyromonas gingivalis, integrating pan-genome characterization with reconstruction of a gene-regulatory network and a genome-scale metabolic network. The combined analysis is used to examine conserved and variable functions, regulatory organization, metabolic capabilities, and features relevant to the pathogen&#8217;s biology and virulence."
-    indice 29
   ]
   node [
     id 442
@@ -3005,6 +3005,7 @@ graph [
     label "articulo:30"
     tipo "articulo"
     nombre "Control of Electromechanical Oscillations with Machine Learning"
+    indice 30
     titulo "Control of Electromechanical Oscillations with Machine Learning"
     anio 2024
     isbn "979-8-3315-3054-9"
@@ -3015,7 +3016,6 @@ graph [
     subarea ""
     keywords "Damping; Circuit oscillations; Electric exciters; Static Var compensators; Clusterings; Damping oscillation; Damping oscillation control; Electromechanical oscillation; HACA; Inter-area oscillations; Linear quadratic Gaussian; Machine-learning; Oscillation control; VAR compensators; Eigenvalues and eigenfunctions; Linear quadratic Gaussian control; Oscillations; Power system stability; Eigensystem Realization Algorithm; Electromechanical oscillation control; Electromechanical oscillations; Generator exciters; HACA clustering method; LQG control; Power system; Static vars compensator; SVC; Test system; Clustering; Damping oscillations control; Static Var Compensator; LQG; Machine learning algorithms; Design methodology; Clustering algorithms; Generators; Power systems; Oscillators; Tuning"
     abstract "This paper uses the HACA clustering method to design electromechanical oscillation control using linear quadratic Gaussian (LQG) control applied to generator exciters and also applied to a static vars compensator (SVC) in a power system. The system is identified by the Eigensystem Realization Algorithm (ERA) for clustering and for tuning the LQG control that is added to the exciters or SVC. As a result, a damping of up to 7% is obtained in the inter-area mode of a test system."
-    indice 30
   ]
   node [
     id 447
@@ -3226,6 +3226,7 @@ graph [
     label "articulo:31"
     tipo "articulo"
     nombre "CUDA code to generate computational models and predict mechanical properties for metallic surface nanocoatings"
+    indice 31
     titulo "CUDA code to generate computational models and predict mechanical properties for metallic surface nanocoatings"
     anio 2024
     isbn ""
@@ -3236,7 +3237,6 @@ graph [
     subarea ""
     keywords "CUDA&#174; programming; FEM simulation; Mechanical surface properties; Metallic surface nanocoating; Predictive models"
     abstract "The article presents an open-access code, written in CUDA&#174; and C++ programming language, applicable for generating computational models of nanostructured surface coatings deposited by electrodeposition. The code uses the Schr&#246;dinger equation, energy potentials, and electrochemistry as a theoretical basis to determine the deposition and electrodeposition energies, allowing the prediction of the formation and growth of these coatings. Likewise, the parameter variation enabled within the code provides for determining the main electrodeposition parameters (voltage, current, concentration, and residence time) for experimental depositions. The code can be easily implemented for any metallic coating-substrate arrangement where the filler material is nanomaterials."
-    indice 31
   ]
   node [
     id 482
@@ -3267,6 +3267,7 @@ graph [
     label "articulo:32"
     tipo "articulo"
     nombre "Data production and Monte Carlo simulations for the Pierre Auger Observatory"
+    indice 32
     titulo "Data production and Monte Carlo simulations for the Pierre Auger Observatory"
     anio 2025
     isbn ""
@@ -3277,7 +3278,6 @@ graph [
     subarea ""
     keywords "Monte Carlo methods; Augers; Computer software; Cosmic ray detectors; Cosmic rays; Cosmology; Digital libraries; Distributed computer systems; Observatories; Photomultipliers; Virtual reality; Air showers; Data production; Fluorescence telescopes; Monte Carlo's simulation; Offline; Phase I; Phase II; Pierre Auger observatory; Ultra high-energy cosmic rays; Water Cherenkov detectors"
     abstract "The Pierre Auger Observatory consists of 1660 water-Cherenkov detectors (WCDs) and 27 fluorescence telescopes, covering a surface of 3000 km2 in the province of Mendoza, Argentina. After almost two decades, Auger Phase I has ended the data taking and has already delivered many outstanding physics results. The Auger Observatory is currently running in Phase II, with upgraded detectors for enhanced data of ultra-high-energy cosmic rays (UHECRs). During Phase I, several engineering detectors were developed and tested. Some of those developments led to new detectors, which are now part of the upgraded Observatory. For Phase II, the WCDs were upgraded with a surface-scintillator detector, a radio detector, a small photomultiplier, and an upgraded electronics board, facilitating mass-sensitive measurements for source identification of UHECRs. Moreover, an underground muon detector allows for a direct measurement of the muon content of air showers. The Offline framework is the main software for the event reconstruction and detector simulation at the Pierre Auger Observatory. It is continuously being developed to accommodate changes in the detector and new algorithms. It allows the running of various applications, which are made up of individual modules, either on raw data or simulations on an event-by-event basis. The modules can be selected, configured, and run without re-compiling the whole software framework, giving the Auger user the possibility to define and further develop targeted analysis. Reconstructed events are stored in a compact ROOT file for physics analysis. Released versions of the Offline software are available for local installation on several platforms and distributed via the CERN-Virtual Machine File System (CVMFS) using a container. Large productions of shower and detector reference libraries are done with CORSIKA 7 and Offline on the European Grid Infrastructure (EGI) using the Virtual Organization Auger. Various air-shower geometries (up to 89 degrees in zenith) were considered, as well as several primary particles (from light to ultra-heavy nuclei, photons, and neutrinos), hadronic interaction models and detector configurations for Phase I and Phase II. In this contribution, we present the actual efforts and updates on software for data production and reference Monte Carlo simulations for Auger data analysis."
-    indice 32
   ]
   node [
     id 487
@@ -3398,6 +3398,7 @@ graph [
     label "articulo:33"
     tipo "articulo"
     nombre "Deciphering Fluid Dynamics: The Role of Machine Learning"
+    indice 33
     titulo "Deciphering Fluid Dynamics: The Role of Machine Learning"
     anio 2024
     isbn ""
@@ -3408,7 +3409,6 @@ graph [
     subarea ""
     keywords "Artificial Intelligence; Machine learning; Fluid dynamics; Two-phase flow; Modeling"
     abstract "The article presents how machine learning techniques can complement the modeling of fluid dynamics without replacing the physical laws that describe the system. It discusses their usefulness for learning complex relationships from data and illustrates this with applications to modeling high-viscosity two-phase flows."
-    indice 33
   ]
   node [
     id 507
@@ -3427,6 +3427,7 @@ graph [
     label "articulo:34"
     tipo "articulo"
     nombre "Efficient probabilistic Poisson solver for complex geometries based on sparse markov matrices"
+    indice 34
     titulo "Efficient probabilistic Poisson solver for complex geometries based on sparse markov matrices"
     anio 2024
     isbn ""
@@ -3437,7 +3438,6 @@ graph [
     subarea ""
     keywords "Meshless methods; Monte Carlo; Poisson equation; Variance reduction; Efficiency; Finite volume method; Monte Carlo methods; Stochastic systems; Complex geometries; Continuous random walk; Markov matrix; Poisson solvers; Probabilistics; Stochastic methods; Transition probability matrix; Variance reductions"
     abstract "This article introduces an efficient stochastic method to approximate the solution to Poisson&#8217;s Equation (PE). The method starts by computing sparse Transition Probability Matrices (TPMs), assembled by averaging short continuous random walks based on the transient diffusion equation with a source. The TPMs can be used within a false-transient approach to approximate the solution to PE in the steady-state limit. The method&#8217;s efficiency and memory usage are comparable to the Finite-Volume method. However, the ease of implementation, stability, and versatility makes the method attractive in complex scenarios. Moreover, given that the code can be easily implemented in parallel, it displays superior efficiency and practical importance in scenarios where a large number of nodes is mandatory."
-    indice 34
   ]
   node [
     id 510
@@ -3534,6 +3534,7 @@ graph [
     label "articulo:35"
     tipo "articulo"
     nombre "Evaluation of Wnt/&#946;-Catenin Pathway Modulation on CA3-CA1 Synaptic Plasticity Model: An Aproximation to Alzheimer Disease"
+    indice 35
     titulo "Evaluation of Wnt/&#946;-Catenin Pathway Modulation on CA3-CA1 Synaptic Plasticity Model: An Aproximation to Alzheimer Disease"
     anio 2024
     isbn "978-3-031-63847-3; 978-3-031-63848-0"
@@ -3544,7 +3545,6 @@ graph [
     subarea ""
     keywords "Alzheimer; Amyloid-&#946;; Plasticity; Wnt/&#946;-Catenin pathway; Computation theory; Computational methods; Differential equations; Glycoproteins; High level languages; Neurodegenerative diseases; Python; Computational modelling; In-vitro; NMDA receptor; Synaptic plasticity; Synaptic plasticity model; WNT pathway; &#946;-catenin; Cell proliferation; Amyloid-beta; Wnt/beta-Catenin pathway; Receptors; Computer Science, Artificial Intelligence; Computer Science, Theory &#38; Methods; Neurosciences; Computer Science; Neurosciences &#38; Neurology"
     abstract "Introduction: The Wnt/beta-Catenin pathway is associated with embryogenesis, cell proliferation, and tissue modulation, and its impairment is linked to some pathologies such as cancer. Recent studies have suggested that this signaling pathway is implicated in the genesis and progression of neurodegenerative diseases like Alzheimer's disease (AD) in a multi-mechanistic way, for example affecting synaptic plasticity processes through the regulation of amyloid beta (A beta) levels, a peptide closely related to AD development. In this context, the development and implementation of computational models of these molecular pathway and its interaction with synaptic plasticity process are valuable tools that could aid in understanding the underlying mechanisms of these complex processes. Methods: In this study, we propose to model the impact of regulation A beta levels by activating or deactivating the Wnt/beta-Catenin pathway over a previously reported synaptic plasticity computational model developed by Dainauskas et al. (2023) [8]. For the Wnt/beta-Catenin pathway model, we implemented differential equations in Python to analyze five key elements of the pathway in the context of AD: Wnt, GSK3-beta, beta-Catenin, BACE1 gene, and Amyloid-beta. The proposed methodology includes the implementation of Python code with NEURON libraries. For the evaluation of the effect, membrane potential, NMDA receptor conductance and synapse weight will be measured in different conditions of WNT/A beta levels, based in concentrations reported in vitro studies. Results: We evaluated different levels of Wnt, the dynamics of the Wnt pathway model were adapted to in vitro experimental results. Also the connection with the synaptic plasticity model shows the influence of Wnt levels on the modulation of synaptic weight through the regulation of NMDA receptor conductance levels. When we analyse each element in the pathway in our model we validate that these elements had a consistent behaviour according to experimental data. This model recreates an in silico approximation of the Wnt pathway and its relationship with synaptic plasticity process."
-    indice 35
   ]
   node [
     id 526
@@ -3713,6 +3713,7 @@ graph [
     label "articulo:36"
     tipo "articulo"
     nombre "Exploring the enzymatic repertoires of Bacteria and Archaea and their associations with metabolic maps"
+    indice 36
     titulo "Exploring the enzymatic repertoires of Bacteria and Archaea and their associations with metabolic maps"
     anio 2024
     isbn ""
@@ -3723,7 +3724,6 @@ graph [
     subarea ""
     keywords "Allosterism; Comparative genomics; Enzymes; Metabolism"
     abstract "The article compares enzyme repertoires across bacterial and archaeal genomes and maps them to metabolic functions and pathways. The analysis examines how enzyme classes and regulatory or allosteric features are distributed among taxa, providing a comparative-genomics view of metabolic diversity and conservation in prokaryotes."
-    indice 36
   ]
   node [
     id 554
@@ -3742,6 +3742,7 @@ graph [
     label "articulo:37"
     tipo "articulo"
     nombre "Fast procedure to compute empirical and Bernstein copulas"
+    indice 37
     titulo "Fast procedure to compute empirical and Bernstein copulas"
     anio 2024
     isbn ""
@@ -3752,7 +3753,6 @@ graph [
     subarea ""
     keywords "Bernstein copula; Data sets; Empirical copula; Fast algorithm; Join distribution; Non-parametrical; Overlapping; Propagation; Pseudo-code; Codes (symbols); Statistics; Data set; Fast algorithms; Novel techniques; Pseudo codes; Artificial intelligence"
     abstract "In this work, a novel technique for efficient computation of bivariate empirical copulas and, by extension, non-parametrical copulas. The algorithm addresses discrete and finite equations, integrating mathematical-statistical components. It introduces two novel concepts: Propagation and Overlapping, to enhance computations and their comprehension during empirical copula construction. The algorithm is presented in pseudo-code for its implementation in any programming language. Comparative performance assessments demonstrate computing speeds ranging from 60 to 250 times faster than the standard algorithm across multiple case studies. Recent research highlights the utility of copulas in Artificial Intelligence (AI) techniques for enhanced predictions [8]. Existing studies center on parametric copulas, underscoring the significance of introducing a methodology for non-parametric copula implementation because this approach facilitates precise modeling of non-linear relationships among random variables, offering substantial improvements over conventional techniques, and boosting its integration, within the realm of artificial intelligence."
-    indice 37
   ]
   node [
     id 557
@@ -3843,6 +3843,7 @@ graph [
     label "articulo:38"
     tipo "articulo"
     nombre "FEM for 1D-problems involving the logarithmic Laplacian: Error estimates and numerical implementation"
+    indice 38
     titulo "FEM for 1D-problems involving the logarithmic Laplacian: Error estimates and numerical implementation"
     anio 2025
     isbn ""
@@ -3853,7 +3854,6 @@ graph [
     subarea ""
     keywords "Finite elements; Quasi-interpolation; Weighted logarithmic norms; Zero-order kernel; Discrete element methods; Error analysis; Finite element method; Interpolation; Laplace equation; Laplace transforms; Mathematical operators; Element method; Error estimates; Finite element; Laplacians; Numerical implementation; Stiffness matrices; Weighted logarithmic norm; Zero order; Convergence of numerical methods"
     abstract "We present the numerical analysis of a finite element method (FEM) for one-dimensional Dirichlet problems involving the logarithmic Laplacian (the pseudo-differential operator that appears as a first-order expansion of the fractional Laplacian as the exponent s&#8594;0+). Our analysis exhibits new phenomena in this setting; in particular, using recently obtained regularity results, we prove rigorous error estimates and provide a logarithmic order of convergence in the energy norm using suitable log-weighted spaces. Moreover, we show that the stiffness matrix of logarithmic problems can be obtained as the derivative of the fractional stiffness matrix evaluated at s=0. Lastly, we investigate the relationship between the discrete eigenvalue problem and its convergence to the continuous one."
-    indice 38
   ]
   node [
     id 572
@@ -3962,6 +3962,7 @@ graph [
     label "articulo:39"
     tipo "articulo"
     nombre "Finite element simulation of lateral wave propagation in an ultrasound transducer finding Crosstalk effect"
+    indice 39
     titulo "Finite element simulation of lateral wave propagation in an ultrasound transducer finding Crosstalk effect"
     anio 2025
     isbn ""
@@ -3972,7 +3973,6 @@ graph [
     subarea ""
     keywords "Finite elements; Ultrasound transducer; Lateral wave propagation; Crosstalk"
     abstract "The reliable operation of an ultrasound transducer depends on the proper functioning of its piezoelectric elements. However, various factors can adversely affect its performance, particularly physical factors that compromise the transducer&#8217;s structural integrity. One such factor is crosstalk, which induces spurious vibrations in the transducer elements. These unintended vibrations, generated by ultrasound waves, can gradually cause microstructural damage. This study introduces a novel approach by simulating the effects of crosstalk on the transducer&#8217;s piezoelectric backing layer. Understanding these effects is crucial, as structural damage is often progressive and difficult to detect, potentially leading to failure or fracture of the backing layer. Analyzing the interaction between crosstalk and the transducer support can facilitate designs capable of minimizing damage caused by crosstalk. Additionally, collaboration with materials science and engineering fields can enhance the design and fabrication of more efficient and durable transducers."
-    indice 39
   ]
   node [
     id 590
@@ -3997,6 +3997,7 @@ graph [
     label "articulo:40"
     tipo "articulo"
     nombre "Finite element software for calculating fluid flow and heat transport for seamounts"
+    indice 40
     titulo "Finite element software for calculating fluid flow and heat transport for seamounts"
     anio 2024
     isbn ""
@@ -4007,7 +4008,6 @@ graph [
     subarea ""
     keywords "Finite elements; Heat flow; PDE2D; Seamounts; Codes (symbols); Flow of fluids; Heat transfer; Submarine geology; Transport properties; Finite element; Finite element codes; Finite element software; Fluid flow transport; Heat transport; Oceanic lithosphere; Seamount; Sedimentary layers; Energy conservation; Finite element method; Fluid flow"
     abstract "A large number of bathymetric discontinuities mark the bottom of the oceans. Among these features, seamounts protruding the sedimentary layer can play a major role in establishing a continuous exchange of fluids and heat between the oceanic lithosphere and the ocean. Here we present finite element codes for calculating the flow, temperature and pressure distributions inside seamounts using a general-purpose finite element solver. We solve the coupled equations of continuity, Darcy equation, and energy conservation equation in 2-D. We present a numerical axisymmetrical model tailored to the real geometry of the Grizzly Bare seamount located on the Juan de Fuca plate. The surface heat flow shows a good correlation between our models and in-situ available observations. In this work we provide complete open access to numerical codes which are intended to be simple and easy to adapt for a wide range of seamounts shapes and sizes."
-    indice 40
   ]
   node [
     id 594
@@ -4110,6 +4110,7 @@ graph [
     label "articulo:41"
     tipo "articulo"
     nombre "Graph Theory-Based Fault Location Method for Transmission Systems With Renewable Energy Sources"
+    indice 41
     titulo "Graph Theory-Based Fault Location Method for Transmission Systems With Renewable Energy Sources"
     anio 2024
     isbn ""
@@ -4120,7 +4121,6 @@ graph [
     subarea ""
     keywords "Electric impedance; Electric resistance; Fault location; Graph theory; Power transmission faults; Renewable energy sources; Fault distance estimation; Fault resistance; Fault restoration time; Graph theory-based fault location method; Graph-theory-based method; Impedance-based two-terminal fault location methods; Kirchhoffs laws; Power networks; Power transmission system; Severe noise; Algorithms; Impedance methods; Transmission lines; Accuracy; Power transmission lines; Transmission line measurements; Fault currents; Transmission line matrix methods; Synchronization; Power system reliability; Impedance"
     abstract "Fault location has been crucial in minimizing fault restoration time. Various techniques and methodologies have been deployed to enhance the performance of fault location algorithms, especially in light of the increasing integration of renewable energy sources. In this context, this paper describes a graph-theory-based method for fault location in power networks with renewable energy sources. This novel technique is designed to provide accurate fault distance estimates, even in the presence of severe noise and fault resistance. It takes advantage of graph theory and equivalent impedances applying Kirchhoff's laws systematically to ensure accurate fault location even in the presence of fault resistances. To showcase the improved accuracy of the proposed methodology, a comparison with typical impedance-based two-terminal fault location methods is carried out. The effectiveness of the proposed algorithm was proven with different electrical systems. Average errors inferior to 0.22% and 0.48% were obtained for single-phase faults and three-phase faults with resistances up to $200~\Omega $ respectively, which confirms the improved performance with respect to conventional algorithms implemented in typical impedance relays."
-    indice 41
   ]
   node [
     id 611
@@ -4259,6 +4259,7 @@ graph [
     label "articulo:42"
     tipo "articulo"
     nombre "Identification of modules and key genes associated with breast cancer subtypes through network analysis"
+    indice 42
     titulo "Identification of modules and key genes associated with breast cancer subtypes through network analysis"
     anio 2024
     isbn ""
@@ -4269,7 +4270,6 @@ graph [
     subarea ""
     keywords "Cancer; Computational biology and bioinformatics"
     abstract "The study applies gene-expression network analysis to identify co-expression modules and key genes associated with breast-cancer subtypes. By relating network modules to subtype information and examining highly connected genes, it seeks molecular patterns that can help characterize heterogeneity among breast-cancer classes."
-    indice 42
   ]
   node [
     id 634
@@ -4288,6 +4288,7 @@ graph [
     label "articulo:43"
     tipo "articulo"
     nombre "Impacts of a high-glucose diet or starvation on microRNA-transcription factor networks in Caenorhabditis elegans through Boolean mathematical modeling"
+    indice 43
     titulo "Impacts of a high-glucose diet or starvation on microRNA-transcription factor networks in Caenorhabditis elegans through Boolean mathematical modeling"
     anio 2025
     isbn ""
@@ -4298,7 +4299,6 @@ graph [
     subarea ""
     keywords "Animals; Caenorhabditis elegans; Caenorhabditis elegans Proteins; Diet; Gene Expression Regulation; Gene Regulatory Networks; Glucose; Longevity; MicroRNAs; Signal Transduction; Starvation; Transcription Factors; Lipid; Mammalian target of rapamycin; microRNA; Protein kinase B; Serum and glucocorticoid regulated kinase 1; Transcription factor; Transcription factor DAF 15; Transcription factor DAF 16; Transcription factor DAF 2; Unclassified drug; Caenorhabditis elegans protein; Gene expression; Growth rate; Nematode; Physiological response; Signaling; Article; Autophagy (cellular); Gene interaction; Gene knockout; Gene network analysis; Gene regulatory network; High-glucose diet; Information science; Intracellular signaling; KEGG; Larval stage; Lifespan; Lipid metabolism; Mathematical model; Nonhuman; Phenotype; Positive feedback; Simulation; Stable expression; Animal; Genetics; Metabolism; Physiology"
     abstract "We analyzed the expression of the genes of Caenorhabditis elegans that are components of the Insulin/Insulin-like growth factor (IIS) and Target of Rapamycin (TOR) signaling pathways, and the microRNAs that regulate their expression. These genes are involved in longevity and their expression is differentially regulated under starvation conditions and high-glucose diets. We inferred the regulatory network from experimental data and analyzed its dynamics using Boolean networks. The regulatory network contains 26 nodes and 60 regulatory interactions. Upon examining their dynamic behavior, we discovered the presence of six fixed-point attractors. Two attractors align with the physiological response of a normal diet and another two align with gene expression associated with starvation conditions. In the starvation conditions, pro-longevity genes were found to be active, which explains the positive effect observed when the worms are grown in these conditions. One of the attractors is consistent with the gene expression found when worms are grown in high-glucose diets. In this case, anti-longevity genes were expressed, as found in the literature. Interestingly, we found another attractor in the high-glucose diet in which pro-longevity genes were observed, suggesting that under some circumstances a high-glucose diet can have a positive effect on lifespan. We also performed simulations of knock-out (KO) experiments of critical components of the network, such as LET-7, DAF-2, DAF-16, SKN-1, HLH-30, PHA-4, and DAF-15 (a component of the TORC1 complex) and our results were similar to the reported experimental evidence."
-    indice 43
   ]
   node [
     id 637
@@ -4587,6 +4587,7 @@ graph [
     label "articulo:44"
     tipo "articulo"
     nombre "Introducing fine grained energy consumption variables into a public passenger transport simulation in SUMO"
+    indice 44
     titulo "Introducing fine grained energy consumption variables into a public passenger transport simulation in SUMO"
     anio 2024
     isbn ""
@@ -4597,7 +4598,6 @@ graph [
     subarea ""
     keywords "Computer simulation; Developing countries; Digital twins; Energy conservation; Energy consumption; Intelligent transportation systems; Public transport; Python; Traffic engineering computing; Energy efficiency; Fine grained energy consumption variables; Fossil fuels; Intelligent transport systems; Public passenger transport simulation; Public policies; Public transport environments; Python scripts; Simulation-based digital twins; SUMO; Fine grained variables; Simulation; Computer software; Intelligent systems; Fine grained; Fine grained variable; Public passenger transports; Reducing emissions; Seamless integration; Simulation model; Transport simulation; Energy utilization"
     abstract "Improving energy efficiency in public passenger transport is key to achieving sustainability goals. In many developing countries, public passenger transport relies heavily on fossil fuels, which necessitates a strong focus on reducing emissions from energy consumption. Surprisingly, few studies have addressed this issue in the context of daily operations, with most research focusing on operational and infrastructural changes. This paper aims to fill this gap by introducing detailed energy consumption variables into a public transport simulation model using SUMO, a tool known for its seamless integration with Python. The development of two Python scripts underpins this endeavour. The first script facilitates the automatic generation of scenarios, allowing the manipulation of parameters such as station spacing, line length, passenger capacity and waiting times, among others. The second script is dedicated to estimating energy consumption for each scenario. Together, these tools allow us to calculate average energy consumption for different scenarios and modes of public transport. As a result, they provide valuable insights for the formulation of public policies aimed at saving energy in different public transport environments and lay the foundation for the integration and development of intelligent transport systems and simulation-based digital twins."
-    indice 44
   ]
   node [
     id 685
@@ -4760,6 +4760,7 @@ graph [
     label "articulo:45"
     tipo "articulo"
     nombre "Joint operation-control design for a class of batch exothermic reactors"
+    indice 45
     titulo "Joint operation-control design for a class of batch exothermic reactors"
     anio 2025
     isbn ""
@@ -4770,7 +4771,6 @@ graph [
     subarea ""
     keywords "Batch process control; Hydrothermal carbonization reactor; Joint operation-control design; Nonlinear nonautonomous system; Output-feedback tracking control; State motion stability; Carbonization; Closed loop control systems; Feedback control; Identification (control systems); Nonlinear control systems; Robust control; Robustness (control systems); Control design; Feedback tracking control; Hydrothermal carbonization; Joint operations; Motion stability; Non-autonomous system; Operations control; Output-feedback; Batch data processing"
     abstract "This paper addresses the joint design of the nominal state motion and feed-forward (FF) output-feedback (OF) tracking control for a class of exothermic batch reactors, using a hydrothermal carbonization (HTC) reactor as a case study. The objective is to design the nominal state motion to maximize profit while incorporating a control strategy that includes an event-based component to stop the batch. The reactor's sustained evolution and profit per unit time are modeled by the state motion of a nonlinear, non-autonomous ordinary differential equation (ODE) over a finite-time interval. The problem is solved within a constructive control framework, combining concepts from chemical reactor engineering and nonlinear control theory, tailored to the characteristics of batch reactors. First, the nominal optimal operation is designed with a balanced compromise between duration, robustness, and heat exchange load, through: (i) the identification of passivity and detectability solvability conditions for the OF tracking control, and (ii) a simple recursive numerical construction approach. Then, a nonlinear FF OF tracking-termination control is developed, ensuring closed-loop (CL) robust motion stability, along with a straightforward gain tuning scheme. The proposed methodology is demonstrated and validated through numerical simulation with a representative HTC reactor example."
-    indice 45
   ]
   node [
     id 712
@@ -4885,6 +4885,7 @@ graph [
     label "articulo:46"
     tipo "articulo"
     nombre "Lab-tested energy management system for small scale hybrid wind solar battery based microgrid"
+    indice 46
     titulo "Lab-tested energy management system for small scale hybrid wind solar battery based microgrid"
     anio 2024
     isbn "979-8-3315-3054-9"
@@ -4895,7 +4896,6 @@ graph [
     subarea ""
     keywords "Battery storage plants; Distributed power generation; Energy management systems; Hybrid power systems; Power electronics; Power generation control; Power grids; Renewable energy sources; Smart power grids; Solar power stations; Voltage-source convertors; Wind power plants; Battery storage unit; Control algorithm; Dual Active Bridge; Lab-tested energy management system; Power electronics converters; Renewable energy production; Scale hybrid wind solar battery; Small-scale hybrid microgrid; Small-scale renewable energy microgrid; Solar energy conversion systems; Stable DC bus voltage; Voltage Source Converter; Voltage stability; Wind, solar; Battery system; Energy management system; Microgrid; Solar energy; Wind energy; Battery management systems; Battery storage; Microgrids; Battery systems; Energy; Hybrid wind; Management systems; Renewable energies; Small scale; Windmill; Maximum power point trackers; Production; Batteries; Voltage control; Testing"
     abstract "This paper presents an energy management system for a small-scale hybrid microgrid that integrates wind, solar, and battery storage. The system includes wind and solar energy conversion systems along with a battery storage unit, all of which are implemented using power electronics converters, control algorithms, and controllers to evaluate the microgrid's performance. To maintain voltage stability, a control algorithm adjusts the operation of the Dual Active Bridge, charging the battery when renewable energy production exceeds load demand and discharging it when production falls short. This control ensures a stable DC bus voltage, which helps maintain a consistent output from the Voltage Source Converter for AC loads. The proposed small-scale renewable energy microgrid serves as a platform for research and the testing of algorithms in smart grid applications."
-    indice 46
   ]
   node [
     id 731
@@ -5166,6 +5166,7 @@ graph [
     label "articulo:47"
     tipo "articulo"
     nombre "Language Statistics at Different Spatial, Temporal, and Grammatical Scales"
+    indice 47
     titulo "Language Statistics at Different Spatial, Temporal, and Grammatical Scales"
     anio 2024
     isbn ""
@@ -5176,7 +5177,6 @@ graph [
     subarea ""
     keywords "Complexity; Geolocalization; Language models; Ngrams; Rank diversity; Scaling laws; Statistics; Twitter"
     abstract "In recent decades, the field of statistical linguistics has made significant strides, which have been fueled by the availability of data. Leveraging Twitter data, this paper explores the English and Spanish languages, investigating their rank diversity across different scales: temporal intervals (ranging from 3 to 96 h), spatial radii (spanning 3 km to over 3000 km), and grammatical word ngrams (ranging from 1-grams to 5-grams). The analysis focuses on word ngrams, examining a time period of 1 year (2014) and eight different countries. Our findings highlight the relevance of all three scales with the most substantial changes observed at the grammatical level. Specifically, at the monogram level, rank diversity curves exhibit remarkable similarity across languages, countries, and temporal or spatial scales. However, as the grammatical scale expands, variations in rank diversity become more pronounced and influenced by temporal, spatial, linguistic, and national factors. Additionally, we investigate the statistical characteristics of Twitter-specific tokens, including emojis, hashtags, and user mentions, revealing a sigmoid pattern in their rank diversity function. These insights contribute to quantifying universal language statistics while also identifying potential sources of variation."
-    indice 47
   ]
   node [
     id 776
@@ -5225,6 +5225,7 @@ graph [
     label "articulo:48"
     tipo "articulo"
     nombre "Maternal Death as a Representation of the War with Life in Western Mexico: Analysis of Tomb II at Tingambato, Mexico, from the Perspective of the Bioarchaeology of Care and the Model of the Palimpsest in Health"
+    indice 48
     titulo "Maternal Death as a Representation of the War with Life in Western Mexico: Analysis of Tomb II at Tingambato, Mexico, from the Perspective of the Bioarchaeology of Care and the Model of the Palimpsest in Health"
     anio 2024
     isbn ""
@@ -5235,7 +5236,6 @@ graph [
     subarea ""
     keywords "Care index; Tingambato; Palimpsest; Maternal death; Western Mexico; aDNA; Paleoimaging"
     abstract "The paper presents a multidisciplinary bioarchaeological study of a female burial from Tomb II at Tingambato. Combining bioarchaeology of care and health-palimsest frameworks with physical anthropology, genetics and imaging, it reconstructs aspects of the individual&#8217;s health and social history and examines maternal death in pre-Hispanic western Mexico."
-    indice 48
   ]
   node [
     id 784
@@ -5284,6 +5284,7 @@ graph [
     label "articulo:49"
     tipo "articulo"
     nombre "Measurement of the Depth of Maximum of Air-Shower Profiles with energies between 10^18.5 and 10^20 eV using the Surface Detector of the Pierre Auger Observatory and Deep Learning"
+    indice 49
     titulo "Measurement of the Depth of Maximum of Air-Shower Profiles with energies between 10^18.5 and 10^20 eV using the Surface Detector of the Pierre Auger Observatory and Deep Learning"
     anio 2024
     isbn ""
@@ -5294,7 +5295,6 @@ graph [
     subarea ""
     keywords "Cosmology; Cosmic ray detectors; Cosmic ray measurement; Photons; Air showers; Cosmics; Data set; Energy; Fluorescence measurements; Mass composition; Measurements of; Pierre Auger observatory; Reconstruction algorithms; Surface detectors"
     abstract "We report an investigation of the mass composition of cosmic rays with energies from 3 to 100 EeV (1 EeV=10^18 eV) using the distributions of the depth of shower maximum Xmax. The analysis relies on &#8764;50,000 events recorded by the Surface Detector of the Pierre Auger Observatory and a deep-learning-based reconstruction algorithm. Above energies of 5 EeV, the data set offers a 10-fold increase in statistics with respect to fluorescence measurements at the Observatory. After cross-calibration using the Fluorescence Detector, this enables the first measurement of the evolution of the mean and the standard deviation of the Xmax distributions up to 100 EeV. Our findings are threefold: (i) The evolution of the mean logarithmic mass towards a heavier composition with increasing energy can be confirmed and is extended to 100 EeV. (ii) The evolution of the fluctuations of Xmax towards a heavier and purer composition with increasing energy can be confirmed with high statistics. We report a rather heavy composition and small fluctuations in Xmax at the highest energies. (iii) We find indications for a characteristic structure beyond a constant change in the mean logarithmic mass, featuring three breaks that are observed in proximity to the ankle, instep, and suppression features in the energy spectrum."
-    indice 49
   ]
   node [
     id 792
@@ -5349,6 +5349,7 @@ graph [
     label "articulo:50"
     tipo "articulo"
     nombre "Methodological Characterization and Computational Codes in the Simulation of Interacting Galaxies: Image Evaluation with CNN"
+    indice 50
     titulo "Methodological Characterization and Computational Codes in the Simulation of Interacting Galaxies: Image Evaluation with CNN"
     anio 2025
     isbn ""
@@ -5359,7 +5360,6 @@ graph [
     subarea ""
     keywords "Computer code; Galaxy pairs; Numerical simulation; Spectroscopy"
     abstract "Currently, technological development has exponentially fostered a growing collection of dispersed and diversified information. In the case of galaxy interaction studies, it is important to identify and recognize the parameters in the process, the tools, and the computational codes available to select the appropriate one in depending on the availability of data. The objective was to characterize the parameters, techniques, and methods developed, as well as the computational codes for numerical simulation by implementing Convolutional Neural Network; with information retrieval, image and video analysis and pattern recognition. From the bibliography, it was reviewed how various authors have studied the interaction, presence of gas and star formation, and then the review of computer codes with the requirements and benefits, to analyze and compare the initial and boundary conditions. With images, the convolutional neural network (CNN) method programmed in python was applied to identify the differences and their possible accuracy. Smoothed Particle Hydrodynamics systems use more robust algorithms with invariance, simplicity in implementation, flexible geometries, but do not parameterize artificial viscosities, discontinuous solutions, and instabilities. In the case of adaptive mesh refinement, there is no artificial viscosity, resolution of discontinuities, and suppression of instabilities but with complex implementation, mesh details, and resolution problems, and they are not scalable. It is necessary to use indirect methods to infer some properties or perform preliminary iterations. The availability of observable data governs the behavior of possible numerical simulations, in addition to having tools such as a supercomputer, generating errors that can be adjusted, compared, or verified, according to the techniques and methods shown in this study, in addition to the fact that codes that are not so well known and used stand out as those that are currently more applied. Thus, CNN enables pattern recognition, based on the recovery and analysis of images and videos, as well as simulations of interacting galaxies."
-    indice 50
   ]
   node [
     id 801
@@ -5390,6 +5390,7 @@ graph [
     label "articulo:51"
     tipo "articulo"
     nombre "Methodology for Modeling Coupled Rigid Multibody Systems Using Unitary Quaternions: The Case of Planar RRR and Spatial PRRS Parallel Robots"
+    indice 51
     titulo "Methodology for Modeling Coupled Rigid Multibody Systems Using Unitary Quaternions: The Case of Planar RRR and Spatial PRRS Parallel Robots"
     anio 2025
     isbn ""
@@ -5400,7 +5401,6 @@ graph [
     subarea ""
     keywords "Kinematics; Parallel mechanisms; Quaternions; Robotics"
     abstract "Quaternions are used in various applications, especially in those where it is necessary to model and represent rotational movements, both in the plane and in space, such as in the modeling of the movements of robots and mechanisms. In this article, a methodology to model the rigid rotations of coupled bodies by means of unit quaternions is presented. Two parallel robots were modeled: a planar RRR robot and a spatial motion PRRS robot using the proposed methodology. Inverse kinematic problems were formulated for both models. The planar RRR robot model generated a system of 21 nonlinear equations and 18 unknowns and a system of 36 nonlinear equations and 33 unknowns for the case of space robot PRRS; both systems of equations were of the polynomial algebraic type. The systems of equations were solved using the Broyden&#8211;Fletcher&#8211;Goldfarb&#8211;Shanno nonlinear programming algorithm and Mathematica V12 symbolic computation software. The modeling methodology and the algebra of unitary quaternions allowed the systematic study of the movements of both robots and the generation of mathematical models clearly and functionally."
-    indice 51
   ]
   node [
     id 806
@@ -5431,6 +5431,7 @@ graph [
     label "articulo:52"
     tipo "articulo"
     nombre "Modeling and analysis of ion exchange for ammonium removal from groundwater"
+    indice 52
     titulo "Modeling and analysis of ion exchange for ammonium removal from groundwater"
     anio 2024
     isbn ""
@@ -5441,7 +5442,6 @@ graph [
     subarea ""
     keywords "Dynamic simulation; Ion exchange; Nonlinear systems; Groundwater; State-space model"
     abstract "The paper develops a nonlinear dynamic/state-space model of ammonium ion exchange in a zeolite fixed-bed column for groundwater treatment. Simulations examine the effects of operating conditions such as influent concentration and flow, with the model intended to support analysis, experimental design, and future control strategies."
-    indice 52
   ]
   node [
     id 811
@@ -5472,6 +5472,7 @@ graph [
     label "articulo:53"
     tipo "articulo"
     nombre "Modeling and Simulation of Water Distribution Networks using Nonlinear Oscillators"
+    indice 53
     titulo "Modeling and Simulation of Water Distribution Networks using Nonlinear Oscillators"
     anio 2024
     isbn "979-8-3503-7811-5"
@@ -5482,7 +5483,6 @@ graph [
     subarea ""
     keywords "Water distribution networks; Modeling; State observers; Pressure-driven demands; Pressure sensors; Nonlinear equations; Distribution networks; Mathematical models; Graph theory; Numerical models; Steady-state; Reliability; State estimation; Oscillators; DC distribution systems; Network theory (graphs); Oscillistors; OSI model; Continuation method; Interconnected network; Model and simulation; Network-based; Non-linear oscillators; Physical principles; States observer; Water distribution systems; State observer"
     abstract "This article presents a novel approach for modeling Water Distribution Networks (WDNs) based on physical principles, graph theory, and the pseudo-transient continuation method. The main feature of this approach is that it permits the representation of WDNs as fully interconnected networks of damped nonlinear oscillators, with each oscillator formulated as a Li&#233;nard system given in terms of the flow rates. This representation facilitates the design of control and observation algorithms, particularly in scenarios where the WDNs lack pressure sensors. To show the possible usages of this approach, a state observer for estimating the user&#8217;s water demands is designed and numerically tested."
-    indice 53
   ]
   node [
     id 816
@@ -5615,6 +5615,7 @@ graph [
     label "articulo:54"
     tipo "articulo"
     nombre "Modeling Higher-Order Interactions in Sparse and Heavy-Tailed Neural Population Activity"
+    indice 54
     titulo "Modeling Higher-Order Interactions in Sparse and Heavy-Tailed Neural Population Activity"
     anio 2025
     isbn ""
@@ -5625,7 +5626,6 @@ graph [
     subarea ""
     keywords "Activation analysis; Brain; Electrophysiology; Energy efficiency; Hopfield neural networks; Learning systems; Neurons; Population distribution; Condition; Firing rates; Heavy-tailed; High-order; Higher-order; Neural populations; Neuron process; Population activities; Rate distributions; Sensory stimulus; Ensemble learning; Exponential distribution; Hopfield neural nets; Base-measure function; Distributional concentration; Energy-efficient spike-based learning machines; Exponential family distributions; Heavy-tailed neural population activity; Heavy-tailed population firing rate distributions; Heavy-tailed spike-count distributions; Higher-order interaction modelling; Homogeneous binary neurons; Infinitely large networks; Modern Hopfield networks; Nonlinear properties; Parameter-dependent sparsity; Population-level patterns; Recurrent neural networks; Sensory stimuli; Sparse neural population activity; Structured higher-order interactions; Sufficient conditions; Supralinear activation; Synchronous population activity; Threshold-like nonlinearity; Variable ensemble spiking activity"
     abstract "Neurons process sensory stimuli efficiently, showing sparse yet highly variable ensemble spiking activity involving structured higher-order interactions. Notably, while neural populations are mostly silent, they occasionally exhibit highly synchronous activity, resulting in sparse and heavy-tailed spike-count distributions. However, its mechanistic origin&#8212;specifically, what types of nonlinear properties in individual neurons induce such population-level patterns&#8212;remains unclear. In this study, we derive sufficient conditions under which the joint activity of homogeneous binary neurons generates sparse and widespread population firing rate distributions in infinitely large networks. We then propose a subclass of exponential family distributions that satisfy this condition. This class incorporates structured higher-order interactions with alternating signs and shrinking magnitudes, along with a base-measure function that offsets distributional concentration, giving rise to parameter-dependent sparsity and heavy-tailed population firing rate distributions. Analysis of recurrent neural networks that recapitulate these distributions reveals that individual neurons possess threshold-like nonlinearity, followed by supralinear activation that jointly facilitates sparse and synchronous population activity. These nonlinear features resemble those in modern Hopfield networks, suggesting a connection between widespread population activity and the network&#8217;s memory capacity. The theory establishes sparse and heavy-tailed distributions for binary patterns, forming a foundation for developing energy-efficient spike-based learning machines."
-    indice 54
   ]
   node [
     id 838
@@ -5866,6 +5866,7 @@ graph [
     label "articulo:55"
     tipo "articulo"
     nombre "Modeling the Impact of Public Transportation and Mitigation Strategies in COVID-19 Spread in Mexico City"
+    indice 55
     titulo "Modeling the Impact of Public Transportation and Mitigation Strategies in COVID-19 Spread in Mexico City"
     anio 2025
     isbn ""
@@ -5876,7 +5877,6 @@ graph [
     subarea ""
     keywords "Cellular automata network; COVID-19 transmission dynamics; Discrete modeling and simulation; Epidemic model; Human mobility; Mexico City; Public transportation; COVID-19; Urban areas; Automata; Prevention and mitigation; Diseases; Pandemics; Indexes; Analytical models; Probabilistic logic"
     abstract "Understanding the spread of infectious diseases such as COVID-19 has been a persistent challenge for scientists and policymakers. While numerous studies have researched general aspects of the COVID-19 transmission dynamics, few have specifically examined its spread within public transportation systems in highly interconnected urban environments while incorporating the role played by the degree of effectiveness of time-varying mitigation strategies. This paper presents a novel approach using a discrete, probabilistic, and age-structured model that integrates the concept of compartmental models in epidemiology with cellular automata networks to investigate the role of public transportation and mitigation strategies in COVID-19 transmission in Mexico City districts. Therefore, the transmission of the disease is based on the definition of two distinct forces of infection: one associated with the use of public transport and the other with the occurrence within each district. Furthermore, the model incorporates several key time-varying parameters such as district population, commuting patterns, and contact matrices for different settings. Moreover, a stringency index was constructed based on the Oxford index in order to evaluate the impact of mitigation strategies established by the Mexican government and their compliance. Simulation results successfully reproduce COVID-19 transmission dynamics in Mexico City districts before vaccination efforts. Findings suggest that public transportation significantly contributed to the spread of the disease during the initial phase of the pandemic in Mexico City. These insights provide valuable guidance for public health strategies to mitigate infectious disease transmission in densely populated urban environments."
-    indice 55
   ]
   node [
     id 878
@@ -5961,6 +5961,7 @@ graph [
     label "articulo:56"
     tipo "articulo"
     nombre "Multi-Machine Power System Simulation via Differential Transformation"
+    indice 56
     titulo "Multi-Machine Power System Simulation via Differential Transformation"
     anio 2025
     isbn ""
@@ -5971,7 +5972,6 @@ graph [
     subarea ""
     keywords "Differential transformation; Multimachine simulation; Numerical integration; Power system toolbox; Transient stability; Differential/algebraic equations; Multi machine power system; Multi-machines; Numerical integrations; Power; Power systems simulation; Trapezoidal rules"
     abstract "In this paper, the differential transformation (DT) is applied to the dynamic analysis of multi-machine systems, whose solution is numerically obtained by solving a set of differential-algebraic equations that represent the power system dynamics. This method is an algorithm to calculate the Taylor coefficients in a fast and efficient way, making the Taylor method competitive against traditional numerical integration methods such as the modified Euler (ME) method and trapezoidal rule (TR). Thus, the DT's rules for solving differential-algebraic equations of large multi-machine power systems are applied. To exhibit the DT's performance, the power system toolbox (PST) is adopted and compared against other integration methods for multi-machine power system simulation. Finally, time-domain simulations on the WECC and Mexican systems are performed by means of DT and compared with ME and TR methods to demonstrate the effectiveness of the proposal, showcasing that our proposal improves up to 12 times the traditional methods."
-    indice 56
   ]
   node [
     id 892
@@ -6044,6 +6044,7 @@ graph [
     label "articulo:57"
     tipo "articulo"
     nombre "Multiple ancillary services provision by optimal control of aggregated inverter-based resources"
+    indice 57
     titulo "Multiple ancillary services provision by optimal control of aggregated inverter-based resources"
     anio 2025
     isbn ""
@@ -6054,7 +6055,6 @@ graph [
     subarea ""
     keywords "Virtual inertial support; Distributed energy resources; Frequency and voltage control; Ancillary services; Optimal control; Battery energy storage system; Renewable energy system; Virtual addresses; Battery storage; Electric inverters; Electric power system control; Electric power system stability; Electric power transmission; Electric power transmission networks; Optimal control systems; Power control; Renewable energy; Secondary batteries; Virtual reality; Ancillary service; Battery energy storage systems; Energy systems; Inverter-based; Optimal controls; Renewable energies"
     abstract "This paper proposes a hierarchical optimal control scheme for the simultaneous provision of multiple ancillary services, integrating inverter-based resources (IBRs) to support frequency, voltage, and inertia in transmission networks. The proposed framework harnesses the untapped power injection capacity of multiple IBRs to provide fast and accurate support during unexpected disruptions resulting from load changes, sudden changes in generation, or faults. At the grid level, this control structure integrates the eigensystem realization algorithm (ERA) to perform identification of the power system, linear quadratic Gaussian (LQG) optimal controllers, and an aggregation mechanism that coordinates the power injection from all available IBRs to provide ancillary services, increasing the power system stability and reliability. To address the issue of decreasing inertia, this paper implements the concept of distributed virtual inertia. This approach exploits the stored energy in the dc-link capacitors inherently present in grid-connected inverters as an energy reservoir to provide virtual inertia support without requiring additional hardware. The feasibility and robustness of this control framework are evaluated through simulated scenarios featuring significant load changes, sudden generation changes, and three-phase short-circuit faults in an IEEE 39-bus system consisting of multiple solar, wind, and battery energy storage systems. The results demonstrate an improvement in both rate-of-change-of-frequency (RoCoF) and inertia, which yields an increase in the nadir frequency at 68% when the virtual inertia technique is employed. Furthermore, both voltage and frequency regulations are timely achieved within."
-    indice 57
   ]
   node [
     id 904
@@ -6181,6 +6181,7 @@ graph [
     label "articulo:58"
     tipo "articulo"
     nombre "Neuron configuration enhances the synchronization dynamics in ring networks with heterogeneous firing patterns"
+    indice 58
     titulo "Neuron configuration enhances the synchronization dynamics in ring networks with heterogeneous firing patterns"
     anio 2024
     isbn ""
@@ -6191,7 +6192,6 @@ graph [
     subarea ""
     keywords "Brain; Chaos; Neural nets; Neurophysiology; Synchronisation; Brain dynamics; Chaotic bursting dynamics; Cluster synchronization; Configuration-dependent; Diverse complex dynamics transition; Firing pattern transitions; Half bursting; Half tonic bursting; Heterogeneous firing patterns; Maximal separation; Network dynamics; Neural network; Neuron configuration; Neuron coupling; Neuron synchronization; Neuron types; Neuronal heterogeneity; Neurons synchronizes; Ring networks; Spatial configuration; Synchronization dynamics; Synchronized state; Tonic bursting neurons"
     abstract "Neuron synchronization is fundamental for brain dynamics. While several efforts have been made to understand neuron coupling between tonic and bursting neurons, the position of neurons in a neural network and its relationship with synchronization is not fully understood. This work investigates the impact of neuronal heterogeneity on firing pattern transitions and synchronization in networks comprising tonic and bursting neurons. Using the Huber-Braun model, we explore two configurations: one with neurons grouped closely and another with maximal separation. Our findings reveal that while increased coupling strength generally promotes synchronization, the specific mix of neuron types and their spatial configuration crucially modulate both synchronization and firing pattern transitions, leading to phenomena such as cluster synchronization and global phase synchrony. The results indicate that the configuration with maximal separation and with mostly bursting neurons synchronizes more quickly. Firing pattern transitions are also configuration-dependent. For example, in the network with half tonic and half bursting, the configuration grouped closely undergoes diverse complex dynamics transition in the synchronized state, while the other configuration synchronize with chaotic bursting dynamics. Behaviors like cluster synchronization are observed in this network. The study underscores the significance of considering neuronal heterogeneity in understanding network dynamics."
-    indice 58
   ]
   node [
     id 925
@@ -6360,6 +6360,7 @@ graph [
     label "articulo:59"
     tipo "articulo"
     nombre "Nonlinear impedance matching control for a submerged wave energy converter"
+    indice 59
     titulo "Nonlinear impedance matching control for a submerged wave energy converter"
     anio 2024
     isbn ""
@@ -6370,7 +6371,6 @@ graph [
     subarea ""
     keywords "Damping; Frequency response; Linearisation techniques; Mechanical variables control; Nonlinear systems; Offshore installations; Oscillations; Simulation; Control theory; Impedance matching (electric); Linear control systems; Offshore oil well production; Wave energy conversion; Complex conjugates; Condition; Impedance matching control; Linearization technique; Nonlinear impedance; Oscillation; Point absorber; Wave energy converters"
     abstract "The impedance matching control, also known as approximate complex conjugate control (ACC), is one of the main strategies for improving the capture of energy by point absorber wave energy converters. Such a strategy shapes the mechanical impedance related to the floater dynamics via the control law. Since the traditional ACC is given by a linear control law, this work proposes a generalization denoted as nonlinear complex conjugate control (NCC) that considers the presence of nonlinear viscous damping in addition to the usual linear damping and stiffness. The energy maximization conditions for the proposed NCC are derived in the frequency domain through the describing function method. These conditions show that the ACC is a special case of the NCC when the total damping on the floater is approximated as a linear function of its velocity. From numerical simulations of a point absorber wave energy converters with nonlinear damping, which is based on the Archimedes wave swing prototype, it is shown that the NCC provides greater energy conversion than the ACC, as well as a robust performance in the presence of variations of the damping coefficient and the excitation force peak frequency."
-    indice 59
   ]
   node [
     id 953
@@ -6467,6 +6467,7 @@ graph [
     label "articulo:60"
     tipo "articulo"
     nombre "Novel VSC-Based STATCOM Model Based on Dynamic Phasors for Unbalanced Distribution Networks"
+    indice 60
     titulo "Novel VSC-Based STATCOM Model Based on Dynamic Phasors for Unbalanced Distribution Networks"
     anio 2024
     isbn ""
@@ -6477,7 +6478,6 @@ graph [
     subarea ""
     keywords "Dynamic phasors; Unbalanced three-phase power networks; VSC modeling; VSC-based STATCOM; Automatic voltage control; Harmonic analysis; Integrated circuit modeling; Voltage control; Power system dynamics; Computational modeling; Power system harmonics"
     abstract "This paper presents the dynamic phasor-based modeling of three-phase voltage-source converters (VSC) operating as static var compensators (STATCOM). The generalized averaging theory is used to represent the DC, 1st, and 2nd harmonics of the converter fundamental response. The VSC model is characterized by the use of basic power system elements. On the AC side, it consists of three wye-connected, single-phase complex transformers whose taps replicate the AC-to-DC energy conversion of the converter commanded by the modulating variables. On the DC side, a capacitor is connected in parallel with a current source to reproduce the $2{\omega }$ effects of the network unbalances. Dynamic controllers based on symmetrical components were developed for the VSC to operate as STATCOM. All these aspects distinguish the proposed VSC model from the switching-based model (SBM) and averaged-value model (AVM). The model&#8217;s dynamic behavior was validated by comparing it to the SBM and AVM, using a five-bus, three-phase network taken from Simulink/Simscape Electrical. Root mean square errors were smaller than 5.56% and 5.53%, with the new model being 43 and 17 times more computationally efficient than the SBM and AVM, respectively. The IEEE 34-bus test system with two STATCOM was also studied to verify the model practicality. Short-circuit faults were assessed to prove that both STATCOM suitably perform under unbalanced operating conditions."
-    indice 60
   ]
   node [
     id 969
@@ -6538,6 +6538,7 @@ graph [
     label "articulo:61"
     tipo "articulo"
     nombre "On BESS Allocation in AC/DC Networks Using a Sensitivities-Based Loss Model Combined With Injection Shift Factors"
+    indice 61
     titulo "On BESS Allocation in AC/DC Networks Using a Sensitivities-Based Loss Model Combined With Injection Shift Factors"
     anio 2024
     isbn ""
@@ -6548,7 +6549,6 @@ graph [
     subarea ""
     keywords "Load flow; Resource management; Power conversion; Renewable energy sources; Minimization; Mathematical models; Costs; AC/DC networks; Battery energy storage systems; Injection shift factors; Power loss minimization; Renewable plants; Voltage source converters; Battery energy-storage; Placement; Computer Science, Information Systems; Engineering, Electrical &#38; Electronic; Telecommunications; Computer Science; Engineering"
     abstract "The operation of AC/DC networks formed by voltage source converters (VSC) is difficult to optimize. In particular, the minimization of transmission losses is a challenging task to address because several VSC-coupled AC grids interact simultaneously to supply the load. In this context, this article presents a practical approach for power loss minimization in hybrid networks by allocating battery energy storage systems (BESS). The crux of this method is a sensitivities-based loss model combined with power injection shift factors. One that suitably exploits the topological structure and fundamental parameters of the hybrid network. The most suitable nodes for the BESS connection can be straightforwardly identified by using this method, while reducing the power losses and improving the system operating efficiency. Multi-terminal AC/DC networks of arbitrary topology can be studied with this new approach, considering converters with grid-following, grid-forming, fixed-power control strategies, and converters interfacing systems with no local generation or with renewable plants only. The section of case studies includes two multi-period power system analyses. One to confirm the effectiveness of the method and another to showcase its practicality, using four-terminal and six-terminal VSC-based AC/DC networks with complex patterns of demand, wind speed and solar irradiance of the renewable sources."
-    indice 61
   ]
   node [
     id 979
@@ -6639,6 +6639,7 @@ graph [
     label "articulo:62"
     tipo "articulo"
     nombre "On the attitude consensus of rigid bodies using exponential coordinates"
+    indice 62
     titulo "On the attitude consensus of rigid bodies using exponential coordinates"
     anio 2025
     isbn ""
@@ -6649,7 +6650,6 @@ graph [
     subarea ""
     keywords "Attitude control; Consensus; Exponential coordinates; Multi-agent system; Rigid body; Chatbots; Control theory; Industrial robots; Intelligent robots; Control laws; Coordination tasks; Emergent behaviours; Exponential coordinate; Exponentials; Multi-robot coordination; Multiagent systems (MASs); Robotic networks; Multipurpose robots"
     abstract "Consensus is an emergent behavior that occurs when the robots or agents of a robotic network reach an agreement and converge to a common state. Consensus is essential in many multi-robot coordination tasks. This paper addresses the attitude consensus problem in a network of fully actuated rigid bodies. We propose two consensus control laws based on the exponential coordinates of rotation. The first controller uses absolute attitude measurements, whereas the second one employs relative measurements. Both control algorithms avoid potential singularities of the exponential coordinates and achieve almost global asymptotic stability. Under certain conditions on the network topology, the proposed consensus protocols work for either bidirectional and unidirectional communication channels. Finally, we provide numerical simulations and experimental results to assess the performance of the proposed control laws."
-    indice 62
   ]
   node [
     id 994
@@ -6728,6 +6728,7 @@ graph [
     label "articulo:63"
     tipo "articulo"
     nombre "One-dimensional simulation of land subsidence in vertically-heterogeneous highly compressible aquitards coupled with data assimilation via ensemble Kalman filter"
+    indice 63
     titulo "One-dimensional simulation of land subsidence in vertically-heterogeneous highly compressible aquitards coupled with data assimilation via ensemble Kalman filter"
     anio 2025
     isbn ""
@@ -6738,7 +6739,6 @@ graph [
     subarea ""
     keywords "Aquitard; Data assimilation; EnKF; Heterogeneity; High compressible; Land-subsidence; Nonlinear subsidence; Mexico [North America]; Computational methods; Data integration; Groundwater; Groundwater flow; Groundwater resources; Kalman filters; Aquitards; Consolidation model; Ensemble Kalman Filter; Groundwater Flow Model; One-dimensional simulations; Hydraulic conductivity; Hydraulic head; Kalman filter; Pore pressure; Subsidence"
     abstract "This study presents a methodology for calibrating a nonlinear groundwater flow and consolidation model in highly compressible, heterogeneous aquitards, focusing on vertical heterogeneity. Inspired by conditions in the Mexico basin, where the nature of the aquitard sediments, along with pore pressure monitoring through piezometers, plays a significant role. The model combines a nonlinear one-dimensional groundwater flow algorithm with an Ensemble Kalman Filter (EnKF) for data assimilation, correcting hydraulic head (h) and vertical hydraulic conductivity (K) distributions. Four reference cases were tested, and three data assimilation strategies were explored: (a) only h measurements, (b) only K measurements, and (c) both. Results show that all strategies provide satisfactory parameter estimations and settlement predictions, with the combined approach yielding the highest accuracy. While the method successfully simulates subsidence, its effectiveness diminishes if data assimilation only occurs in the initial simulation phase. This methodology has strong potential for predicting subsidence in real-world heterogeneous aquitards."
-    indice 63
   ]
   node [
     id 1007
@@ -6877,6 +6877,7 @@ graph [
     label "articulo:64"
     tipo "articulo"
     nombre "Online Nodal Demand Estimation in Branched Water Distribution Systems Using an Array of Extended Kalman Filters"
+    indice 64
     titulo "Online Nodal Demand Estimation in Branched Water Distribution Systems Using an Array of Extended Kalman Filters"
     anio 2025
     isbn ""
@@ -6887,7 +6888,6 @@ graph [
     subarea ""
     keywords "Branched water distribution system; Extended Kalman filter; Pipeline monitoring; Unknown-input observer; Water demand; Extended Kalman filters; Flow rate; Demand estimation; Distribution systems; Flow rate measurements; Model-based OPC; Nodal demands; Water distributions; Algorithm; Article; Controlled study; Filter; Nonhuman; Pipeline; Pressure; Simulation; Steady state; Water; Water supply; Water piping systems"
     abstract "This paper proposes a model-based methodology to estimate multiple nodal demands by using only pressure and flow rate measurements, which should be recorded at the inlet of the distribution system. The algorithm is based on an array of multiple extended Kalman filters (EKFs) in a cascade configuration. Each EKF functions as an unknown input observer and focuses on a section of the pipeline. The pipeline model used to design the filters is an adaptation of the well-known rigid water column model. Simulation and experimental tests on standardized pipeline systems are presented to demonstrate the proposed method&#8217;s effectiveness. Finally, for the case of the experimental validation, both steady-state and variable input conditions were considered."
-    indice 64
   ]
   node [
     id 1030
@@ -7014,6 +7014,7 @@ graph [
     label "articulo:65"
     tipo "articulo"
     nombre "Optimization Model for Coordinated Multistage Planning of the Generation-Transmission System with Demand Forecasting Using Neural Networks"
+    indice 65
     titulo "Optimization Model for Coordinated Multistage Planning of the Generation-Transmission System with Demand Forecasting Using Neural Networks"
     anio 2025
     isbn "978-981-96-0644-3"
@@ -7024,7 +7025,6 @@ graph [
     subarea ""
     keywords "Demand forecasting; Integer programming; Neural nets; Nonlinear programming; Power engineering computing; Power generation planning; Power transmission planning; Coordinated multistage planning; Ecuador's national interconnected system; Electricity expansion spanning; Escalating energy demand; Expansion zones; Generation-transmission system; Independent planning frameworks; Mixed-integer nonlinear programming approach; Multistate DC-planning model; Multistate planning model; Neural network-generated demand forecasts; Neural networks; Operational costs; Optimization model; Power generation-transmission expansion; Voltage 230.0 kV"
     abstract "The implementation of a multistate planning model for power generation-transmission expansion, as opposed to traditional independent planning frameworks, addresses the escalating energy demand and the need for efficient planning. This study applies a multistate DC-planning model to the 230 kV network of Ecuador's National Interconnected System (NIS), aiming to minimize operational costs and the construction of new infrastructure. By employing a mixed-integer nonlinear programming (MINLP) approach and a neural network-generated demand forecasts, the electricity expansion spanning the period from 2023 to 2033 is analyzed. This methodology facilitates the delineation of expansion zones, thereby mitigating long-term costs."
-    indice 65
   ]
   node [
     id 1051
@@ -7157,6 +7157,7 @@ graph [
     label "articulo:66"
     tipo "articulo"
     nombre "Outlet Pressure Regulation in a High-Viscosity Two-Phase Flow Horizontal Pipeline Using Inverse ANN and PSO"
+    indice 66
     titulo "Outlet Pressure Regulation in a High-Viscosity Two-Phase Flow Horizontal Pipeline Using Inverse ANN and PSO"
     anio 2024
     isbn "979-8-3503-7397-4"
@@ -7167,7 +7168,6 @@ graph [
     subarea ""
     keywords "Closed loop control systems; Petroleum tar; Pressure regulators; Water pipelines; Air flow-rate; High viscosities; Horizontal pipelines; Input layers; Model-based OPC; Neural network and particle swarm optimizations; Neural-networks; Outlet pressures; Spatial points; Two phases flow; Open loop control; Viscosity; Training; Atmospheric modeling; Pipelines; Transfer functions; Transportation; Artificial neural networks; Predictive models; Regulation; Particle swarm optimization"
     abstract "This article presents the development of two models based on artificial neural networks (ANN) aimed at estimating the pressure at a position near the output of a horizontal pipeline that transports a two-phase flow of glycerin-air, which is characterized by its high viscosity. These models consist of an input layer that includes variables such as the air flow rate (Qa), the glycerin flow rate (Qg), and the pressure at three spatial points located before the desired pressure prediction point. In the hidden layer of the first model, the nonlinear activation function Logsig is employed, while in the second model, the Tansig function is used. In both cases, a linear function is used in the output layer. In order to determine the air and glycerin flow rates that were injected to the pipeline, ANN models ares inverted by using the particle swarm optimization (PSO) algorithm. From these inverted models, the design of an open-loop control to regulate the output pressure in the horizontal pipeline is presented. This control allows simultaneous manipulation of the Qg and Qa variables, or a single Qg variable, enabling precise regulation."
-    indice 66
   ]
   node [
     id 1073
@@ -7294,6 +7294,7 @@ graph [
     label "articulo:67"
     tipo "articulo"
     nombre "Physics-Informed Neural Networks for Higher-Order Nonlinear Schr&#246;dinger Equations: Soliton Dynamics in External Potentials"
+    indice 67
     titulo "Physics-Informed Neural Networks for Higher-Order Nonlinear Schr&#246;dinger Equations: Soliton Dynamics in External Potentials"
     anio 2025
     isbn ""
@@ -7304,7 +7305,6 @@ graph [
     subarea ""
     keywords "External potentials; NLSE; PINN; Solitons"
     abstract "This review summarizes the application of physics-informed neural networks (PINNs) for solving higher-order nonlinear partial differential equations belonging to the nonlinear Schr&#246;dinger equation (NLSE) hierarchy, including models with external potentials. We analyze recent studies in which PINNs have been employed to solve NLSE-type evolution equations up to the fifth order, demonstrating their ability to obtain one- and two-soliton solutions, as well as other solitary waves with high accuracy. To provide benchmark solutions for training PINNs, we employ analytical methods such as the nonisospectral generalization of the AKNS scheme of the inverse scattering transform and the auto-B&#228;cklund transformation. Finally, we discuss recent advancements in PINN methodology, including improvements in network architecture and optimization techniques."
-    indice 67
   ]
   node [
     id 1094
@@ -7335,6 +7335,7 @@ graph [
     label "articulo:68"
     tipo "articulo"
     nombre "Pipe roughness calibration approach for water distribution network models using a nonlinear state observer"
+    indice 68
     titulo "Pipe roughness calibration approach for water distribution network models using a nonlinear state observer"
     anio 2024
     isbn ""
@@ -7345,7 +7346,6 @@ graph [
     subarea ""
     keywords "Calibration; Damping; Design engineering; Differential equations; Friction; Graph theory; Hydrodynamics; Numerical analysis; Observers; Oscillators; Pipe flow; Pipes; Rigidity; Surface roughness; Surface topography measurement; Damped nonlinear oscillators; Dynamic WDN model; Friction factors; Nonlinear state observer; NSO; Numerical simulations; Ordinary differential equations; Pipe roughness calibration approach; Rigid water column theory; Water distribution network models; Water distribution networks; Nonlinear state observers; Friction factor; Identifying pipe parameters"
     abstract "This paper introduces an online approach based on a nonlinear state observer (NSO) to calibrate the roughness of each pipe within a water distribution network (WDN) or a sector thereof. The NSO is designed to obtain the estimations of pipes' friction factors, which are then used to estimate the roughness. The core of the NSO is a dynamic WDN model formulated through a structured set of ordinary differential equations derived from fundamental physical principles and taking advantage of both graph theory and rigid water column theory. By applying a coordinate transformation, the WDN model is represented as a fully connected network of damped nonlinear oscillators, with each oscillator formulated as a Li&#233;nard system. This representation allows for estimating the friction factors for each pipe using only flow rate information. The proposed approach facilitates a continuous calibration when hydrodynamic data are readily accessible, which is a capability that empowers engineers to enhance, concurrently or proactively, the day-to-day operations of water distribution networks, such as control or diagnose tasks, whenever data are available. The results of numerical simulations are presented to illustrate the practical utility of the proposed method."
-    indice 68
   ]
   node [
     id 1099
@@ -7496,6 +7496,7 @@ graph [
     label "articulo:69"
     tipo "articulo"
     nombre "Polyharmonic Representation of the Electromagnetic Field Generated by an Oscillating Particle near a Dispersive Bulk"
+    indice 69
     titulo "Polyharmonic Representation of the Electromagnetic Field Generated by an Oscillating Particle near a Dispersive Bulk"
     anio 2024
     isbn ""
@@ -7506,7 +7507,6 @@ graph [
     subarea ""
     keywords "Electromagnetic waves; Finite element method; Harmonic decomposition; Nanophotonics; Numerical methods in electrodynamics"
     abstract "This study introduces a polyharmonic framework for analyzing the electromagnetic (EM) field generated by an oscillating point charge near a dispersive bulk of size comparable to the wavelength under study. We critically evaluate traditional approaches such as Li&#233;nard-Wiechert, Landau, and Raimond, and propose a Fourier representation of sources that simplifies numerical implementation and enhances analytical clarity. Our method effectively addresses the limitations of conventional models and is applicable to both relativistic and non-relativistic scenarios. It includes the oscillating point dipole fields, providing a comprehensive understanding of the EM field behavior. The Finite Element Method (FEM) is employed for numerical analysis, demonstrating the method&#8217;s adaptability to complex geometries. While offering significant insights, this study acknowledges certain limitations and outlines directions for future research."
-    indice 69
   ]
   node [
     id 1124
@@ -7537,6 +7537,7 @@ graph [
     label "articulo:70"
     tipo "articulo"
     nombre "Power System Stabilizers&#8217; Design Through The Eigensystem Realization Algorithm"
+    indice 70
     titulo "Power System Stabilizers&#8217; Design Through The Eigensystem Realization Algorithm"
     anio 2024
     isbn "979-8-3315-3054-9"
@@ -7547,7 +7548,6 @@ graph [
     subarea ""
     keywords "Damping control; Power system stabilizers; Eigensystem realization algorithm; Eigenvalue sensitivities; Coordinated design; Damping; Dynamic response; Power system measurements; Sensitivity; Computational modeling; Heuristic algorithms; Power system stability; Eigenvalues and eigenfunctions; System identification; Proposals; Power systems computer aided design; Artificial intelligence; Benchmarking; Electric power system stability; State space methods; Eigen-value; Eigensystem realization algorithms; Eigenvalue sensitivity; Electromechanical modes; Linear modeling; New England; Power; Power System Stabilizer"
     abstract "This paper proposes an alternative way of designing multiple power system stabilizers (PSSs) for damping electromechanical modes. The approach is based on a system identification method that allows the computation of the first-order sensitivities of the eigenvalues of power system linear models. Thus, the eigensystem realization algorithm (ERA) is used to identify the power system linear model. This proposal derives a state-space representation using power system measurements to compute the power system eigenvalues and their residues for designing a single PSS for damping one mode or coordinated multiple PSSs for damping several modes. The attained results in two benchmark systems, Kundur and the New England transmission system-New York power system (NETS-NYPS), demonstrated the effectiveness of the proposed strategy in improving the dynamic response and power system stability for damping one or several electromechanical modes in large power systems, reaching stable behaviors in less than 2s and 7s for the Kundur and NETS-NYPS grids, respectively."
-    indice 70
   ]
   node [
     id 1129
@@ -7680,6 +7680,7 @@ graph [
     label "articulo:71"
     tipo "articulo"
     nombre "Regional centres of inertia by clustering-based identification"
+    indice 71
     titulo "Regional centres of inertia by clustering-based identification"
     anio 2025
     isbn "979-8-3315-4397-6"
@@ -7690,7 +7691,6 @@ graph [
     subarea ""
     keywords "Graph theory; Pattern clustering; Power system stability; Cluster; Clustering-based identification; COI behaviour; Community detection; Frequency dynamics; Generation locations; Improved label propagation algorithm; Inertia location; Key buses; New England 68-bus test system; Power systems; Precise separation; Regional frequency analysis; Spectral centrality analysis; Strong internal connectivity; Topological data; Well-defined clusters; Frequency monitoring; Centre-of-inertia; Structural analysis; Graph analysis; Accuracy; System performance; Clustering algorithms; Transmission line measurements; Power grids; Phasor measurement units; System buses; Monitoring"
     abstract "This study applies graph theory to regional frequency analysis in power systems. A novel methodology combines centre of inertia (COI) location with community detection, using an improved label propagation algorithm and spectral centrality analysis. The approach evaluates frequency dynamics by analysing COI behaviour at key buses. The framework divides the grid into well-defined clusters with strong internal connectivity and precise separation. Integrating topological data&#8212;such as generation locations and transmission line admittances- precisely identifies each cluster's COI. Simulations on the New England 68-bus test system validate the framework's effectiveness and accuracy."
-    indice 71
   ]
   node [
     id 1151
@@ -7829,6 +7829,7 @@ graph [
     label "articulo:72"
     tipo "articulo"
     nombre "Resource Manager for heterogeneous processors"
+    indice 72
     titulo "Resource Manager for heterogeneous processors"
     anio 2024
     isbn ""
@@ -7839,7 +7840,6 @@ graph [
     subarea ""
     keywords "Constant Band Width Server; Diffuse control; Processor Time Assignment; Real-time systems; Resource Manager; Resource Management; Fuzzy control"
     abstract "A resource administrator (RM) can distribute tasks processing time between heterogeneous processors is presented. Its design is based on analyzing of the possible forms of attention to pending tasks and in the previous knowledge about them. A model is proposed based on difference equations that quantify the resource allocation of each task and choose the best processor where the task can be executed. The scheme adapts to dynamic changes in the requirements or the number of tasks."
-    indice 72
   ]
   node [
     id 1174
@@ -7888,6 +7888,7 @@ graph [
     label "articulo:73"
     tipo "articulo"
     nombre "Rethinking the 'best method' paradigm: The effectiveness of hybrid and multidisciplinary approaches in chemoinformatics"
+    indice 73
     titulo "Rethinking the 'best method' paradigm: The effectiveness of hybrid and multidisciplinary approaches in chemoinformatics"
     anio 2024
     isbn ""
@@ -7898,7 +7899,6 @@ graph [
     subarea ""
     keywords "Consensus; Data fusion; Education; Hybrid method; Machine learning; Multidisciplinary; Open science; Article; Benchmarking; Cheminformatics; Human; Hybrid; Male; Methodology; Molecular model; Predictive model; Screening"
     abstract "In Chemoinformatics, as in many other computational-related disciplines, it is a common practice to identify the &#8220;single best&#8221; approach or methodology, for instance, identify the best fingerprint representation, the best single virtual screening approach or protocol, the optimal representation of the chemical space, the best predictive model, to name a few. In molecular modeling, a typical example is finding the best docking program. However, it is also known that each approach has its advantages and limitations. There are examples of benchmark studies comparing different approaches to find the most appropriate solution, and it is common to find that there are no single best programs in such studies. Yet, searching for the &#8220;best&#8221; methods is still common. The main goal of this work is to survey hybrid methodologies recently developed in Chemoinformatics. The list of approaches is not exhaustive, but it aims to cover several representative applications. One of the major outcomes of the survey is that, for various purposes, individual methods do not perform as well as the combination of approaches because single methods have inherent limitations with advantages and disadvantages."
-    indice 73
   ]
   node [
     id 1182
@@ -7977,6 +7977,7 @@ graph [
     label "articulo:74"
     tipo "articulo"
     nombre "Rhizobium etli CFN42 and Sinorhizobium meliloti 1021 bioinformatic transcriptional regulatory networks from culture and symbiosis"
+    indice 74
     titulo "Rhizobium etli CFN42 and Sinorhizobium meliloti 1021 bioinformatic transcriptional regulatory networks from culture and symbiosis"
     anio 2024
     isbn ""
@@ -7987,7 +7988,6 @@ graph [
     subarea ""
     keywords "Transcriptional; Regulatory; Network; Motif; Symbiosis; Rhizobia; Etli; Nitrogen-fixation"
     abstract "The article reconstructs and analyzes bioinformatic transcriptional regulatory networks for Rhizobium etli CFN42 and Sinorhizobium meliloti 1021 under free-living culture and symbiotic conditions. It integrates expression and regulatory information to examine network organization, motifs, and changes associated with symbiosis and nitrogen fixation."
-    indice 74
   ]
   node [
     id 1195
@@ -8042,6 +8042,7 @@ graph [
     label "articulo:75"
     tipo "articulo"
     nombre "Robust Leak Estimation via a Linear Fractional Transformation"
+    indice 75
     titulo "Robust Leak Estimation via a Linear Fractional Transformation"
     anio 2024
     isbn ""
@@ -8052,7 +8053,6 @@ graph [
     subarea ""
     keywords "Automatic fault detection; Transformed uncertain model; Dynamic estimators; Real-time leak localization"
     abstract "The article addresses the automatic identification of a leak in a pipeline using a model with a nominal part and an uncertain part that depends on the leak parameters. A linear fractional transformation of the unknown position improves the conditioning of the model and facilitates estimation of the position and discharge coefficient using an Extended Kalman Filter, with tests on synthetic and experimental data."
-    indice 75
   ]
   node [
     id 1204
@@ -8083,6 +8083,7 @@ graph [
     label "articulo:76"
     tipo "articulo"
     nombre "Robustification of Proportional-Resonant Control Against Frequency Variations"
+    indice 76
     titulo "Robustification of Proportional-Resonant Control Against Frequency Variations"
     anio 2024
     isbn "979-8-3503-5368-6"
@@ -8093,7 +8094,6 @@ graph [
     subarea ""
     keywords "Variable structure systems; Time-frequency analysis; Renewable energy sources; Filters; Harmonic analysis; Numerical simulation; Frequency estimation; Frequency control; Power harmonic filters; Power generation"
     abstract "Replacing traditional power generation with distributed sources leads to a grid frequency that is more vulnerable to fluctuations. This can impact the efficiency and function of power converters, which are essential for integrating renewable energies into the electrical network. Instead of estimating and tracking the grid&#8217;s frequency to counter these changes, this paper proposes a robust proportional-resonant (PR) controller that maintains reference tracking in the presence of a varying frequency. Unlike other approaches, the proposed controller does not require precise knowledge of the frequency. This is made possible by integrating into the PR controller a second-order bi-homogeneous differentiator, significantly improving the controller&#8217;s tracking performance. The performance of the proposed approach is demonstrated through numerical simulations involving the operation of a grid-connected inverter during a frequency variation event."
-    indice 76
   ]
   node [
     id 1209
@@ -8142,6 +8142,7 @@ graph [
     label "articulo:77"
     tipo "articulo"
     nombre "Seismic optimization of buckling-restrained brace mid-rise frames by metaheuristics and machine learning surrogative models"
+    indice 77
     titulo "Seismic optimization of buckling-restrained brace mid-rise frames by metaheuristics and machine learning surrogative models"
     anio 2025
     isbn ""
@@ -8152,7 +8153,6 @@ graph [
     subarea ""
     keywords "Artificial neural network; Buckling-restrained braces; Genetic algorithm; Seismic optimization; Simulated annealing; Buckling behavior; Buckling loads; Buckling modes; Genetic algorithms; Machine-learning; Metaheuristic; Metaheuristic optimization; Neural-networks; Optimisations; Research areas; Surrogate modeling; Sustainable use; Local buckling"
     abstract "Metaheuristic optimization is a research area that allows automating the seismic design of structures while prioritizing the sustainable use of resources. Unfortunately, these AI techniques have limited applicability due to their long execution times. To address this limitation, this paper explores the use of artificial neural networks (ANNs) as surrogate models to accelerate the optimization process of seismic retrofitting of mid-rise frames equipped with buckling-restrained braces (BRBs). To identify the benefits of this strategy, the performance of simulated annealing and genetic algorithms, both with and without a surrogate model, is compared. From the results of this study, it is shown that: (a) ANNs can reduce the metaheuristic optimization time by up to 51%; (b) surrogate models can return infeasible designs if they are used to drive the entire optimization process, and (c) for the considered problem, the characteristics of the BRBs that provided the most efficient designs were identified."
-    indice 77
   ]
   node [
     id 1217
@@ -8249,6 +8249,7 @@ graph [
     label "articulo:78"
     tipo "articulo"
     nombre "Self-organizing systems: what, how, and why?"
+    indice 78
     titulo "Self-organizing systems: what, how, and why?"
     anio 2025
     isbn ""
@@ -8259,7 +8260,6 @@ graph [
     subarea ""
     keywords "Complexity; Information; Emergence; Self-organization"
     abstract "The article presents a broad conceptual account of self-organizing systems, discussing examples, information, complexity, emergence and applications across physics, biology, collective behavior, communication networks, robotics, artificial intelligence and social systems."
-    indice 78
   ]
   node [
     id 1233
@@ -8284,6 +8284,7 @@ graph [
     label "articulo:79"
     tipo "articulo"
     nombre "Sensor fault detection and isolation based on nonlinear adaptive observers: A new approach for dealing with false alarms under partial faults"
+    indice 79
     titulo "Sensor fault detection and isolation based on nonlinear adaptive observers: A new approach for dealing with false alarms under partial faults"
     anio 2025
     isbn ""
@@ -8294,7 +8295,6 @@ graph [
     subarea ""
     keywords "Sensor fault diagnosis; Adaptive observer; False alarms; Sensor noise; Threshold design"
     abstract "The work proposes a sensor fault-detection and isolation strategy based on a bank of nonlinear adaptive observers. A thresholding mechanism based on residual variability is introduced to reduce false alarms in the presence of noise and partial faults, and the approach is evaluated on internal-combustion-engine sensor data."
-    indice 79
   ]
   node [
     id 1237
@@ -8331,6 +8331,7 @@ graph [
     label "articulo:80"
     tipo "articulo"
     nombre "Simulation Applied to a Consulting Team Assignment Problem"
+    indice 80
     titulo "Simulation Applied to a Consulting Team Assignment Problem"
     anio 2024
     isbn "978-3-031-68437-1"
@@ -8341,7 +8342,6 @@ graph [
     subarea ""
     keywords "Assignment Problem; Hexagonal Tessellation; Multi-criteria assignment; Information management; Assignment problems; Multi-criteria; Multi-Criterion; Process-oriented simulations; Service program; Social service; Student teams; Team assignment; Students"
     abstract "There are intermediary entities that improve the administration of human resources, adapting agents&#8217; profiles with companies&#8217; requests. This paper presents a university social service program that requires student teams to give consultancies to companies&#8217; groups but has a desertion problem derived from an assignment with long distances and incompatibility between schedules and requirements. We use process-oriented simulation to analyze some proposed methodologies and variants of the classic assignment problem as possible solutions while uncovering the need for a flexible method that enables continuous modification and maintains easy user data management. We define our human resources case with multiple attributes (distance, requirements, and schedules) as a multi-criteria assignment model with quadratic (QAP) and qualified semi-assignment characteristics. To solve it, we use a tessellation to facilitate the inclusion and reduction of distances between agents and tasks while evaluating the qualified association of the requirement and schedules as categorical variables. We integrate a modular method based on hexagonal tessellation, reducing the dedicated time from 5 days to 90 min and a total distance of 585 km between students and companies while improving the schedules and requirements compatibility, solving the real problem in its context. We hope this will contribute to other assignment problems with a similar structure or goals."
-    indice 80
   ]
   node [
     id 1243
@@ -8420,6 +8420,7 @@ graph [
     label "articulo:81"
     tipo "articulo"
     nombre "Simulation Model to the Online Course Advising"
+    indice 81
     titulo "Simulation Model to the Online Course Advising"
     anio 2024
     isbn "978-3-031-68437-1"
@@ -8430,7 +8431,6 @@ graph [
     subarea ""
     keywords "Adversarial machine learning; Digital elevation model; E-learning; E-learning analytic; Face to face; Online course; Online teaching; Optimisations; Simulation; Simulation model; Student groups; Teaching analytics; e-learning analytics; Optimization"
     abstract "The processes involved in online teaching have been inherited from traditional face-to-face courses, in almost every case we transfer the face-to-face to the virtual without making an analysis about how the things work in virtuality. In this paper we propose a simulation model for the course taught process, and from the model we will review a point that we assume to be definitive: the quantity of hours that an advisor dedicates to grading a course. Even the size of the student's group assigned to an advisor is defined by administrative policy but not necessarily by the needs of the training program, which one can be different according to the project's aim."
-    indice 81
   ]
   node [
     id 1256
@@ -8503,6 +8503,7 @@ graph [
     label "articulo:82"
     tipo "articulo"
     nombre "Social networks from dailies: the observer&#8217;s point of view"
+    indice 82
     titulo "Social networks from dailies: the observer&#8217;s point of view"
     anio 2024
     isbn ""
@@ -8513,7 +8514,6 @@ graph [
     subarea ""
     keywords "Barab&#225;si&#8217;s model; Dailies; NLP; Social network; Underlying social network; Economic and social effects; Barabasi-Albert networks; Barabasi&#8217;s model; Daily; Local environments; Mexico; S models; Subnetworks; Written documents; Social networking (online)"
     abstract "In this paper, we explore the hypothesis that the social network described by an observer in a written document provides a discernible cross-section of the underlying social network. Specifically, we propose that the subnetwork described by the observer is extracted from large social network with a Barab&#225;si-Albert structure, following two key premises: (1) the observer identifies and reports nodes and interactions in his local environment, and (2) the observer records the most relevant nodes&#8212;those with a high number of connections&#8212;as well as the most significant portions of their local environment. We test this hypothesis using personal dailies written in New Spain and Mexico between 1776 and 1873. We compare the structure of these dailies networks to one depicted by a typical subnetwork of a Barab&#225;si-Albert network, obtained following the two premises mentioned above. To support our findings, we compare them to the social networks described in two well-known novels. In this work, we implicitly assume the hypothesis that there is a complete, non-subjective social network, including our observer, with a Barab&#225;si-Albert structure. The evolution of this underlying social network can shed light on the dynamics of a society over time. Our approach could give place to indicators of the changes in the structure of this enveloping network. This is especially important since, although our historical sources do not offer sufficient data to reconstruct the processes in their entirety, the approach could supply clues or fragments from which we could understand the structure and dynamics of societies over time."
-    indice 82
   ]
   node [
     id 1268
@@ -8604,6 +8604,7 @@ graph [
     label "articulo:83"
     tipo "articulo"
     nombre "State of the art on the problem of vehicle routing and solid waste collection"
+    indice 83
     titulo "State of the art on the problem of vehicle routing and solid waste collection"
     anio 2025
     isbn ""
@@ -8614,7 +8615,6 @@ graph [
     subarea ""
     keywords "VRP; VRPPD; VRPB; Waste collection; ARP"
     abstract "The article reviews the state of the art in routing problems applied to municipal solid waste collection. It distinguishes arc-based and node-based approaches, relates variants such as ARP, VRP, and pickup and delivery problems, and organizes recent contributions that provide a basis for modeling collection systems under different geographical constraints."
-    indice 83
   ]
   node [
     id 1283
@@ -8651,6 +8651,7 @@ graph [
     label "articulo:84"
     tipo "articulo"
     nombre "Statistical methods to evaluate discrete Boolean mathematical models from systems biology experimental data sets"
+    indice 84
     titulo "Statistical methods to evaluate discrete Boolean mathematical models from systems biology experimental data sets"
     anio 2024
     isbn ""
@@ -8661,7 +8662,6 @@ graph [
     subarea ""
     keywords "Bioinformatics; Boolean functions; Cellular biophysics; Genetics; Genomics; Molecular biophysics; RNA; Statistical analysis; Cellular phenotypes; Description levels; Discrete Boolean mathematical models; Experimental validation; Gene regulatory networks; Intrinsic validity; Massive sequencing techniques; RNA-seq; Statistical methods; Systems biology experimental data sets"
     abstract "Discrete Boolean models offer qualitative insights into gene regulatory networks, enhancing understanding of cellular phenotypes. Despite lacking quantitative parameters, their reliability stems from data derived through systematic reviews and databases supported by experimental validation. Unlike other mathematical models, they don't employ statistical tests for intrinsic validity, making it challenging to establish their utility in interpreting experimental data. In this paper, we propose two statistical procedures to validate different description levels obtained from Boolean models, addressing simulated mutations and stationary states. These methods provide guidelines for integrating data from massive sequencing techniques, such as RNA-seq."
-    indice 84
   ]
   node [
     id 1289
@@ -8752,6 +8752,7 @@ graph [
     label "articulo:85"
     tipo "articulo"
     nombre "Super-Twisting Algorithm Gain Adjustment Strategy for Manipulator Position Control"
+    indice 85
     titulo "Super-Twisting Algorithm Gain Adjustment Strategy for Manipulator Position Control"
     anio 2024
     isbn "978-3-031-71359-0; 978-3-031-71360-6"
@@ -8762,7 +8763,6 @@ graph [
     subarea ""
     keywords "Actuators; Chattering Analysis; Harmonic Balance; Manipulator control; Super-Twisting Algorithms; Closed loop control systems; Delay control systems; Feedback; Flexible manipulators; Perturbation techniques; Chattering analyze; External control; Gain-adjustment; Harmonic Balance method; Joint/torque control; Position accuracy; Super twisting algorithm; System imperfections; Industrial manipulators; Control system synthesis; Position control; Variable structure systems; Velocity control; ABB IRB 1600 industrial manipulator; Encoder feedback; External control loop design; HB method; Lipschitz perturbations; Manipulator position control; Signal processing delays; STA controller; STA gain adjustment strategy; Super-twisting algorithm gain adjustment strategy; System exhibit chattering; System output oscillation amplitude; System perturbations; Unmodeled dynamics"
     abstract "Build-in controllers of industrial manipulators ensure high repeatability of actions even under unknown changes of external payload. Most manipulator manufacturers do not provide access to joint torque control, and only position/velocity control is available in presence of disturbances and system imperfections. Thus, an external control loop design for compensation of system perturbations may enhance the position accuracy of manipulators using encoder feedback. Then, the Super-twisting algorithm (STA) appears as a reasonable choice since it generates continuous control signal and provides the theoretically exact compensation for Lipschitz perturbations. However, unmodeled dynamics and signal processing delays existing in the system exhibit chattering that cannot be eliminated. The paper provides the strategy for designing and adjusting external control loop with STA controller to enhance position accuracy. Namely, two-steps Super-twisting algorithm (STA) gains adjustment strategy is proposed. Firstly, it is found that for ABB IRB 1600 the sine mixture signal provides the system response allowing to identify the plant structure as first-order system with time delay. At the second step, Harmonic Balance (HB) method is used to estimate system output oscillation amplitude. Since HB method considers the first harmonic of the periodic motion, Pade approximation of time delay was chosen leading to the HB close-from solution. The proposed STA gain adjustment strategy was tested on simulation and verified through an experiment. Experiments with industrial manipulator ABB IRB 1600 demonstrated the increased position accuracy of the proposed methodology compare to LQR-predictor model and build-in control system."
-    indice 85
   ]
   node [
     id 1304
@@ -8979,6 +8979,7 @@ graph [
     label "articulo:86"
     tipo "articulo"
     nombre "Symbolic-Numeric Solving Boundary Value Problems: Collective Models of Atomic Nuclei"
+    indice 86
     titulo "Symbolic-Numeric Solving Boundary Value Problems: Collective Models of Atomic Nuclei"
     anio 2024
     isbn "978-3-031-69069-3"
@@ -8989,7 +8990,6 @@ graph [
     subarea ""
     keywords "Collective models of atomic nucleus; Computational schemes; Finite elements method; Hermite interpolation polynomials; Multidimensional boundary value problems; Benchmarking; Boundary element method; Boundary value problems; Differentiation (calculus); Digital arithmetic; Galerkin methods; Group theory; Mean field theory; Piecewise linear techniques; Polynomials; Solitons; Stability criteria; Atomic nucleus; Boundary-value problem; Collective model of atomic nucleus; Element method; Hermite interpolation; Hermite interpolation polynomial; Interpolation polynomials; Multidimensional boundary value problem; Type methods; Hamiltonians"
     abstract "Computational schemes of the Galerkin type method (GTM) and finite elements method (FEM) for solving elliptic multidimensional boundary value problems (BVPs) with variable coefficients of derivatives in a polyhedral d-dimensional domain, aimed at describing collective models of atomic nuclei are presented. The solution is sought in the form of an expansion in the GTM basis and/or in the FEM basis of piecewise polynomial functions constructed in analytical form by joining Hermite interpolation polynomials and their derivatives at the boundaries of neighboring finite elements, which have the form of d-dimensional parallelepipeds. The BVPs are formulated and analyzed for collective models including the mixed derivative of the two-dimensional vibrational part of the five-dimensional Hamiltonian in the representation of the nuclear spin angular momentum in the intrinsic reference frame defined by three Euler angles. Benchmark calculations demonstrate performance and robustness of the approach when applied to calculate the lower part of the energy spectrum and the reduced electric transition probabilities in quadrupole collective models of atomic nuclei. The calculations of the band spectrum of Gd isotope using tabulated variable coefficients of the BVP evaluated in the self-consistent relativistic mean-field model revealed a possibility of quasicrossing of energy levels belonging to different rotational bands of a nucleus at high spin values."
-    indice 86
   ]
   node [
     id 1340
@@ -9128,6 +9128,7 @@ graph [
     label "articulo:87"
     tipo "articulo"
     nombre "The art of modeling gene regulatory circuits"
+    indice 87
     titulo "The art of modeling gene regulatory circuits"
     anio 2024
     isbn ""
@@ -9138,7 +9139,6 @@ graph [
     subarea ""
     keywords "Computational Biology; Computer Simulation; Gene Expression Regulation; Gene Regulatory Networks; Humans; Models, Genetic; Systems Biology; Bioinformatics; Biological model; Gene regulatory network; Genetics; Human; Procedures"
     abstract "The amazing complexity of gene regulatory circuits, and biological systems in general, makes mathematical modeling an essential tool to frame and develop our understanding of their properties. Here, we present some fundamental considerations to develop and analyze a model of a gene regulatory circuit of interest, either representing a natural, synthetic, or theoretical system. A mathematical model allows us to effectively evaluate the logical implications of our hypotheses. Using our models to systematically perform in silico experiments, we can then propose specific follow-up assessments of the biological system as well as to reformulate the original assumptions, enriching both our knowledge and our understanding of the system. We want to invite the community working on different aspects of gene regulatory circuits to explore the power and benefits of mathematical modeling in their system."
-    indice 87
   ]
   node [
     id 1363
@@ -9175,6 +9175,7 @@ graph [
     label "articulo:88"
     tipo "articulo"
     nombre "The interaction of InvF-RNAP is mediated by the chaperone SicA in Salmonella sp: an in silico prediction"
+    indice 88
     titulo "The interaction of InvF-RNAP is mediated by the chaperone SicA in Salmonella sp: an in silico prediction"
     anio 2024
     isbn ""
@@ -9185,7 +9186,6 @@ graph [
     subarea ""
     keywords "InvF-SicA complex; Molecular dynamics simulations; Salmonella invasion chaperone; Alanine scanning mutagenesis"
     abstract "The article uses in-silico structural modeling, molecular dynamics, and residue-level analyses to study how the SicA chaperone may mediate interaction between the InvF transcriptional activator and RNA polymerase in Salmonella. The simulations identify candidate interaction regions and support a model in which SicA stabilizes conformations of InvF relevant to transcriptional activation."
-    indice 88
   ]
   node [
     id 1369
@@ -9216,6 +9216,7 @@ graph [
     label "articulo:89"
     tipo "articulo"
     nombre "Time integration scheme for nonlinear structural dynamics, FAM, including structural vibration control"
+    indice 89
     titulo "Time integration scheme for nonlinear structural dynamics, FAM, including structural vibration control"
     anio 2025
     isbn ""
@@ -9226,7 +9227,6 @@ graph [
     subarea ""
     keywords "Force Analogy Method; Inelastic analysis; Nonlinear control systems; State space formulation; Time domain integration; Control nonlinearities; Control system analysis; Convergence of numerical methods; Dynamic loads; Pressure vessels; Robustness (control systems); Structural analysis; Vibration analysis; Dynamic forces; High frequency response; Non linear control; Nonlinear structural dynamics; Structural vibration control; Time-domain integrations; Time-integration scheme; Structural dynamics"
     abstract "In this study, a method for the integration of the equation of motion for the inelastic analysis of structures utilizing the Force Analogy Method (FAM) and nonlinear control systems is proposed. The method is implicit, unconditionally stable, one-step scheme, multi-stage, with second-order precision, self-start capability, and high-frequency response filtering, exhibiting low overshooting. It enables consideration of sources of nonlinearity from the inelastic behavior of materials and the incorporation of control systems in structures. Four numerical examples are used to validate the proposed method, encompassing a diverse range of application scenarios, including varying numerical stiffness, dynamic load sources, and nonlinearity sources. The obtained results demonstrate excellent agreement with expected solutions, highlighting the method capacity to suppress high-frequency responses while maintaining solution accuracy. Our study suggests that the proposed method holds significant potential as a dynamic integration tool in analyzing complex systems. Its application in structures with nonlinear control systems and material nonlinearity represents a substantial contribution to the field, providing a robust and efficient solution for understanding structural response to dynamic actions."
-    indice 89
   ]
   node [
     id 1374
@@ -9335,6 +9335,7 @@ graph [
     label "articulo:90"
     tipo "articulo"
     nombre "Time-delay enhanced SIR model for COVID-19 waves in Mexico: Parameter estimation using evolutionary algorithms"
+    indice 90
     titulo "Time-delay enhanced SIR model for COVID-19 waves in Mexico: Parameter estimation using evolutionary algorithms"
     anio 2025
     isbn ""
@@ -9345,7 +9346,6 @@ graph [
     subarea ""
     keywords "COVID-19 waves; Optimization algorithms; Parameter estimation; SIR model; Time-delay dynamics"
     abstract "The article extends the classical SIR epidemic model by incorporating time delays to represent successive COVID-19 waves in Mexico. Particle swarm optimization and genetic algorithms are used to estimate model parameters and delays, with the goal of improving the fit to observed epidemic dynamics and supporting interpretation of transmission changes across waves."
-    indice 90
   ]
   node [
     id 1392
@@ -9370,6 +9370,7 @@ graph [
     label "articulo:91"
     tipo "articulo"
     nombre "tonalli: an asexual genetic code to characterize APOGEE-2 stellar spectra. I. Validation with synthetic and solar spectra"
+    indice 91
     titulo "tonalli: an asexual genetic code to characterize APOGEE-2 stellar spectra. I. Validation with synthetic and solar spectra"
     anio 2024
     isbn ""
@@ -9380,7 +9381,6 @@ graph [
     subarea ""
     keywords "Algorithms; Infrared: Stars; Machine Learning; Stars: Fundamental parameters; Sun: Fundamental parameters"
     abstract "We present tonalli, a spectroscopic analysis python code that efficiently predicts effective temperature, stellar surface gravity, metallicity, &#945;-element abundance, and rotational and radial velocities for stars with effective temperatures between 3200 and 6250K, observed with the Apache Point Observatory Galactic Evolution Experiment 2 (APOGEE-2).tonalli implements an asexual genetic algorithm to optimize the finding of the best comparison between a target spectrum and the continuum-normalized synthetic spectra library from the Model Atmospheres with a Radiative and Convective Scheme (MARCS), which is interpolated in each generation. Using simulated observed spectra and the APOGEE-2 solar spectrum of Vesta, we study the performance, limitations, accuracy, and precision of our tool. Finally, a Monte Carlo realization was implemented to estimate the uncertainties of each derived stellar parameter."
-    indice 91
   ]
   node [
     id 1396
@@ -9411,6 +9411,7 @@ graph [
     label "articulo:92"
     tipo "articulo"
     nombre "Transformed by Fire: Body Perception in Cremation Burial Practices in Middle Balsas River Basin, Michoac&#225;n Tierra Caliente, during the Postclassic Period"
+    indice 92
     titulo "Transformed by Fire: Body Perception in Cremation Burial Practices in Middle Balsas River Basin, Michoac&#225;n Tierra Caliente, during the Postclassic Period"
     anio 2025
     isbn ""
@@ -9421,7 +9422,6 @@ graph [
     subarea ""
     keywords "Cremation; Thermal alteration; Burial practices; Tierra Caliente; Michoac&#225;n; Body perception; Pre-Tarascan"
     abstract "The article investigates cremation burial practices at Los Tamarindos in the Middle Balsas River basin. Analysis of thermal alteration, anatomical arrangement and the spatial distribution of remains in funerary urns is used to assess how bodies were treated after cremation, revealing generally inefficient burning and evidence that some adult remains may have been intentionally arranged or manipulated."
-    indice 92
   ]
   node [
     id 1401
@@ -9470,6 +9470,7 @@ graph [
     label "articulo:93"
     tipo "articulo"
     nombre "Transmission Network Expansion Planning Considering Uncertainty in Demand with Global and Nodal Approach"
+    indice 93
     titulo "Transmission Network Expansion Planning Considering Uncertainty in Demand with Global and Nodal Approach"
     anio 2024
     isbn ""
@@ -9480,7 +9481,6 @@ graph [
     subarea ""
     keywords "Cluster; Liner Optimization; Stochastic; Transmission Network Expansion Planning; Uncertainty; Electric power system planning; Global optimization; K-means clustering; Operating costs; Power transmission lines; Stochastic models; Stochastic programming; Global demand; Optimisations; Stochastics; Transmission expansion-planning; Transmission-line; Uncertainty in demand; Stochastic systems"
     abstract "Transmission expansion planning aims to establish when and where to install new infrastructure such as transmission lines, cables, generators and transformers in the electrical power system. The planning must be motivated mainly to satisfy the increase in demand, consequently increase the reliability of the system and provide non-discriminatory access for generators and consumers to the electrical grid. In this sense, this work aims to propose a methodology to handle demand uncertainty by reducing scenarios through the K-means clustering algorithm, which is used to construct representative demand curves that allow using a static model of stochastic linear optimization with less computational effort, which seeks to minimize the investment and operating costs of the electrical system, meeting the total demand of the system. The global demand and nodal demand approach of the system is compared, observing the behaviour of investment and operating costs, as well as their advantages. The results demonstrate that the formulation can be estimate the number of scenarios through mathematical metrics and the global demand approach has the advantage of only needing data on the behavior of the total demand of the system."
-    indice 93
   ]
   node [
     id 1409
@@ -9577,6 +9577,7 @@ graph [
     label "articulo:94"
     tipo "articulo"
     nombre "Triangular finite differences using bivariate Lagrange polynomials with applications to elliptic equations"
+    indice 94
     titulo "Triangular finite differences using bivariate Lagrange polynomials with applications to elliptic equations"
     anio 2025
     isbn ""
@@ -9587,7 +9588,6 @@ graph [
     subarea ""
     keywords "Bivariate Lagrange polynomial; Elliptic differential equations; Finite difference; Hexagonal scheme; Koch Snowflake; Triangular grid; Finite difference method; Lagrange multipliers; Numerical methods; Polynomials; Bivariate; Lagrange's polynomials; Partial derivatives; Second orders; Poisson equation"
     abstract "This paper proposes finite-difference schemes based on triangular stencils to approximate partial derivatives using bivariate Lagrange polynomials. We use first-order partial derivative approximations on triangles to introduce a novel hexagonal scheme for the second-order partial derivative on any rotated parallelogram grid. Numerical analysis of the local truncation errors shows that first-order partial derivative approximations depend strongly on the triangle vertices getting at least a first-order method. On the other hand, we prove that the proposed hexagonal scheme is always second-order accurate. Simulations performed at different triangular configurations reveal that numerical errors agree with our theoretical results. Results demonstrate that the proposed method is second-order accurate for the Poisson and Helmholtz equation. Furthermore, this paper shows that the hexagonal scheme with equilateral triangles results in a fourth-order accurate method to the Laplace equation. Finally, we study two-dimensional elliptic differential equations on different triangular grids and domains."
-    indice 94
   ]
   node [
     id 1425
@@ -9666,6 +9666,7 @@ graph [
     label "articulo:95"
     tipo "articulo"
     nombre "Understanding post-angiogenic tumor growth: Insights from vascular network properties in cellular automata modeling"
+    indice 95
     titulo "Understanding post-angiogenic tumor growth: Insights from vascular network properties in cellular automata modeling"
     anio 2024
     isbn ""
@@ -9676,7 +9677,6 @@ graph [
     subarea ""
     keywords "Angiogenesis modeling; Complex systems; Network analysis; Cellular automata; VDA therapy"
     abstract "The study combines a cellular-automaton tumor model with complex-network analysis to investigate how vascular-network properties affect post-angiogenic tumor growth and responses to vascular disrupting agents and radiotherapy."
-    indice 95
   ]
   node [
     id 1438
@@ -9713,6 +9713,7 @@ graph [
     label "articulo:96"
     tipo "articulo"
     nombre "Unveiling with Density Functional Theory the Optical Property Variations of Three Kinds of Graphene for Acetaminophen Sensor Design"
+    indice 96
     titulo "Unveiling with Density Functional Theory the Optical Property Variations of Three Kinds of Graphene for Acetaminophen Sensor Design"
     anio 2024
     isbn ""
@@ -9723,7 +9724,6 @@ graph [
     subarea ""
     keywords "Optical properties; Two dimensional materials; Sensors; Energy; Infrared light"
     abstract "The article uses density-functional-theory calculations to compare the interaction of acetaminophen with pristine graphene, graphene oxide, and reduced graphene oxide. Changes in electronic and optical properties are analyzed to assess which graphene-based material is most promising for optical acetaminophen sensing."
-    indice 96
   ]
   node [
     id 1444
@@ -9754,6 +9754,7 @@ graph [
     label "articulo:97"
     tipo "articulo"
     nombre "Using exploratory modeling to challenge narratives of risk governance in Mexico City"
+    indice 97
     titulo "Using exploratory modeling to challenge narratives of risk governance in Mexico City"
     anio 2024
     isbn ""
@@ -9764,7 +9765,6 @@ graph [
     subarea ""
     keywords "Urban resilience; Multi-agent model; Decision-support; Flood risk; Water scarcity"
     abstract "Achieving more sustainable adaptation to social&#8211;environmental change demands the transformation of the narratives that provide the rationale for risk governance. These narratives often reflect long-standing beliefs about social and political relationships, ascribe actions and responsibilities, and specify solutions to risk. When such solutions are implemented through material investments in landscapes, these narratives become embedded in physical infrastructure with long legacies. Dominant narratives can mask a range of divergent problem framings. By masking alternatives, narratives can contribute to the persistence of unsustainable governance trajectories. Decision-support tools have begun to represent narratives as drivers of system dynamics; making narratives visible can reveal opportunities for more sustainable governance. We present the results of the project &#8220;The Dynamics of Multi-Scalar Adaptation in the Megalopolis&#8221;, a dynamic, exploratory model of socio-hydrological risks in Mexico City that was designed to both endogenize and simultaneously challenge the dominant narratives that characterize water-risk governance in the city. Qualitative data characterize dominant narratives at city and borough scales. An agent-based model, informed by multicriteria decision analysis and coupled with hydrological, urbanization, and climatic model inputs, permitted the development of exploratory governance scenarios designed to challenge dominant narratives. Scenarios revealed how dominant narratives may contribute to the persistence of vulnerability &#8220;hotspots&#8221; in the city, despite stated goals of equity and vulnerability alleviation. Participatory workshops with representatives of the city government illustrate how making such narratives visible through exploratory modeling can lead to a questioning of prior assumptions and causal relations, recognition of a need for intersectoral collaboration, and insights into potential management strategies."
-    indice 97
   ]
   node [
     id 1449
@@ -9801,6 +9801,7 @@ graph [
     label "articulo:98"
     tipo "articulo"
     nombre "Using monoids for the integration of genomic and metabolic parameters in the prediction of phenotypes in regulatory cascades"
+    indice 98
     titulo "Using monoids for the integration of genomic and metabolic parameters in the prediction of phenotypes in regulatory cascades"
     anio 2025
     isbn ""
@@ -9811,7 +9812,6 @@ graph [
     subarea ""
     keywords "Algebraic statistics; End-product inhibition; Power-law; Algorithms; Binding Sites; Gene Regulatory Networks; Genomics; Kinetics; Metabolic Networks and Pathways; Models, Biological; Models, Genetic; Phenotype; DNA; Enzyme activity; Inhibition; Numerical model; Arithmetic; Article; Binding site; Catalysis; DNA binding; Enzyme kinetics; Genotype; Metabolic parameters; Negative feedback; Prediction; Regulatory sequence; Algorithm; Biological model; Gene regulatory network; Genetics; Metabolism; Procedures"
     abstract "Molecular network modeling requires the use of mathematical and computational formalisms for a robust and accurate prediction of phenotypes. Furthermore, there is a need to extend these formalisms to be applied to large-scale molecular networks, thus helping in the understanding of biological complexity. In this work, we propose an extension of the modeling framework known as design principles, developed by M.A. Savageau, which is based on power-law modeling. While power-law modeling has proven valuable for understanding various properties of molecular networks, it does not allow for the inference of kinetic orders, which are typically associated with the number of binding sites present in molecules. We address this limitation by modifying the traditional approach to incorporate the use of monoids, thereby introducing a novel methodological framework we call Genotype Arithmetic. The resulting combinatorial object defines a family of geometric points, whose fixed points in the exponent space impose a set of constraints that determine the appropriate kinetic order to be used in the power law models. This feature enables a prediction of the binding strength and/or the number of DNA binding sites in regulatory sequences, as well as the reaction orders in enzymatic kinetics. To demonstrate the applicability of the present approach, we illustrated how the number of binding sites can be approximated in metabolic pathways formed by 3 to 9 reactions, in allosteric systems of end-product inhibition with intermediate catalytic reactions and one gene inhibition."
-    indice 98
   ]
   node [
     id 1455
@@ -9944,6 +9944,7 @@ graph [
     label "articulo:99"
     tipo "articulo"
     nombre "Verified propagation of imprecise probabilities in non-linear ODEs"
+    indice 99
     titulo "Verified propagation of imprecise probabilities in non-linear ODEs"
     anio 2024
     isbn ""
@@ -9954,7 +9955,6 @@ graph [
     subarea ""
     keywords "Automatically verified; Dynamical systems; Imprecise probabilities; P-boxes; Reachability analysis; Probability distributions; Reliability analysis; Initial state; Interval probability; Non linear; P-box; Probability bound analysis; Temporal evolution; Verification problems"
     abstract "We combine reachability analysis and probability bounds analysis, which allow for imprecisely known random variables (multivariate intervals or p-boxes) to be specified as the initial states of a dynamical system. In combination, the methods allow for the temporal evolution of p-boxes to be rigorously computed, and they give interval probabilities for formal verification problems, also called failure probability calculations in reliability analysis. The methodology places no constraints on the input probability distribution or p-box and can handle dependencies generally in the form of copulas. We also provide a consonant approximation method for multivariate p-boxes, which allows for the prediction sets of dynamical systems to be efficiently computed. The presented methodology is rigorous and automatically verified, as both the dynamics and uncertainties are represented and solved with guaranteed enclosures."
-    indice 99
   ]
   node [
     id 1477
@@ -10045,6 +10045,7 @@ graph [
     label "articulo:100"
     tipo "articulo"
     nombre "Warehouse Location and Distribution Planning Through Ramified Optimal Transport"
+    indice 100
     titulo "Warehouse Location and Distribution Planning Through Ramified Optimal Transport"
     anio 2025
     isbn ""
@@ -10055,7 +10056,6 @@ graph [
     subarea ""
     keywords "Ramified optimal transport; Heuristic algorithms; Non-parametric tests; Transport path; Transport plan; Supply chains; Costs; Computational efficiency; Routing; Real-time systems; Production facilities; Cement industry; Transport protocols; Cements; Optimization; Transportation routes; Warehouses; Distribution planning; Heuristics algorithm; Location planning; Nonparametric tests; Optimal transport; Realistic scenario; Warehouse location; Heuristic methods"
     abstract "This article introduces a novel approach to addressing supply chain and logistics challenges using ramified optimal transport. This framework provides a flexible and efficient means of modeling nonlinear and realistic scenarios within natural and complex transportation networks, particularly in real-time applications where route optimization is critical. The problem considered involves determining optimal warehouse locations and devising distribution strategies for delivering goods from suppliers to customers. To this end, we developed two new estimation algorithms and benchmarked them against traditional and heuristic methods. The proposed algorithms demonstrated competitive performance in solving supply chain and logistics problems, with one of them achieving the best results in terms of computational cost. Finally, the algorithms were applied to real-world data from the cement industry, successfully producing real-time optimal routes. This was made possible by the incorporation of a carefully designed distance function in the cost modeling."
-    indice 100
   ]
   node [
     id 1492
@@ -10176,6 +10176,7 @@ graph [
     label "articulo:101"
     tipo "articulo"
     nombre "3D Medical Image Analysis with Autoencoder-Based Feature Extraction and Shallow Models"
+    indice 101
     titulo "3D Medical Image Analysis with Autoencoder-Based Feature Extraction and Shallow Models"
     anio 2024
     isbn "978-1-5106-7314-4"
@@ -10186,7 +10187,6 @@ graph [
     subarea ""
     keywords "3D medical images; Autoencoders; Deep Learning; Multi-view learning; Classification (of information); Image analysis; Image classification; Learning systems; Medical imaging; 3D medical image; Auto encoders; Features extraction; Input image; Medical image analysis; Performance; Training time; Two-step approach; Deep neural networks; 3D medical imaging; Autoencoder; Feature extraction; Shallow models"
     abstract "Deep neural networks automatically extract features; however, in many cases, the features extracted by the classifier are biased by the classes during the training of the model. Analyzing 3D medical images can be challenging due to the high number of channels in the images, which require long training times when using complex deep models. To address this issue, we propose a two-step approach: (i) We train an autoencoder to reconstruct the input images using some channels in the volume. As a result, we obtain a hidden representation of the images. (ii) Shallow models are then trained with the hidden representation to classify the images using an ensemble of features. To validate the proposed method, we use 3D datasets from the MedMNIST archive. Our results show that the proposed model achieves similar or even better performance than ResNet models, despite having significantly fewer parameters (approximately 14,000 parameters)."
-    indice 101
   ]
   node [
     id 1512
@@ -10313,6 +10313,7 @@ graph [
     label "articulo:102"
     tipo "articulo"
     nombre "A Bayesian Machine Learning Model for Predicting Uncontrolled Type 2 Diabetes Mellitus"
+    indice 102
     titulo "A Bayesian Machine Learning Model for Predicting Uncontrolled Type 2 Diabetes Mellitus"
     anio 2024
     isbn "978-3-031-63615-8"
@@ -10323,7 +10324,6 @@ graph [
     subarea ""
     keywords "Data mining; Metabolic control in diabetes; Naive Bayes; Uncontrolled T2DM; Diagnosis; Forecasting; Machine learning; Metabolism; Patient treatment; Quality control; Bayesian; Chronic disease; Machine learning models; Metabolic control; Quality of life; Social problems; Type 2 diabetes mellitus; Uncontroled type 2 diabetes mellitu"
     abstract "Type 2 diabetes mellitus (T2DM) is a chronic disease with multiple causes that represents a health and social problem. In the early stages, it may not be symptomatic, and late diagnosis and inadequate management can lead to severe complications, such as vision loss, heart attack, kidney failure, and limb amputation. Those complications, that impact the quality of life and cause premature death in patients, are highly related to their T2DM being uncontrolled. Although there is evidence on the physiopathology of metabolic imbalance, little is known about the many potential external variables, such as socioeconomic status, lifestyle, health knowledge and beliefs and environmental influences that are related to hyperglycemia. Therefore, this study aims to use a simple machine learning model applied to a dataset generated from a highly multi-factorial, multi-disciplinary questionnaire applied to a group of diabetics to predict the profiles of those patients most likely, or at risk, of having uncontrolled T2DM. As a result of our research, we propose an exploratory framework which could help in evaluating and predicting complications related to inadequate management of T2DM. These insights indicate that, by providing clear information and adequate education, patients can be helped to understand the importance of adopting a holistic approach in managing diabetes, incorporating both pharmacological treatment and lifestyle changes. This will enable them to have greater control over their health and improve their long-term quality of life."
-    indice 102
   ]
   node [
     id 1533
@@ -10414,6 +10414,7 @@ graph [
     label "articulo:103"
     tipo "articulo"
     nombre "A Cooperative Multi Indicator-Based Ant Colony Optimization Algorithm for the MOGenConVRP"
+    indice 103
     titulo "A Cooperative Multi Indicator-Based Ant Colony Optimization Algorithm for the MOGenConVRP"
     anio 2024
     isbn "979-8-4007-0495-6"
@@ -10424,7 +10425,6 @@ graph [
     subarea ""
     keywords "ACO; Quality indicators; Approximated solutions; VRP; External archivers; Consensus algorithm; Evolutionary algorithms; Optimization algorithms; Pareto principle; Ant Colony Optimization algorithms; Diversity of solutions; External archiver; Multi objective; Multi-Objective Evolutionary Algorithm; Vehicle Routing Problems; Ant colony optimization"
     abstract "Using quality indicators to guide the search on multi-objective evolutionary algorithms (MOEAs) is one of the most prominent approaches. Since quality indicators incorporate the preferences on the Pareto approximation and diversity of solutions. Recently, there has been an interest in algorithms based on the cooperation of multiple indicators, mostly using MOEAs as a baseline. We propose the Cooperative Multi Indicator-Based Ant Colony Optimization algorithm (cMIBACO). A novel algorithm based on the cooperation of three quality indicators (hypervolume, epsilon+, R2) to improve the diversity and avoid premature convergence to a local optimum. This algorithm uses an external archive to obtain the set of approximated solutions. We tested the algorithm against indicator-based ACOs on several instances of the Multi-objective Generalized Consistent Vehicle Routing Problem (MOGenConVRP) and investigated for statistical significance. Our experimental results show that cMIBACO has competitive results to the state-of-the-art and opens the door for further research in this direction."
-    indice 103
   ]
   node [
     id 1548
@@ -10515,6 +10515,7 @@ graph [
     label "articulo:104"
     tipo "articulo"
     nombre "A data ensemble-based approach for detecting vocal disorders using replicated acoustic biomarkers from electroglottography"
+    indice 104
     titulo "A data ensemble-based approach for detecting vocal disorders using replicated acoustic biomarkers from electroglottography"
     anio 2025
     isbn ""
@@ -10525,7 +10526,6 @@ graph [
     subarea ""
     keywords "Biomarker; Classification; Electroglottography; Ensemble methods; Voice disorders"
     abstract "Introduction: The relevant prevalence of voice-related pathologies underscores the need for robust computer-aided diagnostic (CAD) systems capable of supporting early detection and continuous monitoring. Electroglottography (EGG), a non-invasive technique measuring vocal fold contact area, has proven valuable in identifying and diagnosing vocal disorders. Problem statement: Traditional diagnostic methods struggle with the dependent nature of EGG measurements within subjects, leading to challenges in managing within-subject variability and supporting multi-class classification. Objectives: This study aims to design, implement, and evaluate two ensemble-based approaches that address the dependency in EGG measurements. The goal is to enhance the detection of vocal disorders by managing within-subject variability and facilitating multi-class classification. Methods: The proposed methods utilize replicated acoustic biomarkers derived from EGG signals. Simulation-based experiments were conducted to assess the robustness and effectiveness of these methods. Additionally, experiments were performed using EGG signals from the Saarbr&#252;ecken Voice Database (SVD). Results: Simulation results indicate that integrating replicated data improves accuracy rates compared to non-replicated models. Experiments on SVD demonstrated the robustness of the proposed methodology across different vowels in classifying healthy individuals, patients with laryngitis, and those with vocal fold paralysis. Conclusion: The data ensemble-based approaches developed effectively manage the dependent nature of EGG measurements, enhancing the detection and classification of vocal disorders. These methods can be applied to other data types where replications play a key role. Future research should focus on collecting comprehensive EGG databases and further exploring multi-class classification methods to solidify EGG and machine learning as a valuable tool for non-invasive assessment of laryngeal function."
-    indice 104
   ]
   node [
     id 1563
@@ -10562,6 +10562,7 @@ graph [
     label "articulo:105"
     tipo "articulo"
     nombre "A Deep (Learning) Dive Into Bacterial Classification"
+    indice 105
     titulo "A Deep (Learning) Dive Into Bacterial Classification"
     anio 2024
     isbn "978-1-5106-7314-4"
@@ -10572,7 +10573,6 @@ graph [
     subarea ""
     keywords "Bacteria; Deep neural networks; Acquisition systems; Actinomyces; Bacterial classifications; Data base; Deep learning; Ensemble; Gram-staining; Image processing - methods; Neural-networks; Sample preparation; Antibacterial activity; Biotechnology; Deep learning (artificial intelligence); Image classification; Microorganisms; Pattern classification; Adaptation techniques; Bacteria classifiers; Bacterial classification; Brightfield microscopy; Broad context; Deep dive; Domain generalization; Image characteristics; Learning; Classification; Microscopy"
     abstract "Most bacteria classifiers created by neural networks and/or image processing methods are unable to generalize when used with different data bases of images acquired with the same type of acquisition systems, even if the sample preparation is similar. In this work, we introduce an ensemble of deep neural networks designed for the classification of bacteria in a broad context. We use a dataset comprising Actinomyces, Escherichia, Staphylococcus, Lactobacillus, and Micrococcus bacteria with Gram staining, which was acquired through brightfield microscopy from various sources. To normalize diversity of image characteristics, we applied domain generalization and adaptation techniques. Subsequently, we used phenotypic characteristics, such as the color reaction to Gram staining and morphology, to classify the bacteria."
-    indice 105
   ]
   node [
     id 1569
@@ -10729,6 +10729,7 @@ graph [
     label "articulo:106"
     tipo "articulo"
     nombre "A Framework for Dynamic User Modeling Integrating Data Stream Mining and Process Mining in Educational Contexts"
+    indice 106
     titulo "A Framework for Dynamic User Modeling Integrating Data Stream Mining and Process Mining in Educational Contexts"
     anio 2025
     isbn ""
@@ -10739,7 +10740,6 @@ graph [
     subarea ""
     keywords "Clustering data stream mining; Dynamic user modeling; Educational data mining; Learning styles; Process mining; Behavioral research; Data mining; Data streams; Federated learning; Learning algorithms; Learning systems; Students; Teaching; Clustering data; Data streams mining; Educational context; Learning management system; Learningstyles; User Modelling; Decision making; Adaptation models; Data models; Computational modeling; Context modeling; Time division multiplexing; Heuristic algorithms; Visualization; Sensors; Clustering algorithms"
     abstract "A user model (UM) is a representation of the characteristics, behaviors, and preferences of a user that a computer system utilizes to provide the user with personalized experiences. In educational settings, for instance, a system can use information about the Learning Styles (LSs) of a student to provide them with adequate study materials. Furthermore, with the growing use of Learning Management System (LMS) platforms, such as Moodle, continuous streams of user data highlight the need to compute student models dynamically to support adaptive decision-making in teaching and learning. This paper introduces a framework for Dynamic User Modeling (DUMING) to create evolving Dynamic User Models (DUMs) that capture and adapt to changes in student LSs over time, based on event log streams from an LMS. This framework leverages the Felder and Silverman Learning Styles Model (FSLSM) and integrates Data Stream Mining (DSM) and Process Mining (PM) techniques across three layers: collection, preprocessing, and mining. Collected event streams are processed within landmark windows and classified into High-Level Events (HLEs) based on LMS functionality. The STREAMKMeans algorithm clusters events, and the PM phase uses Alpha Miner (AM), Heuristic Miner (HM), and Inductive Miner (IM) algorithms to identify learning paths represented as Petri Nets (PNs), with IM showing the highest values in the quality metrics used. Implemented and evaluated in a course using Moodle at the Universidad Veracruzana in Mexico, the framework employs IF-THEN rules to relate HLE proportions to FSLSM-based LSs, visualizing changes through radar charts. The results demonstrate the effectiveness of the framework in generating adaptive DUMs, providing insights that enhance over time educational support and enable timely interventions."
-    indice 106
   ]
   node [
     id 1595
@@ -10872,6 +10872,7 @@ graph [
     label "articulo:107"
     tipo "articulo"
     nombre "A Fuzzy Logic Technique for the Environmental Impact Assessment of Marine Renewable Energy Power Plants"
+    indice 107
     titulo "A Fuzzy Logic Technique for the Environmental Impact Assessment of Marine Renewable Energy Power Plants"
     anio 2025
     isbn ""
@@ -10882,7 +10883,6 @@ graph [
     subarea ""
     keywords "Decision making; Environmental factors; Environmental management; Fuzzy logic; Fuzzy set theory; Renewable energy sources; Sustainable development; Wave power generation; Complex environmental systems; Effective environmental management; EIA; Enhancing decision-making accuracy; Environmental impact assessment; Fuzzy logic methodology approach; Fuzzy logic technique; Fuzzy methodology; Fuzzy mythologies; Linguistic levels; Marine energy conversion projects; Marine energy project; Marine environments; Marine renewable energy contexts; Marine renewable energy power plants; Ocean energy devices; Ocean renewable energy projects; Predicting environmental impacts; Qualitative assessments; Subjectivities; Traditional mythologies; Uncertainties"
     abstract "The application of fuzzy logic to environmental impact assessment (EIA) provides a robust method to address uncertainties and subjectivities inherent in evaluating complex environmental systems. This is particularly relevant in ocean renewable energy projects, where predicting environmental impacts is challenging due to the dynamic nature of marine environments. We conducted a comprehensive literature review to identify the types of impacts currently being investigated, assessed, and monitored in existing marine energy conversion projects. Based on these foundations, we developed both traditional and fuzzy mythologies for EIA. The fuzzy logic methodology approach allows for the incorporation of uncertainties into the assessment process, converting qualitative assessments into quantifiable data and linguistic levels and enhancing decision-making accuracy. We tested this fuzzy methodology across four types of ocean energy devices: floating, submerged, fixed to the ocean floor, and onshore. Finally, we applied the methodology to the EIA of a marine energy project in the Cozumel Channel, Quintana Roo, Mexico. The results demonstrate that fuzzy logic provides a more flexible and reliable evaluation of environmental impacts, contributing to more effective environmental management and sustainable development in marine renewable energy contexts."
-    indice 107
   ]
   node [
     id 1617
@@ -11057,6 +11057,7 @@ graph [
     label "articulo:108"
     tipo "articulo"
     nombre "A hybrid method for fusion cardiac biomarkers and echocardiography videos in the experimental classification of Trypanosoma cruzi infection"
+    indice 108
     titulo "A hybrid method for fusion cardiac biomarkers and echocardiography videos in the experimental classification of Trypanosoma cruzi infection"
     anio 2025
     isbn ""
@@ -11067,7 +11068,6 @@ graph [
     subarea ""
     keywords "Chagas disease; Multimodal fusion; Echocardiography; Machine learning; Deep learning"
     abstract "The study proposes a late multimodal-fusion method that combines machine-learning models trained on cardiac biomarkers with deep-learning models trained on echocardiography videos. In an experimental Trypanosoma cruzi model, the combined approach improves classification of infected and healthy individuals."
-    indice 108
   ]
   node [
     id 1646
@@ -11092,6 +11092,7 @@ graph [
     label "articulo:109"
     tipo "articulo"
     nombre "A Literature Review and Critical Analysis of Metaheuristics Recently Developed"
+    indice 109
     titulo "A Literature Review and Critical Analysis of Metaheuristics Recently Developed"
     anio 2024
     isbn ""
@@ -11102,7 +11103,6 @@ graph [
     subarea ""
     keywords "Heuristic algorithms; Critical analysis; Exponential increase; Literature reviews; Meta-heuristics algorithms; Metaheuristic; Multiple issue; Natural process; Optimisations; Optimization problems; Physical process; Optimization"
     abstract "Metaheuristic algorithms have applicability in various fields where it is necessary to solve optimization problems. It has been a common practice in this field for several years to propose new algorithms that take inspiration from various natural and physical processes. The exponential increase of new algorithms is a controversial issue that several researchers have criticized. However, their efforts to point out multiple issues involved in these practices have been insufficient since the number of existing metaheuristics continues to increase yearly. To know the current state of this problem, this paper analyzes a sample of 111 recent studies where so-called new, hybrid, or improved optimization algorithms are proposed. Throughout the document, the topics reviewed will be addressed from a general perspective to their specific aspects. Among the study&#8217;s findings, it is observed that only 43% of the analyzed papers make some mention of the No Free Lunch (NFL) theorem, being this significant result ignored by most of the studies where new algorithms are presented. Of the analyzed studies, 65% present an improved version of some established algorithm, which reveals that the trend is no longer to propose metaheuristics based on new analogies. Additionally, a compilation of solutions found in engineering problems commonly used to verify the performance of state-of-the-art algorithms is presented. To demonstrate that algorithms with a low level of innovation can be erroneously considered as new frameworks for years, the metaheuristics known as Black Widow Optimization and Coral Reef Optimization are analyzed. The study of its components reveals that they do not have any innovation. Instead, they are just deficient mixtures of different evolutionary operators. This result applies by extension to their recently proposed improved versions."
-    indice 109
   ]
   node [
     id 1650
@@ -11157,6 +11157,7 @@ graph [
     label "articulo:110"
     tipo "articulo"
     nombre "A machine learning approach for the design optimization of a multiple magnetic and inertial sensors wearable system for the spine mobility assessment"
+    indice 110
     titulo "A machine learning approach for the design optimization of a multiple magnetic and inertial sensors wearable system for the spine mobility assessment"
     anio 2024
     isbn ""
@@ -11167,7 +11168,6 @@ graph [
     subarea ""
     keywords "Inertial measurement units; Spine; Biomechanics; Machine learning; Musculoskeletal Disorders"
     abstract "The study uses machine-learning classifiers and wrapper-based feature selection to optimize the number and placement of magnetic and inertial measurement units in a wearable system for spine-mobility assessment. Data from multiple sensors and body postures are analyzed to identify reduced sensor configurations that preserve high classification performance."
-    indice 110
   ]
   node [
     id 1659
@@ -11198,6 +11198,7 @@ graph [
     label "articulo:111"
     tipo "articulo"
     nombre "A machine learning-based analytical intelligence system for forecasting demand of new products based on chlorophyll: a hybrid approach"
+    indice 111
     titulo "A machine learning-based analytical intelligence system for forecasting demand of new products based on chlorophyll: a hybrid approach"
     anio 2024
     isbn ""
@@ -11208,7 +11209,6 @@ graph [
     subarea ""
     keywords "ARIMA; Forecasting; LSTM; Machine learning; Neural networks; RNN; SVM; Chlorophyll; Deep neural networks; Food products; Learning systems; Long short-term memory; Support vector machines; Time series; Analytical intelligences; ARIMA models; Best model; Intelligence systems; Support vectors machine; Times series"
     abstract "This manuscript addresses the problem of forecasting the demand for innovative products with limited and inhomogeneous sales data over time. The main objective of the study is to use the information available from a group of innovative chlorophyll-based food products to build a coherent demand forecasting system. From a transactional database, time series were constructed for each group of products, analyzing the stationarity and seasonality of the time series through the Dickey&#8211;Fuller and Canova&#8211;Hansen tests. Likewise, an ARIMA model, a long short-term memory (LSTM) recurrent deep neural network, and a support vector machine (SVM) were trained to select the best model for each product based on a forecast performance metric. A comparison between classical forecasting techniques and machine learning models is shown. The LSTM neural network was the best model for most products because the internal architecture of the network allows not only to capture non-linear relationships between variables but is also capable of controlling the flow of information to preserve characteristics over time that are relevant for forecasts. The second-best model was the SVM, which allows capturing non-linear behaviors through kernel functions and uses a smaller amount of data for its estimation. Finally, the ARIMA model presented the lowest performance for all products. The objective of having various methodologies is that the system allows the best forecast to be selected according to the type of product, availability of information and methodology used, which will allow the company to integrate new products into the system over time."
-    indice 111
   ]
   node [
     id 1664
@@ -11293,6 +11293,7 @@ graph [
     label "articulo:112"
     tipo "articulo"
     nombre "A machine-learning approach for predicting butyrate production by microbial consortia using metabolic network information"
+    indice 112
     titulo "A machine-learning approach for predicting butyrate production by microbial consortia using metabolic network information"
     anio 2025
     isbn ""
@@ -11303,7 +11304,6 @@ graph [
     subarea ""
     keywords "Microbial consortia; Machine learning; Butyrate production; Metabolic network"
     abstract "The study combines machine learning with automatically generated genome-scale metabolic models to predict butyrate production by microbial consortia. Features derived from consortium composition and metabolic-network information are used to learn relationships between community structure and predicted production, providing a computational strategy for screening candidate microbial combinations."
-    indice 112
   ]
   node [
     id 1678
@@ -11328,6 +11328,7 @@ graph [
     label "articulo:113"
     tipo "articulo"
     nombre "A Measure for Transparent Comparison of Linguistic Diversity in Multilingual NLP Data Sets"
+    indice 113
     titulo "A Measure for Transparent Comparison of Linguistic Diversity in Multilingual NLP Data Sets"
     anio 2024
     isbn "979-8-89176-119-3"
@@ -11338,7 +11339,6 @@ graph [
     subarea ""
     keywords "Computational linguistics; Data base; Data set; Data sparsity; Jaccard index; Linguistic diversity; Linguistic features; Sets of features; Text-based measures; Natural language processing systems"
     abstract "Typologically diverse benchmarks are increasingly created to track the progress achieved in multilingual NLP. Linguistic diversity of these data sets is typically measured as the number of languages or language families included in the sample, but such measures do not consider structural properties of the included languages. In this paper, we propose assessing linguistic diversity of a data set against a reference language sample as a means of maximising linguistic diversity in the long run. We represent languages as sets of features and apply a version of the Jaccard index (Jmm) suitable for comparing sets of measures. In addition to the features extracted from typological data bases, we propose an automatic text-based measure, which can be used as a means of overcoming the well-known problem of data sparsity in manually collected features. Our diversity score is interpretable in terms of linguistic features and can identify the types of languages that are not represented in a data set. Using our method, we analyse a range of popular multilingual data sets (UD, Bible100, mBERT, XTREME, XGLUE, XNLI, XCOPA, TyDiQA, XQuAD). In addition to ranking these data sets, we find, for example, that (poly)synthetic languages are missing in almost all of them."
-    indice 113
   ]
   node [
     id 1682
@@ -11393,6 +11393,7 @@ graph [
     label "articulo:114"
     tipo "articulo"
     nombre "A Novel Methodology for Data Augmentation in Cognitive Impairment Subjects Using Semantic and Pragmatic Features Through Large Language Models"
+    indice 114
     titulo "A Novel Methodology for Data Augmentation in Cognitive Impairment Subjects Using Semantic and Pragmatic Features Through Large Language Models"
     anio 2025
     isbn ""
@@ -11403,7 +11404,6 @@ graph [
     subarea ""
     keywords "Cognition; Data augmentation; Large language models; Medical diagnostic computing; Neurophysiology; Patient diagnosis; Pattern classification; Text analysis; Classification; Cognitive impairment subjects; F1-score; Language impairment; Machine learning models; Neuropsychological tests; Pitt Corpus database; Pragmatic features; Text augmentation; Text data; Unbalanced data; Cognitive impairment; Low-resource scenarios; Memory impairment; Pitt Corpus; Artificial intelligence; Classification (of information); Computational linguistics; Database systems; Human rehabilitation engineering; Learning systems; Terminology; Text processing; Language model; Low-resource scenario; Novel methodology; Semantics"
     abstract "In recent years, researchers have become increasingly interested in identifying traits of cognitive impairment using audio from neuropsychological tests. Unfortunately, there is no universally accepted terminology system that can be used to describe language impairment, and considerable variability exists between clinicians, making detection particularly challenging. Furthermore, databases commonly used by the scientific community present sparse or unbalanced data, which hinders the optimal performance of machine learning models. Therefore, this study aims to test a new methodology for augmenting text data from neuropsychological tests in the Pitt Corpus database to increase classification and interpretability results. The proposed method involves augmenting text data with symptoms commonly present in subjects with cognitive impairment. This innovative approach has enabled us to differentiate between two groups in the database better than widely used text augmentation techniques. The proposed method yielded an increase in the metrics, achieving 0.8742 accuracy, 0.8744 F1-score, 0.8736 precision, and 0.8781 recall. It is shown that implementing large language models with commonly observed symptoms in the language of patients with cognitive impairment in text augmentation can improve the results in low-resource scenarios."
-    indice 114
   ]
   node [
     id 1691
@@ -11572,6 +11572,7 @@ graph [
     label "articulo:115"
     tipo "articulo"
     nombre "A Novel Proposal in Wind Turbine Blade Failure Detection: An Integrated Approach to Energy Efficiency and Sustainability"
+    indice 115
     titulo "A Novel Proposal in Wind Turbine Blade Failure Detection: An Integrated Approach to Energy Efficiency and Sustainability"
     anio 2024
     isbn ""
@@ -11582,7 +11583,6 @@ graph [
     subarea ""
     keywords "Artificial intelligence; Blade failures; Energy; Orange Data Mining; Sustainability; Wind turbine; Decision trees; Turbine components; Turbomachine blades; Wind power integration; Blade failure; Clusterings; Computational learning; Failure detection; Integrated approach; Learning techniques; Turbine blade failures; Wind turbine blades"
     abstract "This paper presents a novel methodology for detecting faults in wind turbine blades using computational learning techniques. The study evaluates two models: the first employs logistic regression, which outperformed neural networks, decision trees, and the naive Bayes method, demonstrating its effectiveness in identifying fault-related patterns. The second model leverages clustering and achieves superior performance in terms of precision and data segmentation. The results indicate that clustering may better capture the underlying data characteristics compared to supervised methods. The proposed methodology offers a new approach to early fault detection in wind turbine blades, highlighting the potential of integrating different computational learning techniques to enhance system reliability. The use of accessible tools like Orange Data Mining underscores the practical application of these advanced solutions within the wind energy sector. Future work will focus on combining these methods to improve detection accuracy further and extend the application of these techniques to other critical components in energy infrastructure."
-    indice 115
   ]
   node [
     id 1719
@@ -11673,6 +11673,7 @@ graph [
     label "articulo:116"
     tipo "articulo"
     nombre "A R2 Based Multi-objective Reinforcement Learning Algorithm"
+    indice 116
     titulo "A R2 Based Multi-objective Reinforcement Learning Algorithm"
     anio 2025
     isbn "978-3-031-75622-1; 978-3-031-75623-8"
@@ -11683,7 +11684,6 @@ graph [
     subarea ""
     keywords "Contrastive Learning; Adversarial machine learning; Consensus algorithm; Deep reinforcement learning; Federated learning; Optimization algorithms; Conflicting objectives; Learning community; Learning problem; Multi objective; Multi-objective reinforcement learning; Performance indicators; R2 indicator; Real-world problem; Reinforcement learning algorithms; Reinforcement learnings"
     abstract "In many real-world problems, one faces the problem of having to make decisions considering several conflicting objectives. In such problems, the solution is a set of policies rather than a single one. This leads to multi-objective reinforcement learning problems (MORL) which have not received much attention until recent years by the reinforcement learning community. In this work, we propose coupling the R2 indicator with Pareto Q-learning. The R2 indicator has been successfully used for multi-objective optimization problems making it a good candidate for MORL. We tested our approach on several problems from MO Gymnasium and compared it with HB-MORL, which uses the hypervolume indicator. Our preliminary results show that the novel algorithm obtains competitive results and that could be an interesting alternative when dealing with MORL problems."
-    indice 116
   ]
   node [
     id 1734
@@ -11756,6 +11756,7 @@ graph [
     label "articulo:117"
     tipo "articulo"
     nombre "A retrieval-augmented-generation pipeline to help users query system-provided documentation"
+    indice 117
     titulo "A retrieval-augmented-generation pipeline to help users query system-provided documentation"
     anio 2025
     isbn ""
@@ -11766,7 +11767,6 @@ graph [
     subarea ""
     keywords "RAG; LLM; Retrieval Augmented Generation; Manual page; Manpage; Debian"
     abstract "A retrieval-augmented-generation pipeline is proposed to let users ask natural-language questions over system-provided Debian documentation. Manual pages are segmented and embedded for dense retrieval, and the retrieved material is supplied to a language model for answer generation, with the goal of improving discovery and comprehension of technical documentation while grounding answers in local reference material."
-    indice 117
   ]
   node [
     id 1746
@@ -11809,6 +11809,7 @@ graph [
     label "articulo:118"
     tipo "articulo"
     nombre "A similarity Based Algorithm for Predicting Academic Success in First-year Undergraduates"
+    indice 118
     titulo "A similarity Based Algorithm for Predicting Academic Success in First-year Undergraduates"
     anio 2025
     isbn ""
@@ -11819,7 +11820,6 @@ graph [
     subarea ""
     keywords "Machine Learning; Academic Achievement; Scholar Dropout; Learning Analytics"
     abstract "According to the European Commission, &#8220;Early school leaving is linked to unemployment, social exclusion, poverty, and poor health&#8221; (European Commission, 2024). Due to the importance of reducing school drop-out rates, several authors have analyzed this phenomenon. Before the boom of Artificial Intelligence, instead of using or implementing programming methods, researchers applied written formulas and rudimentary graphical visualizations to predict academic completion and the main factors behind it; besides, the development of Machine Learning (ML) algorithms has enhanced the precision and performance of an ample variety of investigations including the educational field. In this paper, we use a dataset of undergraduate-level students at the Universidad Nacional Aut&#243;noma de Mexico (UNAM) to predict timely academic completion. We use seven common ML algorithms and propose a novel algorithm based on students' similarities according to the most relevant features in common. This algorithm shows a higher precision than some traditional categorical ML algorithms. This innovative way to predict academic success can support educators, pedagogues, and policymakers make better decisions at UNAM."
-    indice 118
   ]
   node [
     id 1753
@@ -11844,6 +11844,7 @@ graph [
     label "articulo:119"
     tipo "articulo"
     nombre "A transdisciplinary view on curiosity beyond linguistic humans: animals, infants, and artificial intelligence"
+    indice 119
     titulo "A transdisciplinary view on curiosity beyond linguistic humans: animals, infants, and artificial intelligence"
     anio 2024
     isbn ""
@@ -11854,7 +11855,6 @@ graph [
     subarea ""
     keywords "Curiosity; Animal behaviour; Infant; Artificial intelligence"
     abstract "This transdisciplinary review compares curiosity in nonverbal animals, preverbal infants and artificial agents. It discusses ways to operationalize and quantify curiosity across biological and artificial systems, seeking common principles that can support more unified theories of exploratory behavior and inform the design of curiosity-driven artificial intelligence."
-    indice 119
   ]
   node [
     id 1757
@@ -11879,6 +11879,7 @@ graph [
     label "articulo:120"
     tipo "articulo"
     nombre "Advanced Algorithm Combinations for Safe Human-Robot Collaboration: A Review and Research Proposal"
+    indice 120
     titulo "Advanced Algorithm Combinations for Safe Human-Robot Collaboration: A Review and Research Proposal"
     anio 2025
     isbn ""
@@ -11889,7 +11890,6 @@ graph [
     subarea ""
     keywords "Collaborative robotics; Graph-CNN; Human-robot interaction; Multimodal transformers; Reinforcement learning; Collaborative robots; Ergonomics; Graph algorithms; Human computer interaction; Intelligent robots; Man machine systems; Actor critic; Algorithm combinations; Convolutional neural network; Human-robot collaboration; Humans-robot interactions; Multi-modal; Multimodal transformer; Reinforcement learnings; Research proposals; Constrained optimization"
     abstract "This paper presents a proposal for integrating Graph Convolutional Neural Network (Graph-CNN), Multimodal Transformer, Soft Actor-Critic with Reward Constrained Policy Optimisation (SAC-RCPO), and TactileGAN algorithms, which are used in human-robot collaboration. This integration addresses challenges such as adaptability, safety, intention recognition, and precise manipulation in dynamic environments. The central hypothesis is that the combination of these algorithms could lead to improvements in manipulation accuracy, collision avoidance, and training efficiency. The methodology evaluates this combination in simulated and controlled laboratory environments that replicate industrial situations. This work considers the human dimension of collaboration, emphasising the importance of interaction, user trust, and ergonomic integration. It also recognises the ethical implications related to safety, transparency, and the responsible implementation of Artificial Intelligence (AI) systems in shared workspaces. The proposed framework has potential applications in the manufacturing, healthcare, and service sectors, aiming to drive the practical adoption of safe and efficient collaborative robots."
-    indice 120
   ]
   node [
     id 1761
@@ -12010,6 +12010,7 @@ graph [
     label "articulo:121"
     tipo "articulo"
     nombre "Advancing mechanistic explanations through natural and artificial embodied cognitive systems"
+    indice 121
     titulo "Advancing mechanistic explanations through natural and artificial embodied cognitive systems"
     anio 2024
     isbn ""
@@ -12020,7 +12021,6 @@ graph [
     subarea ""
     keywords "Artificial embodied systems; Artificial intelligence; Cognitive ontology; Degeneracy; Embodied cognition; Neuronal reuse"
     abstract "This commentary argues that mechanistic explanations of cognition should treat brain, body and environment as an integrated embodied system. It brings together ideas from cognitive ontology, degeneracy and neuronal reuse, and proposes that artificial embodied systems can serve as experimental tools for testing and refining explanations of natural cognition."
-    indice 121
   ]
   node [
     id 1781
@@ -12057,6 +12057,7 @@ graph [
     label "articulo:122"
     tipo "articulo"
     nombre "AI as an element to overcome creative fixation in design teams"
+    indice 122
     titulo "AI as an element to overcome creative fixation in design teams"
     anio 2025
     isbn ""
@@ -12067,7 +12068,6 @@ graph [
     subarea ""
     keywords "Artificial intelligence; Creativity; Early design phases; Fixation; Teamwork; Design; Personnel; Creatives; Design team; Design-process; Early design phasis; Initial problem; Problem framings; Team dynamics"
     abstract "The aim of this research is to analyze the potential of Generative Artificial Intelligence (GenAI) to support the design process and overcome creative fixation in teams during the initial problem framing, ideation and concept exploration stage. Fixation is a common problem in design, and can be exacerbated during collaborative work due to diverse issues such as team dynamics or perceived hierarchy. Current research is exploring whether AI can help teams overcome this problem or on the contrary, might actually contribute to it. Through a creative ideation workshop with design students, we investigate how AI influences team dynamics as well as the creative results. We propose a conceptual model to work with AI in a team setting."
-    indice 122
   ]
   node [
     id 1787
@@ -12152,6 +12152,7 @@ graph [
     label "articulo:123"
     tipo "articulo"
     nombre "AlzyFinder: A Machine-Learning-Driven Platform for Ligand-Based Virtual Screening and Network Pharmacology"
+    indice 123
     titulo "AlzyFinder: A Machine-Learning-Driven Platform for Ligand-Based Virtual Screening and Network Pharmacology"
     anio 2024
     isbn ""
@@ -12162,7 +12163,6 @@ graph [
     subarea ""
     keywords "Alzheimer Disease; Drug Discovery; Drug Evaluation, Preclinical; Humans; Ligands; Machine Learning; Network Pharmacology; User-Computer Interface; Arthroplasty; Diagnosis; Drug delivery; Drug interactions; Emotional intelligence; Gas chromatography; Image retrieval; Liquid chromatography; Neurodegenerative diseases; Photomapping; Ligand; Active compounds; Alzheimer; Drug development; Innovative approaches; Network pharmacologies; Neurodegenerative disorders; Pathophysiology; Virtual networks; Virtual Screening; Computer interface; Drug therapy; Human; Metabolism; Preclinical study; Procedures; Systems pharmacology"
     abstract "Alzheimer&#8217;s disease (AD), a prevalent neurodegenerative disorder, presents significant challenges in drug development due to its multifactorial nature and complex pathophysiology. The AlzyFinder Platform, introduced in this study, addresses these challenges by providing a comprehensive, free web-based tool for parallel ligand-based virtual screening and network pharmacology, specifically targeting over 85 key proteins implicated in AD. This innovative approach is designed to enhance the identification and analysis of potential multitarget ligands, thereby accelerating the development of effective therapeutic strategies against AD. AlzyFinder Platform incorporates machine learning models to facilitate the ligand-based virtual screening process. These models, built with the XGBoost algorithm and optimized through Optuna, were meticulously trained and validated using robust methodologies to ensure high predictive accuracy. Validation included extensive testing with active, inactive, and decoy molecules, demonstrating the platform&#8217;s efficacy in distinguishing active compounds. The models are evaluated based on balanced accuracy, precision, and F1 score metrics. A unique soft-voting ensemble approach is utilized to refine the classification process, integrating the strengths of individual models. This methodological framework enables a comprehensive analysis of interaction data, which is presented in multiple formats such as tables, heat maps, and interactive Ligand-Protein Interaction networks, thus enhancing the visualization and analysis of drug-protein interactions. AlzyFinder was applied to screen five molecules recently reported (and not used to train or validate the ML models) as active compounds against five key AD targets. The platform demonstrated its efficacy by accurately predicting all five molecules as true positives with a probability greater than 0.70. This result underscores the platform&#8217;s capability in identifying potential therapeutic compounds with high precision. In conclusion, AlzyFinder&#8217;s innovative approach extends beyond traditional virtual screening by incorporating network pharmacology analysis, thus providing insights into the systemic actions of drug candidates. This feature allows for the exploration of ligand-protein and protein-protein interactions and their extensions, offering a comprehensive view of potential therapeutic impacts. As the first open-access platform of its kind, AlzyFinder stands as a valuable resource for the AD research community, available at http://www.alzyfinder-platform.udec.cl with supporting data and scripts accessible via GitHub https://github.com/ramirezlab/AlzyFinder."
-    indice 123
   ]
   node [
     id 1801
@@ -12331,6 +12331,7 @@ graph [
     label "articulo:124"
     tipo "articulo"
     nombre "An Evolutionary Approach for the Computation of &#8712;-Locally Optimal Solutions for Multi-Objective Multimodal Optimization"
+    indice 124
     titulo "An Evolutionary Approach for the Computation of &#8712;-Locally Optimal Solutions for Multi-Objective Multimodal Optimization"
     anio 2025
     isbn ""
@@ -12341,7 +12342,6 @@ graph [
     subarea ""
     keywords "Multi-objective optimization; Evolutionary algorithms; Nearly optimal solutions; Multimodal optimization; Archiving; Continuation; Optimization; Evolutionary computation; Hands; Proposals; Convergence; Computational efficiency; Artificial intelligence; Accuracy; Approximation algorithms; Aerospace electronics; Multiobjective optimization; Optimal systems; Evolutionary approach; Finite size; Multi objective; Multi-modal optimization; Multi-Objective Evolutionary Algorithm; Multi-objectives optimization; Nearly optimal solution; Optimal solutions"
     abstract "In this paper, we address the problem of efficiently computing finite-size approximations of the set of -locally optimal solutions of a given multi-objective optimization problem (MOP). Such sets are in particular interesting in the context of multi-objective multimodal optimization (MMO). To this end, we first propose a bounded archiver, ArchiveUpdateLQ,&#8712;B, that is, a modification of a previously proposed unbounded archiver. These archivers can be used as external archivers to in principle any multi-objective evolutionary algorithm (MOEA). In order to reduce the computational cost compared to such archive equipped MOEAs, we propose, in a next step LQ,&#8712;MOEA. This evolutionary algorithm directly uses ArchiveUpdateLQ,&#8712;B for the selection process and hence does not need an external archive for the computation of &#8712;-locally optimal solutions. We further propose a hybrid of LQ,&#8712;MOEA with a multi-objective continuation method, which significantly improves the accuracy of the obtained solutions in case the gradient information is at hand. Finally, we show some numerical results that demonstrate the benefit of both the bounded archiver and the new MOEAs."
-    indice 124
   ]
   node [
     id 1829
@@ -12450,6 +12450,7 @@ graph [
     label "articulo:125"
     tipo "articulo"
     nombre "An Intelligent Method for Day-Ahead Regional Load Demand Forecasting via Machine-Learning Analysis of Energy Consumption Patterns Across Daily, Weekly, and Annual Scales"
+    indice 125
     titulo "An Intelligent Method for Day-Ahead Regional Load Demand Forecasting via Machine-Learning Analysis of Energy Consumption Patterns Across Daily, Weekly, and Annual Scales"
     anio 2025
     isbn ""
@@ -12460,7 +12461,6 @@ graph [
     subarea ""
     keywords "Clustering; Day-ahead forecasting; Hourly electrical load forecasting; K-means; LSTM NN; Seasonality; Similar days; Information management; K-means clustering; Strategic planning; Clusterings; Day-ahead; Electrical load forecasting; Long short-term memory neural network; Neural-networks; Short term memory; Similar day; Electric load forecasting"
     abstract "Electric power load forecasting is essential for the efficient operation and strategic planning of utilities. Decisions regarding the electric market, power generation, load management, and infrastructure development all rely on accurate load predictions. This work presents a novel methodology for day-ahead load forecasting. The approach employs a long short-term memory neural network (LSTM NN) trained on representative load and meteorological data from the region. Before training, the load dataset is grouped by its statistical seasonality through K-means clustering analysis. Clustering load demand, along with similar-day data management, enables more focused training of the LSTM network on uniform data subsets, enhancing the model&#8217;s ability to capture temporal patterns and reducing the complexity associated with high variability in demand data. A case study using hourly load demand time-series data provided by the Centro Nacional de Control de Energ&#237;a (CENACE) is analyzed, and the mean absolute percentage error (MAPE) is calculated, showing lower MAPE than traditional methods. This hybrid approach demonstrates the potential of integrating clustering techniques with neural networks and representative meteorological data from the region to achieve more reliable and accurate regional day-ahead load forecasting."
-    indice 125
   ]
   node [
     id 1847
@@ -12545,6 +12545,7 @@ graph [
     label "articulo:126"
     tipo "articulo"
     nombre "Analysis of Long-Term Player Action Prediction Performance Based on Causal Modelling in Rugby League"
+    indice 126
     titulo "Analysis of Long-Term Player Action Prediction Performance Based on Causal Modelling in Rugby League"
     anio 2025
     isbn "978-3-032-07342-6; 978-3-032-07343-3"
@@ -12555,7 +12556,6 @@ graph [
     subarea ""
     keywords "Causal modeling; Action prediction; Rugby league; Graph Neural Networks (GNNs); Sports analytics"
     abstract "The conference paper studies long-term player-action prediction in Rugby League by combining causal behavior modeling with graph neural networks. It evaluates performance over extended video sequences and varying observation windows, reporting that causal structure improves long-range prediction and that a TransformerConv graph architecture is particularly robust."
-    indice 126
   ]
   node [
     id 1861
@@ -12592,6 +12592,7 @@ graph [
     label "articulo:127"
     tipo "articulo"
     nombre "Artificial intelligence-open science symbiosis in chemoinformatics"
+    indice 127
     titulo "Artificial intelligence-open science symbiosis in chemoinformatics"
     anio 2024
     isbn ""
@@ -12602,7 +12603,6 @@ graph [
     subarea ""
     keywords "Artificial intelligence; Chemoinformatics; Education; Open data; Open source; Cheminformatics; Human; Open science; Review; Symbiosis"
     abstract "In chemoinformatics, artificial intelligence (AI) continues to grow a symbiosis with open science (OS). Such a close AI-OS interaction brings substantial practical benefits in research, scientific dissemination, and education, to name a few areas. The AI-OS symbiosis can be further enhanced by combining sufficient substantive expertise, mathematical and statistical knowledge, and coding skills. This Viewpoint discusses the benefits of the smooth and productive interaction between AI, OS, and open data. We also present a short list of misconceptions and pitfalls surrounding AI-OS and propose correct responses and behaviors agreed upon by field experts. In addition, we provide suggestions to continue enhancing the positive contributions of the AI-OS symbiosis towards chemoinformatics."
-    indice 127
   ]
   node [
     id 1867
@@ -12633,6 +12633,7 @@ graph [
     label "articulo:128"
     tipo "articulo"
     nombre "Atomic orbits in molecules and materials for improving machine learning force fields"
+    indice 128
     titulo "Atomic orbits in molecules and materials for improving machine learning force fields"
     anio 2025
     isbn ""
@@ -12643,7 +12644,6 @@ graph [
     subarea ""
     keywords "Atomistic simulations; Force fields; Graphene; Machine learning; Molecular dynamics; Perovskites; Symmetry search; Atoms; Chemical bonds; Iodine compounds; Lead compounds; Learning systems; Message passing; Molecules; Phosphorus compounds; Chemical environment; Data-driven approach; Force field models; Forcefields; Gradient domain; Graphenes; Symmetrics; Symmetry searches; Perovskite"
     abstract "The accurate representation of atoms within their environment forms the backbone of any reliable machine learning force field (MLFF). While modern MLFFs treat atoms of the same type as indistinguishable, their identities can be further resolved by accounting for the composition of their chemical environment. This can improve the parameterization of the MLFF model in chemically diverse systems. In this work, we introduce a novel, data-driven approach designed to find permutation symmetries in isolated and periodic systems, delivering key insights that enable the identification of atomic &#8216;orbits&#8217;, atoms that share consistent chemical and structural environments throughout the dataset. We demonstrate the effectiveness of the orbit representation by incorporating it into the kernel-based symmetric gradient-domain ML (sGDML) model and the equivariant message-passing neural network, MACE. For sGDML, trained on ethanol, 1,8-naphthyridine, D-alanine, and D-histidine adsorbed on graphene, we establish a strong correlation between force prediction accuracy and chemical diversity, quantified by orbit count. The results for the Ac-Phe-Ala5-Lys molecule further underscore the critical role of orbits in force reconstruction across various MLFF architectures. Incorporating orbits into MACE enables us to reduce the model size by an order of magnitude while preserving predictive accuracy, as demonstrated for the CsPbI3 perovskite slab and graphene with a pyridinic-N defect. Overall, our approach provides a scalable and efficient solution for modeling complex chemical systems with state-of-the-art MLFFs."
-    indice 128
   ]
   node [
     id 1872
@@ -12782,6 +12782,7 @@ graph [
     label "articulo:129"
     tipo "articulo"
     nombre "Automatic Classification of BI-RADS in Spanish Radiology Reports Using Transformers and Traditional Machine Learning Approaches"
+    indice 129
     titulo "Automatic Classification of BI-RADS in Spanish Radiology Reports Using Transformers and Traditional Machine Learning Approaches"
     anio 2025
     isbn "978-3-032-08703-4"
@@ -12792,7 +12793,6 @@ graph [
     subarea ""
     keywords "BI-RADS; Breast cancer; Mammography reports; Bismuth compounds; Classification (of information); Diseases; Learning systems; Machine learning; Medical computing; Automatic classification; Binary classification; F1 scores; Machine learning approaches; Mammography report; Multi-class classification; Radiology reports; Spanish Radiology; Mammography; Transformers"
     abstract "Mammography reports are crucial for the early detection of breast cancer; however, their unstructured format and high volume pose challenges for automated evaluation. This study aims to classify mammography reports by BI-RADS scores using both transformer-based models and classical machine learning approaches. We used a dataset of 4, 357 annotated reports to train and evaluate the models. Three classification tasks were explored: (1) binary classification of reports into high- and low-priority groups, (2) multiclass classification based on BI-RADS categories, and (3) a cascaded approach that combines both. Model performance was assessed using F1-score, precision, and recall, with the F1-score serving as the primary comparison metric. Results show that classical machine learning and transformer-based models achieved comparable performance across all tasks. For Task 1, we found that models struggled to correctly classify underrepresented classes. In contrast, Task 2 showed improved results across all models and the highest scores in the F1-score metric. Task 3 demonstrated that the cascaded approach improves multiclass classification performance, but it depends a lot in the first binary classification."
-    indice 129
   ]
   node [
     id 1895
@@ -12889,6 +12889,7 @@ graph [
     label "articulo:130"
     tipo "articulo"
     nombre "Automatic Classification of Synthetic Jovian Radio Emissions Using Spectrogram Analysis and Machine Learning"
+    indice 130
     titulo "Automatic Classification of Synthetic Jovian Radio Emissions Using Spectrogram Analysis and Machine Learning"
     anio 2025
     isbn "979-8-3315-7673-8"
@@ -12899,7 +12900,6 @@ graph [
     subarea ""
     keywords "CNN; Cross-validation; Jovian emissions; Machine learning; Spectrogram; Synthetic data; ViT; C (programming language); Classification (of information); Computer software; Dipole antennas; Learning systems; Neural networks; Partial discharges; Python; Software design; Acquisition systems; Automatic classification; Jovian emission; Machine learning approaches; Radio emission; Spectrograms; Spectrographs; Training; Jupiter; Shape; Noise; Transformers; Power electronics; Convolutional neural networks"
     abstract "This paper presents a machine learning approach for the automatic classification of synthetic Jovian radio emissions using spectrogram analysis. As a continuation of previous work involving the design of a dipole antenna and the development of a Python-based acquisition system centered at 20.1 MHz, this study focuses on generating a synthetic dataset that replicates the Io-A, Io-B and Io-C radio emissions of Jupiter. Each class was modeled using Python scripts that incorporated variability in position, intensity, shape and noise within the 16-24Mhz frequency range. Two classification models were trained and evaluated: a convolutional neural network (efficientNet-B0) and a vision transformer (ViT Tiny Patch16-224). Both models were tested using a 70/15/15 train-validation-test split and validated with 5-fold cross-validation. The ViT model achieved up to 100% classification accuracy across all folds, outperforming the CNN in consistency and generalization. This synthetic classification framework serves as a preparatory phase for future work involving the training and validation of these models using real labeled spectrograms extracted from the Juno/Waves database, which includes emission records from 2016 to 2023."
-    indice 130
   ]
   node [
     id 1911
@@ -13008,6 +13008,7 @@ graph [
     label "articulo:131"
     tipo "articulo"
     nombre "Automatic Detection of Dynamic Wind Conditions in Mexican California: A Machine Learning-Driven Advancement in Wind Management"
+    indice 131
     titulo "Automatic Detection of Dynamic Wind Conditions in Mexican California: A Machine Learning-Driven Advancement in Wind Management"
     anio 2025
     isbn ""
@@ -13018,7 +13019,6 @@ graph [
     subarea ""
     keywords "Risk management; Advanced Analytics; Climate models; Cluster analysis; Gaussian distribution; Wind effects; Climate modeling; Energy; Energy prediction; Gaussian Mixture Model; Machine-learning; Renewable energies; Renewable energy prediction; State Detection; Wind conditions; Wind state detection; Wind energy; Wind speed; Wind forecasting; Humidity; Clustering methods; Data models; Clustering algorithms; Wildfires; Time series analysis"
     abstract "Accurate detection and classification of wind states is crucial for accurately assessing and predicting wind energy production, fire spread behavior, air quality monitoring, and understanding complex meteorological phenomena. The complex nature of wind necessitates advanced data analysis techniques to extract meaningful patterns from meteorological datasets. This study presents a stochastic wind classification and identification analysis based on a Gaussian Mixture Model (GMM) clustering method applied to a case study in La Rumorosa'', Mexican California. By analyzing four meteorological variables (relative humidity, atmospheric pressure, wind speed, and wind direction) over five years, the method automatically identifies distinct wind conditions that can be defined as climate states, including well-known regional phenomena like Santa Ana winds and local orographic winds. Accurate detection of wind states enables better forecasting of wind energy potential at favorable sites, wildfire risk management through predicted fire behavior and monitoring pollutant/allergen dispersal patterns. The proposed approach offers a reliable, computationally efficient method for detecting wind patterns, extending to different geographical regions impacted by diverse wind phenomena."
-    indice 131
   ]
   node [
     id 1929
@@ -13133,6 +13133,7 @@ graph [
     label "articulo:132"
     tipo "articulo"
     nombre "Automatic Detection of Railway Faults Using Neural Networks: A Comparative Study of Transfer Learning Models and YOLOv11"
+    indice 132
     titulo "Automatic Detection of Railway Faults Using Neural Networks: A Comparative Study of Transfer Learning Models and YOLOv11"
     anio 2025
     isbn ""
@@ -13143,7 +13144,6 @@ graph [
     subarea ""
     keywords "Deep learning; Maintenance; Railway fault detection; Safety; Transfer learning; YOLOv11"
     abstract "Developing reliable railway fault detection systems is crucial for ensuring both safety and operational efficiency. Various artificial intelligence frameworks, especially deep learning models, have shown significant potential in enhancing fault detection within railway infrastructure. This study explores the application of deep learning models for railway fault detection, focusing on both transfer learning architectures and a novel classification framework. Transfer learning was utilized with architectures such as ResNet50V2, Xception, VGG16, MobileNet, and InceptionV3, which were fine-tuned to classify railway track images into defective and non-defective categories. Additionally, the state-of-the-art YOLOv11 model was adapted for the same classification task, leveraging advanced data augmentation techniques to achieve high accuracy. Among the transfer learning models, VGG16 demonstrated the best performance with a test accuracy of 89.18%. However, YOLOv11 surpassed all models, achieving a test accuracy of 92.64% while maintaining significantly lower computational demands. These findings underscore the versatility of deep learning models and highlight the potential of YOLOv11 as an efficient and accurate solution for railway fault classification tasks."
-    indice 132
   ]
   node [
     id 1948
@@ -13180,6 +13180,7 @@ graph [
     label "articulo:133"
     tipo "articulo"
     nombre "Automatic extraction of transcriptional regulatory interactions of bacteria from biomedical literature using a BERT-based approach"
+    indice 133
     titulo "Automatic extraction of transcriptional regulatory interactions of bacteria from biomedical literature using a BERT-based approach"
     anio 2024
     isbn ""
@@ -13190,7 +13191,6 @@ graph [
     subarea ""
     keywords "Bacteria; Computational Biology; Data Curation; Data Mining; Databases, Genetic; Gene Regulatory Networks; Bacterium; Bioinformatics; Gene regulatory network; Genetic database; Genetics; Information processing; Metabolism; Procedures"
     abstract "Transcriptional regulatory networks (TRNs) give a global view of the regulatory mechanisms of bacteria to respond to environmental signals. These networks are published in biological databases as a valuable resource for experimental and bioinformatics researchers. Despite the efforts to publish TRNs of diverse bacteria, many of them still lack one and many of the existing TRNs are incomplete. In addition, the manual extraction of information from biomedical literature (&#8220;literature curation&#8221;) has been the traditional way to extract these networks, despite this being demanding and time-consuming. Recently, language models based on pretrained transformers have been used to extract relevant knowledge from biomedical literature. Moreover, the benefit of fine-tuning a large pretrained model with new limited data for a specific task (&#8220;transfer learning&#8221;) opens roads to address new problems of biomedical information extraction. Here, to alleviate this lack of knowledge and assist literature curation, we present a new approach based on the Bidirectional Transformer for Language Understanding (BERT) architecture to classify transcriptional regulatory interactions of bacteria as a first step to extract TRNs from literature. The approach achieved a significant performance in a test dataset of sentences of Escherichia coli (F1-Score: 0.8685, Matthew&#8217;s correlation coefficient: 0.8163). The examination of model predictions revealed that the model learned different ways to express the regulatory interaction. The approach was evaluated to extract a TRN of Salmonella using 264 complete articles. The evaluation showed that the approach was able to accurately extract 82% of the network and that it was able to extract interactions absent in curation data. To the best of our knowledge, the present study is the first effort to obtain a BERT-based approach to extract this specific kind of interaction. This approach is a starting point to address the limitations of reconstructing TRNs of bacteria and diseases of biological interest."
-    indice 133
   ]
   node [
     id 1954
@@ -13233,6 +13233,7 @@ graph [
     label "articulo:134"
     tipo "articulo"
     nombre "Automatic Standard Plane Detection in Fetal Ultrasound Improved by Fine-Tuning"
+    indice 134
     titulo "Automatic Standard Plane Detection in Fetal Ultrasound Improved by Fine-Tuning"
     anio 2025
     isbn "978-3-031-89513-5"
@@ -13243,7 +13244,6 @@ graph [
     subarea ""
     keywords "Deep learning; Convolutional neural network; Echography; Fetal growth; Fetal ultrasound; Fine tuning; Machine-learning; Plane detection; Similarity indices; Standard plane; Ultrasound images; Convolutional neural networks"
     abstract "The study evaluates fine-tuning strategies for convolutional neural networks that automatically detect standard fetal ultrasound planes. By adapting pretrained models to the target ultrasound data, the method seeks to improve plane-recognition performance and thereby support more consistent fetal-growth assessment."
-    indice 134
   ]
   node [
     id 1961
@@ -13298,6 +13298,7 @@ graph [
     label "articulo:135"
     tipo "articulo"
     nombre "Benchmarking MOEAs for solving continuous multi-objective RL problems"
+    indice 135
     titulo "Benchmarking MOEAs for solving continuous multi-objective RL problems"
     anio 2025
     isbn "979-8-4007-1464-1"
@@ -13308,7 +13309,6 @@ graph [
     subarea ""
     keywords "Reinforcement learning; MOEAs; Benchmarking; Economic and social effects; Energy efficiency; Evolutionary algorithms; Human engineering; Multiobjective optimization; Quality control; Algorithm for solving; Conventional reinforcement learning; Energy stability; Learning problem; Multi objective; Multi-Objective Evolutionary Algorithm; Multiobjective evolutionary algorithms; Reinforcement learnings; Sequential decisions; Trade off"
     abstract "Multi-objective reinforcement learning (MORL) addresses the challenge of simultaneously optimizing multiple, often conflicting, rewards, moving beyond the single-reward focus of conventional reinforcement learning (RL). This approach is essential for applications where agents must balance trade-offs between diverse goals, such as speed, energy efficiency, or stability, as a series of sequential decisions. This paper investigates the applicability and limitations of multi-objective evolutionary algorithms (MOEAs) in solving complex MORL problems. We assess whether these algorithms can effectively address the unique challenges posed by MORL and how MORL instances can serve as benchmarks to evaluate and improve MOEA performance. In particular, we propose a framework to characterize the features influencing MORL instance complexity, select representative MORL problems from the literature, and benchmark a suite of MOEAs alongside single-objective EAs using scalarized MORL formulations. Additionally, we evaluate the utility of existing multi-objective quality indicators in MORL scenarios, such as hypervolume, conducting a comparison of the algorithms supported by statistical analysis. Our findings provide insights into the interplay between MORL problem characteristics and algorithmic effectiveness, highlighting opportunities for advancing both MORL research and the design of evolutionary algorithms."
-    indice 135
   ]
   node [
     id 1970
@@ -13363,6 +13363,7 @@ graph [
     label "articulo:136"
     tipo "articulo"
     nombre "Beta-CoRM: A Bayesian approach for n-gram profiles analysis"
+    indice 136
     titulo "Beta-CoRM: A Bayesian approach for n-gram profiles analysis"
     anio 2025
     isbn ""
@@ -13373,7 +13374,6 @@ graph [
     subarea ""
     keywords "Bayesian statistics; Cyber security; Feature selection; Labelled data; n-Grams; Generative adversarial networks; Labeled data; Bayesian approaches; Clusterings; Features selection; Long sequences; Machine learning algorithms; Profile analysis; Adversarial machine learning"
     abstract "n-gram profiles have been successfully and widely used to analyse long sequences of potentially differing lengths for clustering or classification. Mainly, machine learning algorithms have been used for this purpose but, despite their predictive performance, these methods cannot discover hidden structures or provide a full probabilistic representation of the data. A novel class of Bayesian generative models designed for n-gram profiles used as binary attributes have been designed to address this. The flexibility of the proposed modelling allows to consider a straightforward approach to feature selection in the generative model. Furthermore, a slice sampling algorithm is derived for a fast inferential procedure, which is applied to synthetic and real data scenarios and shows that feature selection can improve classification accuracy."
-    indice 136
   ]
   node [
     id 1979
@@ -13446,6 +13446,7 @@ graph [
     label "articulo:137"
     tipo "articulo"
     nombre "Beyond Splines: Legendre and Shmaliy Polynomial-KANs for Robust Image Recognition"
+    indice 137
     titulo "Beyond Splines: Legendre and Shmaliy Polynomial-KANs for Robust Image Recognition"
     anio 2025
     isbn "978-3-032-05059-5"
@@ -13456,7 +13457,6 @@ graph [
     subarea ""
     keywords "Kolmogorov-Arnold networks; Legendre polynomials; Shmaliy polynomials; Image recognition"
     abstract "This paper introduces orthogonal polynomials into the framework of Kolmogorov-Arnold Networks (KANs) by replacing spline parameterized edges with two variants: (1) discrete Shmaliy polynomials and (2) the classical Legendre polynomials, while keeping nodes as input summation points. We evaluate these polynomial-based networks against the original spline-based KAN across three benchmarks. On Fashion MNIST, Shmaliy reaches 87.6% accuracy while Legendre achieves 88.3% (KAN: 87.3%). For chest X-ray pneumonia detection, Shmaliy achieves 93.1% while Legendre matches KAN&#8217;s 95.0%. For OrganAMNIST CT scan classification, Legendre attains 96.2%, outperforming both Shmaliy (89.3%) and KAN (94.5%). The results demonstrate that Legendre polynomials match or exceed KAN performance, while Shmaliy remains competitive. This establishes orthogonal polynomials as both viable alternatives to splines in KAN architectures and a promising direction for neural network design, particularly for medical imaging tasks where Legendre polynomials show significant advantages."
-    indice 137
   ]
   node [
     id 1991
@@ -13487,6 +13487,7 @@ graph [
     label "articulo:138"
     tipo "articulo"
     nombre "Causal Behaviour Modelling for Player Action Prediction in Rugby League Using Graph Neural Networks"
+    indice 138
     titulo "Causal Behaviour Modelling for Player Action Prediction in Rugby League Using Graph Neural Networks"
     anio 2024
     isbn "979-8-3315-1877-6"
@@ -13497,7 +13498,6 @@ graph [
     subarea ""
     keywords "Causal Behavior Modelling; Graph Neural Networks; Rugby League; Player Action Prediction; Sports Analytics; Sequential Data Prediction; Deep learning; Analytical models; Closed box; Predictive models; Transformers; Brain modeling; Prediction algorithms; Long short term memory; Sports; Network theory (graphs); Neural network models; Prediction models; Action prediction; Behaviour models; Causal behavior modeling; Data prediction; Player action; Sequential data; Sport analytic"
     abstract "Rugby League is a dynamic full-contact team sport where two teams of 13 players compete to score points through various tactical plays. It requires advanced strategies from both teams. To analyse and predict these actions, we investigated a causal behaviour modelling approach using graph neural networks (GNNs). We established causal links between player actions using the PCMCI algorithm and used this with a GNN architecture to predict future actions. Our model was trained and evaluated on a dataset of 211 short video clips, capturing over 71,000 player actions. Our investigation showed that integrating causal modelling with GNNs can provide the best of both worlds in terms of explainability and performance, as it was competitive with traditional black-box deep learning models like LSTMs and Transformers, achieving an Fl-Score of about 90.077%. This research highlights the potential of using causality-driven A.I. frameworks for explainable sports analytics and action prediction in the fast-paced and strategic context of Rugby League."
-    indice 138
   ]
   node [
     id 1996
@@ -13612,6 +13612,7 @@ graph [
     label "articulo:139"
     tipo "articulo"
     nombre "cepanca_UNAM at CheckThat! 2025: A Language-driven BERT Approach for Detection of Subjectivity in News"
+    indice 139
     titulo "cepanca_UNAM at CheckThat! 2025: A Language-driven BERT Approach for Detection of Subjectivity in News"
     anio 2025
     isbn ""
@@ -13622,7 +13623,6 @@ graph [
     subarea ""
     keywords "BERT; Binary Classification; CheckThat! 2025; LLM; Objectivity; Subjectivity; Transformer Models; Classification (of information); Language processing; Natural languages; News articles; Transformer modeling; Natural language processing systems"
     abstract "Automatic subjectivity detection is a trending issue in Natural Language Processing. Responding to the challenge of finding models that are able to distinguish between objective and subjective segments, the CheckThat! Lab, which is part of CLEF 2025, invites in Task 1 to distinguish whether a sentence from a news article expresses the subjectivity of the author or not. The task has three settings: monolingual, multilingual and zero-shot. Our contribution focuses on monolingual classification in three of the proposed languages: English, Italian and German. The approach used is based on Transformers-based models. We have opted for BERT-base-uncased for English, BERT-base-italian-cased-sentiment for Italian and German BERT large for German. In our work, we have taken into account the lexical features, specifically the distribution of the different grammatical categories in each of the corpora. Despite the simplicity of our models, our results have been competitive, obtaining the second place in German, with a macro-F1 of 0.8280."
-    indice 139
   ]
   node [
     id 2015
@@ -13689,6 +13689,7 @@ graph [
     label "articulo:140"
     tipo "articulo"
     nombre "Chatbot Mar for Psychological First Aid: An Innovation in Immediate Crisis Care following Traffic Accidents"
+    indice 140
     titulo "Chatbot Mar for Psychological First Aid: An Innovation in Immediate Crisis Care following Traffic Accidents"
     anio 2025
     isbn ""
@@ -13699,7 +13700,6 @@ graph [
     subarea ""
     keywords "Chatbots; Psychological first aid; Traffic accidents; Digital mental health; Artificial intelligence; Usability evaluation"
     abstract "This article presents Mar, a chatbot developed as an exploratory proposal to provide Psychological First Aid (PFA) in crises derived from traffic accidents. Based on the ABCDE Crisis Intervention Manual and implemented on a hybrid web platform with intent detection, Mar was positively evaluated by specialists and volunteers in a pilot test. The findings highlight its potential as a psychological support tool in traffic emergencies, although further validation is still required in real-world scenarios and with the general population."
-    indice 140
   ]
   node [
     id 2026
@@ -13730,6 +13730,7 @@ graph [
     label "articulo:141"
     tipo "articulo"
     nombre "Classification based on Neural Networks to Detect Acute Lymphoblastic Leukemia"
+    indice 141
     titulo "Classification based on Neural Networks to Detect Acute Lymphoblastic Leukemia"
     anio 2025
     isbn ""
@@ -13740,7 +13741,6 @@ graph [
     subarea ""
     keywords "Cell analysis; Detection of white blood cells; Image processing; Leukemia classification; LIRA neural classifier; RTC neural network"
     abstract "Acute Lymphoblastic Leukemia (ALL) can be detected using Artificial Intelligence (AI) techniques. For this purpose, the images captured by a microscope of human peripheral blood smear samples are analyzed and recognized. This article presents an automated method for identifying and classifying white blood cells using special neural networks. The image database of ALL has been used. We focused on extracting texture characteristics (histogram of brightness, contrast, and orientation of contours). These characteristics are presented to the input of the Random Threshold Classifier (RTC). The input encoder generates the output binary vector, which is then presented to the RTC neural classifier, and, finally, the classifier's output provides the recognized class. In this case, we have three classes, healthy cells, affected cells, and background. In this work, we compare the performance of two classifiers, the RTC and the Limited Receptive Area Grayscale classifier (LIRA Grayscale). As shown below, the RTC neural classifier achieved a recognition rate of 98.3%, while the LIRA classifier achieved a rate of 96.56%. Our system is evaluated using the public dataset of peripheral blood samples from ALL-IDB."
-    indice 141
   ]
   node [
     id 2031
@@ -13783,6 +13783,7 @@ graph [
     label "articulo:142"
     tipo "articulo"
     nombre "Classification of Academic Achievement in Upper-Middle Education in Veracruz, Mexico: A Computational Intelligence Approach"
+    indice 142
     titulo "Classification of Academic Achievement in Upper-Middle Education in Veracruz, Mexico: A Computational Intelligence Approach"
     anio 2024
     isbn "978-3-031-54052-3"
@@ -13793,7 +13794,6 @@ graph [
     subarea ""
     keywords "Academic achievement; Random forests; Support vector machines; Upper-middle education; Classification (of information); Education computing; Forestry; Petroleum reservoir evaluation; Academic achievements; Analysis of data; Education field; Mexico; Support vectors machine; Technological development; Veracruz; Students"
     abstract "Due to current technological development, there are accumulations of data from various sources, susceptible of being analyzed and interpreted. Particularly, in the education field, the analysis of data generated in educational environments, such as the academic achievement of students who reach the end of their studies at different educational levels, becomes relevant. This research presents the academic achievement of upper-middle education students in the state of Veracruz, Mexico, based on the type of school they belong to (State, Federal or Private). For this, the PLANEA-2017 database (National Plan for the Evaluation of Learning) was used, as well as computational intelligence algorithms, such as random forests and support vector machines. As a main result, it was obtained that the model produced by the random forests presented a better classification accuracy, and the most relevant variables to classify academic achievement by type of schools evaluated were the total number of students enrolled; the level of academic performance achieved by students in Language and Communication, highlighting the excellent (IV) and insufficient (I) level, respectively; and the number of students tested in Mathematics."
-    indice 142
   ]
   node [
     id 2038
@@ -13860,6 +13860,7 @@ graph [
     label "articulo:143"
     tipo "articulo"
     nombre "Communicative intention detection in Spanish tweets using Jakobson language functions"
+    indice 143
     titulo "Communicative intention detection in Spanish tweets using Jakobson language functions"
     anio 2024
     isbn ""
@@ -13870,7 +13871,6 @@ graph [
     subarea ""
     keywords "Intention; Communicative intention; Tweets; Language functions; Intention identification; n-grams; Logistic regression; SVM; Deep learning"
     abstract "More than twelve thousand Spanish tweets are annotated according to Jakobson language functions and those functions are mapped to communicative intentions. Inter-annotator agreement and several automatic approaches, including n-gram based logistic regression and support-vector machines as well as pretrained language models, are evaluated to determine how effectively communicative intention can be identified in social-media text."
-    indice 143
   ]
   node [
     id 2049
@@ -13919,6 +13919,7 @@ graph [
     label "articulo:144"
     tipo "articulo"
     nombre "Comparative Analysis of Evolutionary Operators in NSGA-II for Beam Angle Selection in Intensity Modulated Radiotherapy"
+    indice 144
     titulo "Comparative Analysis of Evolutionary Operators in NSGA-II for Beam Angle Selection in Intensity Modulated Radiotherapy"
     anio 2025
     isbn "979-8-3315-9716-0"
@@ -13929,7 +13930,6 @@ graph [
     subarea ""
     keywords "Beam angle optimisation; Evolutionary algorithm; Intensity Modulated Radiation Therapy; Multiobjective optimisation; NSGA-II; Genetic algorithms; Mathematical operators; Problem solving; Radio communication; Radiotherapy; Beam angle optimization; Beam angle selection; Comparative analyzes; Evolutionary operators; Intensity-modulated radiotherapy; Multi objective; Multi-objectives optimization; Target coverage; Multiobjective optimization; Computer science; Evolutionary computation; Radiation therapy; Optimization; Genetic operators; Convergence"
     abstract "Beam angle optimisation in intensity-modulated radiotherapy is inherently multi-objective, requiring a balance between target coverage and the sparing of organs at risk. Although evolutionary approaches exist in the literature, their application in multi-objective contexts remains limited. Genetic algorithms have proved effective in single-objective variants of the problem, making it relevant to extend and analyse their components in multi-objective settings. This work examinates the impact of different genetic operators within an NSGA-II-based multi-objective evolutionary algorithm to solve the multi-objective beam angle optimisation problem. Specifically, we evaluate four crossover operators; Simulated Binary Crossover (SBX),Partially Matched Crossover (PMX), Random Union Crossover (RUX), and One-Point Crossover (OX1); combined with two mutation strategies: random replacement and add/subtract mutation. Experimental results show that operator choice significantly affects the convergence and diversity of the Pareto front. Among the combinations analysed, RUX-A/S and RUX-R achieve the best performance in terms of hypervolume and IGD. These findings underscore the importance of operator design when adapting evolutionary algorithms to the multi-objective BAO problem."
-    indice 144
   ]
   node [
     id 2057
@@ -14038,6 +14038,7 @@ graph [
     label "articulo:145"
     tipo "articulo"
     nombre "Comparative analysis of generative LLMs for labeling entities in clinical notes"
+    indice 145
     titulo "Comparative analysis of generative LLMs for labeling entities in clinical notes"
     anio 2025
     isbn ""
@@ -14048,7 +14049,6 @@ graph [
     subarea ""
     keywords "Zero-shot; Named entity recognition; Generative language models; Clinical domain; BLAH8"
     abstract "The study compares generative large language models for zero-shot labeling of named entities in clinical notes, examining their usefulness for clinical-domain NER and contrasting model behavior on a biomedical annotation task."
-    indice 145
   ]
   node [
     id 2075
@@ -14085,6 +14085,7 @@ graph [
     label "articulo:146"
     tipo "articulo"
     nombre "Comparative Analysis of Information Extraction Techniques in the Mexican Legal System"
+    indice 146
     titulo "Comparative Analysis of Information Extraction Techniques in the Mexican Legal System"
     anio 2025
     isbn "978-3-031-93102-4; 978-3-031-93103-1"
@@ -14095,7 +14096,6 @@ graph [
     subarea ""
     keywords "Information Extraction; Legal Text Processing; Named Entity Recognition; Natural Language Processing; Relation Extraction; Computational linguistics; Data mining; Information retrieval; Laws and legislation; Text processing; Language processing; Legal system; Legal texts; Natural languages; Natural language processing systems"
     abstract "In recent years, Natural Language Processing (NLP) has rapidly advanced, with sophisticated language models paving the way toward improved information extraction (IE) methods. Despite these advancements, the application of modern NLP techniques within the Mexican legal system (Spanish-Mexico) remains underexplored. This study investigates whether BERT-based models can effectively and dynamically extract legal references within this challenging framework. A comprehensive comparison was conducted between traditional methods&#8212;regular expressions and rule-based approaches&#8212;and contemporary transformer-based techniques. The experiments encompass four critical tasks: Article Segmentation, Law Reference Extraction, Article Mention Detection, and Entity Linking. Results indicate that while regular expressions and rule-based methods achieve high precision in structured texts, BERT-based NER models demonstrate superior adaptability and recall, particularly in handling unstructured and diverse legal documents. However, for tasks demanding stringent accuracy, such as Entity Linking, traditional rule-based approaches outperform Relation Extraction (RE) models due to their higher precision. This duality underscores the potential of integrating both traditional and modern NLP techniques to optimize legal text processing in Mexico. Our findings contribute to the expanding field of legal NLP by addressing unique challenges within the Mexican legal system and providing a foundational framework for future research efforts aimed at enhancing IE processes in complex legal environments."
-    indice 146
   ]
   node [
     id 2081
@@ -14156,6 +14156,7 @@ graph [
     label "articulo:147"
     tipo "articulo"
     nombre "Comparative Analysis of Machine Learning and Transformer Models for Detecting Suicidal Ideation in Social Media Texts"
+    indice 147
     titulo "Comparative Analysis of Machine Learning and Transformer Models for Detecting Suicidal Ideation in Social Media Texts"
     anio 2024
     isbn ""
@@ -14166,7 +14167,6 @@ graph [
     subarea ""
     keywords "Predictive analytics; Adversarial machine learning; Contrastive Learning; Logistic regression; Natural language processing systems; Base models; Language processing; Machine learning models; Natural language processing; Natural languages; Predictive analytic in healthcare; Robertuito model; Suicidal ideation; Suicidal ideation detection; Transformer modeling; Natural language processing (NLP); Predictive analytics in healthcare; Transformer models"
     abstract "This study is a contribution of the MentalRiskES 2024 task 3 which explores the detection of suicidal ideation using a range of machine learning models encompassing both traditional algorithms and advanced Transformer models. We assess several approaches including Logistic Regression, Na&#239;ve Bayes, Random Forest, and variants of the RoBERTuito model, focusing particularly on the adaptation of the RoBERTuito base model for text analysis and sentiment analysis in Spanish. Results indicate that the RoBERTuito base model outperforms other models in accuracy and performance metrics, demonstrating its potential for critical mental health applications in Spanish-speaking contexts."
-    indice 147
   ]
   node [
     id 2091
@@ -14233,6 +14233,7 @@ graph [
     label "articulo:148"
     tipo "articulo"
     nombre "Complex Task Planning for General-Purpose Service Robots"
+    indice 148
     titulo "Complex Task Planning for General-Purpose Service Robots"
     anio 2025
     isbn ""
@@ -14243,7 +14244,6 @@ graph [
     subarea ""
     keywords "Domestic robots; Expert systems; General purpose service robots; Semantic understanding; Task planning; Deep learning; Industrial robots; Learning systems; Mobile robots; Robot programming; Complex task; Domestic services; General purpose service robot; Object manipulation; Performance; Semantics understanding; Service robots; Service sectors; Semantics; General-purpose robots; Complex plans"
     abstract "Service robots, in contrast to industrial robots, are devices aimed to operate in the service sector in replacement of or collaboration with human performers&#8212; in particular, domestic service robots carry out daily household chores. Recently, their popularity has increased and the range and difficulty of the activities they can perform are reaching amazing performances. There have been proposed several systems that can generalize single tasks such as object manipulation or scene understanding but they still fail on complex task planning, i.e., when and where they can perform such tasks. In this work, we propose the use of expert systems as a core module to understand user commands, infer the task context, request missing information, and plan action where each step of the plan may consist of basic state machines to generalized deep-learning models."
-    indice 148
   ]
   node [
     id 2102
@@ -14346,6 +14346,7 @@ graph [
     label "articulo:149"
     tipo "articulo"
     nombre "Complexity, Artificial Life, and Artificial Intelligence"
+    indice 149
     titulo "Complexity, Artificial Life, and Artificial Intelligence"
     anio 2025
     isbn ""
@@ -14356,7 +14357,6 @@ graph [
     subarea ""
     keywords "Complexity; Emergence; Self-organization; Balance; Artificial Intelligence; Artificial Life; Humans; Human"
     abstract "The scientific fields of complexity, Artificial Life (ALife), and artificial intelligence (AI) share commonalities: historic, conceptual, methodological, and philosophical. Although their origins trace back to the 1940s birth of cybernetics, they were able to develop properly only as modern information technology became available. In this perspective, I offer a personal (and thus biased) account of the expectations and limitations of these fields, some of which have their roots in the limits of formal systems. I use interactions, self-organization, emergence, and balance to compare different aspects of complexity, ALife, and AI. Even when the trajectory of the article is influenced by my personal experience, the general questions posed (which outweigh the answers) will, I hope, be useful in aligning efforts in these fields toward overcoming&#8212;or accepting&#8212;their limits."
-    indice 149
   ]
   node [
     id 2119
@@ -14375,6 +14375,7 @@ graph [
     label "articulo:150"
     tipo "articulo"
     nombre "Contextualized Graph Representations for Generating Counter-Narratives against Hate Speech"
+    indice 150
     titulo "Contextualized Graph Representations for Generating Counter-Narratives against Hate Speech"
     anio 2024
     isbn "979-8-89176-168-1"
@@ -14385,7 +14386,6 @@ graph [
     subarea ""
     keywords "Automatic evaluation; Automatic method; Graph representation; Graphical representations; Human evaluation; Minority groups; Model-based OPC; Societal problems; Text representation; Computational linguistics; Hate speech; Counter-narratives; Graph representations; Conversational context"
     abstract "Hate speech (HS) is a widely acknowledged societal problem with potentially grave effects on vulnerable individuals and minority groups. Developing counter-narratives (CNs) that confront biases and stereotypes driving hateful narratives is considered an impactful strategy. Current automatic methods focus on isolated utterances to detect and react to hateful content online, often omitting the conversational context where HS naturally occurs. In this work, we explore strategies for the incorporation of conversational history for CN generation, comparing text and graphical representations with varying degrees of context. Overall, automatic and human evaluations show that 1) contextualized representations are comparable to those of isolated utterances, and 2) models based on graph representations outperform text representations, thus opening new research directions for future work."
-    indice 150
   ]
   node [
     id 2122
@@ -14464,6 +14464,7 @@ graph [
     label "articulo:151"
     tipo "articulo"
     nombre "Data-Driven Decision-Making for Product Design: A Descriptive Feedback and Physiological Metadata Analysis"
+    indice 151
     titulo "Data-Driven Decision-Making for Product Design: A Descriptive Feedback and Physiological Metadata Analysis"
     anio 2024
     isbn "978-3-031-67439-6"
@@ -14474,7 +14475,6 @@ graph [
     subarea ""
     keywords "Design for manufacturability; Data consistency; Decision making; Human engineering; Metadata; Physiological models; Data driven decision; Decisions makings; Descriptive feedback; Human activity recognition; Metadata analysis; Natural language toolkit; Natural languages; Physiological variable; Sentiment analysis; Data analysis; Natural language; NLTK; Physiological variables; Product design"
     abstract "This chapter presents the results regarding the data analysis made for studying the user&#8217;s perception and experience when giving descriptive feedback within the product design process. It also includes metadata analysis regarding current trends and technology used for gathering body parameters such as temperature, heart rate, pH, sweat, and accelerations to quantify and compare user interactions during the development of a new product. The data analysis tools used were Pandas, Matplotlib, Numpy, spaCy, and the Natural Language Toolkit (NLTK) for sentiment analysis. For exploratory analysis, word clouds were created. A total of 536 sentences were analyzed, with an average length of 12 words per sentence. Among these, 52% of the total words were classified as verbs, nouns, adjectives, or adverbs, providing information regarding user experience, while the remaining words served to link sentences and give structure. The sentiment analysis showcased that 54.8% of the sentences provided a positive or negative connotation regarding the user&#8217;s experience. In comparison, 45.2% were neutral sentences, providing no information regarding the user&#8217;s perception. It is up to the design team to map and classify these comments into engineering requirements based on their experience. The metadata analysis showed the most studied physiological measurements for human activity recognition (HAR) and how the combination of these variables has been studied to quantify user feedback and improve the design process. Human data collection and study of two or more of these variables is helpful for providing designers with an additional tool for descriptive feedback that could improve decision-making."
-    indice 151
   ]
   node [
     id 2135
@@ -14583,6 +14583,7 @@ graph [
     label "articulo:152"
     tipo "articulo"
     nombre "DeepReg: a deep learning hybrid model for predicting transcription factors in eukaryotic and prokaryotic genomes"
+    indice 152
     titulo "DeepReg: a deep learning hybrid model for predicting transcription factors in eukaryotic and prokaryotic genomes"
     anio 2024
     isbn ""
@@ -14593,7 +14594,6 @@ graph [
     subarea ""
     keywords "Computational biology and bioinformatics; Protein analysis; Protein function predictions"
     abstract "DeepReg is a hybrid deep-learning model that combines convolutional and bidirectional recurrent components to predict transcription factors from protein-sequence information in prokaryotic and eukaryotic genomes. The model is evaluated against existing prediction approaches and experimentally characterized proteins, with the aim of reducing bias and improving generalization across organisms."
-    indice 152
   ]
   node [
     id 2153
@@ -14612,6 +14612,7 @@ graph [
     label "articulo:153"
     tipo "articulo"
     nombre "Demand forecasting using KAN-RNN"
+    indice 153
     titulo "Demand forecasting using KAN-RNN"
     anio 2025
     isbn ""
@@ -14622,7 +14623,6 @@ graph [
     subarea ""
     keywords "Deep learning; Demand forecasting; Kolmogorov&#8211;Arnold networks (KANs); Recurrent networks; Time series; Competition; Decision making; Forecasting; Inventory control; Learning systems; Recurrent neural networks; Business environments; Competitive business; Gating mechanisms; Kolmogorov; Kolmogorov&#8211;arnold network; Profit margin; Times series"
     abstract "In today&#8217;s highly competitive business environment, organizations continuously strive to maintain their competitiveness and achieve sustainable profit margins to support long-term growth and development. Accurate demand forecasting has become a critical tool for decision-makers, as it allows better resource allocation, inventory management, and strategic planning. Recurrent deep learning methods, which use gating mechanisms to maintain an internal state aligned with time series data, are among the most widely used approaches to improve forecast accuracy. Despite their success, these models still exhibit significant untapped potential that could be realized by rethinking the design of their gating mechanisms. To address this, we introduce a novel demand forecasting method inspired by Kolmogorov&#8211;Arnold networks (KANs), featuring a modified recurrent architecture with a restructured gating mechanism. This innovation leverages KAN principles to enhance the model&#8217;s capacity to capture intricate temporal dependencies and adapt to evolving demand patterns. Experimental evaluations demonstrate that the proposed method outperforms state-of-the-art approaches, highlighting its ability to provide more accurate and reliable demand forecasting results."
-    indice 153
   ]
   node [
     id 2156
@@ -14689,6 +14689,7 @@ graph [
     label "articulo:154"
     tipo "articulo"
     nombre "Detection of Optimal Echocardiographic Video Segments Using Deep Learning"
+    indice 154
     titulo "Detection of Optimal Echocardiographic Video Segments Using Deep Learning"
     anio 2025
     isbn "979-8-3315-5456-9"
@@ -14699,7 +14700,6 @@ graph [
     subarea ""
     keywords "Convolutional neural networks; Echocardiography; Learning systems; Video analysis; Video recording; Area under the ROC curve; Automated classification; Cardiac functions; Convolutional neural network; Data augmentation; Learning models; Neural network architecture; Test accuracy; Video segments; Video sequences; Deep learning; Area under ROC curve; Training; Computer vision; Accuracy; Metadata; Transformers; Reliability; Videos"
     abstract "The identification of optimal echocardiographic video segments is a critical initial step for reliable cardiac function assessment. This study focuses on the development and evaluation of deep learning models for the automated classification of correct versus incorrect echocardiographic planes in a video sequence, specifically for Subcostal Four-Chamber (S4C) views. A dataset comprising 10 S4C studies was used, from which frames were extracted and preprocessed. Preprocessing included metadata removal, resizing to 224&#215;224 pixels, and data augmentation. The resulting images were divided into training (2068 images per class), validation (517 images per class), and test (200 images per class) sets. Two convolutional neural network architectures, VGG-16 and Vision Transformer (ViT), were trained and evaluated. The VGG-16 model, trained for 30 epochs, achieved a test accuracy of 0.98 and an Area Under the ROC Curve (AUC) of 1.00. The Vision Transformer, trained for 30 epochs, yielded a test accuracy of 0.89 and an AUC of 0.97. These preliminary results demonstrate the potential of deep learning models, particularly VGG-16, to accurately identify optimal frames in echocardiographic video sequences."
-    indice 154
   ]
   node [
     id 2167
@@ -14784,6 +14784,7 @@ graph [
     label "articulo:155"
     tipo "articulo"
     nombre "Development of a Digital Twin Driven by a Deep Learning Model for Fault Diagnosis of Electro-Hydrostatic Actuators"
+    indice 155
     titulo "Development of a Digital Twin Driven by a Deep Learning Model for Fault Diagnosis of Electro-Hydrostatic Actuators"
     anio 2024
     isbn ""
@@ -14794,7 +14795,6 @@ graph [
     subarea ""
     keywords "Deep learning; Digital twin; Electro-hydrostatic actuators; Fault diagnosis; Industrial internet of things; LSTM"
     abstract "The first quarter of the 21st century has witnessed many technological innovations in various sectors. Likewise, the COVID-19 pandemic triggered the acceleration of digital transformation in organizations driven by artificial intelligence and communication technologies in Industry 4.0 and Industry 5.0. Aiming at the construction of digital twins, virtual representations of a physical system allow real-time bidirectional communication. This will allow the monitoring of operations, identification of possible failures, and decision making based on technical evidence. In this study, a fault diagnosis solution is proposed, based on the construction of a digital twin, for a cloud-based Industrial Internet of Things (IIoT) system contemplating the control of electro-hydrostatic actuators (EHAs). The system was supported by a deep learning model using Long Short-Term Memory (LSTM) networks for an effective diagnostic approach. The implemented study considers data preparation and integration and system development and application to evaluate the performance against the fault diagnosis problem. According to the results obtained, positive results are shown in the construction of the digital twin using a deep learning model for the fault diagnosis problem of an active EHA-IIoT configuration."
-    indice 155
   ]
   node [
     id 2181
@@ -14825,6 +14825,7 @@ graph [
     label "articulo:156"
     tipo "articulo"
     nombre "Development of an intelligent support system for hepatocellular carcinoma treatment selection"
+    indice 156
     titulo "Development of an intelligent support system for hepatocellular carcinoma treatment selection"
     anio 2025
     isbn ""
@@ -14835,7 +14836,6 @@ graph [
     subarea ""
     keywords "Hepatocellular carcinoma; Treatment selection; Intelligent decision support system; Knowledge base"
     abstract "The study develops an intelligent clinical decision-support system for selecting hepatocellular carcinoma treatments. It represents expert knowledge as production rules over clinical parameters and implements a web-integrated decision model to support multidisciplinary treatment selection."
-    indice 156
   ]
   node [
     id 2186
@@ -14866,6 +14866,7 @@ graph [
     label "articulo:157"
     tipo "articulo"
     nombre "Disagreement in Metaphor Annotation of Mexican Spanish Science Tweets"
+    indice 157
     titulo "Disagreement in Metaphor Annotation of Mexican Spanish Science Tweets"
     anio 2025
     isbn "979-8-89176-202-2"
@@ -14876,7 +14877,6 @@ graph [
     subarea ""
     keywords "Linguistics; Natural language processing systems; Annotation methods; Binary classification; Expert annotations; Gold standards; Language detection; Language processing; Linguistic annotations; Natural languages; Processing model; Public communications; Metaphor annotation; Disagreement; Mexican Spanish; Science communication; Social media"
     abstract "Traditional linguistic annotation methods often strive for a gold standard with hard labels as input for Natural Language Processing models, assuming an underlying objective truth for all tasks. However, disagreement among annotators is a common scenario, even for seemingly objective linguistic tasks, and is particularly prominent in figurative language annotation, since multiple valid interpretations can sometimes coexist. This study presents the annotation process for identifying metaphorical tweets within a corpus of 3733 Public Communication of Science texts written in Mexican Spanish, emphasizing inter-annotator disagreement. Using Fleiss&#8217; and Cohen&#8217;s Kappa alongside agreement percentages, we evaluated metaphorical language detection through binary classification in three situations: two subsets of the corpus labeled by three different non-expert annotators each, and a subset of disagreement tweets, identified in the non-expert annotation phase, re-labeled by three expert annotators. Our results suggest that expert annotation may improve agreement levels, but does not exclude disagreement, likely due to factors such as the relatively novelty of the genre, the presence of multiple scientific topics, and the blending of specialized and non-specialized discourse. Going further, we propose adopting a learning-from-disagreement approach for capturing diverse annotation perspectives to enhance computational metaphor detection in Mexican Spanish."
-    indice 157
   ]
   node [
     id 2191
@@ -14961,6 +14961,7 @@ graph [
     label "articulo:158"
     tipo "articulo"
     nombre "Early Birth Weight Prediction: A Machine Learning Explainability Analysis"
+    indice 158
     titulo "Early Birth Weight Prediction: A Machine Learning Explainability Analysis"
     anio 2025
     isbn "978-3-031-82122-6; 978-3-031-82123-3"
@@ -14971,7 +14972,6 @@ graph [
     subarea ""
     keywords "Early birth weight prediction; Machine learning; SHAP values"
     abstract "Fetal weight is a crucial health indicator during gestation, influencing outcomes and potentially preventing fetal death. Traditional clinical methods, like the Hadlock or Shepard formulas, rely on fetal biometry via ultrasound but have high error rates, up to 25%. This study emphasizes the use of machine learning techniques for early birth weight estimation while focusing on model interpretability through Shapley additive explanations (SHAP) values. SHAP value-based explainability charts allow experts to understand how different features influence predictions, enhancing the transparency and accessibility of these models. The dataset used consists of 578 participants from the National Institute of Perinatology of Mexico, with 18 maternal-fetal variables captured during the first trimester of pregnancy. Data was split into training, testing, and validation sets (80%, 10%, 10%), and five-fold cross-validation was applied. While various supervised learning methods were explored, this study highlights the use of SHAP values to identify key features influencing fetal weight, ensuring local accuracy, fair feature attribution, and consistent insights. Given the uniqueness of the dataset, comparisons with existing models in the literature are not feasible, and the focus remains on model explainability rather than performance benchmarking. By providing clearer insights into machine learning models, this work aids medical professionals in applying AI-driven predictions with greater confidence and understanding."
-    indice 158
   ]
   node [
     id 2205
@@ -14990,6 +14990,7 @@ graph [
     label "articulo:159"
     tipo "articulo"
     nombre "Educational Chatbots: A Systematic Mapping Study"
+    indice 159
     titulo "Educational Chatbots: A Systematic Mapping Study"
     anio 2025
     isbn ""
@@ -15000,7 +15001,6 @@ graph [
     subarea ""
     keywords "Chatbots; Computer aided instruction; Interactive systems; Reviews; Software architecture; Education sector; Educational chatbot development; Educational chatbots; Educational levels; Systematic Mapping Study; Chatbot classification; Teaching/learning process; Classification (of information); Educational robots; Learning systems; Mapping; Teaching; Education sectors; Educational chatbot; Software entities; Systematic mapping studies; Teaching and learning; Teaching process; Teaching-learning process"
     abstract "Chatbots, text or voice software entities, are consolidating their position in the education sector, as they have gone from being rustic tools to systems that can take an active role in the teaching and learning process. That is why we decide to elaborate a Systematic Mapping Study of works that have been published on educational chatbots in the last years. Our analysis has four objectives: 1) to know the purpose of chatbots; 2) to identify the educational levels in which the chatbots are employed; 3) to examine which interaction mechanisms are implemented by chatbots; and 4) to explore which technologies and software architectures predominate in the development of educational chatbots. Following solid methodologies for systematic reviews, we compiled 104 papers. Through the analysis of these works, we obtained an overview that can be useful for both specialists and newcomers to the domain, as it helps them understand the existing trends in these applications. Additionally, the discussion extends into the disruptive impact of generative AI and outlines critical open research questions that guide future investigations in educational chatbot development."
-    indice 159
   ]
   node [
     id 2208
@@ -15127,6 +15127,7 @@ graph [
     label "articulo:160"
     tipo "articulo"
     nombre "Efficient decoy selection to improve virtual screening using machine learning models"
+    indice 160
     titulo "Efficient decoy selection to improve virtual screening using machine learning models"
     anio 2025
     isbn ""
@@ -15137,7 +15138,6 @@ graph [
     subarea ""
     keywords "Decoys; Molecular docking; PADIF; Protein-ligand interaction fingerprint; Specific scoring function; Virtual screening"
     abstract "Machine learning models using protein-ligand interaction fingerprints show promise as target-specific scoring functions in drug discovery, but their performance critically depends on the underlying decoy selection strategies. Recognizing this critical role in model performance, various decoy selection strategies were analyzed to enhance machine learning models based on the Protein per Atom Score Contributions Derived Interaction Fingerprint (PADIF). We explored three distinct workflows for decoy selection: (1) random selection from extensive databases like ZINC15, (2) leveraging recurrent non-binders from high-throughput screening (HTS) assays stored as dark chemical matter, and (3) data augmentation by utilizing diverse conformations from docking results. Active molecules from ChEMBL, combined with these decoy approaches, were used to train and test different machine learning models based on PADIF. The final validation was done by confirming experimentally determined inactive compounds from the LIT-PCBA dataset. Our findings reveal that models trained with random selections from ZINC15 and compounds from dark chemical matter closely mimic the performance of those trained with actual non-binders, presenting viable alternatives for creating accurate models in the absence of specific inactivity data. Furthermore, all models showed an enhanced ability to explore new chemical spaces for their specific target and enhanced the top active compound selection over classical scoring functions, thereby boosting the screening power in molecular docking. These findings demonstrate that appropriate decoy selection strategies can maintain model accuracy while expanding applicability to targets even when lacking extensive experimental data."
-    indice 160
   ]
   node [
     id 2229
@@ -15180,6 +15180,7 @@ graph [
     label "articulo:161"
     tipo "articulo"
     nombre "ELK: Enhanced Learning Through Cross-Modal Knowledge Transfer for Lesion Detection in Limited-Sample Contrast-Enhanced Mammography Datasets"
+    indice 161
     titulo "ELK: Enhanced Learning Through Cross-Modal Knowledge Transfer for Lesion Detection in Limited-Sample Contrast-Enhanced Mammography Datasets"
     anio 2025
     isbn "978-3-031-77788-2"
@@ -15190,7 +15191,6 @@ graph [
     subarea ""
     keywords "Detection; Diffusion models; Lesion inpainting; Mammography; Deep learning; Population statistics; Transfer learning; Contrast-enhanced mammographies; Cross-modal; Diffusion model; Enhanced learning; Inpainting; Knowledge transfer; Lesion detection; Limited data; Contrastive Learning"
     abstract "Contrast-enhanced mammography (CEM) offers improved breast cancer diagnosis by enhancing vascular contrast uptake. However, the development of reliable deep learning-based computer-aided detection (CAD) systems for CEM is hindered by limited data availability. This paper introduces ELK (Enhanced Learning through cross-modal Knowledge transfer), a deep learning pipeline designed to adapt large pre-trained models into a target limited data-volume population by leveraging synthetic data augmentation. Specifically, we adapt a detection model pretrained on digital breast tomosynthesis (DBT) and digital mammography data into a target CEM population using diffusion models to generate high-resolution, realistic synthetic lesions, preserving the visual integrity of CEM images. To assess the efficacy of our synthetic lesions, we compare the detection performance of a pretrained Faster R-CNN detector fine-tuned using only real images, synthetic images, and a combination of both. Our approach improves mean sensitivity by 4% on a test sample from the same population and by 7% on a newly collected out-of-domain CEM dataset. Our code and synthetic datasets are available at https://github.com/Likalto4/CEM-Detect."
-    indice 161
   ]
   node [
     id 2236
@@ -15269,6 +15269,7 @@ graph [
     label "articulo:162"
     tipo "articulo"
     nombre "Emergence of altruistic behavior in heterogeneous populations of artificial agents by evolution of kin discrimination mechanism"
+    indice 162
     titulo "Emergence of altruistic behavior in heterogeneous populations of artificial agents by evolution of kin discrimination mechanism"
     anio 2024
     isbn ""
@@ -15279,7 +15280,6 @@ graph [
     subarea ""
     keywords "Altruistic behavior; Autonomous robots; Genetic algorithms"
     abstract "The study uses evolutionary algorithms and autonomous artificial agents to examine how altruistic signaling can emerge in heterogeneous populations. By combining kin selection, kin discrimination and self-organizing maps, it explores when cooperative behavior evolves and how the resulting dynamics relate to Hamilton-style conditions for altruism."
-    indice 162
   ]
   node [
     id 2249
@@ -15298,6 +15298,7 @@ graph [
     label "articulo:163"
     tipo "articulo"
     nombre "Emotion Detection in Spanish Text Using Transformers"
+    indice 163
     titulo "Emotion Detection in Spanish Text Using Transformers"
     anio 2024
     isbn ""
@@ -15308,7 +15309,6 @@ graph [
     subarea ""
     keywords "Natural language processing; Emotion analysis; Transformers; BERT; GPT"
     abstract "The analysis of emotions in the text is crucial to understand the feeling that is conveyed in the narratives. In this article, different models of emotion analysis in Spanish text are presented to determine which one offers greater accuracy. These models are BERT, RoBERTa, RoBERTuito, DistilBERT and GPT-4. The literature suggests that models based on Bidirectional Encoder Representations from Transformers outperform Generative Pre-trained Transformer in classification tasks. A comparison was made with models pre-trained for the emotion analysis task and it was found that BERT slightly outperformed GPT with an accuracy of 94.1%."
-    indice 163
   ]
   node [
     id 2252
@@ -15327,6 +15327,7 @@ graph [
     label "articulo:164"
     tipo "articulo"
     nombre "Enhancing interpretability and bias control in deep learning models for medical image analysis using generative AI"
+    indice 164
     titulo "Enhancing interpretability and bias control in deep learning models for medical image analysis using generative AI"
     anio 2024
     isbn "978-1-5106-7314-4; 978-1-5106-7315-1"
@@ -15337,7 +15338,6 @@ graph [
     subarea ""
     keywords "Explainable Artificial Intelligence; Generative Artificial Intelligence; Medical Image Analysis; Decision making; Image analysis; Image enhancement; Learning systems; Medical imaging; Auto encoders; Bias control; Control variable; Decision-making process; Interpretability; Intuitive understanding; Learning models; Deep learning; Computer Science, Artificial Intelligence; Computer Science, Theory &#38; Methods; Optics; Imaging Science &#38; Photographic Technology; Computer Science; Generative AI"
     abstract "Explainability and bias mitigation are crucial aspects of deep learning (DL) models for medical image analysis. Generative AI, particularly autoencoders, can enhance explainability by analyzing the latent space to identify and control variables that contribute to biases. By manipulating the latent space, biases can be mitigated in the classification layer. Furthermore, the latent space can be visualized to provide a more intuitive understanding of the model&#8217;s decision-making process. In our work, we demonstrate how the proposed approach enhances the explainability of the decision-making process, surpassing the capabilities of traditional methods like Grad-Cam. Our approach effectively identifies and mitigates biases in a straightforward manner, without necessitating model retraining or dataset modification, showing how Generative AI has the potential to play a pivotal role in addressing explainability and bias mitigation challenges, enhancing the trustworthiness and clinical utility of DL-powered medical image analysis tools."
-    indice 164
   ]
   node [
     id 2255
@@ -15416,6 +15416,7 @@ graph [
     label "articulo:165"
     tipo "articulo"
     nombre "Enhancing Perceptron Learning Through Bayesian Optimisation and Cross-Validation"
+    indice 165
     titulo "Enhancing Perceptron Learning Through Bayesian Optimisation and Cross-Validation"
     anio 2025
     isbn "978-3-031-96254-7"
@@ -15426,7 +15427,6 @@ graph [
     subarea ""
     keywords "Learning systems; Bayesian networks; Linear programming; Machine learning; Bayesian optimization; Credible interval; Cross validation; Optimal parameter; Optimization techniques; Optimizations validation; Perceptron algorithms; Perceptron learning; Performance; Upper Bound; Bayesian Optimisation; Perceptron"
     abstract "This study presents a novel approach aimed at enhancing the Perceptron Algorithm by incorporating Bayesian Optimisation based on the cross-validation framework. We bring in Bayesian Optimisation techniques, leveraging the upper bound of a credible interval as an acquisition function to guide the search for optimal parameters. Through extensive simulations on artificial datasets, we demonstrate that this Bayesian-optimised Perceptron consistently outperforms the original algorithm across various dimensions. This work highlights the significance of robust statistical evaluation and Bayesian Optimisation in improving the performance and generalisation ability of even simple machine learning models like the Perceptron. This research could also lay the groundwork for future studies on applying Bayesian Optimisation to enhance the performance of Multilayer Perceptron Networks."
-    indice 165
   ]
   node [
     id 2268
@@ -15511,6 +15511,7 @@ graph [
     label "articulo:166"
     tipo "articulo"
     nombre "Enhancing Solar Cell Classification Using Mamdani Fuzzy Logic Over Electroluminescence Images: A Comparative Analysis with Machine Learning Methods"
+    indice 166
     titulo "Enhancing Solar Cell Classification Using Mamdani Fuzzy Logic Over Electroluminescence Images: A Comparative Analysis with Machine Learning Methods"
     anio 2024
     isbn "978-3-031-52516-2"
@@ -15521,7 +15522,6 @@ graph [
     subarea ""
     keywords "Adversarial machine learning; Contrastive Learning; Decision trees; Electroluminescence; Fuzzy logic; Machine learning; Problem solving; Cell classification; Comparative analyzes; Electroluminescence images; Fuzzy logic modeling; Machine learning methods; Mamdani; Performance; Photovoltaics; Photovoltaic"
     abstract "This work presents a Mamdani Fuzzy Logic model capable of classifying solar cells according to their energetic performance. The model has 3 different inputs: The proportion of black pixels, gray pixels, and white pixels. One additional output for informing of possible bad inputs is also provided. The three values are obtained from an Electroluminescence image of the cell. The model has been developed using cells whose performance has been obtained by measuring the Intensity-Voltage Curves of the cells. The performance of the model has been shown by testing it with a validation set, obtaining a 99.0% of accuracy, when other methods such as Ensemble Classifiers and Decision Trees obtain a 97.7%. This shows that the presented model is capable of solving the problem better than traditional Machine Learning methods."
-    indice 166
   ]
   node [
     id 2282
@@ -15576,6 +15576,7 @@ graph [
     label "articulo:167"
     tipo "articulo"
     nombre "Error Compensation Method during Welding Operations using the Enhanced Wagner-Hagras Interval Type-3 NSFLS-1"
+    indice 167
     titulo "Error Compensation Method during Welding Operations using the Enhanced Wagner-Hagras Interval Type-3 NSFLS-1"
     anio 2024
     isbn ""
@@ -15586,7 +15587,6 @@ graph [
     subarea ""
     keywords "Automatic Control; Industry 4.0; Robotics; Welding operation; Industrial robots; Laser beam welding; Automated welding; Condition; Dimensional quality; Error compensation methods; Positioning error; Production line; Structured environment; Uncertainty; Welding operations; Welding tasks; Error compensation"
     abstract "Automated welding with robots is one of the core processes of modern manufacturing. Industrial robots are capable of continuously performing welding tasks under different working conditions in well-defined and structured environments. However, reprogramming in the plant is still necessary to deal with uncertainties due to a positioning error of the parts to be welded on the production line. This error can be due to several reasons, including dimensional quality of the parts, mechanical play, aging of the mechanisms, etc. In this sense, an automatic decision-making system is required to compensate for the measured error and avoid stopping the production line. In this work, we propose a controller based on the Enhanced Wagner-Hagras Interval Type-3 NSFLS-1 (EWH Type-3 NSFLS-1), a vision system and a laser beam incident on the plates to be welded to determine the misalignment that is corrected by a fuzzy controller. Type-3 fuzzy logic systems (T3 FLS) make it possible to model the effects of uncertainties and to minimize them by optimizing the parameters during the learning process of the fuzzy system. They can approximate any real continuous function on a compact set to arbitrary accuracy. In this article, several fuzzy logic algorithms were evaluated, resulting in the proposed EWH IT3 TSK NSFLS-1 controller being the best option since it presented the lowest error of 1.79e-09m to successfully reposition the robot."
-    indice 167
   ]
   node [
     id 2291
@@ -15671,6 +15671,7 @@ graph [
     label "articulo:168"
     tipo "articulo"
     nombre "Estimation of the Performance of Photovoltaic Cells by Means of an Adaptative Neural Fuzzy Inference Model"
+    indice 168
     titulo "Estimation of the Performance of Photovoltaic Cells by Means of an Adaptative Neural Fuzzy Inference Model"
     anio 2024
     isbn "978-3-031-52516-2"
@@ -15681,7 +15682,6 @@ graph [
     subarea ""
     keywords "Support vector machines; Adversarial machine learning; Electroluminescence; Fuzzy neural networks; Adaptive neuro-fuzzy inference; ANFIS; Fuzzy inference modeling; Fuzzy-Logic; Machine-learning; Neural fuzzy; Neuro-fuzzy inference systems; Output power; Performance; Photovoltaics; Photovoltaic"
     abstract "This paper presents an Adaptive Neuro-fuzzy Inference System capable of predicting the output power of photovoltaic cells using their electroluminescence image and their IV curve. The input consists of 3 different features: the number of black pixels, grey pixels and white pixels. ANFIS combines the learning capabilities of Artificial Neural Networks with the comprehensible rules of Fuzzy Logic, being optimal for this problem, as demonstrated by the metrics of MAE of 0.064 and MSE of 0.009, which are better than the performance of other tested methods such as Support Vector Machines or Linear Regressor."
-    indice 168
   ]
   node [
     id 2305
@@ -15736,6 +15736,7 @@ graph [
     label "articulo:169"
     tipo "articulo"
     nombre "Evaluating the Development of Linguistic Metaphor Annotation in Mexican Spanish Popular Science Tweets"
+    indice 169
     titulo "Evaluating the Development of Linguistic Metaphor Annotation in Mexican Spanish Popular Science Tweets"
     anio 2024
     isbn "979-8-89176-110-0"
@@ -15746,7 +15747,6 @@ graph [
     subarea ""
     keywords "Computational linguistics; Inherent complexity; Initial phasis; Machine-learning; Processes stemming; Rigorous methodologies; Metaphor annotation; Mexican Spanish; Science communication; Inter-annotator agreement; Social media"
     abstract "Following previous work on metaphor annotation and automatic metaphor processing, this study presents the evaluation of an initial phase in the novel area of linguistic metaphor detection in Mexican Spanish popular science tweets. Specifically, we examine the challenges posed by the annotation process stemming from disagreement among annotators. During this phase of our work, we conducted the annotation of a corpus comprising 3733 Mexican Spanish popular science tweets. This corpus was divided into two halves and each half was then assigned to two different pairs of native Mexican Spanish-speaking annotators. Despite rigorous methodology and continuous training, inter-annotator agreement as measured by Cohen&#8217;s kappa was found to be low, slightly above chance levels, although the concordance percentage exceeded 60%. By elucidating the inherent complexity of metaphor annotation tasks, our evaluation emphasizes the implications of these findings and offers insights for future research in this field, with the aim of creating a robust dataset for machine learning in the future."
-    indice 169
   ]
   node [
     id 2314
@@ -15783,6 +15783,7 @@ graph [
     label "articulo:170"
     tipo "articulo"
     nombre "Evaluation Study of Pavement Condition Using Digital Twins and Deep Learning on IMU Signals"
+    indice 170
     titulo "Evaluation Study of Pavement Condition Using Digital Twins and Deep Learning on IMU Signals"
     anio 2025
     isbn ""
@@ -15793,7 +15794,6 @@ graph [
     subarea ""
     keywords "Deep learning; Digital twin; Intelligent transportation systems; Machine learning; Pavement condition; Predictive maintenance; Road infrastructure; Advanced Analytics; Asset management; Highway administration; Highway planning; Information management; Intelligent vehicle highway systems; Learning systems; Pavements; Vector spaces; Data driven; Inertial measurements units; Road infrastructures; Virtual spaces"
     abstract "Traditional road asset management relies on periodic, often inefficient, inspections. Digital Twins offer a paradigm shift towards proactive, data-driven maintenance by creating a real-time virtual replica of physical infrastructure. This paper proposes a comprehensive, formalized framework for a highway Digital Twin, structured into three integrated components: a Physical Space, which defines key performance indicators through mathematical state vectors; a Data Interconnection layer for real-time data processing; and a Virtual Space equipped with hybrid models. We provide a formal definition of these state vectors and a dynamic synchronization mechanism between the physical and virtual spaces. In this study, we focused on pavement condition assessment by using a data-driven component using accessible technology. This study show the synergy between the Digital Twin and deep learning, specifically by integrating advanced analytical models within the Virtual Space for intelligent pavement condition assessment. To validate this approach, a case study was conducted to classify road surface anomalies using low-cost Inertial Measurement Unit (IMU) data. We evaluated several machine learning classifiers and introduced a novel parallel Gated Recurrent Unit network. The results demonstrate that our proposed architecture achieved superior performance, with an accuracy of 89.5% and an F1-score of 0.875, significantly outperforming traditional methods. The findings validate the viability of the proposed Digital Twin framework and highlight its potential to achieve high-precision pavement monitoring using low-cost sensor data, a critical step towards intelligent road infrastructure management."
-    indice 170
   ]
   node [
     id 2320
@@ -15878,6 +15878,7 @@ graph [
     label "articulo:171"
     tipo "articulo"
     nombre "Experiments in Openness and Conscientiousness: Modifying Personality Traits with MML and Prompting"
+    indice 171
     titulo "Experiments in Openness and Conscientiousness: Modifying Personality Traits with MML and Prompting"
     anio 2025
     isbn ""
@@ -15888,7 +15889,6 @@ graph [
     subarea ""
     keywords "Personality; Openness; Conscientiousness; MLM; LLM; Prompting"
     abstract "This work presents the results of modifying the personality expressiveness of a Massive Language Model (MLM). Specifically, the study explores the activation and suppression of the openness and conscientiousness factors of the The Big Five model of personality traits. It is demonstrated that it is possible to construct prompts that influence language generation and that, through a self-evaluation mechanism, the effect of the prompt can be measured against the &#34;normal&#34; behaviour of the MLM."
-    indice 171
   ]
   node [
     id 2334
@@ -15925,6 +15925,7 @@ graph [
     label "articulo:172"
     tipo "articulo"
     nombre "Expert system for the parabolic trough collector control through classical and conformable transfer functions in ANNi-PSO"
+    indice 172
     titulo "Expert system for the parabolic trough collector control through classical and conformable transfer functions in ANNi-PSO"
     anio 2025
     isbn ""
@@ -15935,7 +15936,6 @@ graph [
     subarea ""
     keywords "ANN; Conformable exponential function; Conformable transfer functions; PSO; PTC; Temperature control; Exponential functions; Condition; Conformable transfer function; Exponentials; Innovative approaches; Neural-networks; Parabolic trough collectors; Performance; Inverse problems"
     abstract "This research presents an innovative approach to controlling parabolic trough collectors (PTC) using a multivariate inverse artificial neural network (ANNi) and classical and conformal transfer functions. The objective is to maximize the thermal energy generation of the PTC and maintain the constant output temperature, even in variable weather conditions. Three controllers were designed: the first optimizes the input flow, the second adjusts both the input flow and temperature simultaneously and the third prioritizes the flow and adjusts the temperature when necessary. Results reveal that controllers with Swish and CSwish transfer functions achieve superior performance by providing optimal flow and temperature, with increases of up to 8.5% and 5.2% in water flow and savings of up to 1.25% in temperature. Although the first controller faces challenges in staying on the baseline due to adverse weather conditions, the excellent performance of the CSwish controller stands out, outperforming the others by 2.26%. On the other hand, the second controller demonstrates excellent tracking of the reference temperature, with an average steady-state error of &#177;0.2 &#8451;. In contrast, the third controller has an average tracking error of only 1 &#176;C. These findings highlight the importance of expert systems in efficiently using renewable energy and underline the crucial role of transfer functions in the design of model-based controllers."
-    indice 172
   ]
   node [
     id 2340
@@ -15996,6 +15996,7 @@ graph [
     label "articulo:173"
     tipo "articulo"
     nombre "Exploratory Data Analysis and Classification of Hand Electromyographic Signals Using Classical Machine Learning Algorithms with Hyperparameters Optimization"
+    indice 173
     titulo "Exploratory Data Analysis and Classification of Hand Electromyographic Signals Using Classical Machine Learning Algorithms with Hyperparameters Optimization"
     anio 2025
     isbn "979-8-3315-8719-2"
@@ -16006,7 +16007,6 @@ graph [
     subarea ""
     keywords "Classification algorithms; Data analysis; Feature extraction; Digital signal processing; Machine learning; Electromyography; Measurement; Support vector machines; Machine learning algorithms; Signal processing algorithms; Programming; Nearest neighbor methods; Data models; Classification (of information); Data mining; Data reduction; Decision trees; Deep learning; Embedded systems; Forestry; Learning systems; Nearest neighbor search; Random forests; Signal analysis; Classification algorithm; Data classification; Digital signals; Electromyographic signal; Exploratory data analysis; Features extraction; Hyper-parameter optimizations; Signal-processing"
     abstract "Digital signal processing involves recording a signal, making changes to it, and generating a new signal. In engineering, procedures have been developed to acquire signals and extract useful data from them. Once the characteristics have been extracted, they are classified using statistical and artificial intelligence methods. Understanding, comparing and using these characteristics is an important step before tackling massive data sets and deep learning algorithms. The limited capabilities of the embedded cards that can be included in EMG prostheses must also be considered. This paper proposes a basic exploratory analysis and the use of classical algorithms to decompose a set of EMG data. Various machine learning classification algorithms were evaluated, including multilayer perceptron neural networks, support vector machines (SVM), K-nearest neighbors (KNN), decision trees and random forests. The results were then compared using the accuracy, precision, recall, F1 score, and support value metrics. Classic machine learning algorithms are still an option for programming embedded systems that operate based on EMG signals. The quality and cleanliness of the data are as important as the choice of AI model."
-    indice 173
   ]
   node [
     id 2350
@@ -16121,6 +16121,7 @@ graph [
     label "articulo:174"
     tipo "articulo"
     nombre "Exploring the application of knowledge transfer to sports video data"
+    indice 174
     titulo "Exploring the application of knowledge transfer to sports video data"
     anio 2025
     isbn ""
@@ -16131,7 +16132,6 @@ graph [
     subarea ""
     keywords "Artificial intelligence; Computer vision; Transfer learning; Zero-shot learning; Player re-identification; Rugby League; Netball"
     abstract "The study evaluates transfer learning and zero-shot learning for player re-identification in Rugby League and Netball video. Using two annotated sports datasets, it finds that models pre-trained on sports data generally outperform generic person-reidentification models and that part-based representations are useful under occlusion, similar uniforms, motion and background interference."
-    indice 174
   ]
   node [
     id 2369
@@ -16156,6 +16156,7 @@ graph [
     label "articulo:175"
     tipo "articulo"
     nombre "Exploring the Behavior and Performance of Large Language Models: Can LLMs Infer Answers to Questions Involving Restricted Information?"
+    indice 175
     titulo "Exploring the Behavior and Performance of Large Language Models: Can LLMs Infer Answers to Questions Involving Restricted Information?"
     anio 2025
     isbn ""
@@ -16166,7 +16167,6 @@ graph [
     subarea ""
     keywords "Bible corpus; Information retrieval; Large language models; RAG; Nonbibliographic retrieval systems; Question answering; Generation systems; Language model; Large language model; Performance; Reasoning capabilities; Retrieval-augmented generation"
     abstract "In this paper various LLMs are tested in a specific domain using a Retrieval-Augmented Generation (RAG) system. The study focuses on the performance and behavior of the models and was conducted in Spanish. A questionnaire based on The Bible, which consists of questions that vary in complexity of reasoning, was created in order to evaluate the reasoning capabilities of each model. The RAG system matches a question with the most similar passage from The Bible and feeds the pair to each LLM. The evaluation aims to determine whether each model can reason solely with the provided information or if it disregards the instructions given and makes use of its pretrained knowledge."
-    indice 175
   ]
   node [
     id 2373
@@ -16215,6 +16215,7 @@ graph [
     label "articulo:176"
     tipo "articulo"
     nombre "Fault diagnosis in a HVAC monophase transmission line"
+    indice 176
     titulo "Fault diagnosis in a HVAC monophase transmission line"
     anio 2025
     isbn "979-8-3315-1191-3"
@@ -16225,7 +16226,6 @@ graph [
     subarea ""
     keywords "Fault diagnosis; Adaptation models; Power transmission lines; HVAC; Noise; Distortion; Transmission line measurements; Mathematical models; Data models; Distortion measurement"
     abstract "This paper applies linear attention methods (LAMs) for creating models that recognize voltage sag, swell and harmonics in high voltage alternate current (HVAC) for a monophase transmission line. The method can simultaneously predict all the faults while working with various windows frames even as small as a half cycle. The approach is based on using data and allowing the model to learn the mathematical relationship between the input and the expected output by itself. The usage of LAMs made effective and precise predictions, in addition to the faster processing of information as compared with traditional attention models. The inclusion of different types of noises has not greatly affected the model&#8217;s performance, which produces a reliable method for identifying these types of distortions."
-    indice 176
   ]
   node [
     id 2381
@@ -16250,6 +16250,7 @@ graph [
     label "articulo:177"
     tipo "articulo"
     nombre "Fog Computing and Industry 4.0 for Newsvendor Inventory Model Using Attention Mechanism and Gated Recurrent Unit"
+    indice 177
     titulo "Fog Computing and Industry 4.0 for Newsvendor Inventory Model Using Attention Mechanism and Gated Recurrent Unit"
     anio 2024
     isbn ""
@@ -16260,7 +16261,6 @@ graph [
     subarea ""
     keywords "Attention mechanism; Gated Recurrent Unit; Industry 4.0; Newsvendor model; Fog computing; Inventory management"
     abstract "Background: Efficient inventory management is critical for sustainability in supply chains. However, maintaining adequate inventory levels becomes challenging in the face of unpredictable demand patterns. Furthermore, the need to disseminate demand-related information throughout a company often relies on cloud services. However, this method sometimes encounters issues such as limited bandwidth and increased latency. Methods: To address these challenges, our study introduces a system that incorporates a machine learning algorithm to address inventory-related uncertainties arising from demand fluctuations. Our approach involves the use of an attention mechanism for accurate demand prediction. We combine it with the Newsvendor model to determine optimal inventory levels. The system is integrated with fog computing to facilitate the rapid dissemination of information throughout the company. Results: In experiments, we compare the proposed system with the conventional demand estimation approach based on historical data and observe that the proposed system consistently outperformed the conventional approach. Conclusions: This research introduces an inventory management system based on a novel deep learning architecture that integrates the attention mechanism with cloud computing to address the Newsvendor problem. Experiments demonstrate the better accuracy of this system in comparison to existing methods. More studies should be conducted to explore its applicability to other demand modeling scenarios."
-    indice 177
   ]
   node [
     id 2385
@@ -16297,6 +16297,7 @@ graph [
     label "articulo:178"
     tipo "articulo"
     nombre "Framework for training and deployment machine learning methods in real-time simulator: short-term kinetic energy forecasting in power systems"
+    indice 178
     titulo "Framework for training and deployment machine learning methods in real-time simulator: short-term kinetic energy forecasting in power systems"
     anio 2024
     isbn "979-8-3503-8702-5"
@@ -16307,7 +16308,6 @@ graph [
     subarea ""
     keywords "Hardware-in-the-loop simulation; Learning (artificial intelligence); Power engineering computing; Power generation control; Power generation planning; Power grids; Python; Recurrent neural nets; Regression analysis; Linear regression method; Long short-term memory methods; Low-inertia power systems; Machine learning method; Mean absolute error; Nordic power system; Protection strategies; Python interpreter; Short-term kinetic energy forecasting; Typhoon HIL 404 real-time; Forecasting; Inertia; Kinetic Energy; Machine Learning; Real-Time; Energy; Energy forecasting; Machine learning methods; Operation strategy; Operations control; Power; Real-time simulator; Training; Machine learning algorithms; Tropical cyclones; Software algorithms; Predictive models; Real-time systems"
     abstract "Low-inertia power systems require more innovative operation, control, and protection strategies to maintain the operation secure and reliable. One of the challenges related to these systems is the need for knowledge of the inertia level (kinetic energy stored in the rotating masses) in real time. This paper proposes a framework for training and deploying machine learning methods for real-time power systems' kinetic energy forecasting. Linear Regression and Long Short-Term Memory methods are implemented in the Python interpreter of the Typhoon HIL 404 real-time simulator for forecasting the kinetic energy of the Nordic Power System in real-time. This paper provides implementation details together with possible future expansions of the framework. Simulation results show that the trained models can predict the kinetic energy in a forecasting horizon of four hours with a Mean Absolute Error lower than other methods currently available in the literature."
-    indice 178
   ]
   node [
     id 2391
@@ -16440,6 +16440,7 @@ graph [
     label "articulo:179"
     tipo "articulo"
     nombre "From biological vision to artificial intelligence: The role of foundational predictive processing"
+    indice 179
     titulo "From biological vision to artificial intelligence: The role of foundational predictive processing"
     anio 2025
     isbn ""
@@ -16450,7 +16451,6 @@ graph [
     subarea ""
     keywords "Biological vision; Artificial intelligence; Predictive processing"
     abstract "This commentary combines a trait-linkage account of visual systems with a predictive-processing framework. It proposes that high-resolution vision can function as an intrinsic bottom-up predictive mechanism and argues that early sensory prediction provides a biologically inspired basis for designing more adaptive, embodied and cognitively robust artificial-intelligence systems."
-    indice 179
   ]
   node [
     id 2413
@@ -16469,6 +16469,7 @@ graph [
     label "articulo:180"
     tipo "articulo"
     nombre "From Production Logistics to Smart Manufacturing: The Vision for a New RoboCup Industrial League"
+    indice 180
     titulo "From Production Logistics to Smart Manufacturing: The Vision for a New RoboCup Industrial League"
     anio 2025
     isbn ""
@@ -16479,7 +16480,6 @@ graph [
     subarea ""
     keywords "Multi agent systems; Anthropomorphic robots; Competition; Industrial robots; Smart manufacturing; Industrial robotics; Industry 5.0; Jobs scheduling; Multi-agent coordinations; Production logistics; RoboCup; Robocup industrial; Scheduling agents; Task planning"
     abstract "The RoboCup Logistics League is a RoboCup competition in a smart factory scenario that has focused on task planning, job scheduling, and multi-agent coordination. The focus on production logistics allowed teams to develop highly competitive strategies, but also meant that some recent developments in the context of smart manufacturing are not reflected in the competition, weakening its relevance over the years. In this paper, we describe the vision for the RoboCup Smart Manufacturing League, a new competition designed as a larger smart manufacturing scenario, reflecting all the major aspects of a modern factory. It will consist of several tracks that are initially independent but gradually combined into one smart manufacturing scenario. The new tracks will cover industrial robotics challenges such as assembly, human-robot collaboration, and humanoid robotics, but also retain a focus on production logistics. We expect the reenvisioned competition to be more attractive to newcomers and well-tried teams, while also shifting the focus to current and future challenges of industrial robotics."
-    indice 180
   ]
   node [
     id 2416
@@ -16546,6 +16546,7 @@ graph [
     label "articulo:181"
     tipo "articulo"
     nombre "FSTs vs ICL: Generalisation in LLMs for an under-resourced language"
+    indice 181
     titulo "FSTs vs ICL: Generalisation in LLMs for an under-resourced language"
     anio 2025
     isbn "979-8-89176-335-7"
@@ -16556,7 +16557,6 @@ graph [
     subarea ""
     keywords "Learning systems; Natural language processing systems; Context learning; Finite state transducers; Generalisation; In contexts; Learning generalization; Normalisation; Prior-knowledge; Rule-based method; Under-resourced; Under-resourced languages; Computational linguistics"
     abstract "The effectiveness of LLMs remains uncertain in scenarios where pre-trained models have limited prior knowledge of a language. In this work, we examine LLMs&#8217; generalization in under-resourced settings through the task of orthographic normalization across Otomi language variants. We develop two approaches: a rule-based method using a finite-state transducer (FST) and an in-context learning (ICL) method that provides the model with string transduction examples. We compare the performance of FSTs and the neural approach in low-resource scenarios, providing insights into their potential and limitations. Our results show that while FSTs outperform LLMs in zero-shot settings, ICL enables LLMs to surpass FSTs, stressing the importance of combining linguistic expertise with machine learning in current approaches for low-resource scenarios.1"
-    indice 181
   ]
   node [
     id 2427
@@ -16623,6 +16623,7 @@ graph [
     label "articulo:182"
     tipo "articulo"
     nombre "Generalising the team orienteering problem through multi-constraining and multi-objectives"
+    indice 182
     titulo "Generalising the team orienteering problem through multi-constraining and multi-objectives"
     anio 2025
     isbn "979-8-4007-1464-1"
@@ -16633,7 +16634,6 @@ graph [
     subarea ""
     keywords "Combinatorial mathematics; Genetic algorithms; Mathematical operators; Pareto optimisation; Combinatorial optimization; Hamiltonian paths; Integer-based solution representation; Multiconstrained team orienteering problem; Multiobjectives; NSGA-II algorithm; Objective points; Pareto fronts; Reduced computation times; Route sizes; Solution quality; Time frame; Time windows; Transformation operators"
     abstract "Among all combinatorial optimization challenges, the class of routing represents a well-known set of problems whose optimized solutions can significantly improve overall solution quality. Within this set, the Orienteering Problem presents a complex challenge: finding a set of Hamiltonian paths from a selected subset of objective points within a given time frame to maximize a global score. In this paper, the Multi-constrained Team Orienteering Problem is addressed by incorporating time windows and constraints on the maximum number of categories. The inclusion of an additional objective to balance route sizes is also explored. The problem is solved by adapting the NSGA-II algorithm, incorporating an integer-based solution representation and a set of transformation operators to achieve high-quality, densely populated Pareto fronts with reduced computation times compared to complete solvers."
-    indice 182
   ]
   node [
     id 2438
@@ -16736,6 +16736,7 @@ graph [
     label "articulo:183"
     tipo "articulo"
     nombre "GIL-IIMAS UNAM at SemEval-2024 Task 1: SAND: An In Depth Analysis of Semantic Relatedness Using Regression and Similarity Characteristics"
+    indice 183
     titulo "GIL-IIMAS UNAM at SemEval-2024 Task 1: SAND: An In Depth Analysis of Semantic Relatedness Using Regression and Similarity Characteristics"
     anio 2024
     isbn "979-8-89176-107-0"
@@ -16746,7 +16747,6 @@ graph [
     subarea ""
     keywords "Computational linguistics; Regression analysis; Semantics; Embeddings; Human's intuition; In-depth analysis; Model-based OPC; Multiple languages; N-grams; Semantic relatedness; Sentence length; Sentence similarity; Topic similarity; Regression; Sentence embeddings; Multilingual NLP; SemEval"
     abstract "The STR shared task aims at detecting the degree of semantic relatedness between sentence pairs in multiple languages. Semantic relatedness relies on elements such as topic similarity, point of view agreement, entailment, and even human intuition, making it a broader field than sentence similarity. The GIL-IIMAS UNAM team proposes a model based in the SAND characteristics composition (Sentence Transformers, AnglE Embeddings, N-grams, Sentence Length Difference coefficient) and classical regression algorithms. This model achieves a 0.83 Spearman Correlation score in the English test, and a 0.73 in the Spanish counterpart, finishing just above the SemEval baseline in English, and second place in Spanish."
-    indice 183
   ]
   node [
     id 2455
@@ -16831,6 +16831,7 @@ graph [
     label "articulo:184"
     tipo "articulo"
     nombre "GIL-IIMAS UNAM at SemEval-2025 Task 3: MeSSI: A Multimodule System to Detect Hallucinated Segments in Trivia-like Inquiries."
+    indice 184
     titulo "GIL-IIMAS UNAM at SemEval-2025 Task 3: MeSSI: A Multimodule System to Detect Hallucinated Segments in Trivia-like Inquiries."
     anio 2025
     isbn "979-8-89176-273-2"
@@ -16841,7 +16842,6 @@ graph [
     subarea ""
     keywords "Hallucination detection; Retrieval; Wikipedia; Multilingual NLP; SemEval"
     abstract "MeSSI is a multi-module system for detecting hallucinated spans in trivia-style questions. It extracts semantically relevant terms from each query, retrieves supporting Wikipedia material, creates a reference context and compares linguistic information in the question against that evidence to label unsupported segments in Spanish and English."
-    indice 184
   ]
   node [
     id 2469
@@ -16866,6 +16866,7 @@ graph [
     label "articulo:185"
     tipo "articulo"
     nombre "GIL-IIMAS UNAM at SemEval-2025 Task 4: LA-Min(E): LLM Unlearning Approaches Under Function Minimizing Evaluation Constraints"
+    indice 185
     titulo "GIL-IIMAS UNAM at SemEval-2025 Task 4: LA-Min(E): LLM Unlearning Approaches Under Function Minimizing Evaluation Constraints"
     anio 2025
     isbn "979-8-89176-273-2"
@@ -16876,7 +16877,6 @@ graph [
     subarea ""
     keywords "Machine unlearning; Large language models; Gradient ascent; Task vectors; SemEval"
     abstract "The paper evaluates large-language-model unlearning methods under a setting in which specified information must be forgotten while general generation capabilities are preserved. Gradient-ascent and task-vector approaches are explored for models of different sizes, with task rankings showing that targeted removal can be achieved while limiting degradation of retained capabilities."
-    indice 185
   ]
   node [
     id 2473
@@ -16901,6 +16901,7 @@ graph [
     label "articulo:186"
     tipo "articulo"
     nombre "GIL_UNAM_Iztacala at Touch&#233;: Benchmarking Classical Models for Multilingual Political Stance and Power Classification"
+    indice 186
     titulo "GIL_UNAM_Iztacala at Touch&#233;: Benchmarking Classical Models for Multilingual Political Stance and Power Classification"
     anio 2025
     isbn ""
@@ -16911,7 +16912,6 @@ graph [
     subarea ""
     keywords "Machine learning; Multilingual text classification; Political discourse; Political NLP; Barium compounds; Decision trees; Learning systems; Logistic regression; Random forests; Support vector regression; Text processing; Classical modeling; Multilingual texts; Power; Spectra's; Subtask; Text classification; Classification (of information)"
     abstract "In this article, we present a methodology developed to address the challenges of the Touch&#233; shared task on Ideology and Power Identification in Parliamentary Debates, which consists of three sub-tasks: determining the ideological orientation of a speaker&#8217;s party, identifying whether the party is in government or opposition, and classifying the party&#8217;s stance on the populist&#8211;pluralist spectrum. To tackle these tasks, we implemented a comprehensive pipeline to train, evaluate, and compare several classical machine learning models, including Bernoulli Naive Bayes, Logistic Regression, Support Vector Machines, and Random Forest. Our results show strong and consistent performance in Sub-tasks 1 and 2 across multiple languages, with macro F1-scores indicating reliable generalization. However, Sub-task 3 presented greater challenges, with lower and more variable performance, suggesting the increased complexity involved in modeling populism in multilingual parliamentary discourse."
-    indice 186
   ]
   node [
     id 2477
@@ -16978,6 +16978,7 @@ graph [
     label "articulo:187"
     tipo "articulo"
     nombre "Graph Neural Networks for Photon Searches with the Underground Muon Detector of the Pierre Auger Observatory"
+    indice 187
     titulo "Graph Neural Networks for Photon Searches with the Underground Muon Detector of the Pierre Auger Observatory"
     anio 2025
     isbn ""
@@ -16988,7 +16989,6 @@ graph [
     subarea ""
     keywords "Photons; Augers; Charged particles; Cosmic ray detectors; Cosmic rays; Dark Matter; Galaxies; Germanium compounds; Graph neural networks; Learning algorithms; Network architecture; Observatories; Air showers; Diffuse photons; Energetic process; Higher energy photons; Muon detectors; Photon flux; Pierre Auger observatory; Surface detectors; Ultra-high energies"
     abstract "Ultra-high-energy photons have long been sought as tracers of the most energetic processes in the Universe. Several sources can contribute to a diffuse photon flux, including interactions of cosmic rays with Galactic matter and radiation fields, as well as more exotic scenarios such as the decay of super-heavy dark matter. Regardless of their origin, the expected flux is extremely low, making direct detection impractical and thereby requiring indirect detection by extensive ground-based detector arrays. In this contribution, we present a novel method for photon&#8211;hadron discrimination in the energy range of 50 to 300 PeV based on deep learning algorithms. Our approach relies on information from both the Surface Detector (SD) and the Underground Muon Detector (UMD) of the Pierre Auger Observatory. The SD consists of an array of water-Cherenkov detectors. It is used to measure the electromagnetic and muonic components of extensive air showers at ground level. Meanwhile, the UMD is composed of buried scintillator modules. It is sensitive to air-shower muons with energies above &#8764;1 GeV, enhancing the identification of muon-poor air showers as initiated by photon primaries. Our method represents air-shower events as graphs, and consequently, the network architecture is composed of graph attention layers. We assess the performance of the method on a data subset and discuss the implications of unblinding the full current dataset, as well as the prospects of the increasing data volume expected in the coming years, particularly in terms of sensitivity to various diffuse fluxes from theoretical predictions."
-    indice 187
   ]
   node [
     id 2488
@@ -17067,6 +17067,7 @@ graph [
     label "articulo:188"
     tipo "articulo"
     nombre "Human Computation, Equitable and Innovative Future of Work AI Tools"
+    indice 188
     titulo "Human Computation, Equitable and Innovative Future of Work AI Tools"
     anio 2024
     isbn "978-1-57735-893-0"
@@ -17077,7 +17078,6 @@ graph [
     subarea ""
     keywords "AI systems; AI Technologies; Diverse fields; Future of works; Human computation; Primary objective; Radical transformation; Sustainable solution; Tools workshops"
     abstract "As we enter an era where the synergy between AI technologies and human effort is paramount, the Future of Work is undergoing a radical transformation. Emerging AI tools will profoundly influence how we work, the tools we use, and the very nature of work itself. The &#8217;Human Computation, Equitable, and Innovative Future of Work AI Tools&#8217; workshop at HCOMP&#8217;24 aims to explore groundbreaking solutions for developing fair and inclusive AI tools that shape how we will work. This workshop will delve into the collaborative potential of human computation and artificial intelligence in crafting equitable Future of Work AI tools. Participants will critically examine the current challenges in designing fair and innovative AI systems for the evolving workplace, as well as strategies for effectively integrating human insights into these tools. The primary objective is to foster a rich discourse on scalable, sustainable solutions that promote equitable Future of Work tools for all, with a particular focus on empowering marginalized communities. By bringing together experts from diverse fields, we aim to catalyze ideas that bridge the gap between technological advancement and social equity."
-    indice 188
   ]
   node [
     id 2501
@@ -17138,6 +17138,7 @@ graph [
     label "articulo:189"
     tipo "articulo"
     nombre "Identification of horizontal gene transference by means of anomaly detection and natural language-inspired interpretable embeddings"
+    indice 189
     titulo "Identification of horizontal gene transference by means of anomaly detection and natural language-inspired interpretable embeddings"
     anio 2024
     isbn ""
@@ -17148,7 +17149,6 @@ graph [
     subarea ""
     keywords "Horizontal gene transference; Anomaly detection; Embeddings; Natural language processing; Genomics"
     abstract "The article investigates horizontal gene transfer using anomaly detection together with interpretable embeddings inspired by natural-language representations. Genomic sequences are represented in a feature space intended to preserve interpretable relationships, and anomalous patterns are used to identify candidate transferred genetic material."
-    indice 189
   ]
   node [
     id 2511
@@ -17167,6 +17167,7 @@ graph [
     label "articulo:190"
     tipo "articulo"
     nombre "IIMASnlp at GenoVarDis Task: Exploring Zero-shot and CRF Approaches to NER Task in Genomic Variants and Related Diseases"
+    indice 190
     titulo "IIMASnlp at GenoVarDis Task: Exploring Zero-shot and CRF Approaches to NER Task in Genomic Variants and Related Diseases"
     anio 2024
     isbn ""
@@ -17177,7 +17178,6 @@ graph [
     subarea ""
     keywords "CRF; Diseases; Genomic Variants; LLaMA3-8b; Named Entity Recognition; Prompting; Zero-shot; Bi-directional; Conditional random field; Genomic variant; Genomics; Postprocessing methods; Random fields"
     abstract "This paper outlines our approach to address Named Entity Recognition (NER) in genomic variants and related diseases. We performed experiments using Conditional Random Fields (CRF), Bi-directional Long Short-Term Memory networks (Bi-LSTM), fine-tuning RoBERTa, and a zero-shot approach. We also used data augmentation with LLaMA3-8b, increasing our training data by approximately 300% . Additionally, we created several dataset variants for our experiments. While developing our approach, we explored a post-processing method to enhance our models&#8217; performance. Ultimately, we combined our best-trained CRF model with the zero-shot approach and applied the post-processing method to achieve our highest scores."
-    indice 190
   ]
   node [
     id 2514
@@ -17232,6 +17232,7 @@ graph [
     label "articulo:191"
     tipo "articulo"
     nombre "iimasNLP at SemEval-2024 Task 8: Unveiling structure-aware language models for automatic generated text identification"
+    indice 191
     titulo "iimasNLP at SemEval-2024 Task 8: Unveiling structure-aware language models for automatic generated text identification"
     anio 2024
     isbn "979-8-89176-107-0"
@@ -17242,7 +17243,6 @@ graph [
     subarea ""
     keywords "Classification (of information); Computational linguistics; Computer aided language translation; Artificial intelligence systems; Classification tasks; Human like; Language levels; Language model; Lexical semantics; Multilevels; Structure-aware; Text identification; Writing style; Semantics; AI-generated text detection; Language models; Lexical features; Syntactic features; SemEval"
     abstract "Large language models (LLMs) are artificial intelligence systems that can generate text, translate languages, and answer questions in a human-like way. While these advances are impressive, there is concern that LLMs could also be used to generate fake or misleading content. In this work, as a part of our participation in SemEval-2024 Task-8, we investigate the ability of LLMs to identify whether a given text was written by a human or by a specific AI. We believe that human and machine writing style patterns are different from each other, so integrating features at different language levels can help in this classification task. For this reason, we evaluate several LLMs that aim to extract valuable multilevel information (such as lexical, semantic, and syntactic) from the text in their training processing. Our best scores on Sub-taskA (monolingual) and SubtaskB were 71.5% and 38.2% in accuracy, respectively (both using the ConvBERT LLM); for both subtasks, the baseline (RoBERTa) achieved an accuracy of 74%."
-    indice 191
   ]
   node [
     id 2523
@@ -17327,6 +17327,7 @@ graph [
     label "articulo:192"
     tipo "articulo"
     nombre "Improved predictive diagnosis of diabetic macular edema based on hybrid models: An observational study"
+    indice 192
     titulo "Improved predictive diagnosis of diabetic macular edema based on hybrid models: An observational study"
     anio 2024
     isbn ""
@@ -17337,7 +17338,6 @@ graph [
     subarea ""
     keywords "Classifier; Hybrid model; Machine learning; Diabetes Mellitus, Type 2; Diabetic Retinopathy; Fundus Oculi; Humans; Macular Edema; Tomography, Optical Coherence; Convolution; Convolutional neural networks; Cost effectiveness; Fourier transforms; Image enhancement; Optical tomography; Spectrographs; Electroretinograms; Eye fundus; F1 scores; Follow up; Observational study; Spectrograms; Type-2 diabetes; Adult; Article; Convolutional neural network; Diabetic macular edema; Electroretinogram; Electroretinography; Human; Non insulin dependent diabetes mellitus; Optical coherence tomography; Sunlight; Complication; Diagnostic imaging; Procedures; Diagnosis"
     abstract "Diabetic Macular Edema (DME) is the most common sight-threatening complication of type 2 diabetes. Optical Coherence Tomography (OCT) is the most useful imaging technique to diagnose, follow up, and evaluate treatments for DME. However, OCT exam and devices are expensive and unavailable in all clinics in low- and middle-income countries. Our primary goal was therefore to develop an alternative method to OCT for DME diagnosis by introducing spectral information derived from spontaneous electroretinogram (ERG) signals as a single input or combined with fundus that is much more widespread. Baseline ERGs were recorded in 233 patients and transformed into scalograms and spectrograms via Wavelet and Fourier transforms, respectively. Using transfer learning, distinct Convolutional Neural Networks (CNN) were trained as classifiers for DME using OCT, scalogram, spectrogram, and eye fundus images. Input data were randomly split into training and test sets with a proportion of 80 %&#8211;20 %, respectively. The top performers for each input type were selected, OpticNet-71 for OCT, DenseNet-201 for eye fundus, and non-evoked ERG-derived scalograms, to generate a combined model by assigning different weights for each of the selected models. Model validation was performed using a dataset alien to the training phase of the models. None of the models powered by mock ERG-derived input performed well. In contrast, hybrid models showed better results, in particular, the model powered by eye fundus combined with mock ERG-derived information with a 91 % AUC and 86 % F1-score, and the model powered by OCT and mock ERG-derived scalogram images with a 93 % AUC and 89 % F1-score. These data show that the spontaneous ERG-derived input adds predictive value to the fundus- and OCT-based models to diagnose DME, except for the sensitivity of the OCT model which remains the same. The inclusion of mock ERG signals, which have recently been shown to take only 5 min to record in daylight conditions, therefore represents a potential improvement over existing OCT-based models, as well as a reliable and cost-effective alternative when combined with the fundus, especially in underserved areas, to predict DME."
-    indice 192
   ]
   node [
     id 2537
@@ -17488,6 +17488,7 @@ graph [
     label "articulo:193"
     tipo "articulo"
     nombre "Improving CNN interpretability and evaluation via alternating training and regularization in chest CT scans"
+    indice 193
     titulo "Improving CNN interpretability and evaluation via alternating training and regularization in chest CT scans"
     anio 2025
     isbn ""
@@ -17498,7 +17499,6 @@ graph [
     subarea ""
     keywords "CNN; Computer vision; Computerized tomography; Deep learning; Explainable AI; Image classification; Interpretability; Accuracy; Algorithm; Article; Artificial intelligence; Artificial neural network; Computer assisted tomography; Conceptual framework; Controlled study; Convolutional neural network; Cross validation; Decision making; Evaluation study; Explainable artificial intelligence; Explainable machine learning; Human; Image segmentation; Knowledge; Learning; Learning algorithm; Machine learning; Nerve cell network; Prediction; Random forest; Support vector machine; Thorax; Training; Transfer of learning"
     abstract "Interpretable machine learning is an emerging trend that holds significant importance, considering the growing impact of machine learning systems on society and human lives. Many interpretability methods are applied in CNN after training to provide deeper insights into the outcomes, but only a few have tried to promote interpretability during training. The aim of this experimental study is to investigate the interpretability of CNN. This research was applied to chest computed tomography scans, as understanding CNN predictions has particular importance in the automatic classification of medical images. We attempted to implement a CNN technique aimed at improving interpretability by relating filters in the last convolutional to specific output classes. Variations of such a technique were explored and assessed using chest CT images for classification based on the presence of lungs and lesions. A search was conducted to optimize the specific hyper-parameters necessary for the evaluated strategies. A novel strategy is proposed employing transfer learning and regularization. Models obtained with this strategy and the optimized hyperparameters were statistically compared to standard models, demonstrating greater interpretability without a significant loss in predictive accuracy. We achieved CNN models with improved interpretability, which is crucial for the development of more explainable and reliable AI systems."
-    indice 193
   ]
   node [
     id 2562
@@ -17595,6 +17595,7 @@ graph [
     label "articulo:194"
     tipo "articulo"
     nombre "Improving Lactation Curve Estimation in Sheep: A Comparative Analysis of Machine Learning Algorithms Across Milk Recording Schemes"
+    indice 194
     titulo "Improving Lactation Curve Estimation in Sheep: A Comparative Analysis of Machine Learning Algorithms Across Milk Recording Schemes"
     anio 2025
     isbn "978-3-031-83881-1"
@@ -17605,7 +17606,6 @@ graph [
     subarea ""
     keywords "Lactation Curve; Machine Learning; Sheep; Comparative analyzes; Curve estimation; Dairy sheep; Genetic improvements; Health improvements; Improvement strategies; Machine learning algorithms; Records management"
     abstract "Estimation of lactation curve characteristics is essential for effective dairy sheep management, influencing nutrition, health and genetic improvement strategies. Traditional statistical methods often lack the capability to capture the complexity of milk production patterns, requiring innovative data analysis techniques. The aim of the current study is to evaluate the effectiveness of different Machine Learning (ML) algorithms - SMOreg, Linear Regression, M5 and Random Forest - in estimating key lactation curve parameters: Total Milk Yield (TMY), Peak Yield (PY) and Time to Peak Yield (TPY) under three different milk recording schemes. A total of 2,280 weekly records were used from a commercial sheep flock in Quer&#233;taro, Mexico. The results showed that the ML algorithms provided accurate estimates of lactation curve characteristics. We also found that the estimations of lactation curve characteristics were similar between the milk recording scheme using 20 records weekly (ST) and five records monthly (TF). In conclusion, the ML algorithms used can improve lactation curve estimation in dairy sheep and provide a cost-effective alternative for sheep production management by maximizing data utility while minimizing operational costs. Future research should focus on refining these algorithms for different sheep breeds and environmental conditions to further integrate them into practical farm management systems."
-    indice 194
   ]
   node [
     id 2578
@@ -17660,6 +17660,7 @@ graph [
     label "articulo:195"
     tipo "articulo"
     nombre "Indoor occupancy monitoring using environmental feature fusion and semi-supervised machine learning models"
+    indice 195
     titulo "Indoor occupancy monitoring using environmental feature fusion and semi-supervised machine learning models"
     anio 2024
     isbn ""
@@ -17670,7 +17671,6 @@ graph [
     subarea ""
     keywords "Data fusion; Environmental variables; Indoor occupancy; Machine learning; Non-intrusive sensors; Semi-supervised learning; Adversarial machine learning; Barometers; Contrastive Learning; Feature Selection; Indoor air pollution; Labeled data; Self-supervised learning; Sensor data fusion; Time difference of arrival; Unsupervised learning; Environmental sensor; F1 scores; Features fusions; High-accuracy; Semi-supervised; Dimensionality reduction; Indoor occupancy monitoring; Environmental sensors; Feature fusion; Self-training"
     abstract "Smart buildings optimize energy consumption and occupant comfort through Heating, Ventilation and Air Conditioning, and lighting management. Nevertheless, large venues require data fusion techniques to improve analysis and forecasting. This study aims to evaluate the effectiveness of using different feature fusion techniques, environmental sensors, and semi-supervised learning to estimate indoor occupancy in a 230 m2 office. Using five Internet of Things devices measuring air temperature, relative humidity, and barometric pressure, data was collected for 99 days with 6800 entries (on average) and only 14% labeled. Eight feature selection methods were evaluated along with three supervised and two semi-supervised classification methods. Results indicate that the Chi-squared-based approach for feature fusion outperformed others. Similarly, the semi-supervised Self-Training model achieved better performance than the supervised methods. This research shows that combining semi-supervised learning and data fusion allows for estimating the occupancy level in large indoor spaces with high accuracy and low labeling costs."
-    indice 195
   ]
   node [
     id 2587
@@ -17797,6 +17797,7 @@ graph [
     label "articulo:196"
     tipo "articulo"
     nombre "Inference of the Mass Composition of Cosmic Rays with energies from 10^18.5 to 10^20 eV using the Pierre Auger Observatory and Deep Learning"
+    indice 196
     titulo "Inference of the Mass Composition of Cosmic Rays with energies from 10^18.5 to 10^20 eV using the Pierre Auger Observatory and Deep Learning"
     anio 2024
     isbn ""
@@ -17807,7 +17808,6 @@ graph [
     subarea ""
     keywords "Cosmology; Cosmic ray detectors; Cosmic ray measurement; Cosmics; Energy; Energy feature; Fluorescence detector; Mass composition; Measurements of; Pierre Auger observatory; Rate of change; Surface detectors; Cosmic rays; Dark energy; Dark Matter"
     abstract "We present measurements of the atmospheric depth of the shower maximum Xmax, inferred for the first time on an event-by-event level using the surface detector of the Pierre Auger Observatory. Using deep learning, we were able to extend measurements of the Xmax distributions up to energies of 100 EeV (10^20 eV), not yet revealed by current measurements, providing new insights into the mass composition of cosmic rays at extreme energies. Gaining a 10-fold increase in statistics compared to the fluorescence detector data, we find evidence that the rate of change of the average Xmax with the logarithm of energy features three breaks at 6.5&#177;0.6(stat)&#177;1(syst) EeV, 11&#177;2(stat)&#177;1(syst) EeV, and 31&#177;5(stat)&#177;3(syst) EeV, in the vicinity to the three prominent features (ankle, instep, suppression) of the cosmic-ray flux. The energy evolution of the mean and standard deviation of the measured Xmax distributions indicates that the mass composition becomes increasingly heavier and purer, thus being incompatible with a large fraction of light nuclei between 50 and 100 EeV."
-    indice 196
   ]
   node [
     id 2608
@@ -17838,6 +17838,7 @@ graph [
     label "articulo:197"
     tipo "articulo"
     nombre "Inference of the Mass Composition of Cosmic Rays with Energies from 10^18.5 to 10^20 eV Using the Pierre Auger Observatory and Deep Learning"
+    indice 197
     titulo "Inference of the Mass Composition of Cosmic Rays with Energies from 10^18.5 to 10^20 eV Using the Pierre Auger Observatory and Deep Learning"
     anio 2025
     isbn ""
@@ -17848,13 +17849,13 @@ graph [
     subarea ""
     keywords "Cosmology; Cosmic ray detectors; Cosmic ray measurement; Cosmics; Energy; Energy feature; Fluorescence detector; Mass composition; Measurements of; Pierre Auger observatory; Rate of change; Surface detectors; Cosmic rays; Dark energy; Dark Matter"
     abstract "We present measurements of the atmospheric depth of the shower maximum Xmax, inferred for the first time on an event-by-event level using the surface detector of the Pierre Auger Observatory. Using deep learning, we were able to extend measurements of the Xmax distributions up to energies of 100 EeV (10^20 eV), not yet revealed by current measurements, providing new insights into the mass composition of cosmic rays at extreme energies. Gaining a 10-fold increase in statistics compared to the fluorescence detector data, we find evidence that the rate of change of the average Xmax with the logarithm of energy features three breaks at 6.5&#177;0.6(stat)&#177;1(syst) EeV, 11&#177;2(stat)&#177;1(syst) EeV, and 31&#177;5(stat)&#177;3(syst) EeV, in the vicinity to the three prominent features (ankle, instep, suppression) of the cosmic-ray flux. The energy evolution of the mean and standard deviation of the measured Xmax distributions indicates that the mass composition becomes increasingly heavier and purer, thus being incompatible with a large fraction of light nuclei between 50 and 100 EeV."
-    indice 197
   ]
   node [
     id 2613
     label "articulo:198"
     tipo "articulo"
     nombre "Into The Limits of Logic: Alignment Methods for Formal Logical Reasoning"
+    indice 198
     titulo "Into The Limits of Logic: Alignment Methods for Formal Logical Reasoning"
     anio 2025
     isbn "979-8-89176-348-7"
@@ -17865,7 +17866,6 @@ graph [
     subarea ""
     keywords "Formal logic; Large language models; Direct preference optimization; First-order logic; Reasoning"
     abstract "Large language models are aligned with direct preference optimization for several formal-logic tasks, including natural-language to first-order-logic translation, inference and retransformation of formal representations into natural language. A semantic similarity measure, LogicSim, is also introduced; alignment improves semantic parsing and retranslation, while reliable logical inference remains substantially more difficult."
-    indice 198
   ]
   node [
     id 2614
@@ -17896,6 +17896,7 @@ graph [
     label "articulo:199"
     tipo "articulo"
     nombre "JK_PCIC_UNAM at CheckThat! 2024: Analysis of Subjectivity in News Sentences Using Transformers-Based Models"
+    indice 199
     titulo "JK_PCIC_UNAM at CheckThat! 2024: Analysis of Subjectivity in News Sentences Using Transformers-Based Models"
     anio 2024
     isbn ""
@@ -17906,7 +17907,6 @@ graph [
     subarea ""
     keywords "BERT; News sentences; Subjectivity; Transformer Models; Adversarial machine learning; Contrastive Learning; Machine learning algorithms; News sentence; Online content; Performance; Public opinions; Relevant features; Subtask; Transformer modeling; Distribution transformers; Subjectivity detection; News; Transformers; CheckThat"
     abstract "Recognizing subjectivity in online content is essential for understanding public opinion, detecting bias, and managing misinformation. This year's CheckThat! 2024 Task 2 emphasized the identification of subjective and objective news sentences. Transformer models, particularly BERT, have demonstrated high efficacy for this task. In our study, we trained and evaluated our methodologies on the English and Italian sub-tasks of the challenge. A thorough data analysis was conducted, emphasizing the importance of extracting relevant features for accurate classification. Although traditional machine learning algorithms were utilized for this task, the BERT models significantly outperformed them, demonstrating superior performance. Specifically, our BERT-based classifiers achieved a macro F1 score of 0.82 on the English development dataset and 0.81 on the Italian development dataset. These results underscore the effectiveness of transformer models in distinguishing subjective content."
-    indice 199
   ]
   node [
     id 2619
@@ -17967,6 +17967,7 @@ graph [
     label "articulo:200"
     tipo "articulo"
     nombre "La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America"
+    indice 200
     titulo "La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America"
     anio 2025
     isbn "979-8-89176-251-0"
@@ -17977,7 +17978,6 @@ graph [
     subarea ""
     keywords "Environmental impact; Computational linguistics; Catalans; Cultural diversity; Current capability; Current limitation; Evaluation results; Evaluation standard; Language model; Latin America; Linguistic diversity; Open-source; Large language models; Leaderboard; Spanish varieties; Catalan; Basque; Galician; Evaluation"
     abstract "Leaderboards showcase the current capabilities and limitations of Large Language Models (LLMs). To motivate the development of LLMs that represent the linguistic and cultural diversity of the Spanish-speaking community, we present LA LEADERBOARD, the first open-source leaderboard to evaluate generative LLMs in languages and language varieties of Spain and Latin America. LA LEADERBOARD is a community-driven project that aims to establish an evaluation standard for everyone interested in developing LLMs for the Spanish-speaking community. This initial version combines 66 datasets in Basque, Catalan, Galician, and different Spanish varieties, showcasing the evaluation results of 50 models. To encourage community-driven development of leaderboards in other languages, we explain our methodology, including guidance on selecting the most suitable evaluation setup for each downstream task. In particular, we provide a rationale for using fewer few-shot examples than typically found in the literature, aiming to reduce environmental impact and facilitate access to reproducible results for a broader research community."
-    indice 200
   ]
   node [
     id 2629
@@ -18068,6 +18068,7 @@ graph [
     label "articulo:201"
     tipo "articulo"
     nombre "La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America"
+    indice 201
     titulo "La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America"
     anio 2025
     isbn ""
@@ -18078,13 +18079,13 @@ graph [
     subarea ""
     keywords "Environmental impact; Computational linguistics; Catalans; Cultural diversity; Current capability; Current limitation; Evaluation results; Evaluation standard; Language model; Latin America; Linguistic diversity; Open-source; Large language models; Leaderboard; Spanish varieties; Catalan; Basque; Galician; Evaluation"
     abstract "Leaderboards showcase the current capabilities and limitations of Large Language Models (LLMs). To motivate the development of LLMs that represent the linguistic and cultural diversity of the Spanish-speaking community, we present LA LEADERBOARD, the first open-source leaderboard to evaluate generative LLMs in languages and language varieties of Spain and Latin America. LA LEADERBOARD is a community-driven project that aims to establish an evaluation standard for everyone interested in developing LLMs for the Spanish-speaking community. This initial version combines 66 datasets in Basque, Catalan, Galician, and different Spanish varieties, showcasing the evaluation results of 50 models. To encourage community-driven development of leaderboards in other languages, we explain our methodology, including guidance on selecting the most suitable evaluation setup for each downstream task. In particular, we provide a rationale for using fewer few-shot examples than typically found in the literature, aiming to reduce environmental impact and facilitate access to reproducible results for a broader research community."
-    indice 201
   ]
   node [
     id 2644
     label "articulo:202"
     tipo "articulo"
     nombre "Large-Scale Validation and Analysis of the Rejection Capacity in Entropic Associative Memory"
+    indice 202
     titulo "Large-Scale Validation and Analysis of the Rejection Capacity in Entropic Associative Memory"
     anio 2025
     isbn "979-8-3315-9026-0; 979-8-3315-9027-7"
@@ -18095,7 +18096,6 @@ graph [
     subarea ""
     keywords "Scalability; Associative storage; Computation theory; Memory architecture; Statistical tests; Associative memory; Computational modelling; Entropic associative memory; Large-scales; Open-set recognition; Quick draw; Rejection; Rejection capacity; Scale analysis; Scale validation; Computer science; Explainable AI; Computational modeling; Deep architecture; Computer architecture; Probabilistic logic; Pattern recognition; Context modeling"
     abstract "The Entropic Associative Memory (EAM) is a cognitively inspired computational model that combines probabilistic recognition with an efficient pattern storage and retrieval architecture. Previous evaluations, limited to small domains of about ten classes and a few thousand instances per class, showed promising results in classification and reconstruction. This work extends those studies in two ways. First, we assess scalability using Googles Quick, Draw! dataset, which includes over 300 classes and 100,000 instances per class. Second, we test EAMs rejection capability by storing only half of the classes and evaluating performance on the full dataset. Results confirm EAMs adaptability to large-scale scenarios and its effective rejection of novel stimuli, underscoring its potential as a robust and explainable AI model."
-    indice 202
   ]
   node [
     id 2645
@@ -18186,6 +18186,7 @@ graph [
     label "articulo:203"
     tipo "articulo"
     nombre "LATE-GIL-nlp at Semeval-2025 Task 10: Exploring LLMs and transformers for Characterization and extraction of narratives from online news"
+    indice 203
     titulo "LATE-GIL-nlp at Semeval-2025 Task 10: Exploring LLMs and transformers for Characterization and extraction of narratives from online news"
     anio 2025
     isbn "979-8-89176-273-2"
@@ -18196,7 +18197,6 @@ graph [
     subarea ""
     keywords "Narrative extraction; Large language models; Transformers; Multilingual NLP; SemEval"
     abstract "The system developed for SemEval-2025 Task 10 addresses entity framing, narrative classification and narrative extraction from online news. It combines Llama 3.1, XLM-RoBERTa and FLAN-T5 in a multilingual pipeline, and the reported experiments show that the integrated approach can outperform the task baselines across several narrative-analysis subtasks."
-    indice 203
   ]
   node [
     id 2660
@@ -18209,6 +18209,7 @@ graph [
     label "articulo:204"
     tipo "articulo"
     nombre "LATE-GIL-NLP at SemEval-2025 Task 11: Multi-Language Emotion Detection and Intensity Classification Using Transformer Models with Optimized Loss Functions for Imbalanced Data"
+    indice 204
     titulo "LATE-GIL-NLP at SemEval-2025 Task 11: Multi-Language Emotion Detection and Intensity Classification Using Transformer Models with Optimized Loss Functions for Imbalanced Data"
     anio 2025
     isbn "979-8-89176-273-2"
@@ -18219,7 +18220,6 @@ graph [
     subarea ""
     keywords "Multilingual emotion detection; Emotion intensity; Transformers; Class imbalance; SemEval"
     abstract "The SemEval-2025 Task 11 system addresses multilingual perceived-emotion detection and ordinal emotion-intensity classification with pretrained language models. Extensive hyperparameter optimization and combined loss functions are used to mitigate severe class imbalance and variation across languages, with separate strategies for multi-label emotion detection and ordered intensity prediction."
-    indice 204
   ]
   node [
     id 2662
@@ -18244,6 +18244,7 @@ graph [
     label "articulo:205"
     tipo "articulo"
     nombre "Machine and Deep Learning for the Diagnosis, Prognosis, and Treatment of Cervical Cancer: A Scoping Review"
+    indice 205
     titulo "Machine and Deep Learning for the Diagnosis, Prognosis, and Treatment of Cervical Cancer: A Scoping Review"
     anio 2025
     isbn ""
@@ -18254,7 +18255,6 @@ graph [
     subarea ""
     keywords "Cervical cancer; Machine learning; Deep learning; Diagnosis; Prognosis; Treatment"
     abstract "This scoping review surveys machine-learning and deep-learning methods applied to cervical-cancer diagnosis, prognosis and treatment, describing the data types, modeling approaches and clinical tasks addressed in the literature."
-    indice 205
   ]
   node [
     id 2666
@@ -18279,6 +18279,7 @@ graph [
     label "articulo:206"
     tipo "articulo"
     nombre "Machine Learning Algorithms for Solar Irradiance Forecasting in a Rural Community in Michoac&#225;n, Mexico"
+    indice 206
     titulo "Machine Learning Algorithms for Solar Irradiance Forecasting in a Rural Community in Michoac&#225;n, Mexico"
     anio 2025
     isbn "978-981-96-6937-0; 978-981-96-6938-7"
@@ -18289,7 +18290,6 @@ graph [
     subarea ""
     keywords "Decision tree; Forecasting; Linear regression; Rural community; Solar irradiance; Learning algorithms; Learning systems; Machine learning; Rural areas; Solar radiation; Data cleansing; Data compatibility; Data quality; Decision tree regression; Machine learning algorithms; Mexico; Meteorological variables; San Francisco; Solar irradiances; Decision trees; Computer Science, Artificial Intelligence; Computer Science, Information Systems; Computer Science, Interdisciplinary Applications; Telecommunications; Computer Science; Data analysis; Power engineering computing; Regression analysis; Solar power; Sunlight; Analysis procedures; Decision tree regression models; Michoac&#225;n; Pur&#233;pecha indigenous zone; Rigorous data cleansing; San francisco Pich&#225;taro; Solar irradiance forecasting; Solarimetric station; Solcast platform; Tingambato"
     abstract "This project aims to develop a methodology for predicting solar radiation in San Francisco Pich&#225;taro, a community in the municipality of Tingambato, Michoac&#225;n, Mexico. This community lies within the Pur&#233;pecha indigenous zone. The project utilized two databases: one from a solarimetric station in the area and the other from the Solcast platform, which provides access to solar irradiance and other pertinent meteorological variables. Rigorous data cleansing and analysis procedures were implemented to ensure data quality and compatibility. Subsequently, both linear and decision tree regression models were applied to the refined and prepared data to forecast solar radiation."
-    indice 206
   ]
   node [
     id 2670
@@ -18434,6 +18434,7 @@ graph [
     label "articulo:207"
     tipo "articulo"
     nombre "Machine Learning and Deep Learning Sentiment Analysis Models: Case Study on the SENT-COVID Corpus of Tweets in Mexican Spanish"
+    indice 207
     titulo "Machine Learning and Deep Learning Sentiment Analysis Models: Case Study on the SENT-COVID Corpus of Tweets in Mexican Spanish"
     anio 2024
     isbn ""
@@ -18444,7 +18445,6 @@ graph [
     subarea ""
     keywords "COVID-19; Machine learning; Sentiment analysis; Social media; Spanish"
     abstract "This article presents a comprehensive evaluation of traditional machine learning and deep learning models in analyzing sentiment trends within the SENT-COVID Twitter corpus, curated during the COVID-19 pandemic. The corpus, filtered by COVID-19 related keywords and manually annotated for polarity, is a pivotal resource for conducting sentiment analysis experiments. Our study investigates various approaches, including classic vector-based systems such as word2vec, doc2vec, and diverse phrase modeling techniques, alongside Spanish pre-trained BERT models. We assess the performance of readily available sentiment analysis libraries for Python users, including TextBlob, VADER, and Pysentimiento. Additionally, we implement and evaluate traditional classification algorithms such as Logistic Regression, Naive Bayes, Support Vector Machines, and simple neural networks like Multilayer Perceptron. Throughout the research, we explore different dimensionality reduction techniques. This methodology enables a precise comparison among classification methods, with BETO-uncased achieving the highest accuracy of 0.73 on the test set. Our findings underscore the efficacy and applicability of traditional machine learning and deep learning models in analyzing sentiment trends within the context of low-resource Spanish language scenarios and emerging topics like COVID-19."
-    indice 207
   ]
   node [
     id 2694
@@ -18457,6 +18457,7 @@ graph [
     label "articulo:208"
     tipo "articulo"
     nombre "Machine learning application for prediction of peptides with antiarboviral therapeutic potential"
+    indice 208
     titulo "Machine learning application for prediction of peptides with antiarboviral therapeutic potential"
     anio 2025
     isbn "979-8-3315-7673-8"
@@ -18467,7 +18468,6 @@ graph [
     subarea ""
     keywords "Antiviral agents; Economic and social effects; Learning systems; Antivirals; Classical modeling; Economic consequences; Latin America; Machine learning applications; Machine learning approaches; Social consequences; Therapeutic potentials; Machine learning; Economics; Drugs; Electric potential; Databases; Peptides; Manuals; Power electronics; Public healthcare; Diseases; Arbovirus; Therapeutic prediction; Bioinformatics"
     abstract "Arboviral diseases have a notable impact worldwide, particularly in most Latin America. Cases are on the rise in frequency and magnitude, making them an important public health problem with social and economic consequences. For this reason, multiple efforts exist to combat these diseases; one of the main challenges is the design of antiarboviral drugs, which do not currently exist. Peptides have been successful in the last decades in treating different antiviral diseases, so the discovery of peptides with antiarboviral therapeutic potential acquires great relevance. During this period, different machine learning approaches have been used for this purpose. Therefore, we consider applying classical models using a database proposed in this work from the manual compilation of the data available in the literature. The results obtained are promising, constituting an interesting starting point for deepening this novel problem."
-    indice 208
   ]
   node [
     id 2696
@@ -18564,6 +18564,7 @@ graph [
     label "articulo:209"
     tipo "articulo"
     nombre "Machine Learning for Arrhythmia Detection: Integrating ECG Biomarkers for Improved Diagnostic Performance"
+    indice 209
     titulo "Machine Learning for Arrhythmia Detection: Integrating ECG Biomarkers for Improved Diagnostic Performance"
     anio 2025
     isbn "978-1-6654-5794-1"
@@ -18574,7 +18575,6 @@ graph [
     subarea ""
     keywords "Arrhythmia detection; Artificial intelligence; Electrocardiogram; Tortuosity; Machine learning; Support vector machines; Accuracy; Sensitivity; Arrhythmia; Biological system modeling; Neural networks; Electrocardiography; Sensitivity and specificity; Feature extraction; Diseases; Electrocardiograms; Errors; Signal processing; Cardiac arrhythmia; Cardiovascular disease; Diagnostic performance; Early diagnosis; Electrocardiogram analysis; Human errors; Intelligence models; Learning systems"
     abstract "Cardiac arrhythmia detection is crucial for early diagnosis and treatment of cardiovascular diseases. Traditional electrocardiogram analysis relies on manual interpretation, which can be prone to human errors. In this study, artificial intelligence models, such as fine tree, support vector machine, and neural network were trained using tortuosity and RR interval as key features. The acquired data was obtained from 12-lead ECG recordings belonging to 14 control patients and 14 patients with arrhythmia. The models&#8217; performance was evaluated through specificity, sensitivity, accuracy and area under the curve metrics. Results showed that the SVM model achieves the highest accuracy (85.7%) and sensitivity (78.57%), demonstrating a better performance. These findings highlight AI&#8217;s potential to enhance arrhythmia detection, improving efficiency and accuracy in diagnosis."
-    indice 209
   ]
   node [
     id 2712
@@ -18683,6 +18683,7 @@ graph [
     label "articulo:210"
     tipo "articulo"
     nombre "Manual annotation of Robson criteria and obstetric entities: Inter-annotator agreement and initial NER models implementation"
+    indice 210
     titulo "Manual annotation of Robson criteria and obstetric entities: Inter-annotator agreement and initial NER models implementation"
     anio 2025
     isbn ""
@@ -18693,7 +18694,6 @@ graph [
     subarea ""
     keywords "BERT; Inter-annotation agreement; Llama3.1-8B-instruct; NER; RoBERTa; Robson criteria classification; XLM-RoBERTa; Electronic Health Records; Female; Humans; Pregnancy; Artificial intelligence; Contracts; Obstetrics; Random processes; Annotated datasets; F1 scores; Named entity recognition; Recognition models; Adolescent; Adult; Article; Classification algorithm; Conditional Random Fields model; Conditional Random Forest; Data accuracy; Electronic health record; Evaluation study; Fine-tuned BERT model; Human; Identifiable information; Inter-annotator agreement; Interrater reliability; Large language model; Llama 3.1-8B-Instruct model; Machine learning; Major clinical study; Named Entity Recognition model; Obstetric patient; Patient information; Practice guideline; RoBERTa model; Statistical concepts; XLM-RoBERTa model; Classification (of information); Clinical text; Robson criteria; Annotation"
     abstract "We present a manually annotated dataset focused on Robson Criteria Classification, encompassing entities related to obstetric variables, antibiotics, uterotonics, complications, delivery outcomes, and personal information. A total of 1,865 Electronic Health Records (EHRs) were annotated, yielding 18,105 labeled entities. Inter-annotator agreement (IAA) was assessed using F1 and Kappa scores. The F1 and Kappa scores were 0.86 and 0.89 for strict criteria, respectively. For relaxed criteria, F1 and Kappa scores were 0.93 and 0.94, respectively. Using the annotated dataset, we trained several Named Entity Recognition (NER) models: Conditional Random Fields (CRF), fine-tuned BERT, RoBERTa, and XLM-RoBERTa models, and a zero-shot and fine-tuned Llama 3.1-8B-Instruct model. Models were evaluated under two scenarios: a 23-label scheme and a 46-label IOB scheme. The CRF model achieved the highest precision, with scores of 0.69 and 0.74 for 23 and 46 labels, respectively. RoBERTa and XLM-RoBERTa models demonstrated the best recall and F1-scores, achieving 0.70 and 0.76 for recall on 23 and 46 labels, respectively, and 0.65 and 0.72 for F1-scores on 23 and 46 labels, respectively."
-    indice 210
   ]
   node [
     id 2730
@@ -18898,6 +18898,7 @@ graph [
     label "articulo:211"
     tipo "articulo"
     nombre "Mapping Tropical Forested Wetlands Biomass with LiDAR: A Machine Learning Comparison"
+    indice 211
     titulo "Mapping Tropical Forested Wetlands Biomass with LiDAR: A Machine Learning Comparison"
     anio 2025
     isbn ""
@@ -18908,7 +18909,6 @@ graph [
     subarea ""
     keywords "Blue carbon; Point cloud metrics; Aboveground biomass (AGB); Mangroves; Tropical swamp forest; Random forest; LiDAR"
     abstract "Mangroves and tropical swamp forests are ecosystems that play a critical role in carbon sequestration, coastal protection, and biodiversity support. Accurately estimating aboveground biomass (AGB) in these forests is crucial for global carbon management and conservation efforts. This study evaluates the potential of LiDAR-derived metrics to model the AGB of an area with mangroves and tropical swamp forests in Southeast Mexico. The study area, located in the Pantanos de Centla Protected Area, encompasses a gradient of seasonal waterlogged conditions, from saline to freshwater. Data were collected from 25 1250-m2 plots, and three modeling approaches&#8212;linear regression, random forest, and XGBoost&#8212;were employed to estimate the AGB. The data were divided into training and test sets using an 80:20 ratio. The results indicate that the random forest model outperformed the others, achieving the lowest root mean squared error (RMSE = 20.25 Mg/ha, rRMSE = 12.25%, R2 = 0.88). The most influential variables in this model were mean height (zmean), the 35th percentile of height (zq35), and the fourth percentile of returns (p4th), all positively correlated with the AGB. The model&#8217;s robustness and uncertainty were evaluated through bootstrapping and spatial prediction across the study area, with higher AGB values concentrated near the main water channels. This study underscores the effectiveness of LiDAR-derived metrics for AGB estimation in complex forested environments."
-    indice 211
   ]
   node [
     id 2764
@@ -18951,6 +18951,7 @@ graph [
     label "articulo:212"
     tipo "articulo"
     nombre "MBZUAI-UNAM at SemEval-2024 Task 1: Sentence-CROBI, a Simple Cross-Bi-Encoder-Based Neural Network Architecture for Semantic Textual Relatedness"
+    indice 212
     titulo "MBZUAI-UNAM at SemEval-2024 Task 1: Sentence-CROBI, a Simple Cross-Bi-Encoder-Based Neural Network Architecture for Semantic Textual Relatedness"
     anio 2024
     isbn "979-8-89176-107-0"
@@ -18961,7 +18962,6 @@ graph [
     subarea ""
     keywords "Computational linguistics; Encoding (symbols); Network coding; Neural networks; Semantics; Fine tuning; Low resource languages; Neural network architecture; Semantic relatedness; Simple++; Vector representations; Network architecture; Semantic textual relatedness; Cross-encoder; Bi-encoder; Multilingual NLP"
     abstract "The Semantic Textual Relatedness (STR) shared task aims at detecting the degree of semantic relatedness between pairs of sentences on low-resource languages from Afroasiatic, Indoeuropean, Austronesian, Dravidian, and Nigercongo families. We use the Sentence-CROBI architecture to tackle this problem. The model is adapted from its original purpose of paraphrase detection to explore its capacities in a related task with limited resources and in multilingual and monolingual settings. Our approach combines the vector representation of cross-encoders and bi-encoders and possesses high adaptable capacity by combining several pre-trained models. Our system obtained good results on the low-resource languages of the dataset using a multilingual fine-tuning approach."
-    indice 212
   ]
   node [
     id 2771
@@ -19016,6 +19016,7 @@ graph [
     label "articulo:213"
     tipo "articulo"
     nombre "MMDA: A Multimodal and Multisource Domain Adaptation Method for Cross-Subject Emotion Recognition From EEG and Eye Movement Signals"
+    indice 213
     titulo "MMDA: A Multimodal and Multisource Domain Adaptation Method for Cross-Subject Emotion Recognition From EEG and Eye Movement Signals"
     anio 2025
     isbn ""
@@ -19026,7 +19027,6 @@ graph [
     subarea ""
     keywords "Deep learning; Electroencephalogram (EEG); Eye movement (EM); Multimodal emotion recognition (MER); Multimodal unsupervised domain adaptation (UDA); Multisource domain adaptation (MDA); Emotion Recognition; Eye movements; Domain adaptation; Electroencephalogram; Eye movement; Multi-modal; Multi-Sources; Multimodal emotion recognition; Multimodal unsupervised domain adaptation; Multisource domain adaptation; Electroencephalography; Multimodal domain adaptation; EEG; Neural networks; Feature extraction; Data models; Training; Physiology; Correlation; Brain modeling; Adaptation models"
     abstract "Multimodal emotion recognition from electroencephalogram (EEG) and eye movement signals has shown to be a promising approach to provide more discriminative information about human emotional states. However, most current works rely on a subject-dependent approach, limiting their applicability to new users. Recently, some studies have explored multimodal domain adaptation to address the mentioned issue by transferring information from known subjects to new ones. Unfortunately, existing methods are still exposed to negative transfer as a suboptimal distribution alignment is performed between subjects, while irrelevant information is not discarded. In this article, we present a multimodal and multisource domain adaptation (MMDA) method, which adopts the following three strategies: 1) marginal and conditional distribution alignments must be performed between each known subject and a new one; 2) relevant distribution alignments must be prioritized to avoid a negative transfer; and 3) modality fusion results should be improved by extracting more discriminative features from EEG signals and selecting relevant features across modalities. Our proposed method was evaluated with leave-one-subject-out cross validation on four public datasets: SEED, SEED-GER, SEED-IV, and SEED-V. Experimental results show that our proposal outperforms state-of-the-art results for each dataset when subject data from different sessions are combined into a single dataset. Moreover, MMDA exceeds the state of the art in 8 out of 11 different sessions when each session is evaluated."
-    indice 213
   ]
   node [
     id 2780
@@ -19135,6 +19135,7 @@ graph [
     label "articulo:214"
     tipo "articulo"
     nombre "Multi-Label Topic Classification in a Twitter Corpus of Public Communication of Science in Mexican Spanish"
+    indice 214
     titulo "Multi-Label Topic Classification in a Twitter Corpus of Public Communication of Science in Mexican Spanish"
     anio 2024
     isbn ""
@@ -19145,7 +19146,6 @@ graph [
     subarea ""
     keywords "Natural language processing; Multi-label text classification; Public communication of science; Corpus; Machine Learning; Transformers; Deep Learning; Large Language Models; Scientific communication"
     abstract "The study develops and evaluates automatic multi-label topic classifiers for a manually labeled corpus of Mexican Spanish tweets devoted to public communication of science and organized into eighteen scientific areas. Classical machine-learning methods, transformer models and large language models are compared; XLM-RoBERTa gives the strongest overall results, while BLOOM also shows promising behavior for this classification setting."
-    indice 214
   ]
   node [
     id 2798
@@ -19182,6 +19182,7 @@ graph [
     label "articulo:215"
     tipo "articulo"
     nombre "Multi-modal supervised domain adaptation with a multi-level alignment strategy and consistent decision boundaries for cross-subject emotion recognition from EEG and eye movement signals"
+    indice 215
     titulo "Multi-modal supervised domain adaptation with a multi-level alignment strategy and consistent decision boundaries for cross-subject emotion recognition from EEG and eye movement signals"
     anio 2025
     isbn ""
@@ -19192,7 +19193,6 @@ graph [
     subarea ""
     keywords "Deep learning; Electroencephalogram; Eye tracking; Multi-modal emotion recognition; Multi-modal supervised domain adaptation; Adversarial machine learning; Angular distribution; Brain mapping; Emotion Recognition; Image coding; Multicarrier modulation; Signal modulation; Supervised learning; Decision boundary; Domain adaptation; Multi-modal; Multilevels; Self-supervised learning"
     abstract "Multi-modal emotion recognition systems from Electroencephalogram (EEG) and eye tracking signals have overcome the limitation of incomplete information expressed by a single modality, leveraging the complementarity of multiple modal information. However, the applicability of these systems is still restricted to new users since signal patterns vary across subjects, decreasing the recognition performance. In this sense, supervised domain adaptation has emerged as an effective method to solve such problem by reducing distribution differences between multi-modal signals from known subjects and a new one. Nevertheless, existing works exhibit a sub-optimal feature distribution alignment, avoiding a correct knowledge transfer. Likewise, although multi-modal approaches present robustness by learning a shared latent space, EEG data are still exposed to noise and perturbations, producing misclassifications in sensitive decision boundaries. To solve these issues, we introduced a multi-modal supervised domain adaptation method, named Multi-level Alignment and Consistent Decision Boundaries (MACDB), which introduces a three-fold strategy for multi-level feature alignment comprising modality-specific normalization, angular cosine distance, and Joint Maximum Mean Discrepancy to achieve (1) an alignment per modality, (2) an alignment between modalities, and (3) an alignment across domains. Also, robust decision boundaries are encouraged over the EEG feature space by ensuring consistent predictions with respect to adversarial perturbations on EEG data. We evaluated our proposal on three public datasets, SEED, SEED-IV and SEED-V, employing leave-one-subject-out cross-validation. Experiments showed that the effectiveness of our proposal achieves an average accuracy of 86.68%, 85.03%, and 86.48% on SEED, SEED-IV, and SEED-V across the three available sessions, outperforming the state-of-the-art results."
-    indice 215
   ]
   node [
     id 2804
@@ -19259,6 +19259,7 @@ graph [
     label "articulo:216"
     tipo "articulo"
     nombre "Multilingual identification of nuanced dimensions of hope speech in social media texts"
+    indice 216
     titulo "Multilingual identification of nuanced dimensions of hope speech in social media texts"
     anio 2025
     isbn ""
@@ -19269,7 +19270,6 @@ graph [
     subarea ""
     keywords "Hope speech; Natural language processing; Multilingual classification; Transformers; Social media"
     abstract "The study introduces MIND-HOPE, multiclass hope-speech datasets for Spanish and German social-media text, and compares traditional machine learning, deep learning and transformer approaches for binary and multiclass hope detection. Language-specific transformer models outperform multilingual alternatives in the reported experiments."
-    indice 216
   ]
   node [
     id 2815
@@ -19288,6 +19288,7 @@ graph [
     label "articulo:217"
     tipo "articulo"
     nombre "Multimodal Semi-Supervised Domain Adaptation Using Cross-Modal Learning and Joint Distribution Alignment for Cross-Subject Emotion Recognition"
+    indice 217
     titulo "Multimodal Semi-Supervised Domain Adaptation Using Cross-Modal Learning and Joint Distribution Alignment for Cross-Subject Emotion Recognition"
     anio 2025
     isbn ""
@@ -19298,7 +19299,6 @@ graph [
     subarea ""
     keywords "Deep learning; Electroencephalogram (EEG); Emotion recognition; Eye movement (EM); Multimodal semi-supervised domain adaptation (SSDA); Electroencephalography; Feature extraction; Proposals; Training; Magnetic heads; Knowledge transfer; Data mining; Brain modeling; Signal to noise ratio; Multimodal emotion recognition; Semi-supervised domain adaptation; EEG; Eye movement; Cross-modal learning"
     abstract "Multimodal physiological data from electroencephalogram (EEG) and eye movement (EM) signals have been shown to be useful in effectively recognizing human emotional states. Unfortunately, individual differences reduce the applicability of existing multimodal classifiers to new users, as low performance is usually observed. Indeed, existing works mainly focus on multimodal domain adaptation from a labeled source domain and unlabeled target domain to address the mentioned problem, transferring knowledge from known subjects to new one. However, a limited set of labeled target data has not been effectively exploited to enhance the knowledge transfer between subjects. In this article, we propose a multimodal semi-supervised domain adaptation (SSDA) method, called cross-modal learning and joint distribution alignment (CMJDA), to address the limitations of existing works, following three strategies: 1) discriminative features are exploited per modality through independent neural networks; 2) correlated features and consistent predictions are produced between modalities; and 3) marginal and conditional distributions are encouraged to be similar between the labeled source data, limited labeled target data, and abundant unlabeled target data. We conducted comparison experiments on two public benchmarks for emotion recognition, SEED-IV and SEED-V, using leave-one-out cross-validation (LOOCV). Our proposal achieves an average accuracy of 92.50%&#8211;96.13% across the three available sessions on SEED-IV and SEED-V, only including three labeled target samples per class from the first recorded trial."
-    indice 217
   ]
   node [
     id 2818
@@ -19341,6 +19341,7 @@ graph [
     label "articulo:218"
     tipo "articulo"
     nombre "Multitask Analysis of Spanish Travel Reviews: Sentiment, Destination, and Topic Classification with RoBERTa and LLaMA Ensembles"
+    indice 218
     titulo "Multitask Analysis of Spanish Travel Reviews: Sentiment, Destination, and Topic Classification with RoBERTa and LLaMA Ensembles"
     anio 2025
     isbn ""
@@ -19351,7 +19352,6 @@ graph [
     subarea ""
     keywords "Sentiment analysis; Large Language Models; Spanish NLP; RoBERTa; LLaMA; Model ensembling; Tourism reviews; Text classification; Domain adaptation"
     abstract "The recent advancements in Large Language Models (LLMs) have significantly improved sentiment analysis by enabling better understanding of nuanced emotions and contextual information. This has led to their widespread adoption across various domains, including healthcare, finance, social media monitoring, market research, and public policy. In the tourism sector, sentiment analysis of visitor reviews plays a key role in understanding tourist satisfaction, influencing travel decisions, improving service quality, supporting reputation management, and enabling personalized travel recommendations. Despite the development of fine-tuned models across different languages, most LLMs are originally trained on English corpora, potentially affecting their performance in other languages such as Spanish. Therefore, evaluating their effectiveness in Spanish-language contexts is essential. In this work, we present the system developed by team AxoloTux for the Rest-Mex 2025 challenge (Researching Sentiment Evaluation in Text for Mexican Magical Towns) at IberLEF 2025. The task involves analyzing Spanish-language reviews of Mexican tourist destinations to predict sentiment polarity, classify the type of attraction, and identify the associated Magical Town. Our approach involves fine-tuning multiple RoBERTa variants, along with LLaMA 3.2 models (1B and 3B parameters), and combining them using an ensemble strategy to enhance robustness. Models were trained and validated on 70% of the dataset, while the remaining 30% was held out as a test set. Ensemble weights were determined based on validation performance. This strategy achieved a final track score of 0.7226 on the test set, securing second place in the competition, closely trailing the top score of 0.7254."
-    indice 218
   ]
   node [
     id 2825
@@ -19382,6 +19382,7 @@ graph [
     label "articulo:219"
     tipo "articulo"
     nombre "Network Based Machine Learning Description of the Antidepressive ADR Landscape"
+    indice 219
     titulo "Network Based Machine Learning Description of the Antidepressive ADR Landscape"
     anio 2024
     isbn "979-8-3315-1086-2"
@@ -19392,7 +19393,6 @@ graph [
     subarea ""
     keywords "Adverse drug reactions; Graph embedding; Graph2vec; Antidepressants; Random forest regression; XGBoost regression; FDA; Databases; Mental disorders; Medical treatment; Knowledge discovery; Depression; Software; Random forests; Chemicals; Diseases; Drug interactions; Drug therapy; Engineering research; Graph structures; Machine learning; Antidepressant; Graph embeddings; Network-based; Embeddings"
     abstract "Depression is a common mental disorder that affects the lives of millions of people around the world. Antidepressants are used to treat this disorder, whoever they lead to adverse drug reactions (ADRs). Adverse drug reactions (ADRs) are harmful or unpleasant reactions produced by an intervention when using pharmacological substances. Studies have correlated the nonadherence of antidepressant treatments with ADRs. It is important to predict potential ADRs and create therapies that reduce ADRs to improve adherence from the patient. Here, we applied methods -using knowledge discovery in the Food and Drug Administration (FDA) Adverse Event Reporting System (FAERS) database, graph embeddings of the chemical structure of the drugs, and machine learning methods (random forest and XGBoost) - to predict potential adverse drug reactions. We analyzed a set of 28 antidepressant drugs and identified two main features that were significant in predicting ADRs when comparing with other antidepressants."
-    indice 219
   ]
   node [
     id 2830
@@ -19501,6 +19501,7 @@ graph [
     label "articulo:220"
     tipo "articulo"
     nombre "Neuroevolution-based multiobjective algorithm for feature selection and binary classification of DNA microarrays"
+    indice 220
     titulo "Neuroevolution-based multiobjective algorithm for feature selection and binary classification of DNA microarrays"
     anio 2025
     isbn ""
@@ -19511,7 +19512,6 @@ graph [
     subarea ""
     keywords "DNA microarray; Feature selection; Multiobjective optimisation; Neuroevolution; Bioinformatics; Classification (of information); Diseases; DNA; Evolutionary algorithms; Genes; Microarrays; Multiobjective optimization; Neural networks; Binary classification; Features selection; Microarray dataset; Multi objective; Multi objective algorithm; Multi-objectives optimization; Neuro evolutions; Neuroevolution of augmenting topologies; S-metric selection; Feature extraction"
     abstract "The genomes of organisms have been sequenced for many years, leading to the discovery of thousands of genes. DNA microarrays are widely used tools for simultaneously analysing numerous genes, commonly employed in detecting and identifying various diseases, including cancer. However, microarray datasets have non-relevant and redundant information, hindering their analysis. This problem is further exacerbated considering the datasets&#8217; high dimensionality and imbalanced classes. Consequently, standard practice involves incorporating a feature selection process to identify the most relevant genes and their associations with diseases. Various methods have been employed to address this task. However, none have taken a more holistic approach that effectively handles feature selection, automatically identifies the optimal classifier configuration, and manages potential conflicting objectives simultaneously. In response, this study introduces the S-metric selection - multiobjective neuroevolution of augmenting topologies (SMS-MONEAT) algorithm, which combines the multiobjective optimisation framework from S-metric selection - evolutionary multiobjective algorithm (SMS-EMOA) and the evolutionary operators from the neuroevolution algorithm N3O, a variation from NEAT which stands for &#8216;3 new operators&#8217;. SMS-MONEAT algorithm was designed to perform both feature selection and optimise the configuration of artificial neural networks for classification tasks. SMS-MONEAT was evaluated against classic and state-of-the-art methods for feature selection and microarray classification. The experiments were conducted on 20 highly challenging cancer-type datasets primarily sourced from the Curated Microarray Database, and the results were investigated for statistical significance. The findings suggest that SMS-MONEAT either outperforms or achieves competitive results in terms of classification compared to the mentioned methods, while at the same time, it selects a smaller subset of features."
-    indice 220
   ]
   node [
     id 2848
@@ -19572,6 +19572,7 @@ graph [
     label "articulo:221"
     tipo "articulo"
     nombre "NLP@IIMAS-CLTL at Multilingual Counterspeech Generation: Combating Hate Speech Using Contextualized Knowledge Graph Representations and LLMs"
+    indice 221
     titulo "NLP@IIMAS-CLTL at Multilingual Counterspeech Generation: Combating Hate Speech Using Contextualized Knowledge Graph Representations and LLMs"
     anio 2025
     isbn "979-8-89176-207-7"
@@ -19582,7 +19583,6 @@ graph [
     subarea ""
     keywords "Computational linguistics; Contextualized knowledge; Evaluation metrics; Generative model; Graph representation; Graph-based; Knowledge graphs; Language model; Model based approach; Knowledge graph; Multilingual counterspeech; Hate speech; Large language models"
     abstract "We present our approach for the shared task on Multilingual Counterspeech Generation (MCG) to counteract hate speech (HS) in Spanish, English, Basque, and Italian. To accomplish this, we followed two different strategies: 1) a graph-based generative model that encodes graph representations of knowledge related to hate speech, and 2) leveraging prompts for a large language model (LLM), specifically GPT-4o. We find that our graph-based approach tends to perform better in terms of traditional evaluation metrics (i.e., RougeL, BLEU, BERTScore), while the JudgeLM evaluation employed in the shared task favors the counter-narratives generated by the LLM-based approach, which was ranked second for English and third for Spanish on the leaderboard."
-    indice 221
   ]
   node [
     id 2858
@@ -19637,6 +19637,7 @@ graph [
     label "articulo:222"
     tipo "articulo"
     nombre "Non Expensive Mobile Robot for Sensor Based Research on Artificial Cognition"
+    indice 222
     titulo "Non Expensive Mobile Robot for Sensor Based Research on Artificial Cognition"
     anio 2024
     isbn "979-8-3315-3339-7"
@@ -19647,7 +19648,6 @@ graph [
     subarea ""
     keywords "Artificial Cognition; Artificial Intelligence; Cognitive Machines; Embodied cognition; Machine Learning; Robot Design; Adversarial machine learning; Industrial robots; Machine design; Microrobots; Mobile robots; Robot learning; Robot programming; Customisation; Movement control; Reproducibilities; Robot designs; Robotic platforms; Sensor readings; Budget control; Costs; Educational robots; Service robots; Robot sensing systems; Cognition; Teamwork; Robots; Programming profession; Wireless fidelity; Standards"
     abstract "Research on Embodied Cognition constantly faces two difficulties related to hardware: either robotic platforms are too expensive for the University budget and/or robots were designed for industrial purposes, favoring fine control and reproducibility at the cost of restricted customization for sensor readings and movement control. In order to fully explore new venues for machine learning algorithms linking the pathways from sensation to cognition, back to acting, the physical architecture of the robot must be open and its programming easily altered without putting humans or robots at risk. In the search for a friendly robotic environment for research on cognition, a simple architecture is presented here, with a cost around $10,000 MX or $600 US."
-    indice 222
   ]
   node [
     id 2867
@@ -19762,6 +19762,7 @@ graph [
     label "articulo:223"
     tipo "articulo"
     nombre "Novel Algorithm to Predict Electoral Trends, Case in Mexico"
+    indice 223
     titulo "Novel Algorithm to Predict Electoral Trends, Case in Mexico"
     anio 2024
     isbn "978-3-031-63615-8; 978-3-031-63616-5"
@@ -19772,7 +19773,6 @@ graph [
     subarea ""
     keywords "Algorithm; Case study; Machine learning; Natural language process; Presidential elections; Learning algorithms; Natural language processing systems; Case-studies; Grammatical structure; Mexico; Natural languages; Novel algorithm; Preference-based; Presidential election; Research teams; Computer Science, Artificial Intelligence; Computer Science, Information Systems; Computer Science"
     abstract "The purpose of this research work is to investigate whether the natural language expressed on social networks, in addition to traditional surveys, can be a factor in anticipating the winner of a presidential election in Mexico. To achieve this, our research team has developed an algorithm that aims to differentiate the explicit and implicit manifestations of users&#8217; electoral preferences based on the grammatical structure of Twitter comments. After conducting a systematic search for argument structures, we identified a set of verbal words that allowed us to infer voting intentions and program the algorithm accordingly. Subsequently, we applied the tool to a sample of 10,000 tweets during the 2018 presidential elections. The results obtained by the algorithm proposed in this research show similarity in trend with the results obtained by the National Electoral Institute of Mexico."
-    indice 223
   ]
   node [
     id 2886
@@ -19827,6 +19827,7 @@ graph [
     label "articulo:224"
     tipo "articulo"
     nombre "On the Application of Natural Language Processing Tools to the Ramirez Codex"
+    indice 224
     titulo "On the Application of Natural Language Processing Tools to the Ramirez Codex"
     anio 2025
     isbn "978-3-032-09036-2"
@@ -19837,7 +19838,6 @@ graph [
     subarea ""
     keywords "Anomaly detection; Authorship verification; Historical text; Natural Language Processing; Ramirez Codex"
     abstract "The work applies natural-language-processing methods to the Ramirez Codex, a historical text about Mexica traditions and daily life. It examines emotions elicited by the text and investigates authorship using computational analysis, with results indicating that more than one author likely contributed to the codex."
-    indice 224
   ]
   node [
     id 2895
@@ -19862,6 +19862,7 @@ graph [
     label "articulo:225"
     tipo "articulo"
     nombre "On the multi-objective hyperparameter optimization of the weighted entropic associative memory"
+    indice 225
     titulo "On the multi-objective hyperparameter optimization of the weighted entropic associative memory"
     anio 2025
     isbn ""
@@ -19872,7 +19873,6 @@ graph [
     subarea ""
     keywords "Entropic associative memory; Hyperparameter optimization; Multi-objective optimization"
     abstract "This paper presents an application of automatic algorithm configuration to optimize the performance of the Weighted Entropic Associative Memory (W-EAM). This model holds declarative but distributed representations of remembered objects. We apply two state-of-the-art hyperparameter tuning methods&#8212;SMAC and SMS-EMOA&#8212;to improve W-EAM&#8217;s recognition accuracy across three domains of increasing complexity: digit recognition, character recognition, and phone recognition in Mexican Spanish. Each domain presents unique challenges in memory structure, data representation, and learning dynamics. We evaluate a multi-objective optimization setting, focusing on the trade-off between precision and recall. Our experiments show that optimized configurations consistently outperform the baseline model, with the largest gains observed in the phone domain. Additionally, a cyclical optimization-learning scheme further enhances performance by iteratively improving both model parameters and training data quality. These results highlight the potential of automated configuration methods in advancing adaptive memory systems and providing practitioners with a range of parameters to use on W-EAM."
-    indice 225
   ]
   node [
     id 2899
@@ -19885,6 +19885,7 @@ graph [
     label "articulo:226"
     tipo "articulo"
     nombre "Online-adjusted evolutionary biclustering algorithm to identify significant modules in gene expression data"
+    indice 226
     titulo "Online-adjusted evolutionary biclustering algorithm to identify significant modules in gene expression data"
     anio 2025
     isbn ""
@@ -19895,7 +19896,6 @@ graph [
     subarea ""
     keywords "Biclustering; Evolutionary algorithm; Gene expression data; RNA-sequencing; Single-cell RNA-sequencing; Algorithms; Cluster Analysis; Computational Biology; Databases, Genetic; Gene Expression Profiling; Humans; Algorithm; Bioinformatics; Genetic database; Human; Procedures"
     abstract "Analyzing gene expression data helps the identification of significant biological relationships in genes. With a growing number of open biological datasets available, it is paramount to use reliable and innovative methods to perform in-depth analyses of biological data and ensure that informed decisions are made based on accurate information. Evolutionary algorithms have been successful in the analysis of biological datasets. However, there is still room for improvement, and further analysis should be conducted. In this work, we propose Online-Adjusted EVOlutionary Biclustering algorithm (OAEVOB), a novel evolutionary-based biclustering algorithm that efficiently handles vast gene expression data. OAEVOB incorporates an online-adjustment feature that efficiently identifies significant groups by updating the mutation probability and crossover parameters. We utilize measurements such as Pearson correlation, distance correlation, biweight midcorrelation, and mutual information to assess the similarity of genes in the biclusters. Algorithms in the specialized literature do not address generalization to diverse gene expression sources. Therefore, to evaluate OAEVOB&#8217;s performance, we analyzed six gene expression datasets obtained from diverse sequencing data sources, specifically Deoxyribonucleic Acid microarray, Ribonucleic Acid (RNA) sequencing, and single-cell RNA sequencing, which are subject to a thorough examination. OAEVOB identified significant broad gene expression biclusters with correlations greater than 0.5 across all similarity measurements employed. Additionally, when biclusters are evaluated by functional enrichment analysis, they exhibit biological functions, suggesting that OAEVOB effectively identifies biclusters with specific cancer and tissue-related genes in the analyzed datasets. We compared the OAEVOB&#8217;s performance with state-of-the-art methods and outperformed them showing robustness to noise, overlapping, sequencing data sources, and gene coverage."
-    indice 226
   ]
   node [
     id 2901
@@ -19932,6 +19932,7 @@ graph [
     label "articulo:227"
     tipo "articulo"
     nombre "Optimal Descriptor Subset Search via Chemical Information and Target Activity-Guided Algorithm for Antimicrobial Peptide Prediction"
+    indice 227
     titulo "Optimal Descriptor Subset Search via Chemical Information and Target Activity-Guided Algorithm for Antimicrobial Peptide Prediction"
     anio 2025
     isbn ""
@@ -19942,7 +19943,6 @@ graph [
     subarea ""
     keywords "Algorithms; Antimicrobial Peptides; Quantitative Structure-Activity Relationship; Bioactivity; Bioinformatics; Computational efficiency; Computer software; Deep learning; Describing functions; Drug discovery; Learning systems; Polypeptide antibiotic agent; Antimicrobial peptide; Chemical information; Descriptors; Model-based OPC; Optimal descriptor; Peptide models; Peptide prediction; Performance; Subset searches; Target activity; Algorithm; Chemistry; Quantitative structure activity relation; Peptides"
     abstract "Antimicrobial peptides (AMPs) have emerged as a promising alternative to conventional drugs due to their potential applications in combating multidrug-resistant pathogens. Various computational approaches have been developed for AMP prediction, ranging from shallow learning methods to advanced deep learning techniques. Additionally, the performance of shallow learning models based on self-learning features derived from protein language models has recently been studied. However, the performance of AMP models based on shallow learning strongly depends on the quality of descriptors derived via manual feature engineering, which may miss crucial information by assuming that the initial descriptor set fully captures relevant information. The AExOp-DCS algorithm was introduced as an automatic feature domain optimization method that identifies the &#8220;optimal&#8221; descriptor set driven by the chemical structure and biological activity of the compounds under study. QSAR models built on AExOp-DCS optimized descriptors outperform those using nonoptimized sets. In this study, we explore the use of AExOp-DCS to identify optimal descriptor subsets for AMP modeling. Experimental results show that the descriptors returned by AExOp-DCS contain information comparable to those used in top-performing models while exhibiting higher discriminative capacity. The generated models based on the descriptors returned by AExOp-DCS achieved performance metric values comparable to state-of-the-art approaches while utilizing fewer descriptors, suggesting a more efficient modeling process. By reducing dimensionality without sacrificing accuracy, this approach contributes to the development of more efficient computational pipelines for AMP discovery. Finally, a Java software called AExOp-DCS-SEQ is freely available, enabling researchers to leverage its capabilities for peptide descriptor search and AMP classification tasks."
-    indice 227
   ]
   node [
     id 2907
@@ -20045,6 +20045,7 @@ graph [
     label "articulo:228"
     tipo "articulo"
     nombre "Optimization of Deep Learning Architectures for Accurate Prediction of Protein-Ligand Binding in Drug Discovery"
+    indice 228
     titulo "Optimization of Deep Learning Architectures for Accurate Prediction of Protein-Ligand Binding in Drug Discovery"
     anio 2025
     isbn "979-8-3315-8719-2"
@@ -20055,7 +20056,6 @@ graph [
     subarea ""
     keywords "Attention mechanisms; Computational chemistry; Deep learning; Drug discovery; Quantum computing; Architecture; Barium compounds; Binding energy; Biochemistry; Drug products; Ligands; Network architecture; Accurate prediction; Learning architectures; Ligand binding; Optimisations; Protein ligands; Protein-ligand binding affinities; Proteins; Accuracy; Computational modeling; Taxonomy; Computer architecture; Data models; Optimization"
     abstract "Drug discovery is an intricate and costly process, in which the accurate prediction of protein-ligand binding affinity (BAP) represents a critical step. This systematic review article addresses the state of the art in this field, focusing on the evolution and optimization of deep learning (DL) architectures that have emerged as a robust alternative to traditional computational and experimental methods. A taxonomy is proposed that classifies DL models based on their data representation: structure-based models (such as convolutional and graph neural networks), sequence-based models, and hybrid and multimodal approaches. Comparative analysis highlights the superiority of architectures that integrate multimodal information and employ attention mechanisms, demonstrating improved predictive accuracy and generalization capabilities. Nonetheless, there are still issues, such as the limited interpretability of the model or the bias and scarcity of training data. Finally, future research directions emphasize the revolutionary potential of quantum computing, which promises to overcome computational and data limitations, and generative artificial intelligence, which enables de novo molecular design. This work directs the scientific community to the most promising research areas by offering a conceptual framework for comprehending the state of DL-driven BAP today."
-    indice 228
   ]
   node [
     id 2924
@@ -20146,6 +20146,7 @@ graph [
     label "articulo:229"
     tipo "articulo"
     nombre "Optimizing ASR for Catalan-Spanish Code-Switching: A Comparative Analysis of Methodologies"
+    indice 229
     titulo "Optimizing ASR for Catalan-Spanish Code-Switching: A Comparative Analysis of Methodologies"
     anio 2025
     isbn ""
@@ -20156,7 +20157,6 @@ graph [
     subarea ""
     keywords "Catalan-Spanish; Code-switching; Speech augmentation; Speech recognition; Data mining; Linguistics; Speech coding; Speech communication; Speech processing; Automatic speech recognition; Catalans; Comparative analyzes; Data-similarity; Linguistic similarities; Speech recognition performance; Training data; Catalan; Spanish"
     abstract "Code-switching (CS), the alternating use of two or more languages, challenges automatic speech recognition (ASR) due to scarce training data and linguistic similarities. The lack of dedicated CS datasets limits ASR performance, as most models rely on monolingual or mixed-language corpora that fail to reflect real-world CS patterns. This issue is critical in multilingual societies where CS occurs in informal and formal settings. A key example is Catalan-Spanish CS, widely used in media and parliamentary speeches. In this work, we improve ASR for Catalan-Spanish CS by exploring three strategies: (1) generating synthetic CS data, (2) concatenating monolingual audio, and (3) leveraging real CS data with language tokens. We extract CS data from Catalan speech corpora and fine-tune OpenAI's Whisper models, making them available on Hugging Face. Results show that combining a modest amount of synthetic CS data with the dominant language token yields the best transcription performance."
-    indice 229
   ]
   node [
     id 2939
@@ -20235,6 +20235,7 @@ graph [
     label "articulo:230"
     tipo "articulo"
     nombre "Optimizing Automated Manufacturing Processes Using a Hybrid BRKGA Algorithm: A Case Study on Flexible Job-Shop Scheduling"
+    indice 230
     titulo "Optimizing Automated Manufacturing Processes Using a Hybrid BRKGA Algorithm: A Case Study on Flexible Job-Shop Scheduling"
     anio 2024
     isbn ""
@@ -20245,7 +20246,6 @@ graph [
     subarea ""
     keywords "Automated manufacturing; Flexible job-shop scheduling; Hybrid BRKGA algorithm; Optimization; Competition; Computer aided manufacturing; Flexible manufacturing systems; Genetic algorithms; Job shop scheduling; Machine shops; Scheduling algorithms; Automated manufacturing process; Case-studies; Competitive advantage; Human labor; Hybrid biased random key genetic algorithm algorithm; Industrial automation; Optimisations; Random keys; Smart manufacturing"
     abstract "In the modern era, industrial automation offers significant competitive advantages. Replacing human labor with robots allows processes to be carried out much faster and more efficiently, with lower waste rates and the possibility of scheduling production 24/7. However, this also presents new challenges and opportunities in optimizing these automated processes. This paper proposes a hybrid algorithm BRKGA (Biased Random Key Genetic Algorithm) to optimize flexible job shop scheduling (FJSSP) problems in automated manufacturing systems. The algorithm is applied to a real-world case study in the Cinvestav Intelligent Manufacturing Laboratory, seeking to optimize the production of a four-piece product. The results demonstrate that the proposed algorithm outperforms previous results in terms of both, solution quality and computational efficiency."
-    indice 230
   ]
   node [
     id 2952
@@ -20336,6 +20336,7 @@ graph [
     label "articulo:231"
     tipo "articulo"
     nombre "Overview of HOMO-LAT at IberLEF 2025: Human-centric polarity detection in Online Messages Oriented to the Latin American-speaking LGBTQ+ populaTion"
+    indice 231
     titulo "Overview of HOMO-LAT at IberLEF 2025: Human-centric polarity detection in Online Messages Oriented to the Latin American-speaking LGBTQ+ populaTion"
     anio 2025
     isbn ""
@@ -20346,7 +20347,6 @@ graph [
     subarea ""
     keywords "Hate speech; LGBTQ+ community; Polarity analysis; Reddit corpus; HOMO-LAT; IberLEF; Polarity detection; LGBTQ+; Latin American Spanish"
     abstract "This paper presents the HOMO-LAT shared task organized at IberLEF 2025, as part of the 41st International Conference of the Spanish Society for Natural Language Processing (SEPLN 2025). Our goal is to foster the design of algorithms capable of capturing the polarity of Reddit comments on keywords referring to the LGBTQ+ community. HOMO-LAT is a continuation of the past tasks HOMO-MEX 2023 and 2024, with the particularity of including posts from 19 Spanish-speaking Latin American countries. The shared task consisted of two tracks. In Track 1, the test data corresponded to the same subreddits as the training data. Track 2 is cross-lingual, since the test data belonged to different countries from the training data. Six teams participated in the evaluation phase. Regarding the approaches chosen by the participants, all of them used models based on Transformers. Two of them also worked with traditional ML, and two more used LLMs."
-    indice 231
   ]
   node [
     id 2967
@@ -20401,6 +20401,7 @@ graph [
     label "articulo:232"
     tipo "articulo"
     nombre "Overview of HOMO-MEX at IberLEF 2024: Hate Speech Detection Towards the Mexican Spanish speaking LGBT+ Population"
+    indice 232
     titulo "Overview of HOMO-MEX at IberLEF 2024: Hate Speech Detection Towards the Mexican Spanish speaking LGBT+ Population"
     anio 2024
     isbn ""
@@ -20411,7 +20412,6 @@ graph [
     subarea ""
     keywords "Hate speech; LGBT+phobia; Machine learning; Song lyrics; HOMO-MEX; Hate speech detection; Mexican Spanish; LGBT+; IberLEF"
     abstract "We present the HOMO-MEX shared task organized at IberLEF 2024, as part of the 40th. International Conference of the Spanish Society for Natural Language Processing (SEPLN 2024). The aim of this task is to promote the development of natural language processing systems capable of detecting and classifying LGBT+phobic content in Mexican-Spanish digital posts and song lyrics. HOMO-MEX 2024 is composed of three subtasks: Task 1 on LGBT+phobia detection on social media posts, Task 2 on fine-grained phobia identification, and Task 3 on LGBT+phobia detection on song lyrics. In this second edition of HOMO-MEX, 40 participants registered on our Codabench platform. Subtask 1 received 19 submissions, subtask 2 received 10 submissions, and Subtask 3 got 17 submissions. Finally, 11 teams presented papers describing their systems. Most systems used transformer-based approaches to tackle the task, while the best-performing teams included data augmentation and preprocessing techniques."
-    indice 232
   ]
   node [
     id 2976
@@ -20448,6 +20448,7 @@ graph [
     label "articulo:233"
     tipo "articulo"
     nombre "PCIC at SMM4H 2024: Enhancing Reddit Post Classification on Social Anxiety Using Transformer Models and Advanced Loss Functions"
+    indice 233
     titulo "PCIC at SMM4H 2024: Enhancing Reddit Post Classification on Social Anxiety Using Transformer Models and Advanced Loss Functions"
     anio 2024
     isbn "979-8-89176-150-6"
@@ -20458,7 +20459,6 @@ graph [
     subarea ""
     keywords "Computational linguistics; Electric transformer testing; Augmentation techniques; Class imbalance; Data augmentation; F1 scores; Loss functions; Outdoor activities; Post classification; Social anxieties; State of the art; Transformer modeling; Social anxiety; Reddit; Text classification; Transformers"
     abstract "We present our approach to solving the task of identifying the effect of outdoor activities on social anxiety based on reddit posts. We employed state-of-the-art transformer models enhanced with a combination of advanced loss functions. Data augmentation techniques were also used to address class imbalance within the training set. Our method achieved a macro-averaged F1 score of 0.655 in the test data, exceeding the mean F1 score of the shared task of 0.519. These findings suggest that integrating weighted loss functions improves the performance of transformer models in classifying unbalanced text data, while data augmentation can improve the model's ability to generalize."
-    indice 233
   ]
   node [
     id 2982
@@ -20519,6 +20519,7 @@ graph [
     label "articulo:234"
     tipo "articulo"
     nombre "PCICUNAM at WASSA 2024: Cross-lingual Emotion Detection Task with Hierarchical Classification and Weighted Loss Functions"
+    indice 234
     titulo "PCICUNAM at WASSA 2024: Cross-lingual Emotion Detection Task with Hierarchical Classification and Weighted Loss Functions"
     anio 2024
     isbn "979-8-89176-156-8"
@@ -20529,7 +20530,6 @@ graph [
     subarea ""
     keywords "Tweets; Computational linguistics; Emotion Recognition; Modeling languages; Class imbalance; Co-located; Computational approach; Cross-lingual; Detection tasks; Emotion detection; Hierarchical classification; Model training; Social media analysis; Weighted loss function; Cross-lingual emotion detection; Transformer models; Focal loss; WASSA"
     abstract "This paper addresses the shared task of multilingual emotion detection in tweets, presented at the Workshop on Computational Approaches to Subjectivity, Sentiment, and Social Media Analysis (WASSA) co-located with the ACL 2024 conference. The task involves predicting emotions from six classes in tweets from five different languages using only English for model training. Our approach focuses on addressing class imbalance through data augmentation, hierarchical classification, and the application of focal loss and weighted cross-entropy loss functions. These methods enhance our transformer-based model&#8217;s ability to transfer emotion detection capabilities across languages, resulting in improved performance despite the constraints of limited computational resources."
-    indice 234
   ]
   node [
     id 2992
@@ -20614,6 +20614,7 @@ graph [
     label "articulo:235"
     tipo "articulo"
     nombre "Performance evaluation of YOLO models for damage identification in tertiary packaging"
+    indice 235
     titulo "Performance evaluation of YOLO models for damage identification in tertiary packaging"
     anio 2025
     isbn ""
@@ -20624,7 +20625,6 @@ graph [
     subarea ""
     keywords "Classification; Damage packaging; Deep learning; YOLO; Edge Damage; Identification; Models; Packaging; Performance; Processes; Cardboard; Cardboard packaging; Classification and identifications; Damage Identification; Performances evaluation; Reverse logistics; State of the art; You only look once"
     abstract "This research compares the performance of the latest state-of-the-art YOLO (You Only Look Once) models, specifically YOLOv5n, YOLOv6n, YOLOv7-Tiny, and YOLOv8n. For this purpose, images of cardboard packaging with various damaged and undamaged samples were utilized. The classification and identification process considered five categories: undamaged, face damage, edge damage, corner damage, and top damage. Experimental results were obtained for each of the four models, reporting average precision, average recall, F1-score, and mAP@50, which assess the accuracy level in categorizing damage to the packaging. This study aims to provide a solution using computer vision capable of performing more effective classifications to support individuals conducting visual inspection processes based on attributes and mitigate workplace blindness. Thus, it reduces costs in reverse logistics and indirectly benefits the reduction of environmental pollution caused by various transport methods used in reverse logistics."
-    indice 235
   ]
   node [
     id 3006
@@ -20715,6 +20715,7 @@ graph [
     label "articulo:236"
     tipo "articulo"
     nombre "Performance of Machine Learning Models for OSA Detection Based on ECG Signal"
+    indice 236
     titulo "Performance of Machine Learning Models for OSA Detection Based on ECG Signal"
     anio 2025
     isbn "978-3-031-82474-6"
@@ -20725,7 +20726,6 @@ graph [
     subarea ""
     keywords "Electrocardiography; Adversarial machine learning; Contrastive Learning; Diseases; Machine learning; Medical education; Patient treatment; Sleep research; ECG signals; Educational innovations; High educations; Machine learning models; Obstructive sleep apnea; Performance; Sleep apnea detection; Sleep apnoea diagnosis; Sleep disorders; ECG; Educational Innovation; Higher Education; OSA"
     abstract "Obstructive Sleep Apnea (OSA) stands out as a prevalent sleep disorder typically identified through Polysomnography. While this study serves as the golden standard for its diagnosis, it is hindered by its time-consuming nature, high costs, and the limited availability of specialized centers, leading to a reduced number of diagnosed patients. Addressing this challenge necessitates the development of more costeffective and time-efficient solutions, facilitating broader and swifter diagnosis and treatment. Currently, there are methods that enable diagnosis and auto-diagnosis of the disease utilizing body signal monitoring; however, they often lack a focus on screening critical parameters with the most effective predictive models. For that reason, the proposed solution seeks to fill this gap, integrating seamlessly into current clinical practices to provide a rapid pre-diagnosis tool for a larger patient population. Implementation of this solution by healthcare providers could significantly reduce waiting lists for OSA diagnosis, ensuring timely interventions for affected individuals. Besides, for education purposes, it can be useful in the conceptualization of pre-diagnosis devices involving ML models and databases. Furthermore, by making OSA diagnosis research more accessible, this proposal lays the groundwork for future investigations and contributes to the overall advancement of knowledge in the field."
-    indice 236
   ]
   node [
     id 3021
@@ -20810,6 +20810,7 @@ graph [
     label "articulo:237"
     tipo "articulo"
     nombre "Predicting bacterial transcription factor binding sites through machine learning and structural characterization based on DNA duplex stability"
+    indice 237
     titulo "Predicting bacterial transcription factor binding sites through machine learning and structural characterization based on DNA duplex stability"
     anio 2024
     isbn ""
@@ -20820,7 +20821,6 @@ graph [
     subarea ""
     keywords "DNA duplex stability; Machine learning; Transcription factor binding site; Algorithms; Bacteria; Bacterial Proteins; Binding Sites; Computational Biology; DNA; DNA, Bacterial; Nucleic Acid Conformation; Protein Binding; Transcription Factors; Bacterial DNA; Bacterial protein; Transcription factor; Algorithm; Bacterium; Binding site; Bioinformatics; Chemistry; Conformation; Genetics; Metabolism; Procedures"
     abstract "Transcriptional factors (TFs) in bacteria play a crucial role in gene regulation by binding to specific DNA sequences, thereby assisting in the activation or repression of genes. Despite their central role, deciphering shape recognition of bacterial TFs-DNA interactions remains an intricate challenge. A deeper understanding of DNA secondary structures could greatly enhance our knowledge of how TFs recognize and interact with DNA, thereby elucidating their biological function. In this study, we employed machine learning algorithms to predict transcription factor binding sites (TFBS) and classify them as directed-repeat (DR) or inverted-repeat (IR). To accomplish this, we divided the set of TFBS nucleotide sequences by size, ranging from 8 to 20 base pairs, and converted them into thermodynamic data known as DNA duplex stability (DDS). Our results demonstrate that the Random Forest algorithm accurately predicts TFBS with an average accuracy of over 82% and effectively distinguishes between IR and DR with an accuracy of 89%. Interestingly, upon converting the base pairs of several TFBS-IR into DDS values, we observed a symmetric profile typical of the palindromic structure associated with these architectures. This study presents a novel TFBS prediction model based on a DDS characteristic that may indicate how respective proteins interact with base pairs, thus providing insights into molecular mechanisms underlying bacterial TFs-DNA interaction."
-    indice 237
   ]
   node [
     id 3035
@@ -20881,6 +20881,7 @@ graph [
     label "articulo:238"
     tipo "articulo"
     nombre "Predicting Collaborations among Research Scientists: A Datathon Experience"
+    indice 238
     titulo "Predicting Collaborations among Research Scientists: A Datathon Experience"
     anio 2025
     isbn ""
@@ -20891,7 +20892,6 @@ graph [
     subarea ""
     keywords "Authorship predictions; Datathon; Imbalanced classification model; Link prediction problem; Topological features; Scientometrics; Collaboration prediction; Research networks; Machine learning"
     abstract "This paper presents the challenge of predicting collaborations between research scientists as a datathon experience. The focus of the challenge task is determining whether or not the author of a research paper is keen to collaborate with another author in the future. The main aims of the datathon challenge are: (i) to show the feasibility of automatically identifying potential collaboration in a research network as a link prediction task; (ii) to propose a methodology for the environment configuration that covers data collection, selection and preparation stages required for link prediction in a massive event. (iii) to join the efforts of students from different fields of study in solving the task from a multi-disciplinary perspective. For this purpose, we created a corpus with DBLP data covering publications from 1990 to 2004. The created dataset has been made available for further research. Altogether, the datathon attracted 78 registered students, yielding 13 submissions of teams composed of 6 students each. In this paper, we compare their approaches and analyze their performance."
-    indice 238
   ]
   node [
     id 3045
@@ -20946,6 +20946,7 @@ graph [
     label "articulo:239"
     tipo "articulo"
     nombre "Predicting ultimate tensile and break strength of SLS PA 12 parts using machine learning on tensile load&#8211;displacement data"
+    indice 239
     titulo "Predicting ultimate tensile and break strength of SLS PA 12 parts using machine learning on tensile load&#8211;displacement data"
     anio 2025
     isbn ""
@@ -20956,7 +20957,6 @@ graph [
     subarea ""
     keywords "Machine learning; Tensile strength; SLS; PA12; Material properties"
     abstract "Machine learning techniques are increasingly employed to predict material properties and reduce mechanical testing costs. This study uses tensile load&#8210;displacement data to predict the breaking force, maximum force, ultimate tensile strength (UTS), and breaking strength of nylon PA 12 specimens manufactured via selective laser sintering (SLS). To address variations in specimen ductility, linear and fourth-degree polynomial equalisations were applied to the data. The results indicate that polynomial equalisation generally achieves superior predictive performance across various machine learning models. While all the models exhibit a decline in performance metrics with a reduction in the observation matrix data, several demonstrate strong predictive capabilities even with reduced data sets. Specifically, when using 20% of the observation matrix data (corresponding to the elastic zone) are used, the kernel ridge, elastic net, and Lasso regression models achieve R&#178; values of 0.987, 0.931, and 0.987, respectively, for predicting breaking strength. For maximum force prediction with 20% of the data, the kernel ridge, support vector machine, and Lasso regression models resulted in R&#178; values of 0.975, 0.960, and 0.930, respectively. However, the prediction accuracy for UTS and ultimate strength at break is lower, with the Elastic Net model achieving R&#178; values of 0.703 and 0.682, respectively, with 20% of the data. These findings suggest that while certain mechanical properties can be accurately predicted using data solely from the elastic zone, minimising specimen waste and testing time, the prediction of other properties requires data beyond the elastic limit. This study highlights the potential of machine learning to optimise and streamline the quality control process in additive manufacturing."
-    indice 239
   ]
   node [
     id 3054
@@ -20987,6 +20987,7 @@ graph [
     label "articulo:240"
     tipo "articulo"
     nombre "Prediction of Deformations on Elastic Objects Using an LSTM Model"
+    indice 240
     titulo "Prediction of Deformations on Elastic Objects Using an LSTM Model"
     anio 2024
     isbn "978-3-031-71360-6; 978-3-031-71359-0"
@@ -20997,7 +20998,6 @@ graph [
     subarea ""
     keywords "Deformation; Force measurement; Learning (artificial intelligence); Manipulators; Mobile robots; Recurrent neural nets; Robot vision; Contour changes; Cushions; Description varies; Dishwashing sponges; Distinctive traits; Elastic object; Entire interaction; Fixed length; Fixed representation; Force measurements; High curvature; Long Short-Term Memory neural network; LSTM model; Manipulating everyday objects; Original contour; Reasonable predictions; Reasons mobile robots; Robotic finger; Varying length; Volumetric deformable object; 2D Deformation Registration; Deformable Objects; Deformation Prediction; Learning of Deformation; LSTM Network; Volumetric Deformable Objects; Prediction models; Robotic arms; 2D deformation; Deformable object; Deformation's predictions; Long short-term memory network; Memory network; Short term memory; Volumetrics; Long short-term memory"
     abstract "A volumetric deformable object does not have a fixed representation. Its contour changes as forces are applied on it. The number of distinctive traits like corners or points of high curvature are modified and the level of detail required for its description varies as its shape becomes simple or more intricate. Furthermore, the type of deformation it will undergo varies drastically depending on its material and original shape. For these reasons mobile robots face a challenging problem when on the need of manipulating everyday objects like toys, cushions or dishwashing sponges. In this paper we propose a Long Short-Term Memory (LSTM) neural network that learns to predict the deformation of the contour of an elastic object, taking as input the original contour and the sequence of position and force measurements of the robotic finger that interacts with it. Even though the representation of the contour we use is still of fixed length, our model makes reasonable predictions of deformation for interactions it has not seen before for the entire interaction and not only for the next frame as other models in the literature do. Also, since it uses only local information of pieces of the object, we envision that this work can be extended to cover the case of representations of varying length."
-    indice 240
   ]
   node [
     id 3059
@@ -21220,6 +21220,7 @@ graph [
     label "articulo:241"
     tipo "articulo"
     nombre "Premature convergence in morphology and control co-evolution: a study"
+    indice 241
     titulo "Premature convergence in morphology and control co-evolution: a study"
     anio 2024
     isbn ""
@@ -21230,7 +21231,6 @@ graph [
     subarea ""
     keywords "Evolutionary robotics; Morphology and control co-evolution; Premature convergence; Morphological diversity; Comparative analysis"
     abstract "The article compares evolutionary and quality-diversity algorithms for morphology&#8211;control co-evolution in evolutionary robotics, focusing on premature convergence and on phenotype, genotype and task-performance diversity measures."
-    indice 241
   ]
   node [
     id 3096
@@ -21267,6 +21267,7 @@ graph [
     label "articulo:242"
     tipo "articulo"
     nombre "Prompting Metaphoricity: Soft Labeling with Large Language Models in Popular Communication of Science Tweets in Spanish"
+    indice 242
     titulo "Prompting Metaphoricity: Soft Labeling with Large Language Models in Popular Communication of Science Tweets in Spanish"
     anio 2025
     isbn "979-8-89176-274-9"
@@ -21277,7 +21278,6 @@ graph [
     subarea ""
     keywords "Metaphor detection; Soft labels; Large language models; Spanish; Science communication"
     abstract "The work investigates whether a large language model can assign probabilistic or soft metaphoricity labels to 3,733 Spanish tweets from public communication of science, including direct, indirect and personification cases. GPT-4 broadly follows aggregate human annotation patterns, but cases with strong human disagreement remain challenging and reveal limitations of purely prompted judgments."
-    indice 242
   ]
   node [
     id 3102
@@ -21296,6 +21296,7 @@ graph [
     label "articulo:243"
     tipo "articulo"
     nombre "Proposal of a Methodology Based on Using a Wavelet Transform as a Convolution Operation in a Convolutional Neural Network for Feature Extraction Purposes"
+    indice 243
     titulo "Proposal of a Methodology Based on Using a Wavelet Transform as a Convolution Operation in a Convolutional Neural Network for Feature Extraction Purposes"
     anio 2025
     isbn ""
@@ -21306,7 +21307,6 @@ graph [
     subarea ""
     keywords "Discrete wavelet transform; Machine learning; Neural networks; Convolutional neural networks; Wavelet transforms; A-wavelet transform; Coherent representations; Convolutional neural network; Different treatments; Features extraction; Methodological tools; Multidimensional data; Self organizing maps"
     abstract "Using methodological tools to construct feature extraction from multidimensional data is challenging. Different treatments are required to build a coherent representation with those features that can be attenuated by various phenomena inherent to the observed process. It is interesting to note that in this methodological generation, several methods converge, such as Wavelet transform, focusing on convolution processing, windowed data shifting, and classification via Self-Organizing Maps. Likewise, a case study is presented in this work, allowing us to understand the scope of this methodological tool using an information cube to detect common features, as discussed previously."
-    indice 243
   ]
   node [
     id 3105
@@ -21361,6 +21361,7 @@ graph [
     label "articulo:244"
     tipo "articulo"
     nombre "Pumas PCIC team at REST-MEX 2025: Classification strategies for sentiment analysis"
+    indice 244
     titulo "Pumas PCIC team at REST-MEX 2025: Classification strategies for sentiment analysis"
     anio 2025
     isbn ""
@@ -21371,7 +21372,6 @@ graph [
     subarea ""
     keywords "Class imbalance; Domain adaptation; Tourism analytics; NLP"
     abstract "This paper presents the participation of the Pumas PCIC team in the REST-MEX 2025 shared task, focusing on sentiment analysis and magical town detection using Spanish-language tourist reviews. The study explores traditional models (SVM and XGBoost) and transformer-based architectures (RoBERTa-bne and BETO) to address three classification tasks: sentiment polarity, place type, and town name. Emphasis was placed on mitigating class imbalance through data augmentation techniques such as back-translation and paraphrasing. The final transformer models demonstrated significant improvements in macro F1-score, especially in minority sentiment classes, validating the benefit of phased fine-tuning and contextual enrichment with metadata. The findings highlight the potential of multilingual pre-trained models and domain-specific adaptations in tackling real-world tourism review classification challenges."
-    indice 244
   ]
   node [
     id 3114
@@ -21384,6 +21384,7 @@ graph [
     label "articulo:245"
     tipo "articulo"
     nombre "Real-time Error Compensation Transfer Learning with Echo State Networks for Enhanced Wind Power Prediction"
+    indice 245
     titulo "Real-time Error Compensation Transfer Learning with Echo State Networks for Enhanced Wind Power Prediction"
     anio 2025
     isbn ""
@@ -21394,7 +21395,6 @@ graph [
     subarea ""
     keywords "Error compensation; Power engineering computing; Power generation planning; Power grids; Time series; Transfer learning (artificial intelligence); Wind power; Accurate wind power forecasting; Computing layer; Echo state networks; Efficient energy management; Energy providers; Enhanced wind power prediction; Error auto-correlation; Error compensation layer; Error compensation transfer learning; ESN predictions; ETL-ESN model; Grid stability; High-order nonlinear complexities; Leverage transfer learning; Nonlinear dynamic systems; Power grid reliability; Rapid training process; Real-time error compensation transfer learning; Real-world wind power data; Renewable energy integration; Simple training process"
     abstract "Accurate wind power forecasting is essential for efficient energy management and grid stability, enabling energy providers to balance supply and demand, optimize renewable energy integration, reduce operational costs, and enhance power grid reliability. The Echo State Network (ESN) is widely used for modeling nonlinear dynamic systems due to its simple and rapid training process. However, ESNs can be prone to system errors, leading to inaccurate models when handling high-order nonlinear complexities. To overcome this, we developed the Error Compensation Transfer Learning Echo State Network (ETL-ESN), which combines a computing layer based on ESN and a compensation layer using transfer learning. Our model identifies error auto-correlation as a key factor that increases variance in ESN predictions, and addresses this with an error compensation layer to reduce system errors. We further leverage transfer learning to prevent overfitting within the error domain. Extensive experiments using real-world wind power data demonstrate that the ETL-ESN model reduces training time from 65 s to 2 s compared to LSTM, while lowering MAE by up to 95%. The ETL-ESN achieves a 95% to 98% improvement in prediction accuracy across different turbines compared to traditional models. The code and datasets used in this study are available at GitHub repository https://github.com/zhuyingqin/Error-Transfer-ESN for further research and replication."
-    indice 245
   ]
   node [
     id 3116
@@ -21539,6 +21539,7 @@ graph [
     label "articulo:246"
     tipo "articulo"
     nombre "Reconstruction of dynamic systems using genetic algorithms with dynamic search limits"
+    indice 246
     titulo "Reconstruction of dynamic systems using genetic algorithms with dynamic search limits"
     anio 2025
     isbn ""
@@ -21549,7 +21550,6 @@ graph [
     subarea ""
     keywords "Dynamic model; Dynamical systems; Genetics algorithms; Optimization; System identification; Consensus algorithm; Mean square error; Nonlinear dynamical systems; Optimization algorithms; Computing techniques; Dynamic search; Dynamics models; Evolutionary computing; Governing equations; Optimisations; Real-world system; Time-series data; Unknown coefficients; Genetic algorithms"
     abstract "Mathematical modeling is a powerful tool for describing, predicting, and understanding complex phenomena exhibited by real-world systems. However, identifying the equations that govern a system&#8217;s dynamics from experimental data remains a significant challenge without a definitive solution. In this study, evolutionary computing techniques are presented to estimate the governing equations of a dynamical system using time-series data. The main approach is to propose a candidate functions with unknown coefficients, and subsequently perform a parametric estimation using genetic algorithms. Some of the main contributions of the present study are an adequate modification of the genetic algorithm to remove terms with minimal contributions, and a mechanism to escape local optima during the search. To evaluate the proposed method, we applied it to three dynamical systems: a linear model, a nonlinear model, and the Lorenz system. Our results demonstrate a reconstruction with an integral square error below 0.22 and a coefficient of determination R2 of 0.99 for all systems, indicating successful reconstruction of the governing dynamic equations."
-    indice 246
   ]
   node [
     id 3140
@@ -21628,6 +21628,7 @@ graph [
     label "articulo:247"
     tipo "articulo"
     nombre "Reconstruction of the depth of the shower maximum of air showers with the SD-750 surface detector of the Pierre Auger Observatory using neural networks"
+    indice 247
     titulo "Reconstruction of the depth of the shower maximum of air showers with the SD-750 surface detector of the Pierre Auger Observatory using neural networks"
     anio 2025
     isbn ""
@@ -21638,7 +21639,6 @@ graph [
     subarea ""
     keywords "Augers; Cosmic rays; Cosmology; Neural networks; Observatories; Surface reconstruction; Air showers; Astroparticle physics; Detector arrays; Direct-detection; Energy; Mass composition; Pierre Auger observatory; Surface detectors; Ultra high-energy cosmic rays"
     abstract "The origin of ultra-high-energy cosmic rays (UHECRs) is one of the intriguing mysteries in astroparticle physics. In order to identify their sources, we need precise knowledge of the mass composition of UHECRs. The direct detection of UHECRs is not feasible at energies above 0.1 PeV, necessitating the use of mass-sensitive observables of extended air showers induced by UHECRs interacting with the atmosphere. One way to achieve high statistics for these mass-sensitive observables is to use ground-based detector arrays, such as the Surface Detector (SD) of the Pierre Auger Observatory. The SD consists of three sub-arrays of independent detector stations arranged in triangular grids with different spacings. Recently, it has been shown that neural networks (NNs) can extract mass-sensitive observables from data taken by the SD-1500, the largest sub-detector of the SD. In this contribution, we demonstrate the feasibility of using NNs to reconstruct a high-level shower observable, the depth of the shower maximum, from data simulated for and observed by the SD-750, the second-largest detector array nested within the SD-1500. A simulation study shows that the SD-750 NN exhibits behavior similar to that of an SD-1500 NN and outperforms the latter in the energy range [1, 10) EeV. Moreover, we show that, after performing a correction and calibration procedure, the predictions of the SD-750 NN are consistent with the measurement of the depth of the shower maximum obtained by the Fluorescence Detector of the Pierre Auger Observatory."
-    indice 247
   ]
   node [
     id 3153
@@ -21669,6 +21669,7 @@ graph [
     label "articulo:248"
     tipo "articulo"
     nombre "Remembering CIFAR-10 images with the entropic associative memory"
+    indice 248
     titulo "Remembering CIFAR-10 images with the entropic associative memory"
     anio 2025
     isbn ""
@@ -21679,7 +21680,6 @@ graph [
     subarea ""
     keywords "Associative memory; Constructive memory; Distributed memory; Visual memory"
     abstract "The study evaluates Entropic Associative Memory on CIFAR-10, extending earlier experiments to complex natural images of animals and vehicles. It analyzes storage, recognition, retrieval and rejection of corrupted cues, reports meaningful association chains and substantial compression, and introduces a revised quantization that improves performance relative to previous versions of the model."
-    indice 248
   ]
   node [
     id 3158
@@ -21704,6 +21704,7 @@ graph [
     label "articulo:249"
     tipo "articulo"
     nombre "Semi-Supervised Training for (Pre-Stack) Seismic Data Analysis"
+    indice 249
     titulo "Semi-Supervised Training for (Pre-Stack) Seismic Data Analysis"
     anio 2024
     isbn ""
@@ -21714,7 +21715,6 @@ graph [
     subarea ""
     keywords "Acoustic impedance; Deep semi-supervised learning; Few labels; Large unlabeled; Pre-stack seismic; Pre-training; Recurrent neural networks"
     abstract "A lack of labeled examples is a problem in different domains, such as text and image processing, medicine, and static reservoir characterization, because supervised learning relies on vast volumes of these data to perform successfully, but this is quite expensive. However, large amounts of unlabeled data exist in these domains. The deep semi-supervised learning (DSSL) approach leverages unlabeled data to improve supervised learning performance using deep neural networks. This approach has succeeded in image recognition, text classification, and speech recognition. Nevertheless, there have been few works on pre-stack seismic reservoir characterization, in which knowledge of rock and fluid properties is fundamental for oil exploration. This paper proposes a methodology to estimate acoustic impedance using pre-stack seismic data and DSSL with a recurrent neural network. The few labeled datasets for training were pre-processed from raw seismic and acoustic impedance data from five borehole logs. The results showed that the acoustic impedance estimation at the well location and outside it was better predicted by the DSSL compared to the supervised version of the same neural network. Therefore, employing a large amount of unlabeled data can be helpful in the development of seismic data interpretation systems."
-    indice 249
   ]
   node [
     id 3162
@@ -21757,6 +21757,7 @@ graph [
     label "articulo:250"
     tipo "articulo"
     nombre "Sentence-final completion norms for 2925 Mexican Spanish sentence contexts"
+    indice 250
     titulo "Sentence-final completion norms for 2925 Mexican Spanish sentence contexts"
     anio 2024
     isbn ""
@@ -21767,7 +21768,6 @@ graph [
     subarea ""
     keywords "Sentence-ending norms; Cloze probability; Surprisal; Entropy; Sentence language processing"
     abstract "The article presents sentence-completion norms for 2,925 Mexican Spanish sentence contexts. The resource reports cloze probability, surprisal, entropy, syntactic complexity and lexical properties of final words, providing a large standardized dataset for psycholinguistic, cognitive and computational studies of sentence processing."
-    indice 250
   ]
   node [
     id 3169
@@ -21804,6 +21804,7 @@ graph [
     label "articulo:251"
     tipo "articulo"
     nombre "Simulation of the behavior of fine and gross motor skills of an individual with motor disabilities"
+    indice 251
     titulo "Simulation of the behavior of fine and gross motor skills of an individual with motor disabilities"
     anio 2024
     isbn ""
@@ -21814,7 +21815,6 @@ graph [
     subarea ""
     keywords "Entropy; Gait analysis; Medical computing; Medical disorders; Neural nets; Neurophysiology; Reinforcement learning; Biological fact; Calibration; Central nervous system; Fine motor activities; Fine motor skills behavior simulation; Gross motor activities; Gross motor skills behavior simulation; Human walking simulation; Information transfer behavior; Information transmission; Motor disabilities; Motor impairments; Motor neuron disorders; Motor sensors; Neural network model; Neuroplasticity; numClusterToFire; Transfer entropy; Effective connectivity; Fine and gross motor activities; Block codes; Emotional intelligence; End effectors; Map symbols; Multilayer neural networks; Neurons; Phase noise; Signal to noise ratio; Transfer learning; Trellis codes; Effective connectivities; Fine and gross motor activity; Fine motors; Motor activity; Motor neuron disorder; Motor neurons; Motor skills; Reinforcement learnings"
     abstract "We have developed a neural network model that imitates the central nervous system's control of motor sensors (S&#225;nchez-Torres and Rodr&#237;guez-Romo in Neurocomputing 581:127511, 2024). Our research explored various levels of connectivity in our neural network related to neuroplasticity in the central nervous system. We have conducted a study comparing healthy individuals to those with motor impairments by utilizing reinforcement learning and transfer entropy. In our previous research (S&#225;nchez-Torres and Rodr&#237;guez-Romo in Neurocomputing 581:127511, 2024), we have simulated human walking while encountering obstacles as an instance of gross motor activities. Now, we have used the same model to simulate fine motor activities. Our goal is to identify differences in information transmission between gross and fine motor activities among healthy individuals and those with motor impairments by evaluating the effective connectivity of our network. To regulate learning accuracy in our model, we introduced a variable called numClusterToFire. However, we discovered that the value for this variable requires careful calibration. If the value is too small, agent exploration is insufficient, and network learning is inefficient. Conversely, learning times increase exponentially, often unnecessarily if the value is too large. We conducted simulations for gross and fine motor skills using three different numClusterToFire values and found that as we increased numClusterToFire, the time required for the network to memorize the outputs for each of the objects in the test set also increased. Our findings indicate that in gross motor skills, which do not require precision, changes in the numClusterToFire variable do not affect information transfer behavior. Conversely, in fine motor skills, information transfer decreases as numClusterToFire increases. On the other hand, our model revealed that for healthy and disabled individuals, the transfer of information between the input layer and the first hidden layer is higher for fine motor skills; this important biological fact suggests the influence of external cues in performing this activity successfully. Additionally, our neural network model showed that movements that do not require precision do not necessarily require a high level of neuroplasticity. Increasing neuroplasticity may cause some neurons to transmit more information than others. Whereas, increasing neuroplasticity through practice is essential for precise movements like fine motor skills. We also found that information transfer in the network's hidden layers is similar for fine and gross motor activities, as we observed identical patterns. However, the distribution and proportion of these patterns differ, concluding that more neurons are involved in fine motor activities, and more information is transferred compared to gross motor activities. Finally, a pattern was observed in the transfer of information in the last hidden layer, which is only present in fine motor skills. This pattern is associated with the precision of the movements."
-    indice 251
   ]
   node [
     id 3175
@@ -22025,6 +22025,7 @@ graph [
     label "articulo:252"
     tipo "articulo"
     nombre "Smart Parking: Enhancing Urban Mobility with Fog Computing and Machine Learning-Based Parking Occupancy Prediction"
+    indice 252
     titulo "Smart Parking: Enhancing Urban Mobility with Fog Computing and Machine Learning-Based Parking Occupancy Prediction"
     anio 2024
     isbn ""
@@ -22035,7 +22036,6 @@ graph [
     subarea ""
     keywords "Fog computing; Parking occupancy; Prediction"
     abstract "Parking occupancy is difficult in most modern cities because of increases in the accessibility and use of motor vehicles, and users generally take several minutes or even hours to find a place to park. In this work, we propose a smart parking prediction model in order to help users locate in advance the availability of parking near the places they plan to visit. For this it is proposed a fog computing architecture that integrates a machine learning algorithm based on AdaBoost to predict parking places hours or days in advance. Additionally, a user interface was developed, which involves the collection of user inputs through a mobile application where the user is prompted to enter the destination location and the prediction time interval. Through extensive experimentation using real-world parking flow data, our proposed algorithm demonstrated an improved level of accuracy compared with alternative prediction methods. Moreover, a simulation was conducted to evaluate the system&#8217;s latency when using cloud computing versus our hybrid approach combining both fog and cloud computing. The results showed that employing the fog module in conjunction with cloud computing significantly reduced response delay in comparison with using cloud computing alone."
-    indice 252
   ]
   node [
     id 3210
@@ -22048,6 +22048,7 @@ graph [
     label "articulo:253"
     tipo "articulo"
     nombre "Spatial Analysis of Student Feedback on Learning Management Systems in Mathematics: Leveraging GIS for Enhanced Insights"
+    indice 253
     titulo "Spatial Analysis of Student Feedback on Learning Management Systems in Mathematics: Leveraging GIS for Enhanced Insights"
     anio 2025
     isbn "978-3-031-80016-0"
@@ -22058,7 +22059,6 @@ graph [
     subarea ""
     keywords "Artificial Intelligence; Learning Management Systems; Natural Process Language; Smart education; Adversarial machine learning; Federated learning; Natural language processing systems; Online searching; Students; Hybrid course; Learn+; Learning management system; Learning objects; Natural process; Process languages; Spatial analysis; Student feedback; Contrastive Learning"
     abstract "The use of Learning Management Systems is Important in Hybrid courses especially in Mathematics. In addition to that since the COVID LMS are a important mechanism to enforce the learning at home for students. However, the feedback from students is important to adapt the learning objects so students can learn and study in a more effective way. On the Other hand, Geographic Information Systems helps to represent a reason spatial information to give more accurate information about where objects are located. Natural Process Language has different applications for example to understand written and speak language. It is use in web search engines, translate, intelligent assistants. The present work with GIS and NLP is used to measure the level of effectiveness a LMS called TEDI have in students of Mathematics by analyzing their locations, responses in order to build the LMS system more effective to students."
-    indice 253
   ]
   node [
     id 3212
@@ -22125,6 +22125,7 @@ graph [
     label "articulo:254"
     tipo "articulo"
     nombre "Spatial Intelligent Estimation of Energy Consumption"
+    indice 254
     titulo "Spatial Intelligent Estimation of Energy Consumption"
     anio 2025
     isbn "978-3-031-75542-2"
@@ -22135,7 +22136,6 @@ graph [
     subarea ""
     keywords "Energy consumption; Machine Learning; Satellite images of Night-time Lights; Intelligent estimation; Mexico; Night time lights; Random forests; Resources allocation; Satellite image of night-time light; Satellite images; Statistical learning"
     abstract "Energy consumption estimation plays a crucial role in sustainable development and resource allocation. In this study, energy consumption in the municipalities of Mexico is estimated from night-time light from satellite images. The application of various Statistical and Machine Learning models to estimate energy consumption, such as Linear Regression, Decision Tree, Random Forest, and Neural Network, is explored. This study is the first step toward the creation of a model that allows the prediction of energy consumption in isolated areas where energy consumption data is scarce or there is no information, but night-time light data. The results demonstrate a strong relationship between energy consumption and these satellite images. Consequently, all tested models provided accurate estimations, with the Random Forest and Neural Network methods yielding the best performance."
-    indice 254
   ]
   node [
     id 3223
@@ -22184,6 +22184,7 @@ graph [
     label "articulo:255"
     tipo "articulo"
     nombre "Spatio-temporal Data-Driven and Machine Learning based Applications for Transmission Systems"
+    indice 255
     titulo "Spatio-temporal Data-Driven and Machine Learning based Applications for Transmission Systems"
     anio 2024
     isbn "979-8-3503-8183-2"
@@ -22194,7 +22195,6 @@ graph [
     subarea ""
     keywords "Data-driven; Machine learning; Static and dynamic security assessment; Transient stability; Event detection; Preventive control; Coherency; Modal analysis; Parameter identification; Training; Machine learning algorithms; Power system dynamics; Power system stability; Benchmark testing; Classification algorithms; Topology; Security; Time-domain analysis; Spatio-temporal data; Adversarial machine learning; Contrastive Learning; Federated learning; Dynamic security assessment; Events detection; Parameters identification; Static security assessment; Statics and dynamics; Big Data; Data analysis; Learning (artificial intelligence); Phasor measurement; Power engineering computing; Power system security; Time series; Transmission networks; Big data analytics; IEEE Working Group; Machine learning methods; Spatio-temporal data-driven applications; Synchrophasor data; System measurements; Transmission system operators; TSO; Wide-area monitoring systems"
     abstract "This paper summarizes recent advancements on spatio-temporal data-driven and machine learning methods for static and dynamic security assessment, and their particular use cases. It is a collective effort of different research groups members of the IEEE Working Group on Big Data Analytics for Transmission Systems, to provide transmission system operators (TSOs) with innovative tools and ideas for their potential implementation. The algorithms presented here are classified as non-training and training approaches, namely spatio-temporal and machine learning based, considering as input time series from time domain simulations, and or synchrophasor data from wide-area monitoring systems. The efficacy of these algorithms is then evaluated in different IEEE benchmark models and using real system measurements from different countries."
-    indice 255
   ]
   node [
     id 3231
@@ -22369,6 +22369,7 @@ graph [
     label "articulo:256"
     tipo "articulo"
     nombre "Statistical Evaluation of Categorical Encoders for Pattern Preservation in Machine Learning Tasks"
+    indice 256
     titulo "Statistical Evaluation of Categorical Encoders for Pattern Preservation in Machine Learning Tasks"
     anio 2024
     isbn ""
@@ -22379,7 +22380,6 @@ graph [
     subarea ""
     keywords "Categorical encoding; Synthetic data; Machine learning; Data preprocessing"
     abstract "The study statistically compares common categorical encoders with CESAMO using synthetic data, focusing on preservation of relationships among categorical attributes and other variables. Results show that CESAMO retains relevant patterns more effectively than the other evaluated techniques, supporting its use as a preprocessing method for machine-learning data."
-    indice 256
   ]
   node [
     id 3260
@@ -22398,6 +22398,7 @@ graph [
     label "articulo:257"
     tipo "articulo"
     nombre "Statistical Evaluation of CESAMO Encoder for Pattern Preservation in Categorical Data"
+    indice 257
     titulo "Statistical Evaluation of CESAMO Encoder for Pattern Preservation in Categorical Data"
     anio 2024
     isbn "978-3-031-62835-1; 978-3-031-62836-8"
@@ -22408,7 +22409,6 @@ graph [
     subarea ""
     keywords "Categorical attributes; Data preprocessing; Machine learning; Encoding (symbols); Signal encoding; Categorical data; Encoding techniques; Machine learning algorithms; Machine learning models; Performance; Statistical evaluation; Training machines"
     abstract "It is common to find categorical attributes in datasets used for training Machine Learning (ML) algorithms. However, most ML models are designed to exclusively handle numerical inputs. To effectively incorporate these categorical attributes, it is necessary to convert them into numerical values. Preserving the inherent patterns and information associated with the categorical attributes is essential throughout this conversion process. Any loss of information or pattern might adversely impact the performance of ML algorithms. Several encoding techniques have been proposed to handle this conversion. This paper delves into the exploration of the CESAMO encoding technique. CESAMO encoder captures the relationships between categorical attributes and other variables using what is inferred as Pattern Preserving Codes. A statistical evaluation of this encoding technique was conducted using synthetic data, comparing its performance with other encoding methods. The experimental results demonstrate that CESAMO outperforms all the other categorical encoding techniques that were compared."
-    indice 257
   ]
   node [
     id 3263
@@ -22451,6 +22451,7 @@ graph [
     label "articulo:258"
     tipo "articulo"
     nombre "Strategies for Automatic Detection of Fallacious Arguments in Political Speeches during Electoral Campaigns in Mexico"
+    indice 258
     titulo "Strategies for Automatic Detection of Fallacious Arguments in Political Speeches during Electoral Campaigns in Mexico"
     anio 2024
     isbn ""
@@ -22461,7 +22462,6 @@ graph [
     subarea ""
     keywords "Fallacy detection; Political discourse; Appeal to emotion; Machine learning; Sentiment lexicon"
     abstract "The work studies automatic detection of fallacious political arguments, focusing on appeals to emotion in Mexican electoral discourse. Features derived from an emotion-oriented lexical resource are combined with machine-learning classifiers including support vector machines and multilayer perceptrons; the neural classifier obtains the best reported F1 result, and the analysis supports the usefulness of lexical emotion information for this task."
-    indice 258
   ]
   node [
     id 3270
@@ -22486,6 +22486,7 @@ graph [
     label "articulo:259"
     tipo "articulo"
     nombre "Students&#8217; Collaborative Learning through Programming Computational Intelligence Algorithms: A Mixed Methods Approach Applied to a Case Study on Energy and Buildings"
+    indice 259
     titulo "Students&#8217; Collaborative Learning through Programming Computational Intelligence Algorithms: A Mixed Methods Approach Applied to a Case Study on Energy and Buildings"
     anio 2025
     isbn "979-8-3315-5432-3"
@@ -22496,7 +22497,6 @@ graph [
     subarea ""
     keywords "Collaborative programming; Computational intelligence; Educational innovation; Energy consumption; Higher education; Machine learning education; Mixed methods; Collaborative learning; Curricula; Education computing; Engineering education; Groupware; Learning algorithms; Learning systems; Machine learning; Personnel training; Structured programming; Students; Sustainable development; Case-studies; Computational Intelligence algorithms; Educational innovations; High educations; Mixed method; Data visualization; Training; Federated learning; Computational modeling; Buildings; Collaboration; Prediction algorithms; Data models; Programming profession; Tuning"
     abstract "In response to the global demand for sustainable energy systems and the need to equip future professionals with computational intelligence (CI) skills, this study investigates how collaborative programming of CI algorithms can support student learning in the context of building energy consumption prediction. This research contributes to the limited literature on collaborative CI learning by integrating domain-specific energy data and structured team-based programming, demonstrating a viable instructional model for enhancing algorithmic reasoning in sustainability education. A convergent mixed-methods case study was conducted as an exploratory research study with 14 undergraduate students enrolled in a Data Science course at Tecnol&#243;gico de Monterrey. Students worked in teams to develop and optimize machine learning and CI models (e.g., ANN, LSTM, GPR) for predicting annual energy use in school buildings. Quantitative metrics such as RMSE and R2 (reported to be R2=0.979 for training and R2=0.981 for testing, coupled with low RMSE=20,504 for training and RMSE=19,948 for testing which were the results of one of the students) assessed model performance, while a structured survey captured cognitive and collaborative learning outcomes. Results revealed that the activity improved students&#8217; understanding of hyperparameter tuning and model evaluation. High levels of engagement were observed, particularly in statistical analysis and data visualization tasks. However, collaborative dynamics yielded mixed perceptions; while many students appreciated teamwork, others encountered challenges in coordination and equitable task division. Qualitative responses emphasized computational constraints and suggested greater support for model integration and real-world relevance. It is concluded that integrating collaborative programming of computational intelligence algorithms into real-world energy prediction tasks effectively supports the development of students&#8217; data science competencies, while highlighting the need for structured team coordination to ensure balanced participation and learning outcomes."
-    indice 259
   ]
   node [
     id 3274
@@ -22605,6 +22605,7 @@ graph [
     label "articulo:260"
     tipo "articulo"
     nombre "Sustainable visions: unsupervised machine learning insights on global development goals"
+    indice 260
     titulo "Sustainable visions: unsupervised machine learning insights on global development goals"
     anio 2025
     isbn ""
@@ -22615,7 +22616,6 @@ graph [
     subarea ""
     keywords "Principal component analysis; Sustainability science; Climate change; Culture; COVID 19; Machine learning; Pandemics; Unsupervised machine learning"
     abstract "The study applies unsupervised machine-learning methods to patterns among global sustainable-development indicators, identifying clusters and relationships that reveal different trajectories and structural similarities among countries."
-    indice 260
   ]
   node [
     id 3292
@@ -22652,6 +22652,7 @@ graph [
     label "articulo:261"
     tipo "articulo"
     nombre "Synthetic versus real: exploring the impact of synthetic data on medical image classification"
+    indice 261
     titulo "Synthetic versus real: exploring the impact of synthetic data on medical image classification"
     anio 2024
     isbn "978-1-5106-7314-4"
@@ -22662,7 +22663,6 @@ graph [
     subarea ""
     keywords "Convolutional neural nets; Deep learning (artificial intelligence); Feature extraction; Image classification; Learning (artificial intelligence); Lung; Medical image processing; Neural nets; Complex training regimes; Different training techniques; Diverse state-of-the-art vision models; Equal conditions; External validation accuracy; External validation data; Hybrid dataset; Hybrid models; Hybrid-trained model; Input image; Lung condition classification; Medical image classification; Neural network training; Neural networks; Radiologists; Real-image-only dataset; Simpler architecture; Stable Diffusion; Synthetic data; Synthetic images; Synthetic medical images; Test architecture; Top AI models; Training style; Classification (of information); Biological organs; Medical imaging; Network architecture; Condition; Convnet; Neural networks trainings; Performance; Real images; Synthetic medical image; Vision transformer; ConvNets; Vision Transformers"
     abstract "This study explores the impact of synthetic medical images, created through Stable Diffusion, on neural network training for lung condition classification. Using a hybrid dataset combining real and synthetic images, diverse state-of-the-art vision models were trained. Neural networks effectively learned from synthetic data, its performance is similar or superior to models trained purely on real images as long as the training is carried out under equal conditions: same architecture, same number of epochs, same training style, same resolution of the input image. We selected ConvNext-small as our test architecture. Its best performance when trained with a hybrid dataset (synthetic and real images) was 89% while when trained with purely real images it was 85%. These results were obtained when evaluated with an external validation data set curated by a radiologist. However, hybrid models seem to show a limit in their performance when exploring different training techniques. In contrast, a simpler architecture trained with only real images can take advantage of more complex training regimes to elevate its final performance. In this regard, our best hybrid-trained model (ConvNext-small) achieved an external validation accuracy of 87% while ResNet-34 attained a 93% validation accuracy trained only on real images. Both models were evaluated with the real-image-only dataset provided by the radiologist. This study concludes by comparing our top AI models and radiologists' performance levels."
-    indice 261
   ]
   node [
     id 3298
@@ -22861,6 +22861,7 @@ graph [
     label "articulo:262"
     tipo "articulo"
     nombre "Team iimasnlp at PAN: Leveraging Graph Neural Networks and Large Language Models for Generative AI Authorship Verification"
+    indice 262
     titulo "Team iimasnlp at PAN: Leveraging Graph Neural Networks and Large Language Models for Generative AI Authorship Verification"
     anio 2024
     isbn ""
@@ -22871,7 +22872,6 @@ graph [
     subarea ""
     keywords "Generative AI; Graph Neural Networks; Large Language Models; Text Graph Representation; Text2graphAPI; Generative adversarial networks; Graph embeddings; Neural network models; Authorship verification; Graph representation; Language model; Large language model; Stylometric features; Text document; Stylometry"
     abstract "Large language models (LLMs) have led to a surge in machine-generated content across various platforms, posing a challenge for humans to distinguish between machine-generated and human-written text. To address this, there is an urgent need for automated systems that can identify machine-generated content and mitigate related risks. In response, the PAN@CLEF, in collaboration with the Voight-Kampff Task (ELOQUENT Lab) [1][2][3], proposed the Generative AI Authorship Verification task. This study presents a novel model architecture integrating Graph Neural Networks (GNNs), pre-trained Language Models (LLMs), and stylometric features to classify text documents as human-generated or machine-generated. Our approach employs a two-path structure: the first path processes text documents through data augmentation, transforming them into co-occurrence graphs for GNN processing, while the second path extracts and fine-tunes embeddings using a BERT-BASE model along with stylometric features. These embeddings are combined to enhance classification accuracy and robustness. We also detail our data stratification strategy, which involves augmenting human-generated texts to balance the dataset. The effectiveness of our model is demonstrated through extensive evaluation metrics, achieving superior performance over baseline methods."
-    indice 262
   ]
   node [
     id 3331
@@ -22908,6 +22908,7 @@ graph [
     label "articulo:263"
     tipo "articulo"
     nombre "Team qIIMAS on Task 2 - Clustering"
+    indice 263
     titulo "Team qIIMAS on Task 2 - Clustering"
     anio 2024
     isbn ""
@@ -22918,7 +22919,6 @@ graph [
     subarea ""
     keywords "Clustering; Information Retrieval; Quantum Annealing; Recommender Systems; Adaptive boosting; Digital storage; Hierarchical clustering; Network security; NP-hard; Simulated annealing; Binary optimization; Clusterings; Embeddings; Hard problems; K-medoids clustering; Medoids; Optimization formulations"
     abstract "This paper describes our participation in Task 2 of the QuantumCLEF lab, where we explored the use of quantum annealing for clustering 6486 document embeddings. We employed a Quadratic Unconstrained Binary Optimization (QUBO) formulation to address the NP-hard problem of k-medoids clustering, optimizing the selection of cluster centers without explicitly assigning each data point to a cluster. Our approach aimed to minimize pairwise dissimilarities among selected medoids while maximizing their separation, ensuring well-defined and diverse clusters. To manage the limitations of current quantum hardware, we implemented a hierarchical clustering procedure: initially reducing the dataset using classical methods and then applying quantum annealing for final medoid optimization. The results indicate that a combination of simulated annealing for initial clustering, followed by quantum annealing, yielded the best outcomes, achieving a Davies-Bouldin index of 4.6798 and an nDCG@10 of 0.5349 when using k = 50 clusters. This hierarchical approach underscores the potential of quantum annealing in enhancing clustering quality despite current hardware constraints. Our findings suggest that quantum-enhanced clustering methods could significantly advance the field of information retrieval and recommender systems by providing more efficient and accurate data organization techniques."
-    indice 263
   ]
   node [
     id 3337
@@ -22997,6 +22997,7 @@ graph [
     label "articulo:264"
     tipo "articulo"
     nombre "Text Graph Neural Networks for Detecting AI-Generated Content"
+    indice 264
     titulo "Text Graph Neural Networks for Detecting AI-Generated Content"
     anio 2025
     isbn "979-8-89176-205-3"
@@ -23007,7 +23008,6 @@ graph [
     subarea ""
     keywords "AI-generated text; Graph neural networks; Text graphs; Detection"
     abstract "The work combines text-graph representations with graph neural networks and alternative node-feature initialization strategies to distinguish human-written from machine-generated content, reporting improvements over traditional machine-learning baselines."
-    indice 264
   ]
   node [
     id 3350
@@ -23026,6 +23026,7 @@ graph [
     label "articulo:265"
     tipo "articulo"
     nombre "The human in the loop Perspectives and challenges for RoboCup 2050"
+    indice 265
     titulo "The human in the loop Perspectives and challenges for RoboCup 2050"
     anio 2024
     isbn ""
@@ -23036,7 +23037,6 @@ graph [
     subarea ""
     keywords "Human robot interaction; Intelligent robots; Machine design; Man machine systems; Sports; Direct interactions; Human like; Human-in-the-loop; Humans-robot interactions; RoboCup; Robotic benchmarking; Robotics competitions; Soccer robotic competition; Soccer team"
     abstract "Robotics researchers have been focusing on developing autonomous and human-like intelligent robots that are able to plan, navigate, manipulate objects, and interact with humans in both static and dynamic environments. These capabilities, however, are usually developed for direct interactions with people in controlled environments, and evaluated primarily in terms of human safety. Consequently, human-robot interaction (HRI) in scenarios with no intervention of technical personnel is under-explored. However, in the future, robots will be deployed in unstructured and unsupervised environments where they will be expected to work unsupervised on tasks which require direct interaction with humans and may not necessarily be collaborative. Developing such robots requires comparing the effectiveness and efficiency of similar design approaches and techniques. Yet, issues regarding the reproducibility of results, comparing different approaches between research groups, and creating challenging milestones to measure performance and development over time make this difficult. Here we discuss the international robotics competition called RoboCup as a benchmark for the progress and open challenges in AI and robotics development. The long term goal of RoboCup is developing a robot soccer team that can win against the world&#8217;s best human soccer team by 2050. We selected RoboCup because it requires robots to be able to play with and against humans in unstructured environments, such as uneven fields and natural lighting conditions, and it challenges the known accepted dynamics in HRI. Considering the current state of robotics technology, RoboCup&#8217;s goal opens up several open research questions to be addressed by roboticists. In this paper, we (a) summarise the current challenges in robotics by using RoboCup development as an evaluation metric, (b) discuss the state-of-the-art approaches to these challenges and how they currently apply to RoboCup, and (c) present a path for future development in the given areas to meet RoboCup&#8217;s goal of having robots play soccer against and with humans by 2050."
-    indice 265
   ]
   node [
     id 3353
@@ -23085,6 +23085,7 @@ graph [
     label "articulo:266"
     tipo "articulo"
     nombre "The iimasNLP team at IberAuTexTification 2024: Integrating Graph Neural Networks, Multilingual LLMs, and Stylometry for Automatic Text Identification"
+    indice 266
     titulo "The iimasNLP team at IberAuTexTification 2024: Integrating Graph Neural Networks, Multilingual LLMs, and Stylometry for Automatic Text Identification"
     anio 2024
     isbn ""
@@ -23095,7 +23096,6 @@ graph [
     subarea ""
     keywords "AI-Generated Text; Graph Neural Networks; Large Language Models; Natural Language Processing; Stylometric Features; Natural language processing systems; Neural network models; Language model; Language processing; Large language model; Natural languages; Stylometry; Subtask; Automatic text identification; Multilingual LLMs"
     abstract "The emergence of large language models (LLMs) opens up many opportunities, such as text generation, language translation, and human-like question-answering. While these advances are impressive, there is concern that LLMs could also be used for malicious purposes, such as generating fake or misleading content. For this reason, it is urgent to build systems that help distinguish between text written by humans and text generated by LLMs. In this work, as a part of the Autextification 2024 shared task, We proposed a novel architecture to accurately classify text as human-written or machine-generated (Subtask 1) and distinguish between various machine-generated texts (Subtask 2). The system architecture incorporates Graph Neural Networks, Multilingual Large Language Models, and stylometric features to improve the accuracy and robustness of text classification. Our system performed better than the baselines and obtained competitive results on the leaderboard (4th place for Subtask 1 and 2nd place for Subtask 2)."
-    indice 266
   ]
   node [
     id 3361
@@ -23126,6 +23126,7 @@ graph [
     label "articulo:267"
     tipo "articulo"
     nombre "The impact of artificial intelligence: from cognitive costs to global inequality"
+    indice 267
     titulo "The impact of artificial intelligence: from cognitive costs to global inequality"
     anio 2025
     isbn ""
@@ -23136,7 +23137,6 @@ graph [
     subarea ""
     keywords "Artificial intelligence; Equality; Organizational governance; Cognitive load; Ethics; Scholarly method; Economic stabilization"
     abstract "The article examines the societal impact of artificial intelligence, considering both potential benefits and risks for global equity, cognitive capabilities and economic stability. It discusses how AI may support domains such as science, education and health while also reinforcing inequality, dependence and disruption, and stresses the need for governance and ethical safeguards."
-    indice 267
   ]
   node [
     id 3366
@@ -23179,6 +23179,7 @@ graph [
     label "articulo:268"
     tipo "articulo"
     nombre "The Mexican Gayze: A Computational Analysis of the Attitudes towards the LGBT+ Population in Mexico on Social Media Across a Decade"
+    indice 268
     titulo "The Mexican Gayze: A Computational Analysis of the Attitudes towards the LGBT+ Population in Mexico on Social Media Across a Decade"
     anio 2024
     isbn "979-8-89176-105-6"
@@ -23189,7 +23190,6 @@ graph [
     subarea ""
     keywords "LGBT+; Mexican Spanish; Social media; Semantic change; Attitude analysis; Computational linguistics; Social networking (online); Computational analysis; Digital communications; Generalisation; Language evolution; Language informations; Linguistic environment; Mexico; On-line communities; Time span; Tweets"
     abstract "Thanks to the popularity of social media, data generated by online communities provides an abundant source of diverse language information. This abundance of data allows NLP practitioners and computational linguists to analyze sociolinguistic phenomena occurring in digital communication. In this paper, we analyze the Twitter discourse around the Mexican Spanish-speaking LGBT+ community. For this, we evaluate how the polarity of some nouns related to the LGBT+ community has evolved in conversational settings using a corpus of tweets that cover a time span of ten years. We hypothesize that social media&#8217;s fast-moving, turbulent linguistic environment encourages language evolution faster than ever before. Our results indicate that most of the inspected terms have undergone some shift in denotation or connotation. No other generalizations can be observed in the data, given the difficulty that current NLP methods have to account for polysemy, and the wide differences between the various subgroups that make up the LGBT+ community. A fine-grained analysis of a series of LGBT+related lexical terms is also included in this work."
-    indice 268
   ]
   node [
     id 3373
@@ -23250,6 +23250,7 @@ graph [
     label "articulo:269"
     tipo "articulo"
     nombre "The missing cue problem in hetero associative memory retrieval"
+    indice 269
     titulo "The missing cue problem in hetero associative memory retrieval"
     anio 2025
     isbn ""
@@ -23260,7 +23261,6 @@ graph [
     subarea ""
     keywords "Hetero-associativity memory; Declarative memory; Indeterminacy of memory; Memory and Hebb&#8217;s learning rule"
     abstract "The study extends Entropic Associative Memory to hetero-associative memory, representing pairs of objects from potentially different domains or modalities in a four-dimensional relation. It formulates the missing-cue problem in retrieval, proposes random, sample-and-test, and search-and-test strategies, and evaluates bidirectional digit-letter recollection using MNIST and EMNIST, showing efficient associative retrieval with limited computing resources."
-    indice 269
   ]
   node [
     id 3383
@@ -23291,6 +23291,7 @@ graph [
     label "articulo:270"
     tipo "articulo"
     nombre "The Use of Hybrid CNN-RNN Deep Learning Models to Discriminate Tumor Tissue in Dynamic Breast Thermography"
+    indice 270
     titulo "The Use of Hybrid CNN-RNN Deep Learning Models to Discriminate Tumor Tissue in Dynamic Breast Thermography"
     anio 2024
     isbn ""
@@ -23301,7 +23302,6 @@ graph [
     subarea ""
     keywords "Binary classification; Breast cancer; CNN-RNN; Deep learning; Neural networks; Thermography; Deep neural networks; Image enhancement; Medical imaging; Recurrent neural networks; Thermography (imaging); Convolutional-recurrent neural network; Recurrent neural network model; Runtimes; Temporal Data; Convolutional neural networks"
     abstract "Breast cancer is one of the leading causes of death for women worldwide, and early detection can help reduce the death rate. Infrared thermography has gained popularity as a non-invasive and rapid method for detecting this pathology and can be further enhanced by applying neural networks to extract spatial and even temporal data derived from breast thermographic images if they are acquired sequentially. In this study, we evaluated hybrid convolutional-recurrent neural network (CNN-RNN) models based on five state-of-the-art pre-trained CNN architectures coupled with three RNNs to discern tumor abnormalities in dynamic breast thermographic images. The hybrid architecture that achieved the best performance for detecting breast cancer was VGG16-LSTM, which showed accuracy (ACC), sensitivity (SENS), and specificity (SPEC) of 95.72%, 92.76%, and 98.68%, respectively, with a CPU runtime of 3.9 s. However, the hybrid architecture that showed the fastest CPU runtime was AlexNet-RNN with 0.61 s, although with lower performance (ACC: 80.59%, SENS: 68.52%, SPEC: 92.76%), but still superior to AlexNet (ACC: 69.41%, SENS: 52.63%, SPEC: 86.18%) with 0.44 s. Our findings show that hybrid CNN-RNN models outperform stand-alone CNN models, indicating that temporal data recovery from dynamic breast thermographs is possible without significantly compromising classifier runtime."
-    indice 270
   ]
   node [
     id 3388
@@ -23350,6 +23350,7 @@ graph [
     label "articulo:271"
     tipo "articulo"
     nombre "TopoGCL: Topological Graph Contrastive Learning"
+    indice 271
     titulo "TopoGCL: Topological Graph Contrastive Learning"
     anio 2024
     isbn "978-1-57735-887-9"
@@ -23360,7 +23361,6 @@ graph [
     subarea ""
     keywords "Classification (of information); Topology; Graph neural networks; High-order; Higher-order; Latent information; Learn+; Learning approach; Order graph; Shape property; Topological graphs; Topological representation"
     abstract "Graph contrastive learning (GCL) has recently emerged as a new concept which allows for capitalizing on the strengths of graph neural networks (GNNs) to learn rich representations in a wide variety of applications which involve abundant unlabeled information. However, existing GCL approaches largely tend to overlook the important latent information on higher-order graph substructures. We address this limitation by introducing the concepts of topological invariance and extended persistence on graphs to GCL. In particular, we propose a new contrastive mode which targets topological representations of the two augmented views from the same graph, yielded by extracting latent shape properties of the graph at multiple resolutions. Along with the extended topological layer, we introduce a new extended persistence summary, namely, extended persistence landscapes (EPL) and derive its theoretical stability guarantees. Our extensive numerical results on biological, chemical, and social interaction graphs show that the new Topological Graph Contrastive Learning (TopoGCL) model delivers significant performance gains in unsupervised graph classification for 8 out of 12 considered datasets and also exhibits robustness under noisy scenarios."
-    indice 271
   ]
   node [
     id 3396
@@ -23403,6 +23403,7 @@ graph [
     label "articulo:272"
     tipo "articulo"
     nombre "Towards a Collaborative Game Designer Using the CCDSF Framework"
+    indice 272
     titulo "Towards a Collaborative Game Designer Using the CCDSF Framework"
     anio 2025
     isbn ""
@@ -23413,7 +23414,6 @@ graph [
     subarea ""
     keywords "Artificial designer; Co-creativity; Computational creative design system; Framework; Puzzle video game design; Autonomous agents; Design for manufacturability; Engineering education; Game design; Integrated circuit design; Interactive computer graphics; Machine design; Creative design; Design systems; Puzzle video games; System framework; Graphical user interfaces"
     abstract "The Computational Creative Design Systems Framework (CCDSF) was formulated from a mixed perspective of the fields of design research and computational creativity to describe, analyze, and model Computational Creative Design Systems (CCDSs) either as autonomous agents or as collaborative systems involving two or more design agents in purely computational or human-computer interaction mode. In this paper, we present the first proof-of-concept (PoC) of the CCDSF, demonstrating the incremental construction of a human-computer collaborative CCDS for the design of puzzle-type video games. This CCDS is composed of a computational design agent that evolves through three versions&#8212;assistant, apprentice, and creative assistant&#8212;each acquiring new technical and creative capabilities and assuming roles with higher levels of collaboration. The system includes a graphical user interface (collaborative environment) that has been conceptualized, implemented, and evaluated following the principles of user interface, user experience, and interaction design. Each building block of the CCDSF was systematically designed, encompassing the top-level experience-dynamics-mechanics design schema down to the underlying perception-action strategies. While further research is needed, our collaborative CCDS, presented as a PoC of the CCDSF, demonstrates its potential to aid human designers in generating viable designs and enhancing their technical and creative performance in various ways."
-    indice 272
   ]
   node [
     id 3403
@@ -23504,6 +23504,7 @@ graph [
     label "articulo:273"
     tipo "articulo"
     nombre "UCOM_UNAM_PLN at CheckThat! 2025: Evaluating LLMs in a two-Step Architecture for Numerical Fact Checking"
+    indice 273
     titulo "UCOM_UNAM_PLN at CheckThat! 2025: Evaluating LLMs in a two-Step Architecture for Numerical Fact Checking"
     anio 2025
     isbn ""
@@ -23514,7 +23515,6 @@ graph [
     subarea ""
     keywords "Classification; Fact checking; Information Retrieval; LLMS; Architecture; Semantics; Comprehensive evaluation; Embeddings; Evidence extraction; F1 scores; Language model; Model-based OPC; Retrieval techniques; Test sets; Classification (of information); Large language models; Numerical claims; CheckThat"
     abstract "This paper presents the approach developed by the UCOM-UNAM-PLN team for Task 3 of the CLEF 2025 CheckThat! Lab, focused on verifying numerical and temporal claims in Spanish. We propose a two-step fact-checking architecture leveraging large language models (LLMs) in both stages: (1) evidence retrieval through BM25-preselected documents, and (2) veracity classification using zero-shot and few-shot prompting strategies. We conduct a comprehensive evaluation of retrieval techniques&#8212;including statistical, embedding-based, and LLM-based models&#8212;on the CLEF 2024 development set, identifying GPT-4o as the top-performing retriever. Based on these findings, we deploy GPT-4o for both evidence extraction and classification. Our best-performing pipeline combines few-shot prompting with curated evidence, achieving a macro-averaged F1 score of 0.3595 on the official CLEF 2025 test set. Results highlight the effectiveness of hybrid LLM-based architectures in identifying false claims, while also revealing challenges in handling ambiguous or true statements. This study underscores the potential of combining semantic retrieval and task-specific prompting for robust fact verification in real-world contexts."
-    indice 273
   ]
   node [
     id 3418
@@ -23563,6 +23563,7 @@ graph [
     label "articulo:274"
     tipo "articulo"
     nombre "UNAM&#8217;s Role in Mexico in Balancing the Dangers and Benefits of Artificial Intelligence"
+    indice 274
     titulo "UNAM&#8217;s Role in Mexico in Balancing the Dangers and Benefits of Artificial Intelligence"
     anio 2024
     isbn ""
@@ -23573,7 +23574,6 @@ graph [
     subarea ""
     keywords "Risks; Benefits; Artificial intelligence; UNAM; Mexico; Computing"
     abstract "The article examines the rapid advancement of generative artificial intelligence and discusses the benefits and risks it poses for Mexico, with attention to UNAM&#8217;s role in addressing inequity, technological dependence, cognitive effects, and governance. It proposes balancing the scientific and educational use of these technologies with a critical assessment of their impacts and institutional responsibilities."
-    indice 274
   ]
   node [
     id 3426
@@ -23604,6 +23604,7 @@ graph [
     label "articulo:275"
     tipo "articulo"
     nombre "Uncertainty Quantification of the Hypervolume for Evolutionary Multi-Objective Reinforcement Learning"
+    indice 275
     titulo "Uncertainty Quantification of the Hypervolume for Evolutionary Multi-Objective Reinforcement Learning"
     anio 2025
     isbn "979-8-4007-1464-1"
@@ -23614,7 +23615,6 @@ graph [
     subarea ""
     keywords "Multi-Objective; Reinforcement Learning; Evolutionary Algorithms; Hypervolume Optimization; Learning algorithms; Multiobjective optimization; Uncertainty analysis; Evolutionary Multi-objectives; Hypervolume; Learn+; Multiple rewards; Optimisations; Real-world problem; Reinforcement learnings; Uncertainty"
     abstract "Many real-world problems involve optimizing multiple conflicting objectives simultaneously, often by a series of decisions. Multi-objective reinforcement learning addresses these challenges by training agents to learn policies that balance multiple reward signals from the environment. In recent years, the community has increasingly paid attention to these problems. However, the necessity for more effective solutions persists. In this context, we propose a methodology for approximating optimal policies using evolutionary algorithms. Our approach enhances the search process by leveraging uncertainty quantification in the hypervolume computation of candidate solutions. We adapt the classical evolutionary process, changing the evaluation of agents to prioritize those contributing more to the hypervolume and using uncertainty quantification as a guiding metric. Further, we analyzed four evolutionary algorithms under different uncertainty measures and tested them in diverse multi-objective reinforcement learning environments with up to four objectives. The work revealed that the expected improvement was the most effective uncertainty quantification for guiding the search across all algorithms."
-    indice 275
   ]
   node [
     id 3431
@@ -23663,6 +23663,7 @@ graph [
     label "articulo:276"
     tipo "articulo"
     nombre "Unsupervised Anomaly Detection Algorithms Unveil Relevant Temporal and Spatial Patterns in the SARS COV2 Codon Usage in M&#233;xico"
+    indice 276
     titulo "Unsupervised Anomaly Detection Algorithms Unveil Relevant Temporal and Spatial Patterns in the SARS COV2 Codon Usage in M&#233;xico"
     anio 2025
     isbn "978-3-031-75542-2"
@@ -23673,7 +23674,6 @@ graph [
     subarea ""
     keywords "Codon usage; SARS COV2; Unsupervised anomaly detection; Anomaly detection; Gene encoding; Genome; Anomaly-detection algorithms; Biological structures; Frequency of appearance; Mexico; Relative frequencies; Relevant patterns; Temporal and spatial pattern; SARS"
     abstract "Genomes are complex biological structures that encode information that can be translated onto several levels, such as genes and proteins. Identification of relevant patterns in genomes is of paramount importance, as they may indicate states of biological or medical relevance. Among the patterns that can be detected, anomalies are especially relevant. Anomalies are instances that do not resemble, under certain metrics, the rest of the observations under study. Anomalies and their detection are relevant since their presence may indicate a systematic error in some stage of the analyzed process or structure, or may indicate that the studied system or phenomenon is undergoing a phase transition or other relevant drift in its dynamics. Here, we applied unsupervised anomaly detection algorithms to the codon usage of the genomes of thousands of SARS COV2 virus isolated in Mexico. Codon usage condenses the relative frequency of appearance of nucleotide triplets, or codons, which code for amino acids, the basic blocks of proteins. By applying several algorithms, we detected patterns that are of epidemiological relevance. The detected patterns are anomalous genomes based on their codon usage. Anomalous patterns are relevant not only because they have not been previously detected in data from Mexico, but also because they allow identification of one of the possible sources of the anomalies. Most of these anomalies were identified in two neighboring states in Mexico, namely Puebla and Tlaxcala. In addition, we identified that almost all anomalies come from subjects who were treated in the same laboratory. Based on the evidence we present here, we conclude that anomaly detection algorithms are relevant in the surveillance of epidemics."
-    indice 276
   ]
   node [
     id 3439
@@ -23746,6 +23746,7 @@ graph [
     label "articulo:277"
     tipo "articulo"
     nombre "Unsupervised learning and natural language processing highlight research trends in a superbug"
+    indice 277
     titulo "Unsupervised learning and natural language processing highlight research trends in a superbug"
     anio 2024
     isbn ""
@@ -23756,7 +23757,6 @@ graph [
     subarea ""
     keywords "Acinetobacter baumannii; Antibiotic resistance; ESKAPE pathogens; Natural language processing; Nosocomial pathogens; Text mining; Topic modelling"
     abstract "Antibiotic-resistance Acinetobacter baumannii is a very important nosocomial pathogen worldwide. Thousands of studies have been conducted about this pathogen. However, there has not been any attempt to use all this information to highlight the research trends concerning this pathogen. Here we use unsupervised learning and natural language processing (NLP), two areas of Artificial Intelligence, to analyse the most extensive database of articles created (5,500+ articles, from 851 different journals, published over 3 decades). K-means clustering found 113 theme clusters and these were defined with representative terms automatically obtained with topic modelling, summarising different research areas. The biggest clusters, all with over 100 articles, are biased toward multidrug resistance, carbapenem resistance, clinical treatment, and nosocomial infections. However, we also found that some research areas, such as ecology and non-human infections, have received very little attention. This approach allowed us to study research themes over time unveiling those of recent interest, such as the use of cefiderocol (a recently approved antibiotic) against A. baumannii. In a broader context, our results show that unsupervised learning, NLP and topic modelling can be used to describe and analyse the research themes for important infectious diseases. This strategy should be very useful to analyse other ESKAPE pathogens or any other pathogens relevant to Public Health."
-    indice 277
   ]
   node [
     id 3451
@@ -23799,6 +23799,7 @@ graph [
     label "articulo:278"
     tipo "articulo"
     nombre "Unveiling AI-Driven Collective Action for a Worker Centric Future"
+    indice 278
     titulo "Unveiling AI-Driven Collective Action for a Worker Centric Future"
     anio 2024
     isbn "979-8-4007-0371-3"
@@ -23809,7 +23810,6 @@ graph [
     subarea ""
     keywords "Gig work; HCI; CSCW; Future of work; Collective action; Human Centered AI; Computer Science, Artificial Intelligence; Computer Science, Information Systems; Computer Science, Theory &#38; Methods; Computer Science"
     abstract "In today&#8217;s dynamic gig economy, workers on platforms like Upwork, Amazon Mechanical Turk, and Toloka face daunting labor challenges. Despite the potential of collective action to significantly improve these conditions, its implementation is hindered by inadequate systems for identifying and resolving issues. During my keynote, I will unveil my Innovative A.I. For Worker Collective Action framework, deeply embedded in social theories. This talk will highlight how we can harness Large Language Models (LLMs), coupled with social theories and worker-owned data, to develop technologies that are truly worker-centric. These technologies not only empower workers to shape their own futures but also enhance their working conditions and address existing harms. I will showcase case studies that exemplify the practical application of this framework, illustrating its potential to revolutionize the future of work. The session will culminate in a forward-looking discussion on a research agenda aimed at exploring the societal impacts of A.I. and crafting effective socio-technical solutions that consistently put worker wellbeing at the forefront."
-    indice 278
   ]
   node [
     id 3458
@@ -23852,6 +23852,7 @@ graph [
     label "articulo:279"
     tipo "articulo"
     nombre "Use of the deep learning and decision tree techniques to analyze the incorporation of technology in the educational field"
+    indice 279
     titulo "Use of the deep learning and decision tree techniques to analyze the incorporation of technology in the educational field"
     anio 2025
     isbn ""
@@ -23862,7 +23863,6 @@ graph [
     subarea ""
     keywords "Technology; ICT; Zoom; LMS; COVID-19; Data science"
     abstract "The mixed-method study analyzes university students&#8217; perceptions of Zoom and learning-management systems such as Moodle and Google Classroom during the COVID-19 period using data-science techniques. Deep-learning and decision-tree analyses are used to examine relationships among perceived technology functions and educational use."
-    indice 279
   ]
   node [
     id 3465
@@ -23899,6 +23899,7 @@ graph [
     label "articulo:280"
     tipo "articulo"
     nombre "VirDetect-AI: a residual and convolutional neural network&#8211;based metagenomic tool for eukaryotic viral protein identification"
+    indice 280
     titulo "VirDetect-AI: a residual and convolutional neural network&#8211;based metagenomic tool for eukaryotic viral protein identification"
     anio 2025
     isbn ""
@@ -23909,7 +23910,6 @@ graph [
     subarea ""
     keywords "Convolutional neural networks; Deep learning; Eukaryotic virus identification; Residual neural networks; Viral metagenomic; VirDetect-AI; Algorithms; Animals; Artificial Intelligence; Eukaryota; Genome, Viral; Humans; Metagenome; Metagenomics; Neural Networks, Computer; Viral Proteins; Viruses; Viral protein; Algorithm; Animal; Artificial neural network; Classification; Eukaryote; Genetics; Human; Procedures; Virus; Virus genome"
     abstract "This study addresses the challenging task of identifying viruses within metagenomic data, which encompasses a broad array of biological samples, including animal reservoirs, environmental sources, and the human body. Traditional methods for virus identification often face limitations due to the diversity and rapid evolution of viral genomes. In response, recent efforts have focused on leveraging artificial intelligence (AI) techniques to enhance accuracy and efficiency in virus detection. However, existing AI-based approaches are primarily binary classifiers, lacking specificity in identifying viral types and reliant on nucleotide sequences. To address these limitations, VirDetect-AI, a novel tool specifically designed for the identification of eukaryotic viruses within metagenomic datasets, is introduced. The VirDetect-AI model employs a combination of convolutional neural networks and residual neural networks to effectively extract hierarchical features and detailed patterns from complex amino acid genomic data. The results demonstrated that the model has outstanding results in all metrics, with a sensitivity of 0.97, a precision of 0.98, and an F1-score of 0.98. VirDetect-AI improves our comprehension of viral ecology and can accurately classify metagenomic sequences into 980 viral protein classes, hence enabling the identification of new viruses. These classes encompass an extensive array of viral genera and families, as well as protein functions and hosts."
-    indice 280
   ]
   node [
     id 3471
@@ -24006,6 +24006,7 @@ graph [
     label "articulo:281"
     tipo "articulo"
     nombre "Weighted&#8211;VAE: A deep learning approach for multimodal data generation applied to experimental T. cruzi infection"
+    indice 281
     titulo "Weighted&#8211;VAE: A deep learning approach for multimodal data generation applied to experimental T. cruzi infection"
     anio 2025
     isbn ""
@@ -24016,7 +24017,6 @@ graph [
     subarea ""
     keywords "Variational autoencoder; Multimodal data; Deep learning; Trypanosoma cruzi"
     abstract "The article introduces a weighted variational autoencoder for generating multimodal synthetic data in an experimental Trypanosoma cruzi setting. The model is designed to preserve information from heterogeneous biomedical modalities and support downstream classification."
-    indice 281
   ]
   node [
     id 3487
@@ -24041,6 +24041,7 @@ graph [
     label "articulo:282"
     tipo "articulo"
     nombre "WikiBias as an Extrapolation Corpus for Bias Detection"
+    indice 282
     titulo "WikiBias as an Extrapolation Corpus for Bias Detection"
     anio 2024
     isbn "979-8-89176-188-9"
@@ -24051,7 +24052,6 @@ graph [
     subarea ""
     keywords "Adversarial machine learning; Computational linguistics; Logistic regression; Classical modeling; Classification tasks; Language model; Logistics regressions; Machine learning models; Probabilistics; Wikipedia; Contrastive Learning; Bias detection; Subjectivity; Corpus extrapolation; Language models"
     abstract "This paper explores whether it is possible to train a machine learning model using Wikipedia data to detect subjectivity in sentences and generalize effectively to other domains. To achieve this, we performed experiments with the WikiBias corpus, the BABE corpus, and the CheckThat! Dataset. Various classical models for ML were tested, including Logistic Regression, SVC, and SVR, including characteristics such as Sentence Transformers similarity, probabilistic sentiment measures, and biased lexicons. Pre-trained models like DistilRoBERTa, as well as large language models like Gemma and GPT-4, were also tested for the same classification task."
-    indice 282
   ]
   node [
     id 3491
@@ -24076,6 +24076,7 @@ graph [
     label "articulo:283"
     tipo "articulo"
     nombre "A Big Data: Oriented Spatial Data Infrastructure for the Mexican National Laboratory for Earth Observation (LANOT)"
+    indice 283
     titulo "A Big Data: Oriented Spatial Data Infrastructure for the Mexican National Laboratory for Earth Observation (LANOT)"
     anio 2024
     isbn "978-3-031-53959-6"
@@ -24086,7 +24087,6 @@ graph [
     subarea ""
     keywords "Big data; LANOT; MongoDB; SDI; Spatial data science; Observatories; Earth observations; Geographical information; Geoportal; Mexico; National laboratory; Spatial data; Spatial data infrastructure"
     abstract "The overall framework under which a Geographical Information System (GIS) operates together with a Geoportal is denominated a Spatial Data Infrastructure (SDI). A key aspect for a successful operation is the correct combination of physical and logical tools that compose the subsystems of the SDI. We present the design of the Spatial Data Infrastructure for the National Laboratory for Earth Observation (LANOT) in Mexico, sponsored by the National Board for Science and Technology (CONACYT). The imagery acquisition station of LANOT is at the Geography Institute, UNAM; however, the Laboratory is made up of academic and governmental institutions in such a way that a wide range of professional backgrounds, skills, and perspectives (developers, researchers, users) are integrated. An asset of LANOT is the open distribution of the data under a Big Data scheme (MongoDB), which includes a large historical set of imagery as well as the set of near real time acquired imagery from three antennas in operation."
-    indice 283
   ]
   node [
     id 3495
@@ -24159,6 +24159,7 @@ graph [
     label "articulo:284"
     tipo "articulo"
     nombre "A Comparative Analysis of Advanced Car Parking Automation:PLC-Based Versus AI-Controlled Systems"
+    indice 284
     titulo "A Comparative Analysis of Advanced Car Parking Automation:PLC-Based Versus AI-Controlled Systems"
     anio 2024
     isbn "979-8-3503-9124-4"
@@ -24169,7 +24170,6 @@ graph [
     subarea ""
     keywords "Advanced driver assistance systems; Control engineering computing; Machine learning; Programmable controllers; Statistical analysis; Traffic engineering computing; Advanced car parking automation systems; Advanced data-driven approaches; AI-controlled systems; Artificial intelligence-controlled systems; Comparative analysis; Parking operators; Parking spaces; Parking utilization trends; PLC-based automated parking system; Programmable logic controller-based solutions; Real-time monitoring; Reporting tools; Self-service parking; Sensor nodes; Artificial Intelligence (AI); Automated Parking System (APS); Predictive Analytics; Programmable Logic Controller (PLC); Traffic Congestion; Urban Mobility; Cluster analysis; Computer control systems; Control system analysis; Digital control systems; Invariance; Parameter estimation; Predictive control systems; Programmed control systems; Resource allocation; Supervised learning; Artificial intelligence; Automated parking; Automated parking system; Comparative analyzes; Logic controller; Parking systems; Programmable logic; Programmable logic controller; Programmable logic controllers; Space vehicles; System performance; Programmable logic devices; Real-time systems; Intelligent sensors; Self-service"
     abstract "This paper presents a comparative analysis of advanced car parking automation systems, focusing on Programmable Logic Controller (PLC)-based solutions versus Artificial Intelligence (AI)-controlled systems. The study highlights a PLC-based Automated Parking System (APS) designed to improve efficiency, automation, and self-service parking in urban clusters. The proposed PLC-based PS integrates various components such as sensors and actuators, with sensor nodes deployed within parking spaces to detect the presence of vehicles. The system leverages predictive analytics to anticipate peak load periods and optimize resource planning, thereby reducing congestion and wait times. Additionally, it offers administrative features for parking operators, including real-time monitoring, statistical analysis, and reporting tools, which provide insights into parking utilization trends and enhances overall system performance. The comparative analysis examines the potential of AI-controlled systems to further enhance these benefits by incorporating advanced data-driven approaches and machine learning algorithms."
-    indice 284
   ]
   node [
     id 3507
@@ -24410,6 +24410,7 @@ graph [
     label "articulo:285"
     tipo "articulo"
     nombre "A Systematic Literature Review of 10 years of Research on Program Synthesis and Natural Language Processing"
+    indice 285
     titulo "A Systematic Literature Review of 10 years of Research on Program Synthesis and Natural Language Processing"
     anio 2024
     isbn ""
@@ -24420,7 +24421,6 @@ graph [
     subarea ""
     keywords "Ada (programming language); Automatic programming; Input output programs; Natural language processing systems; Problem oriented languages; Specification languages; Abstract programs; Automatic code generations; Language description; Language processing; Natural languages; Program synthesis; Requirements specifications; Research problems; Rigorous methodologies; Systematic literature review; Software design; Natural language processing"
     abstract "Program synthesis is the process of automatically generating software from a requirement specification. This paper presents a systematic literature review focused on program synthesis from specifications expressed in natural language. The research problem centers on the complexity of automatically generating accurate and robust code from high-level, ambiguous natural language descriptions &#8211; a barrier that limits the broader adoption of automatic code generation in software development. To address this issue, the study systematically examines research published between 2014 and 2024, focusing on works that explore various approaches to program synthesis from natural language inputs. The review follows a rigorous methodology, incorporating search strings tailored to capture relevant studies from five major data sources: IEEE, ACM, Springer, Elsevier, and MDPI. The selection process applied strict inclusion and exclusion criteria, resulting in a final set of 20 high-quality studies. The findings reveal significant advancements in the field, particularly in the integration of large language models (LLMs) with program synthesis techniques. The review also highlights the challenges and concludes by outlining key trends and proposing future research directions aimed at overcoming these challenges and expanding the applicability of program synthesis across various domains."
-    indice 285
   ]
   node [
     id 3547
@@ -24499,6 +24499,7 @@ graph [
     label "articulo:286"
     tipo "articulo"
     nombre "Applications and methodologies of Internet of Things in warehouses and inventory management: A systematic literature review"
+    indice 286
     titulo "Applications and methodologies of Internet of Things in warehouses and inventory management: A systematic literature review"
     anio 2025
     isbn ""
@@ -24509,7 +24510,6 @@ graph [
     subarea ""
     keywords "Industry 4.0; Internet of things; Inventory management; Warehouse; Decision making; Inventory control; Supply chain management; Cited papers; Decision-making process; Geographical area; Industrial revolutions; Internet of things architectures; State of the art; Systematic literature review; Transforming factor; Warehouse management; Supply chains"
     abstract "The integration of technologies derived from the fourth industrial revolution in supply chain represents a transforming factor in the decision-making processes, being one of them the inventory and warehouse management through the Internet of Things (IoT) architecture. In this systematic literature review we provide an overview of the state-of-the-art on the subject, highlighting the most relevant trends, technologies, models, and proposals of the reviewed papers. In addition, the scientific production over time is investigated, as well as geographical area and the most cited papers. We propose an identification system to categorize the main subjects of the papers and get a better statistical analysis. We conclude that IoT technology in warehouses and inventory management is mainly focused on a few topics such as theorical frameworks and algorithms leaving aside real applications. Also, the analysis shows that most of the papers production comes from Asian countries leaving a significant gap with respect to the rest of the world. The present study covers the period 2017-2023."
-    indice 286
   ]
   node [
     id 3560
@@ -24570,6 +24570,7 @@ graph [
     label "articulo:287"
     tipo "articulo"
     nombre "AutoMethyc: an automated methylation analysis for massively parallel sequencing data"
+    indice 287
     titulo "AutoMethyc: an automated methylation analysis for massively parallel sequencing data"
     anio 2025
     isbn ""
@@ -24580,7 +24581,6 @@ graph [
     subarea ""
     keywords "Bisulfite-sequencing; Differential-methylation; DNA-methylation; Methylation-analysis; Algorithms; Breast Neoplasms; CpG Islands; Female; High-Throughput Nucleotide Sequencing; Humans; Sequence Analysis, DNA; Software; Algorithm; Breast tumor; CpG island; DNA sequencing; Genetics; High throughput sequencing; Human; Procedures"
     abstract "Motivation: Bisulfite sequencing (BS-Seq) enables a comprehensive and detailed analysis of DNA methylation patterns at single-nucleotide resolution. While methylation differences can contribute to various diseases, their sincronous occurrence at distinct loci complicates understanding. Therefore, advanced tools are essential to facilitate the identification and analysis of methylation programs and patterns. Results: AutoMethyc provides a comparative approach by integrating different algorithms coordinated and optimized for use on desktop computers and servers. The workflow evaluates the methylation status from different perspectives, facilitating interpretation in an interactive HTML report, incorporating new co-methylation analyses for marker identification, as well as exploratory complex workflows with dimension reduction techniques and identification of unsupervised groups between samples or sites. AutoMethyc was tested in a breast cancer study (n = 389; 233 cases and 156 controls) using BS-Seq data from the Illumina MiSeq platform, mapping 330 methylation-prone citocine (CpG) sites in 20 genes. The analysis was performed on a desktop with 64 GB RAM, 16 cores (4.673 GHz), and 326 KB/s internet, running Fedora 39 with i3wm. The tool processed the dataset in 48 h, showcasing its efficiency and scalability."
-    indice 287
   ]
   node [
     id 3570
@@ -24659,6 +24659,7 @@ graph [
     label "articulo:288"
     tipo "articulo"
     nombre "Benchmarking for a New Railway Accident Classification Methodology and Its Database: A Case Study in Mexico, the United States, Canada, and the European Union"
+    indice 288
     titulo "Benchmarking for a New Railway Accident Classification Methodology and Its Database: A Case Study in Mexico, the United States, Canada, and the European Union"
     anio 2024
     isbn ""
@@ -24669,7 +24670,6 @@ graph [
     subarea ""
     keywords "Accident; Benchmarking; Descriptive statistics; Ishikawa; Railway; Database systems; Information management; Public administration; Railroad transportation; Railroads; Accidents cause; Case-studies; Classification methodologies; European union; Ishikawum; Mexico; Public database; Railway accidents; Railroad accidents"
     abstract "Rail accidents have decreased in recent years, although not significantly if measured by train accidents recorded in the last six years. Therefore, it is essential to identify weaknesses in the implementation of security and prevention systems. This research aims to study the trend and classification of railway accidents, as well as analyze public databases. Using the business management method of benchmarking, descriptive statistics, and a novel approach to the Ishikawa diagram, this study demonstrates best practices and strategies to reduce accidents. Unlike previous studies, this research specifically examines public databases and provides a framework for developing the standardization of railway accident causes and recommendations. The main conclusion is that the proposed classification of railway accident causes, and its associated database, ensures that agencies, researchers, and the government have accessible, easily linkable, and usable data references to enhance their analysis and support the continued reduction of accidents."
-    indice 288
   ]
   node [
     id 3583
@@ -24760,6 +24760,7 @@ graph [
     label "articulo:289"
     tipo "articulo"
     nombre "BIOMX-DB: A web application for the BIOFACQUIM natural product database"
+    indice 289
     titulo "BIOMX-DB: A web application for the BIOFACQUIM natural product database"
     anio 2024
     isbn ""
@@ -24770,7 +24771,6 @@ graph [
     subarea ""
     keywords "Chemoinformatics; Database; Drug discovery; Natural products; Open access; Biological Products; Databases, Chemical; Databases, Factual; Internet; Mexico; Software; User-Computer Interface; Drug products; Product design; Natural product; Biological product; Computer aided drug design; Integral part; Latin America; OpenAccess; Product database; WEB application; Web applications; Article; BIOFACQUIM database; Cheminformatics; Drug database; Filtration; Open access publishing; Search engine optimization; Chemical database; Chemistry; Computer interface; Factual database; Database systems"
     abstract "Natural product databases are an integral part of chemoinformatics and computer-aided drug design. Despite their pivotal role, a distinct scarcity of projects in Latin America, particularly in Mexico, provides accessible tools of this nature. Herein, we introduce BIOMX-DB, an open and freely accessible web-based database designed to address this gap. BIOMX-DB enhances the features of the existing Mexican natural product database, BIOFACQUIM, by incorporating advanced search, filtering, and download capabilities. The user-friendly interface of BIOMX-DB aims to provide an intuitive experience for researchers. For seamless access, BIOMX-DB is freely available at www.biomx-db.com."
-    indice 289
   ]
   node [
     id 3598
@@ -24909,6 +24909,7 @@ graph [
     label "articulo:290"
     tipo "articulo"
     nombre "BlockPS: A Blockchain Platform Selection Methodology"
+    indice 290
     titulo "BlockPS: A Blockchain Platform Selection Methodology"
     anio 2025
     isbn "978-3-031-90309-0; 978-3-031-90310-6"
@@ -24919,7 +24920,6 @@ graph [
     subarea ""
     keywords "Blockchain; Methodology; Blockchain platforms"
     abstract "The paper introduces BlockPS, a methodology for selecting a blockchain platform according to the requirements and constraints of a distributed application. It structures the comparison of platform characteristics so that development teams can make a more systematic platform-selection decision."
-    indice 290
   ]
   node [
     id 3621
@@ -24938,6 +24938,7 @@ graph [
     label "articulo:291"
     tipo "articulo"
     nombre "Building national patient registries in Mexico: insights from the MexOMICS Consortium"
+    indice 291
     titulo "Building national patient registries in Mexico: insights from the MexOMICS Consortium"
     anio 2024
     isbn ""
@@ -24948,7 +24949,6 @@ graph [
     subarea ""
     keywords "Genetics; Parkinson Disease; Patient registries; Systemic lupus erythematosus; Twins; Corticosteroid; Levodopa; Neuromelanin; Adult; Alcohol Use Disorders Identification Test; Allergic rhinitis; Antiphospholipid syndrome; Anxiety; Article; Astigmatism; Atrial fibrillation; Childhood Trauma Questionnaire; Cognition; Cognitive defect; Decision making; Degenerative disease; Depression; Eating disorder; Electroencephalography; Environmental exposure; Female; Functional magnetic resonance imaging; Gastroesophageal reflux; Gene therapy; Genetic correlation; Genetic variability; Genotyping; Head injury; Human; India; Insomnia; Insulin dependent diabetes mellitus; Intellectual impairment; Knowledge; Male; Metabolomics; Mexico; Migraine; Multiple sclerosis; Myopia; Neuroimaging; Nuclear magnetic resonance imaging; Nuclear magnetic resonance spectroscopy; Obesity; Obsessive compulsive disorder; Pittsburgh Sleep Quality Index; Pregnancy; Prevalence; Proteomics; Quality of life; Questionnaire; Reproductive health; Short Form 36; Traumatic brain injury; Unified Parkinson Disease Rating Scale; Whole genome sequencing"
     abstract "Objective: To introduce MexOMICS, a Mexican Consortium focused on establishing electronic databases to collect, cross-reference, and share health-related and omics data on the Mexican population. Methods: Since 2019, the MexOMICS Consortium has established three electronic-based registries: the Mexican Twin Registry (TwinsMX), Mexican Lupus Registry (LupusRGMX), and the Mexican Parkinson's Research Network (MEX-PD), designed and implemented using the Research Electronic Data Capture web-based application. Participants were enrolled through voluntary participation and on-site engagement with medical specialists. We also acquired DNA samples and Magnetic Resonance Imaging scans in subsets of participants. Results: The registries have successfully enrolled a large number of participants from a variety of regions within Mexico: TwinsMX (n = 2,915), LupusRGMX (n = 1,761) and MEX-PD (n = 750). In addition to sociodemographic, psychosocial, and clinical data, MexOMICS has collected DNA samples to study the genetic biomarkers across the three registries. Cognitive function has been assessed with the Montreal Cognitive Assessment in a subset of 376 MEX-PD participants. Furthermore, a subset of 267 twins have participated in cognitive evaluations with the Creyos platform and in MRI sessions acquiring structural, functional, and spectroscopy brain imaging; comparable evaluations are planned for LupusRGMX and MEX-PD. Conclusions: The MexOMICS registries offer a valuable repository of information concerning the potential interplay of genetic and environmental factors in health conditions among the Mexican population."
-    indice 291
   ]
   node [
     id 3624
@@ -25237,6 +25237,7 @@ graph [
     label "articulo:292"
     tipo "articulo"
     nombre "Community Participation and Web Mapping with Open Source Technologies: An Approach to the Identification and Dissemination of Intangible Cultural Heritage: A Case Study of Analco, Mexico"
+    indice 292
     titulo "Community Participation and Web Mapping with Open Source Technologies: An Approach to the Identification and Dissemination of Intangible Cultural Heritage: A Case Study of Analco, Mexico"
     anio 2025
     isbn ""
@@ -25247,7 +25248,6 @@ graph [
     subarea ""
     keywords "Analco; Community Participatory; Intangible Cultural Heritage; Participatory Mapping; Web Mapping; Historic preservation; Mapping; Multimedia systems; Open systems; Case-studies; Community participation; Cultural informations; Intangible cultural heritages; Mexico; Open-source technology; Copyrights"
     abstract "The integration of web mapping with Intangible Cultural Heritage (ICH) can provide a powerful tool for the identification, documentation, preservation, and promotion of cultural manifestations in a given location. Web mapping enables the creation of interactive and accessible maps that dynamically and visually represent geographic and cultural information. As part of a doctoral research project, we designed and developed a web application to disseminate the ICH of the Analco neighborhood in Puebla, Mexico, a site included in the UNESCO World Heritage List. Through a community-based participatory process, supported by participatory mapping and the integration of other data sources, we implemented a pilot project for a web mapping tool using technologies such as JavaScript, CSS, HTML, and LeafletJS. The resulting project was deployed on a test server, the tool was presented to the community, which, in a free, informed, and collaborative manner, authorized the dissemination of their cultural information to other interested parties, leveraging the advantages of the internet to promote their heritage. The initial version was positively evaluated by the community in terms of design, functionality, and usability, though it was concluded that additional multimedia content generated by the community is needed. We found that web mapping, combined with community participation through participatory mapping, offers an innovative and effective approach to preserving and promoting cultural traditions. By leveraging open-source technologies and fostering active collaboration, communities can ensure that their cultural heritage is recognized, valued, and transmitted to future generations in a dynamic and interactive manner."
-    indice 292
   ]
   node [
     id 3672
@@ -25332,6 +25332,7 @@ graph [
     label "articulo:293"
     tipo "articulo"
     nombre "Comparison of OCR Services for Administrative PDF Documents with Java/Tess4J and Python/EasyOCR"
+    indice 293
     titulo "Comparison of OCR Services for Administrative PDF Documents with Java/Tess4J and Python/EasyOCR"
     anio 2024
     isbn ""
@@ -25342,7 +25343,6 @@ graph [
     subarea ""
     keywords "Optical character recognition; Benchmarking; Java; Python"
     abstract "Two optical character recognition web services for administrative PDF documents are developed and compared: one in Java with Spring and Tess4J, and the other in Python with EasyOCR. The evaluation of 50 documents compares processing times and notes that the accuracy of the retrieved text was not included in the analysis."
-    indice 293
   ]
   node [
     id 3686
@@ -25361,6 +25361,7 @@ graph [
     label "articulo:294"
     tipo "articulo"
     nombre "Creative dialogue: Evolving intent in designer-AI workflows"
+    indice 294
     titulo "Creative dialogue: Evolving intent in designer-AI workflows"
     anio 2025
     isbn "979-8-4007-1289-0"
@@ -25371,7 +25372,6 @@ graph [
     subarea ""
     keywords "AI; Co-creativity; Creative process; Design education; Ideation; Product design; Cognitive process; Creatives; Doctoral research; Product designers; Work-flows; Workflow process; Artificial intelligence; Computer Science, Artificial Intelligence; Computer Science, Interdisciplinary Applications; Computer Science"
     abstract "The aim of this doctoral research project is to study how the use of GenAI can influence the creative workflow and cognitive processes of product designers in formation. The focus is on the initial design stages of problem-solution framing and concept creation/exploration. As a first step, a literature review has been performed to identify the different variables that might influence results in similar studies. A second phase involves exploratory studies with bachelor level product design students. Based on the findings, a series of rapid design prototypes proposing new ways of interaction with GenAI will be tested and evaluated. The main contributions of this project are the development of principles and new models for co-creation that can support the evolutive process of design intention during the ideation process and assist designers in formation to develop their creative potential."
-    indice 294
   ]
   node [
     id 3689
@@ -25426,6 +25426,7 @@ graph [
     label "articulo:295"
     tipo "articulo"
     nombre "Criteria for Assessing Digital Preservation Systems"
+    indice 295
     titulo "Criteria for Assessing Digital Preservation Systems"
     anio 2024
     isbn ""
@@ -25436,7 +25437,6 @@ graph [
     subarea ""
     keywords "Digital preservation; Evaluation; Digital preservation systems; Software quality"
     abstract "The article organizes criteria for evaluating digital-preservation systems by relating preservation functions and requirements to reference frameworks such as OAIS, TRAC and MoReq and to software-quality characteristics. The resulting criteria are intended to support systematic comparison of tools and systems used to preserve digital collections over time."
-    indice 295
   ]
   node [
     id 3698
@@ -25461,6 +25461,7 @@ graph [
     label "articulo:296"
     tipo "articulo"
     nombre "CSCW Contributions to Critical Futures of Work"
+    indice 296
     titulo "CSCW Contributions to Critical Futures of Work"
     anio 2025
     isbn "979-8-4007-1480-1"
@@ -25471,7 +25472,6 @@ graph [
     subarea ""
     keywords "CSCW; Future of work; Critical computing; Workers; Labor; Diversity; Pluralism; Personnel; Computer supported cooperative work; Employment; Human computer interaction; Human engineering; Interactive computer systems; Future of works; Imaginaries; Status quo; Work practices; Workers'"
     abstract "As the CSCW community evolves and participates in envisioning the impact of technologies on the work practices, we want to ensure that critical and alternative computing perspectives are well represented while we are co-constructing the future of work. In this hybrid workshop, we invite researchers, practitioners, civic actors, economists, and other interested parties to challenge dominant, powerful, status-quo narratives and imaginaries when considering the future of work, nurturing the CSCW commitments and methods. Co-constructing the workshop with participants, we aim to develop actionable insights and strengthen the community."
-    indice 296
   ]
   node [
     id 3702
@@ -25550,6 +25550,7 @@ graph [
     label "articulo:297"
     tipo "articulo"
     nombre "Data reuse in agricultural genomics research: Challenges and recommendations"
+    indice 297
     titulo "Data reuse in agricultural genomics research: Challenges and recommendations"
     anio 2025
     isbn ""
@@ -25560,7 +25561,6 @@ graph [
     subarea ""
     keywords "Agriculture; Big data; Data reuse; Data standards; FAIR; Genomics; Metadata; Transcriptomics; Databases, Genetic; Data availability; Data interoperability; Drug combination; Human; Organization and management; Review; Genetic database; Procedures"
     abstract "The scientific community has long benefited from the opportunities provided by data reuse. Recognizing the need to identify the challenges and bottlenecks to reuse in the agricultural research community and propose solutions for them, the data reuse working group was started within the AgBioData consortium framework. Here, we identify the limitations of data standards, metadata deficiencies, data interoperability, data ownership, data availability, user skill level, resource availability, and equity issues, with a specific focus on agricultural genomics research. We propose possible solutions stakeholders could implement to mitigate and overcome these challenges and provide an optimistic perspective on the future of genomics and transcriptomics data reuse."
-    indice 297
   ]
   node [
     id 3715
@@ -25615,6 +25615,7 @@ graph [
     label "articulo:298"
     tipo "articulo"
     nombre "Demo: A Geometric Approach to Generate Musical Rhythmic Patterns in Haskell"
+    indice 298
     titulo "Demo: A Geometric Approach to Generate Musical Rhythmic Patterns in Haskell"
     anio 2024
     isbn "979-8-4007-1099-5"
@@ -25625,7 +25626,6 @@ graph [
     subarea ""
     keywords "Geometry; Rhythm; Music; Pattern; Group theory; Functional programming; Erlangen program; Live coding"
     abstract "We present work-in-progress on RTG, a domain specific language embedded in Haskell designed to explore the affordances of geometry as a means to generate and manipulate rhythmic patterns in live coded music. Examples of how simple geometry is capable of producing interesting rhythms are shown to support our use of binary lists as a pattern representation. We introduce Erlangen&#8217;s Program notion of geometry as encoded in groups, using such structure as the focus of a combinator interface based on an archetypal RhythmicPattern type implemented using a type class. Examples of the interface usage are provided. Future work targets the definition of Group instances for the rhythmic pattern types such that the group laws are fulfilled and its operations lift to the interface in a musically coherent and engaging way."
-    indice 298
   ]
   node [
     id 3724
@@ -25674,6 +25674,7 @@ graph [
     label "articulo:299"
     tipo "articulo"
     nombre "Digitalization of Healthcare Supply Chain Design"
+    indice 299
     titulo "Digitalization of Healthcare Supply Chain Design"
     anio 2024
     isbn "978-3-031-67439-6"
@@ -25684,7 +25685,6 @@ graph [
     subarea ""
     keywords "Digitalization; Healthcare supply chain; Key performance indicators; Electronic health record; Business activities; Data analytics; Digital technologies; Supply chain efficiency; Supply chain process; Supply chain systems; Supply-chain designs"
     abstract "Healthcare supply chain digitalization is the process of applying digital technologies to healthcare supply chain processes and systems. It includes the use of technologies such as artificial intelligence, data analytics, robotics, and augmented reality to improve supply chain efficiency, precision, and transparency. It includes companies, facilities, and all business activities to supply, manufacture, store, and distribute products. This study presents an overview of current supply chain digitalization processes and a hypothetical example of how it could be migrated from a traditional case to one of digitalization in its early stages. The digitalization process focuses mainly on the collection of information regarding the management of several inventory policies and their impact on key performance indicators."
-    indice 299
   ]
   node [
     id 3732
@@ -25751,6 +25751,7 @@ graph [
     label "articulo:300"
     tipo "articulo"
     nombre "Distributed Application Development Methodology (MEDAD)"
+    indice 300
     titulo "Distributed Application Development Methodology (MEDAD)"
     anio 2024
     isbn ""
@@ -25761,7 +25762,6 @@ graph [
     subarea ""
     keywords "Blockchain; Methodology; Blockchain platforms; Blockchain adoption"
     abstract "The work proposes MEDAD, a methodology to support blockchain platform selection during the development of distributed applications. The proposal organizes the decision into steps that consider the blockchain type, consensus protocol, and platform characteristics, with the aim of facilitating their adoption and integration into software development processes."
-    indice 300
   ]
   node [
     id 3743
@@ -25774,6 +25774,7 @@ graph [
     label "articulo:301"
     tipo "articulo"
     nombre "Efficient Modelling with Logic-Labelled Finite-State Machines of IEC 61499 Function Blocks: Simulation, Execution and Verification"
+    indice 301
     titulo "Efficient Modelling with Logic-Labelled Finite-State Machines of IEC 61499 Function Blocks: Simulation, Execution and Verification"
     anio 2025
     isbn "978-989-758-729-0"
@@ -25784,7 +25785,6 @@ graph [
     subarea ""
     keywords "Distributed Systems; Finite-State Machines; Formal Verification; Models of Behaviour"
     abstract "As automation grows, so does the complexity of software systems. Hence, the urgent and pressing need for software verification, particularly for distributed systems, as they are notoriously difficult to verify. The widespread of verification techniques, such as model checking, however, have been hindered by requiring a significant level of expertise. In the realm of industrial automation, on the other hand, the IEC 61499 function block architecture has gained prominence for modelling intricate distributed automation systems, especially in demanding scenarios such as process control. However, it suffers from being event-driven, forcing semantic interpretations and the use of timed events by a central clock, to produce input for model checkers. We argue that this situation can be remedied by logic-labelled finite-state machines and control-status messages. This is the first time that these concepts have been used for producing executable and verifiable models of distributed systems for industrial automation with communication delays as is the current environment of application of the IEC 61499."
-    indice 301
   ]
   node [
     id 3745
@@ -25815,6 +25815,7 @@ graph [
     label "articulo:302"
     tipo "articulo"
     nombre "ENcyclopedia of TRAnscription Factors in Bacteria and Archaea genomes (ENTRAF) version 2.0"
+    indice 302
     titulo "ENcyclopedia of TRAnscription Factors in Bacteria and Archaea genomes (ENTRAF) version 2.0"
     anio 2025
     isbn ""
@@ -25825,7 +25826,6 @@ graph [
     subarea ""
     keywords "Archaea; Archaeal Proteins; Bacteria; Bacterial Proteins; Databases, Genetic; Genome, Archaeal; Genome, Bacterial; Transcription Factors; Archaeal protein; Bacterial protein; Transcription factor; Archaeal genome; Archaeon; Bacterial genome; Bacterium; Genetic database; Genetics; Metabolism"
     abstract "DNA-binding transcription factors (TFs) have a central role in regulation of gene expression at the transcription initiation level. These proteins have been experimentally described in multiple bacterial and archaeal genomes. These descriptions have allowed their prediction in complete genomes. In this work, we collected 1784 experimentally validated TFs across 25 bacterial and seven archaeal phyla, including Gammaproteobacteria, Bacillota, and Actinomycetota in bacteria and Thermoproteota and Thermococci in archaea. The collection of regulatory proteins was organized into a relational database, named ENcyclopedia of TRAnscription Factors in Bacteria and Archaea genomes or ENTRAF. The database shows the experimental evidence for all the TFs [protein structure information (X-ray or NMR structural data); binding of purified proteins; footprinting assays; site mutation; in vitro transcription assay; and PRiMer extension analysis, among others], their global regulatory roles (carbon source assimilation, virulence, antibiotic resistance, stress, and DNA damage), evolutionary families, and structural classifications. In addition, we achieved a global description of the collection in terms of their regulatory mechanisms (activation, repression, and dual activities), structural diversity, functional categories, and protein families. We consider that this collection of well-annotated TFs could be used as a benchmark, enhancing the predictions for this class of proteins in complete genomes. The complete collection of TFs is available at https://entraf.iimas.unam.mx and https://github.com/BioIIMAS/ENTRAF."
-    indice 302
   ]
   node [
     id 3750
@@ -25880,6 +25880,7 @@ graph [
     label "articulo:303"
     tipo "articulo"
     nombre "Exertion Trainer: Smartphone Exergame Design to Support Children&#8217;s Kinesthetic Learning Through Playful Feedback"
+    indice 303
     titulo "Exertion Trainer: Smartphone Exergame Design to Support Children&#8217;s Kinesthetic Learning Through Playful Feedback"
     anio 2024
     isbn "978-3-031-59234-8"
@@ -25890,7 +25891,6 @@ graph [
     subarea ""
     keywords "Empirical studies in ubiquitous and mobile computing; Exertion Game; Human-Computer Interaction; Interaction Design; Learning through Smartphones; Movement-Based Design; User-Centered Design; Contrastive Learning; Game design; Graphical user interfaces; Punching; Sensory feedback; Smartphones; Ubiquitous computing; Computer interaction; Empirical studies; Empirical study in ubiquitous and mobile computing; Exertion games; Learning through smartphone; Mobile-computing; Movement-based; Smart phones; User-centred"
     abstract "Learning Apps have come a long way; nevertheless, Apps focused on physical education are underrepresented. This research explores exertion games that enable smartphone users to playfully learn the correct execution of target physical activities, as it is the straight punch in boxing. By implementing the sensors and actuators commonly found on modern smartphones, the proposed exertion game measures the movement of the user&#8217;s punching hand while performing a straight punch. The Exertion Trainer uses the resulting smartphone accelerometer data to evaluate the users&#8217; techniques and provides sensory feedback to correct them. A graphic user interface was developed to convey the example movement that the user should replicate. A vital feature of this research is the user-centered design approach, which aims to generate new human-computer interactions by exploiting existing and pervasive mobile devices. So far, an expert user performance has been assessed to define a data baseline of the correct technique of the straight punch. Preliminary tests were done with two users. An A/B comparative experiment is proposed to validate this research. The control group, a traditional video-based tutorial, will be compared to the experimental group, a gamified interaction with the proposed exertion game. Participants will engage in a quantitative experiment (performance) and a qualitative questionnaire (experience). This study aims to transform the time users spend on the screen from visual content consumption to physical activation."
-    indice 303
   ]
   node [
     id 3759
@@ -26017,6 +26017,7 @@ graph [
     label "articulo:304"
     tipo "articulo"
     nombre "Expanding the Pierre Auger Observatory Open Data program"
+    indice 304
     titulo "Expanding the Pierre Auger Observatory Open Data program"
     anio 2025
     isbn ""
@@ -26027,7 +26028,6 @@ graph [
     subarea ""
     keywords "Observatories; Augers; Computer software reusability; Cosmic ray detectors; Cosmic rays; Cosmology; Data acquisition; Information management; Interoperability; Open Data; Cosmics; Data portal; Data program; Data release; Fluorescence detector; General publics; Pierre Auger observatory; Release process; Scientific community; Surface detectors; Knowledge management"
     abstract "Since 2021, the Open Data Portal has provided access to the Pierre Auger Observatory&#8217;s data for both the scientific community and the general public. The data release process has been in place since the Observatory&#8217;s foundation. It continues to be strengthened as outlined in the approved policy and the Observatory&#8217;s Data Management Plan. More than 80 000 cosmic-ray events above 10^17 eV, detected with the surface and fluorescence detectors, have been released at various levels, from calibrated traces to high-level reconstruction parameters. Additionally, atmospheric data and low-energy particle counting rates have been made available for space weather studies. The Collaboration is committed to releasing FAIR (Findable, Accessible, Interoperable, and Reusable) data, along with accompanying software and detailed documentation, enabling users to perform their own queries and analyses for both research and educational purposes. These datasets have already served as a basis for several scientific papers and have been widely used in various outreach activities. After 20 years of stable data acquisition, the Pierre Auger Collaboration will disclose 30% of the cosmic ray events above 2.5 &#183; 10^18 eV collected with the main surface detector array between 2004 and 2022, corresponding to an exposure of about 24 000 km^2 sr yr, together with events detected with the fluorescence detector and used for energy calibration. This release will provide an unprecedented public dataset for ultra-high-energy cosmic rays, enabling in-depth studies of their properties. Together with the published catalog of the 100 most energetic events recorded, this initiative represents the Pierre Auger Collaboration&#8217;s strong commitment to distributed and collective knowledge, sharing progress with the entire scientific community."
-    indice 304
   ]
   node [
     id 3780
@@ -26100,6 +26100,7 @@ graph [
     label "articulo:305"
     tipo "articulo"
     nombre "Expanding the Pierre Auger Observatory Open Data program"
+    indice 305
     titulo "Expanding the Pierre Auger Observatory Open Data program"
     anio 2025
     isbn ""
@@ -26110,13 +26111,13 @@ graph [
     subarea ""
     keywords "Observatories; Augers; Computer software reusability; Cosmic ray detectors; Cosmic rays; Cosmology; Data acquisition; Information management; Interoperability; Open Data; Cosmics; Data portal; Data program; Data release; Fluorescence detector; General publics; Pierre Auger observatory; Release process; Scientific community; Surface detectors; Knowledge management"
     abstract "Since 2021, the Open Data Portal has provided access to the Pierre Auger Observatory&#8217;s data for both the scientific community and the general public. The data release process has been in place since the Observatory&#8217;s foundation. It continues to be strengthened as outlined in the approved policy and the Observatory&#8217;s Data Management Plan. More than 80 000 cosmic-ray events above 10^17 eV, detected with the surface and fluorescence detectors, have been released at various levels, from calibrated traces to high-level reconstruction parameters. Additionally, atmospheric data and low-energy particle counting rates have been made available for space weather studies. The Collaboration is committed to releasing FAIR (Findable, Accessible, Interoperable, and Reusable) data, along with accompanying software and detailed documentation, enabling users to perform their own queries and analyses for both research and educational purposes. These datasets have already served as a basis for several scientific papers and have been widely used in various outreach activities. After 20 years of stable data acquisition, the Pierre Auger Collaboration will disclose 30% of the cosmic ray events above 2.5 &#183; 10^18 eV collected with the main surface detector array between 2004 and 2022, corresponding to an exposure of about 24 000 km^2 sr yr, together with events detected with the fluorescence detector and used for energy calibration. This release will provide an unprecedented public dataset for ultra-high-energy cosmic rays, enabling in-depth studies of their properties. Together with the published catalog of the 100 most energetic events recorded, this initiative represents the Pierre Auger Collaboration&#8217;s strong commitment to distributed and collective knowledge, sharing progress with the entire scientific community."
-    indice 305
   ]
   node [
     id 3792
     label "articulo:306"
     tipo "articulo"
     nombre "Exploring Jalisco's water quality: A comprehensive web tool for limnological and phytoplankton data"
+    indice 306
     titulo "Exploring Jalisco's water quality: A comprehensive web tool for limnological and phytoplankton data"
     anio 2024
     isbn ""
@@ -26127,7 +26128,6 @@ graph [
     subarea ""
     keywords "Limnology; Phytoplankton; Water quality; Web application; Western M&#233;xico"
     abstract "This study presents a comprehensive dataset of hydrological information gathered from five key eastern basins in Jalisco, Mexico. The dataset encompasses approximately 50 limnological variables and phytoplankton counts specifically for one of these basins. Water-quality data were collected by the State Water Commission of Jalisco, adhering to the methods outlined in the Official Mexican Norm NOM-127. Monthly samplings were conducted to assess environmental variables such as pH, temperature, oxygen, nutrients and heavy metals. Monitoring has been ongoing for three basins since 2009, while the remaining two basins have been monitored since 2015 and 2020. Phytoplankton data were obtained from monthly samples taken by the University of Guadalajara between 2014 and 2019 in Lake Cajititl&#225;n. The original data were cleaned and organized using tidy data principles, with codes accessible on GitHub. To facilitate data exploration and visualization, we developed a user-friendly web application with the Shiny package in R. This application enables users to explore the dataset through summary statistics tables, time series plots and phytoplankton community analysis. The dataset is accessible on Zenodo. The presented data hold significance for environmental and water-quality assessment and applications in machine learning, neural network models, community ecology and broader environmental research. Notably, the raw data, publicly accessible from the State Water Commission of Jalisco, have been previously utilized for these purposes. This dataset offers value due to its diverse limnological and phytoplankton variables, an extended time frame of availability, a curated and streamlined accessibility process and the inclusion of a web application for intuitive exploration and visualization."
-    indice 306
   ]
   node [
     id 3793
@@ -26164,6 +26164,7 @@ graph [
     label "articulo:307"
     tipo "articulo"
     nombre "Harmonizing the Generation and Pre-publication Stewardship of FAIR Image Data"
+    indice 307
     titulo "Harmonizing the Generation and Pre-publication Stewardship of FAIR Image Data"
     anio 2025
     isbn ""
@@ -26174,7 +26175,6 @@ graph [
     subarea ""
     keywords "Diagnosis; Bioimaging; Biomarkers; Computer software reusability; Data aggregation; Data mining; Data quality; Data Sharing; Genes; Information management; Knowledge based systems; Life cycle; Life cycle assessment; Metadata; Publishing; Quality control; Bio-imaging; Biological imaging; Complex cellular systems; Human health; Image data; Life-sciences; Molecular insights; Personalized therapies; Reuse"
     abstract "Biological imaging, combined with molecular insights into genes and proteins, holds immense promise for deepening our understanding of complex cellular systems and accelerating the development of predictive, personalized therapies for human health. To fully realize this potential at scale&#8212;and harness the power of AI/ML to extract novel biological insights and therapeutic interventions&#8212;it is necessary to transition from siloed datasets to globally shared, rigorously annotated, and computationally ready image data. This demands systematic harmonization of multidimensional bioimaging data, where interoperable formats, and standardized context-rich annotation, quality controls, and analytical pipelines transform scattered observations into a coherent knowledge base ripe for computational mining. Only this machine-actionable aggregation can provide the substrate for AI/ML to extract mechanistic insights into fundamental biological mechanisms, novel diagnostic biomarkers and intervention targets. Enabling seamless image data sharing in the life sciences requires addressing two key areas. The first is outlined in an accompanying publication, Enabling Global Image Data Sharing in the Life Sciences, which focuses on the publicly available repositories needed to share digital array data 1. This White Paper details a comprehensive set of requirements for integrated image data and metadata management - from acquisition through dissemination - ensuring the contextual information necessary for assessing quality, interpreting scientific validity, and enabling meaningful reuse remains intrinsically linked to the data throughout its lifecycle. Critically, it recognizes that generating harmonized, well-annotated publicly available corpora of FAIR bioimage data requires these datasets to be 'FAIR-from-the-start' - an objective that can only be achieved by enabling experimental scientists to manage, organize, and analyze their data according to community standards from the very first experiment. Building on recent progress made by the bioimaging field towards establishing shared practices for bioimaging Quality Control (QC) and metadata capture, we present actionable recommendations to advance these efforts through embedding researcher-friendly integrated software infrastructure directly into pre-publication workflows, thus transforming disorganized data capture into structured, shareable resources ready for aggregation and reuse. Our ultimate goal is to expand the use of streamlined tools and practices thus transforming how researchers capture, annotate, analyze and eventually publish bioimaging data thus laying the foundation for a new era of data-driven discovery."
-    indice 307
   ]
   node [
     id 3799
@@ -26277,6 +26277,7 @@ graph [
     label "articulo:308"
     tipo "articulo"
     nombre "How far are we from the era of big data in transcriptomics? Lessons from the bacterial data in GEO"
+    indice 308
     titulo "How far are we from the era of big data in transcriptomics? Lessons from the bacterial data in GEO"
     anio 2025
     isbn ""
@@ -26287,7 +26288,6 @@ graph [
     subarea ""
     keywords "FAIR; GEO; Metadata; Microarrays; Normalization; RNA-seq; Bacteria; Big Data; Computational Biology; Databases, Genetic; Gene Expression Profiling; Transcriptome; Bacterium; Data integration; Data processing; FAIR principles; Functional genomics; Gene expression; High throughput analysis; Meta analysis; Nonhuman; Review; RNA sequencing; Systems biology; Transcriptomics; Bioinformatics; Genetic database; Genetics; Procedures"
     abstract "The Gene Expression Omnibus (GEO) is the largest functional genomics repository, including ~5 million entries related to the main transcriptomic technologies: microarrays and RNA-seq. This amount of data has the potential to be reused in large-scale meta-analysis, such as those in bacterial systems biology, where the landscape of biological conditions is wider and more diverse than any individual experiment alone. Notwithstanding the accelerated growth in RNA-seq experiments, microarray still accounts for ~48% of bacterial transcriptomic entries in GEO, highlighting the need to revalue this data. Therefore, in this work, we assess the current state of bacterial microarray and RNA-seq data and metadata. We report diverse inconsistencies in both the GEO metadata documentation and community usage, limiting the automated access to biological context essential for high-throughput analysis interpretation. Additionally, while access to and analysis of RNA-seq data are topics widely discussed by the community, microarray data processing and normalization present challenges that need to be addressed for the proper data integration into large-scale reanalysis. Thus, we delve into the availability and processability of bacterial microarray data in GEO, showing a complex panorama where the lack of standard formats limits our reusability potential to at least 44% of the ~45 000 microarray entries. We conclude that GEO transcriptomic data and metadata should be viewed as valuable resources that require ongoing revision and maintenance. Finally, we propose a series of guidelines to enhance the Findability, Accessibility, Interoperability, and Reusability of GEO, thereby taking a step forward into the era of big data."
-    indice 308
   ]
   node [
     id 3816
@@ -26342,6 +26342,7 @@ graph [
     label "articulo:309"
     tipo "articulo"
     nombre "Is It Possible to Use ChatGPT to Perform Measurements Using the COSMIC Method?"
+    indice 309
     titulo "Is It Possible to Use ChatGPT to Perform Measurements Using the COSMIC Method?"
     anio 2024
     isbn ""
@@ -26352,7 +26353,6 @@ graph [
     subarea ""
     keywords "AI; Automatization; CFP; ChatGPT; COSMIC; Functional size measurement; LLM; Software engineering; Cosmic ray measurement; Strain measurement; Cosmics; Functional size; Functional Size Measurements; Functionals; Language model; Large language model; Resource estimation; Size determination"
     abstract "The process of developing software is intricate and time-consuming. Resource estimation is one of the most important responsibilities in software development. Since it is currently the only acceptable metric, the functional size of the program is used to generate estimating models in a widely accepted manner. On the other hand, functional size measurement takes time. The use of artificial intelligence (AI) to automate certain software development jobs has gained popularity in recent years. Software functional sizing and estimation is one area where artificial intelligence may be used. In this study, we investigate how to apply the concepts and guidelines of the COSMIC method to measurements using ChatGPT 4o, a large language model (LLM). To determine whether ChatGPT can perform COSMIC measurements, we discovered that ChatGPT could not reliably produce accurate findings. The primary shortcomings found in ChatGPT include its incapacity to accurately extract data movements, data groups, and functional users from the text. Because of this, ChatGPT&#8217;s measurements fall short of two essential requirements for measurement: accuracy and reproducibility."
-    indice 309
   ]
   node [
     id 3825
@@ -26431,6 +26431,7 @@ graph [
     label "articulo:310"
     tipo "articulo"
     nombre "KNIME Workflows for Chemoinformatic Characterization of Chemical Databases"
+    indice 310
     titulo "KNIME Workflows for Chemoinformatic Characterization of Chemical Databases"
     anio 2025
     isbn ""
@@ -26441,7 +26442,6 @@ graph [
     subarea ""
     keywords "Chemical database; Chemical space; Chemoinformatics; Education; Open science; Biological Products; Cheminformatics; Databases, Chemical; Software; Workflow; Biological product; Descriptors; Molecular fingerprint; Property; Structure of molecules; Therapeutic molecules; Work-flows; Article; Calculation; Molecular fingerprinting; Nonhuman; Chemistry; Procedures; Bioactivity"
     abstract "In chemoinformatics, chemical databases have great importance since their main objective is to store and organize the chemical structures of molecules and their properties, from basic information such as chemical structure to more complex like molecular fingerprints or other types of calculated or experimental descriptors and biological activity. However, this data can only be utilized in projects to identify novel therapeutic molecules or other fields through their correct characterization and analysis. In this Application Note, we compiled five workflows within the open-source data analytics and visualization platform KNIME that can be implemented for the chemoinformatic characterization of databases. To illustrate the application of the workflows, we used BIOFACQUIM, a compound database of natural products isolated and characterized in Mexico [1]."
-    indice 310
   ]
   node [
     id 3838
@@ -26496,6 +26496,7 @@ graph [
     label "articulo:311"
     tipo "articulo"
     nombre "Latin American Natural Product Database (LANaPDB): An Update"
+    indice 311
     titulo "Latin American Natural Product Database (LANaPDB): An Update"
     anio 2024
     isbn ""
@@ -26506,7 +26507,6 @@ graph [
     subarea ""
     keywords "Biological Products; Cheminformatics; Databases, Chemical; Databases, Pharmaceutical; Latin America; Addition reactions; Biogeochemistry; Physicochemical properties; Biological product; Chemoinformatics; Colombia; Computer aided drug design; Costa Rica; Latin americans; Mexico; Natural products; Product database; Structural classification; Chemical database; Chemistry; Drug database; Procedures; South and Central America; Bioactivity"
     abstract "Natural product (NP) databases are crucial tools in computer-aided drug design (CADD). Over the past decade, there has been a worldwide effort to assemble information regarding natural products (NPs) isolated and characterized in certain geographical regions. In 2023, it was published LANaPDB, and to our knowledge, this is the first attempt to gather and standardize all the NP databases of Latin America. Herein, we present and analyze in detail the contents of an updated version of LANaPDB, which includes 619 newly added compounds from Colombia, Costa Rica, and Mexico. The present version of LANaPDB has a total of 13 578 compounds, coming from ten databases of seven Latin American countries. A chemoinformatic characterization of LANaPDB was carried out, which includes the structural classification of the compounds, calculation of six physicochemical properties of pharmaceutical interest, and visualization of the chemical space by employing and comparing two different fingerprints (MACCS keys (166-bit) and Morgan2 (2048-bit)). Furthermore, additional analyses were made, and valuable information not included in the first version of LANaPDB was added, which includes structural diversity, molecular complexity, synthetic feasibility, commercial availability, and reported and predicted biological activity. In addition, the LANaPDB compounds were cross-referenced to two of the largest public chemical compound databases annotated with biological activity: ChEMBL and PubChem."
-    indice 311
   ]
   node [
     id 3847
@@ -26567,6 +26567,7 @@ graph [
     label "articulo:312"
     tipo "articulo"
     nombre "LLFSMs to TLA+: A Model-to-Text Transformation of Executable Models Enabling Specification and Verification of Multi-Threaded and Concurrent Systems"
+    indice 312
     titulo "LLFSMs to TLA+: A Model-to-Text Transformation of Executable Models Enabling Specification and Verification of Multi-Threaded and Concurrent Systems"
     anio 2025
     isbn "978-989-758-729-0"
@@ -26577,7 +26578,6 @@ graph [
     subarea ""
     keywords "Executable Models; Formal Verification; Model Transformation; Reasoning About Models"
     abstract "As complexity of software systems increases, ensuring reliability becomes ever more crucial. Despite advances, behaviour-modelling techniques still face challenges due to semantic gaps. This work focuses on translating Logic-Labelled Finite-State Machines (LLFSMs) to the Temporal Logic of Actions (TLA), bridging the gap between a time-triggered formalism and common temporal logic for model checking. The translation is innovative as multi-threaded and distributed systems can now be designed using LLFSMs. We illustrate the translation with Fischer&#8217;s protocol (for multi-threaded systems), and release tools with examples for distributed systems. The approach addresses semantic gaps from three sources: differing finite-state machine semantics, variations in translating to executable models versus models for checking, and discrepancies between abstract and executable model translations."
-    indice 312
   ]
   node [
     id 3857
@@ -26602,6 +26602,7 @@ graph [
     label "articulo:313"
     tipo "articulo"
     nombre "Machine Learning for Digital Shadow Design in Health Insurance Sector"
+    indice 313
     titulo "Machine Learning for Digital Shadow Design in Health Insurance Sector"
     anio 2024
     isbn ""
@@ -26612,7 +26613,6 @@ graph [
     subarea ""
     keywords "COVID-19; Digital shadow; Digitalization in health organizations; Health insurance; Machine learning; E-learning; Patient monitoring; Digital transformation; Digitalization in health organization; Health organizations; Health services; Insurance sectors; Shadow design; Transformation process; Catalyst"
     abstract "The digital transformation process in organizations has accelerated significantly in recent years; the COVID-19 pandemic was a catalyst that highlighted the need for digitalization in all sectors. In the case of the health sector, this process is complex due to the processes inherent in health care as well as the integration of multiple sectors that allow the provision of health services. A first approach towards the construction of a Digital Twin in health organizations is a Digital Shadow that allows an orderly transition towards digital operation in real time. This paper presents a first approach to the design of a Digital Shadow for the health insurance sector and specifically for the care of patients diagnosed with COVID-19 through the implementation of an analytical intelligence system based on machine learning models to forecast and monitor to patients who represent catastrophic cases for the insurer."
-    indice 313
   ]
   node [
     id 3861
@@ -26691,6 +26691,7 @@ graph [
     label "articulo:314"
     tipo "articulo"
     nombre "Mammography reporting dataset with BI-RADS system for natural language processing applications: Addressing public data gaps in Spanish"
+    indice 314
     titulo "Mammography reporting dataset with BI-RADS system for natural language processing applications: Addressing public data gaps in Spanish"
     anio 2025
     isbn ""
@@ -26701,7 +26702,6 @@ graph [
     subarea ""
     keywords "Mammography reports; Natural language processing; BI-RADS classification; Clinical data"
     abstract "The article presents a Spanish mammography-report dataset with 4,357 records and 15 variables, including complete and sectioned report text, BI-RADS labels and selected metadata. Identifying information was removed, and automated segmentation was combined with manual verification to support NLP and machine-learning research on mammography reporting."
-    indice 314
   ]
   node [
     id 3874
@@ -26720,6 +26720,7 @@ graph [
     label "articulo:315"
     tipo "articulo"
     nombre "MAYA (Multiple ActivitY Analyzer): An Open Access Tool to Explore Structure-Multiple Activity Relationships in the Chemical Universe"
+    indice 315
     titulo "MAYA (Multiple ActivitY Analyzer): An Open Access Tool to Explore Structure-Multiple Activity Relationships in the Chemical Universe"
     anio 2025
     isbn ""
@@ -26730,7 +26731,6 @@ graph [
     subarea ""
     keywords "Automatic data visualization; Chemical multiverse; Chemical space; Chemoinformatics; Open science; Structure-multiple activity relationships (SMARts); Software; Structure-Activity Relationship; Access tools; Data set; OpenAccess; Structural descriptors; Structure-multiple activity relationship; Article; Data visualization; Dimensionality reduction; Open access; Structure activity relation; Workflow"
     abstract "Herein, we introduce MAYA (Multiple Activity Analyzer), a tool designed to automatically construct a chemical multiverse, generating multiple visualizations of chemical spaces of a compound data set described by structural descriptors of different nature such as Molecular ACCess Systems (MACCS) keys, extended connectivity fingerprints with different radius, molecular descriptors with pharmaceutical relevance, and bioactivity descriptors. These representations are integrated with various data visualization techniques for the automated analysis focused on structure - multiple activity/property relationships, enabling analysis for various problems set in user-friendly source software. The source code of MAYA is freely available on GitHub at https://github.com/IsrC11/MAYA.git."
-    indice 315
   ]
   node [
     id 3877
@@ -26785,6 +26785,7 @@ graph [
     label "articulo:316"
     tipo "articulo"
     nombre "Merging Distinct Sources Databases to Improve Software Estimation Models"
+    indice 316
     titulo "Merging Distinct Sources Databases to Improve Software Estimation Models"
     anio 2024
     isbn ""
@@ -26795,7 +26796,6 @@ graph [
     subarea ""
     keywords "COSMIC method; Cost estimation; Effort estimation; Functional size; Kruskal&#8211;Wallis; Linear regression model; Software estimation; Cost estimations; Datapoints; Estimation models; Kruskal; Linear regression modelling; Cost estimating"
     abstract "Context. For more than six decades, software cost/effort estimation has been a relevant topic for research due to its impact on the industry. Although many estimation models exist, regression-based estimation approaches have been predominantly used in the literature. However, some problems have been observed both in industry and academia: the lack of datasets with a high or at least enough number of data points and the arbitrary combination of different source databases belonging to practitioners in order to create larger datasets. Objective. Propose the application of the Kruskal&#8211;Wallis test to validate the integration of distinct source databases (independent groups), thereby avoiding the mixing of unrelated data, increasing the number of data points, and improving the estimation models. Method. We conducted a case study using real data from an international company, specifically data from their Mexico office. This office provides software development services for a technological tower identified as &#8220;Microservices and APIs.&#8221; The data were collected in 2020. Results: The quality criteria in the final estimation model were improved. The MMRE was reduced by 25.4% (from 78.6 to 53.2%), the standard deviation was reduced by 97.2% (from 149.7 to 52.5%), and the Pred (25%) indicator increased by 3.2 percentage points. Additionally, the number of data points increased significantly, and linear regression constraints was accomplished. The application of the Kruskal&#8211;Wallis test to validate the integration of distinct source databases (independent groups) proved useful in improving the estimation models."
-    indice 316
   ]
   node [
     id 3886
@@ -26874,6 +26874,7 @@ graph [
     label "articulo:317"
     tipo "articulo"
     nombre "Migrating Websites from the Drupal 7 Platform to Backdrop"
+    indice 317
     titulo "Migrating Websites from the Drupal 7 Platform to Backdrop"
     anio 2024
     isbn ""
@@ -26884,7 +26885,6 @@ graph [
     subarea ""
     keywords "Web content management system; Migration; Drupal; Backdrop"
     abstract "The migration of a university website of medium complexity from Drupal 7 to Backdrop is described in response to the end of Drupal 7&#8217;s support lifecycle. The work documents migration criteria, procedures, and sequences that make it possible to maintain the website and turn the experience into a reproducible guide for similar transitions."
-    indice 317
   ]
   node [
     id 3899
@@ -26915,6 +26915,7 @@ graph [
     label "articulo:318"
     tipo "articulo"
     nombre "Modeling a Scalable Re-enrollment System on a Hybrid Cloud Using Learning Analytics"
+    indice 318
     titulo "Modeling a Scalable Re-enrollment System on a Hybrid Cloud Using Learning Analytics"
     anio 2025
     isbn ""
@@ -26925,7 +26926,6 @@ graph [
     subarea ""
     keywords "Learning Analytics; Higher education; Cloud computing; Infrastructure as code; Software-defined networks; Data analysis"
     abstract "The article proposes modeling a university re-enrollment system on a hybrid cloud architecture that integrates Learning Analytics with infrastructure as code, software-defined networking, and artificial intelligence tools. The proposal seeks to collect and analyze academic data to improve service scalability and quality, detect performance patterns, and support predictive models and early interventions."
-    indice 318
   ]
   node [
     id 3904
@@ -26944,6 +26944,7 @@ graph [
     label "articulo:319"
     tipo "articulo"
     nombre "Natural Products Repository of Costa Rica (NAPRORE-CR): An Open-Access Database"
+    indice 319
     titulo "Natural Products Repository of Costa Rica (NAPRORE-CR): An Open-Access Database"
     anio 2025
     isbn ""
@@ -26954,7 +26955,6 @@ graph [
     subarea ""
     keywords "Access to Information; Biological Products; Costa Rica; Databases, Factual; Drug Discovery; Data Sharing; Database systems; Drug products; Open access; Pesticides; Biological product; ACCESS database; American Chemical Society; Bioactive compounds; Chemical space; Natural pesticides; Natural products; OpenAccess; Space coverage; Chemistry; Drug development; Factual database; Physicochemical properties"
     abstract "Natural products are outstanding sources of bioactive compounds with potential applications not only in drug discovery, but also in the cosmetic industry and natural pesticides. Costa Rica is among the most biologically diverse countries in terms of the number of known species per unit of area, even above conventionally considered megadiverse countries. In this work, we introduce the Natural Products Repository of Costa Rica (NAPRORE-CR), the first dedicated database that compiles structural representations and predicted properties of natural products found and/or characterized in Costa Rica. The first version of this collection comprises 1161 compounds, annotated with structural classifications, calculated structural and physicochemical properties (MW, HBD, HBA, RB, AlogP, and TPSA), and complex descriptors (SA score, QED, nSPS). The diversity and chemical space coverage of compounds in NAPRORE-CR were compared to drugs, pesticides, and cosmetics. Through the analysis and visualization of chemical space coverage and diversity, it was found that NAPRORE-CR has a property profile compatible with applications in all three fields and that its compounds are structurally similar to those of approved drugs and natural pesticides. Cross-referencing NAPRORE-CR with PubChem and ChEMBL, combined with activity predictions, facilitated the identification of both known applications of the included compounds and potential new areas of study. In favor of open science and FAIR principles for data sharing, NAPRORE-CR is freely available at 10.5281/zenodo.7858061."
-    indice 319
   ]
   node [
     id 3907
@@ -27003,6 +27003,7 @@ graph [
     label "articulo:320"
     tipo "articulo"
     nombre "Q-COSMIC: Quantum Software Metrics Based on COSMIC (ISO/IEC19761)"
+    indice 320
     titulo "Q-COSMIC: Quantum Software Metrics Based on COSMIC (ISO/IEC19761)"
     anio 2024
     isbn ""
@@ -27013,7 +27014,6 @@ graph [
     subarea ""
     keywords "ISO Standards; Cosmology; Quantum optics; Software engineering; Cyber security; Large-scales; Product and services; Quantum engineering; Quantum Information; Quantum system; Real-world; Research environment; Software metrics; Software size"
     abstract "Quantum engineering seeks to exploit quantum information to build, among others, computing, cybersecurity, and metrology technologies. Quantum Software Engineering (QSE) focuses on the information processing side of these technologies. Historically, quantum (software) engineering has focused on development in controlled research environments and 'in the small'. As the field progresses, we should expect to see more large-scale quantum systems to be deployed as 'real-world' products and services. An essential tool in (classical) software engineering and development has been software size metrics. Calculating/estimating the size of a piece of software, to be developed or pre-existing, is an essential step in its engineering. Quantum software will be no different. Here we introduce Q-COSMIC, a technique for measuring the functional size of quantum software, based on the well-regarded COSMIC standard (ISO/IEC19761) for classical software."
-    indice 320
   ]
   node [
     id 3915
@@ -27080,6 +27080,7 @@ graph [
     label "articulo:321"
     tipo "articulo"
     nombre "RhizoBindingSites v2.0 Is a Bioinformatic Database of DNA Motifs Potentially Involved in Transcriptional Regulation Deduced From Their Genomic Sites"
+    indice 321
     titulo "RhizoBindingSites v2.0 Is a Bioinformatic Database of DNA Motifs Potentially Involved in Transcriptional Regulation Deduced From Their Genomic Sites"
     anio 2024
     isbn ""
@@ -27090,7 +27091,6 @@ graph [
     subarea ""
     keywords "Binding sites; Matrices; Motifs; Regulon; Rhizobium; Transcriptional regulation; Transcription factor; Article; Azorhizobium; Azorhizobium caulinodans; Bacterial gene; Bioinformatics; Bradyrhizobium; Data base; DNA motif; Food industry; Greenhouse effect; Mesorhizobium; Nonhuman; Nucleotide motif; Nucleotide sequence; Rhizobindingsites v2.0; Rhizobium etli; Rhizobium leguminosarum bv. viciae; Sinorhizobium; Sinorhizobium meliloti; Transcription regulation"
     abstract "RhizoBindingSites is a de novo depurified database of conserved DNA motifs potentially involved in the transcriptional regulation of the Rhizobium, Sinorhizobium, Bradyrhizobium, Azorhizobium, and Mesorhizobium genera covering 9 representative symbiotic species, deduced from the upstream regulatory sequences of orthologous genes (O-matrices) from the Rhizobiales taxon. The sites collected with O-matrices per gene per genome from RhizoBindingSites were used to deduce matrices using the dyad-Regulatory Sequence Analysis Tool (RSAT) method, giving rise to novel S-matrices for the construction of the RizoBindingSites v2.0 database. A comparison of the S-matrix logos showed a greater frequency and/or re-definition of specific-position nucleotides found in the O-matrices. Moreover, S-matrices were better at detecting genes in the genome, and there was a more significant number of transcription factors (TFs) in the vicinity than O-matrices, corresponding to a more significant genomic coverage for S-matrices. O-matrices of 3187 TFs and S-matrices of 2754 TFs from 9 species were deposited in RhizoBindingSites and RhizoBindingSites v2.0, respectively. The homology between the matrices of TFs from a genome showed inter-regulation between the clustered TFs. In addition, matrices of AraC, ArsR, GntR, and LysR ortholog TFs showed different motifs, suggesting distinct regulation. Benchmarking showed 72%, 68%, and 81% of common genes per regulon for O-matrices and approximately 14% less common genes with S-matrices of Rhizobium etli CFN42, Rhizobium leguminosarum bv. viciae 3841, and Sinorhizobium meliloti 1021. These data were deposited in RhizoBindingSites and the RhizoBindingSites v2.0 database (http://rhizobindingsites.ccg.unam.mx/)."
-    indice 321
   ]
   node [
     id 3926
@@ -27229,6 +27229,7 @@ graph [
     label "articulo:322"
     tipo "articulo"
     nombre "Spectrep: A software for spectral representation of text content"
+    indice 322
     titulo "Spectrep: A software for spectral representation of text content"
     anio 2024
     isbn ""
@@ -27239,7 +27240,6 @@ graph [
     subarea ""
     keywords "Learning (artificial intelligence); Natural language processing; Python; Question answering (information retrieval); Text analysis; Word processing; Multiview representation; Popular text processing tools; Robust machine learning applications; Semantic features; Spectral representation; Spectrep; Text content; Text pre-processing; Text representation framework; Content spectra; Machine Learning; Multi-view representation; Application programs; Contrastive Learning; Self organizing maps; Content spectrum; Lexical features; Multi-views; Spectra's; Spectral representations; Syntactic features; Text representation; Adversarial machine learning; Computer Science, Software Engineering; Computer Science"
     abstract "Spectrep (Spectral Representation) implements a text representation framework for obtaining a multi-view representation that consolidates lexical, syntactic, and semantic features by structuring a workflow with popular text processing tools such as NTLK, Gensim, and Self-Organizing Maps. This framework is intended to be used in text pre-processing for its application in more robust machine learning applications. This software is open-source and implemented in Python. It has been successfully tested with several tasks to prove its functionality."
-    indice 322
   ]
   node [
     id 3949
@@ -27354,6 +27354,7 @@ graph [
     label "articulo:323"
     tipo "articulo"
     nombre "Students&#8217; Ethical, Privacy, Design, and Cultural Perspectives on Visualizing Cognitive-Affective States in Online Learning"
+    indice 323
     titulo "Students&#8217; Ethical, Privacy, Design, and Cultural Perspectives on Visualizing Cognitive-Affective States in Online Learning"
     anio 2024
     isbn ""
@@ -27364,7 +27365,6 @@ graph [
     subarea ""
     keywords "Emotions; Human-centredness; Online learning; Vspace affective computing"
     abstract "While teachers often monitor and adjust their learning design based on students&#8217; emotional states in physical classrooms, synchronous online environments often limit their ability to perceive the emotional climate of the class. Drawing from the concept of social translucence, it is suggested that making students&#8217; emotional states &#8220;visible&#8221; in online settings can help foster empathetic interactions. Recent advancements in emotion recognition technology are enabling the creation of learning analytics (LA) systems that can estimate students&#8217; cognitive-affective states in real time. Yet, the adoption of these systems raises ethical, cultural, and practical concerns when implemented in learning environments, including potential challenges related to accuracy, privacy, and data integrity. To address these concerns, we conducted an in-depth qualitative study exploring the perspectives of 12 undergraduate students on modelling and visualizing their cognitive-affective states in the context of a Mexican higher-education institution. The study provides insights within a particular cultural context, which can guide the design of more human-centred emotion recognition&#8211;based LA tools for online educational contexts or contribute to informed decisions about the necessity of modelling and visualizing cognitive states."
-    indice 323
   ]
   node [
     id 3968
@@ -27395,6 +27395,7 @@ graph [
     label "articulo:324"
     tipo "articulo"
     nombre "text2graphAPI: A library to transform text documents into different graph representations"
+    indice 324
     titulo "text2graphAPI: A library to transform text documents into different graph representations"
     anio 2024
     isbn ""
@@ -27405,7 +27406,6 @@ graph [
     subarea ""
     keywords "Graph neural networks; Natural language processing; Python API; Text graph representation; Python; Graph representation; Language processing; Natural languages; Pre-processing; Text document; Word co-occurrence; Computer Science, Software Engineering; Computer Science"
     abstract "This paper introduces a new Python API called text2graphAPI. It is an easy-to-use library for transforming text documents into different graph representations, such as Word-Cooccurrence, Heterogeneous, and Integrated Syntactic Graphs. In addition, it contains a text pre-processing module that supports input text in different languages: English, Spanish, and French. These generated graph structures can be used to solve tasks in various areas, such as Authorship Analysis, Information Retrieval, and Topic Classification, to name a few."
-    indice 324
   ]
   node [
     id 3973
@@ -27436,6 +27436,7 @@ graph [
     label "articulo:325"
     tipo "articulo"
     nombre "The Bible as a Corpus for Language Technologies"
+    indice 325
     titulo "The Bible as a Corpus for Language Technologies"
     anio 2024
     isbn ""
@@ -27446,7 +27447,6 @@ graph [
     subarea ""
     keywords "Linguistic corpus; Natural language processing; Paraphrase detection; Semantic clustering; Question-answering systems"
     abstract "The article presents the Bible as a useful source for language-technology research and describes the construction and potential uses of an aligned corpus built from eleven Spanish Bible translations. The resource is intended to support tasks such as paraphrase detection, lexical and semantic clustering, and question-answering evaluation while enabling comparisons across translations and linguistic variants."
-    indice 325
   ]
   node [
     id 3978
@@ -27477,6 +27477,7 @@ graph [
     label "articulo:326"
     tipo "articulo"
     nombre "The Hitchhiker's Guide to Conversational Interfaces: Exploring Affordances and Signifiers Through a Theoretical Framework"
+    indice 326
     titulo "The Hitchhiker's Guide to Conversational Interfaces: Exploring Affordances and Signifiers Through a Theoretical Framework"
     anio 2025
     isbn "978-3-031-93861-0; 978-3-031-93860-3"
@@ -27487,7 +27488,6 @@ graph [
     subarea ""
     keywords "Chatbots; Customer services; Human computer interaction; User experience; User interfaces; Adaptive interaction models; Affordance evolution; Conversational interfaces; Conversational system design; Customer service domains; Hitchhiker; Structured affordance progression; Text-based chatbots; User engagement; User experience principles; UX Honeycomb model; Voice user interfaces; Adaptive Interaction; Affordances; Signifiers; Design; Honeycomb structures; Systems analysis; Conversational interface; Health care education; Healthcare services; Signifier; Theoretical framework; Users' experiences; Voice user interface; Heuristic methods"
     abstract "Conversational interfaces, including text-based chatbots and voice user interfaces, are widely used in healthcare, education, and customer service domains. However, they often rely on static affordances and signifiers that limit adaptability and user engagement. Existing systems struggle to evolve with user expertise, leading to discoverability, trust, and long-term usability issues. This paper proposes a theoretical framework that redefines affordances and signifiers as adaptive constructs, ensuring that interactions dynamically adjust based on user experience and context. The framework structures affordances into three levels&#8212;exploratory, learning, and proactive&#8212;while categorizing signifiers as explicit, contextual, and minimalist. By integrating these elements with the UX Honeycomb model, the framework provides a structured method for designing conversational interfaces that align with established user experience principles. A heuristic evaluation of Amazon Alexa demonstrates the framework's applicability, revealing that while Alexa effectively guides initial interactions, its affordance evolution remains primarily user-driven rather than system-driven. The analysis highlights key challenges in discoverability and engagement, emphasizing the need for structured affordance progression and enhanced contextual signifiers. This framework offers researchers a foundation for empirical studies on adaptive interaction models and provides developers with actionable insights for improving conversational system design."
-    indice 326
   ]
   node [
     id 3983
@@ -27656,6 +27656,7 @@ graph [
     label "articulo:327"
     tipo "articulo"
     nombre "The Impact of Generative AI Coding Assistants on Developers Who Are Visually Impaired"
+    indice 327
     titulo "The Impact of Generative AI Coding Assistants on Developers Who Are Visually Impaired"
     anio 2025
     isbn "979-8-4007-1394-1"
@@ -27666,7 +27667,6 @@ graph [
     subarea ""
     keywords "Generative AI; Accessibility; AI coding assistants; Assistive technology; Software prototyping; User centered design; Accessibility barriers; Activity Theory; AI coding assistant; Optimistics; Programming tasks; Visual impairment; Visually impaired; Software design"
     abstract "The rapid adoption of generative AI in software development has impacted the industry, yet its effects on developers with visual impairments remain largely unexplored. To address this gap, we used an Activity Theory framework to examine how developers with visual impairments interact with AI coding assistants. For this purpose, we conducted a study where developers who are visually impaired completed a series of programming tasks using a generative AI coding assistant. We uncovered that, while participants found the AI assistant beneficial and reported significant advantages, they also highlighted accessibility challenges. Specifically, the AI coding assistant often exacerbated existing accessibility barriers and introduced new challenges. For example, it overwhelmed users with an excessive number of suggestions, leading developers who are visually impaired to express a desire for AI timeouts. Additionally, the generative AI coding assistant made it more difficult for developers to switch contexts between the AI-generated content and their own code. Despite these challenges, participants were optimistic about the potential of AI coding assistants to transform the coding experience for developers with visual impairments. Our findings emphasize the need to apply activity-centered design principles to generative AI assistants, ensuring they better align with user behaviors and address specific accessibility needs. This approach can enable the assistants to provide more intuitive, inclusive, and effective experiences, while also contributing to the broader goal of enhancing accessibility in software development."
-    indice 327
   ]
   node [
     id 4011
@@ -27745,6 +27745,7 @@ graph [
     label "articulo:328"
     tipo "articulo"
     nombre "The Mexican dataset of a repetitive transcranial magnetic stimulation clinical trial on cocaine use disorder patients: SUDMEX TMS"
+    indice 328
     titulo "The Mexican dataset of a repetitive transcranial magnetic stimulation clinical trial on cocaine use disorder patients: SUDMEX TMS"
     anio 2024
     isbn ""
@@ -27755,7 +27756,6 @@ graph [
     subarea ""
     keywords "Biodiffusion; Biomedical MRI; Brain; Cognition; Medical disorders; Medical image processing; Neurophysiology; Patient treatment; Transcranial magnetic stimulation; Clinical MRI metrics; Clinical rTMS treatment; Cocaine use disorder patients; Cognitive MRI metrics; CUD participants; CUD patients; Double-blinded randomized clinical trial design; Longitudinal dataset; Magnetic resonance imaging data; Medication-resistant disorders; Mexican dataset; Multimodal MRI metrics; Neurobiological disturbances; rTMS clinical trial; SUDMEX TMS; Transcranial magnetic stimulation clinical trial"
     abstract "Cocaine use disorder (CUD) is a global health problem with severe consequences, leading to behavioral, cognitive, and neurobiological disturbances. While consensus on treatments is still ongoing, repetitive transcranial magnetic stimulation (rTMS) has emerged as a promising approach for medication-resistant disorders, including substance use disorders. In this context, here we present the SUDMEX-TMS, a Mexican dataset from an rTMS clinical trial involving CUD patients. This longitudinal dataset comprises 54 CUD patients (including 8 females) with data collected at five time points: baseline (T0), two weeks (T1), three months (T2), six months (T3) follow-up, and twelve months (T4) follow-up. The clinical rTMS treatment followed a double-blinded randomized clinical trial design (n = 24 sham/30 active) for 2 weeks, followed by an open-label phase. The dataset includes demographic, clinical, and cognitive measures, as well as magnetic resonance imaging (MRI) data collected at all time points, encompassing structural (T1-weighted), functional (resting-state fMRI), and multishell diffusion-weighted (DWI-HARDI) sequences. This dataset offers the opportunity to investigate the impact of rTMS on CUD participants, considering clinical, cognitive, and multimodal MRI metrics in a longitudinal framework."
-    indice 328
   ]
   node [
     id 4024
@@ -27876,6 +27876,7 @@ graph [
     label "articulo:329"
     tipo "articulo"
     nombre "Towards an Architecture for Educational Chatbots"
+    indice 329
     titulo "Towards an Architecture for Educational Chatbots"
     anio 2024
     isbn "978-3-031-61690-7"
@@ -27886,7 +27887,6 @@ graph [
     subarea ""
     keywords "Distribution Structure; Educational Chatbots; Layers; Method ADD 3.0; Software Architecture; Client server computer systems; Iterative methods; Chatbots; Component distributions; Educational chatbot; Evolution of technology; Formal approach; Layer; Teachers'; Three-tier architecture"
     abstract "Chatbots are gaining significant relevance due to their enormous potential in various sectors, particularly education. The COVID-19 pandemic led to suspending in-person classes for students and teachers, creating an opportunity for research in developing educational chatbots. However, the proposal of a widely accepted structure for chatbots poses a challenge due to the constant evolution of technologies and tools employed in their implementation and deployment. Moreover, generic chatbot architectures present limitations when instantiated in specific contexts. For instance, in the case of educational chatbots, it is necessary to have an architecture specifically tailored to the functionalities required in the academic domain. This article follows a formal approach to designing and implementing a software architecture for educational chatbots. We rely on an iterative method called ADD 3.0 to achieve this objective. Our proposal consists of a three-tier architecture to define the component distribution of chatbots and a six-layer architecture to specify their structure."
-    indice 329
   ]
   node [
     id 4044
@@ -27971,6 +27971,7 @@ graph [
     label "articulo:330"
     tipo "articulo"
     nombre "Transforming Software Development: A Study on the Integration of Multi-Agent Systems and Large Language Models for Automatic Code Generation"
+    indice 330
     titulo "Transforming Software Development: A Study on the Integration of Multi-Agent Systems and Large Language Models for Automatic Code Generation"
     anio 2024
     isbn "979-8-3315-3211-6"
@@ -27981,7 +27982,6 @@ graph [
     subarea ""
     keywords "Generative AI; LLM; Multi-Agent; Software Development; Automatic programming; Intelligent agents; Software quality; Automatic code generations; Case-studies; Codegeneration; Language model; Large language model; Manual coding; Multiagent systems (MASs); Software development process; Software design; Productivity; Technological innovation; Codes; Large language models; Collective intelligence; Software; Standards; Software development management; Software engineering; Multi-agent systems; Automatic code generation"
     abstract "This paper explores the integration of Multi-Agent Systems (MAS) and Large Language Models (LLMs) for auto-matic code generation, addressing the limitations of traditional manual coding. By conducting a comprehensive review of existing literature and analyzing a practical case study, we demonstrate how MAS and LLMs can collaboratively enhance software development processes. The research focuses on the technical and theoretical challenges of this integration, highlighting the potential for improved productivity, adaptability, and quality in code generation. The findings contribute to AI-based software engineering by revealing new research directions in collective intelligence and automated programming."
-    indice 330
   ]
   node [
     id 4058
@@ -28066,6 +28066,7 @@ graph [
     label "articulo:331"
     tipo "articulo"
     nombre "Update and ADMET Profile of the Latin American Natural Product Database: LANaPDB"
+    indice 331
     titulo "Update and ADMET Profile of the Latin American Natural Product Database: LANaPDB"
     anio 2025
     isbn ""
@@ -28076,7 +28077,6 @@ graph [
     subarea ""
     keywords "ADMET; Databases; LANaPDB; Natural products; Open-access; Biological Products; Databases, Factual; Databases, Pharmaceutical; Humans; Latin America; Biochemistry; Geographical regions; Indium compounds; Physiology; Plasma applications; Toxicity; ABC transporter subfamily B; Aromatic hydrocarbon receptor; Cytochrome P450 3A4; Heat shock transcription factor; Natural product; Biological product; Absorption distribution; Absorption, distribution, metabolism, excretion, and toxicity; Latin american natural product database; Latin americans; Multiple research; OpenAccess; Product database; Absorption; Absorption parameters; Antioxidant responsive element; Argentina; Article; Artificial membrane; Artificial neural network; Bioavailability; Blood brain barrier; Caco-2 cell line; Chemical structure; Cheminformatics; Chinese medicine; Computer language; Data base; Distribution parameters; Drug absorption; Drug excretion; Drug half life; Drug metabolism; Drug toxicity; Elimination parameters; Endophytic fungus; Excretion; Human; In vitro study; Information processing; Intestine absorption; Latin American medicine; Lipophilicity; Metabolism; Mitochondrial membrane potential; Nrf2 signaling; Particle size; Physical chemistry; Plasma protein binding; Reference database; Skin sensitization; South and Central America; Volume of distribution; Volume of distribution at steady-state; Water solubility; Chemistry; Drug database; Factual database; Database systems"
     abstract "For more than 5 years, several countries in Latin America have been developing and updating compound databases of natural products (NPs) isolated and characterized by their countries. In parallel, multiple research groups have been collaborating and assembling a unified Latin American Natural Product Database (LANaPDB), an open-access compound collection representative of Latin America that stands out as a geographical region distinct from its vastness and richness of NP resources. Herein, we report a significant update of LANaPDB, which gathers NPs from eight countries. Major updates to the database include adding 1,164 new compounds obtained from NaturAr, a NP collection from Argentina published in 2025, and 132 new compounds from Panama. The updated LANaPDB has 14,742 nonduplicate compounds. Moreover, a comprehensive evaluation of 41 ADMET (absorption, distribution, metabolism, excretion, and toxicity)-related parameters was carried out for LANaPDB, and the results were compared with one of the largest NP databases, the Universal Natural Product Database, and the approved small-molecule drugs. The results indicated that the three databases have a very similar ADMET profile. Besides, most of the LANaPDB compounds presented high bioavailability, volume of distribution, plasma protein binding rate, blood&#8211;brain barrier penetration, susceptibility to CYP3A4, and half-life less than 12 h. Moreover, most of the LANaPDB compounds were predicted with a low probability of inducing toxicity-related reactions. The third version of LANaPDB and the codes for the curation and determination of 41 ADMET-related parameters are freely available at https://doi.org/10.5281/zenodo.15595030. The code is general and can be used to analyze other compound libraries."
-    indice 331
   ]
   node [
     id 4072
@@ -28377,6 +28377,7 @@ graph [
     label "articulo:332"
     tipo "articulo"
     nombre "Using the Git Version Control System to Replace a Learning Management System"
+    indice 332
     titulo "Using the Git Version Control System to Replace a Learning Management System"
     anio 2024
     isbn ""
@@ -28387,7 +28388,6 @@ graph [
     subarea ""
     keywords "Computer applications; Learning technologies; Version control; Learning management systems; Software development management; Education; Surveys; Source coding; Operating systems; Learning systems; Git; Computer science education; Collaborative learning"
     abstract "For several years now, but with special force since the beginning of the COVID contingency, higher education professors have turned to telematic tools that help teachers manage the work with which their students practice and demonstrate their progress in class&#8211; Tasks, practices, projects, exhibitions and more. The systems that, over the last two decades, have been most used for this purpose are called Learning Management Systems (LMS); The best known is undoubtedly Moodle, but there are a large number of options for this. Based on the empirical observation of a rejection by students of the use of these systems, the authors made the decision to completely replace their use with that of a version control system widely used for software development, Git, specifically for teaching students of the Computer Engineering career, for the Operating Systems course. This article presents the justification for choosing this platform, and the evaluation of the experience after eight semesters using it."
-    indice 332
   ]
   node [
     id 4122
@@ -28448,6 +28448,7 @@ graph [
     label "articulo:333"
     tipo "articulo"
     nombre "Visual Scaffolding in Control Structures: An Educational Proposal for Introductory Programming Courses"
+    indice 333
     titulo "Visual Scaffolding in Control Structures: An Educational Proposal for Introductory Programming Courses"
     anio 2025
     isbn ""
@@ -28458,7 +28459,6 @@ graph [
     subarea ""
     keywords "Structured Programming; Information Visualization; Microworld; Control Structures; Mental Models"
     abstract "The paper proposes a visual microworld for introductory programming in which students can observe control structures step by step. A Java prototype visualizes sequences, selections and loops through animated state changes, with the aim of reducing hidden inference, strengthening mental models and improving understanding of program flow."
-    indice 333
   ]
   node [
     id 4132
@@ -28495,6 +28495,7 @@ graph [
     label "articulo:334"
     tipo "articulo"
     nombre "Wearable and Pervasive Architecture for Digital Companions in Chronic Disease Care"
+    indice 334
     titulo "Wearable and Pervasive Architecture for Digital Companions in Chronic Disease Care"
     anio 2024
     isbn "978-3-031-60011-1; 978-3-031-60012-8"
@@ -28505,7 +28506,6 @@ graph [
     subarea ""
     keywords "Diabetes; Digital Companions; Pervasive Computing; Software Architectures; User Experience; Wearable Technology; Diseases; Information management; Software architecture; Speech recognition; User interfaces; Wearable computers; Chronic disease; Digital companion; Microcontroller systems; Pervasive architecture; Physical parameters; Radio frequency systems; Seamless integration; Sensor technologies; Technology system; Users' experiences; Ubiquitous computing; Computer Science, Cybernetics; Computer Science"
     abstract "Nowadays, advancements in sensor technologies, microcontrollers, and radiofrequency systems have facilitated the development of systems capable of measuring various physical parameters in diverse environments. This progression underscores the necessity for seamless integration of these systems to accomplish diverse objectives. Digital companions, epitomizing this trend, are computer-assisted systems designed to synergize with human users. They are a nexus between rigorous process efficiency, voluminous data management, and human interactions. In response to the imperative for integrating these technological and scientific innovations, a compelling proposition has emerged to develop a digital companion architecture tailored to assist patients with chronic conditions such as diabetes. This proposed architecture comprises various services, including speech recognition and biometric monitoring control. These elements are integral to the system&#8217;s ability to deliver tailored and effective responses to the user, aiming to enhance the quality of life for individuals suffering from this chronic disease. Preliminary evaluations of a prototype grounded in our architecture demonstrate a positive anticipated user experience."
-    indice 334
   ]
   node [
     id 4138
@@ -28596,6 +28596,7 @@ graph [
     label "articulo:335"
     tipo "articulo"
     nombre "Web Interface Design for the Intelligent Management of a Differential Robot Applied to IoT Systems"
+    indice 335
     titulo "Web Interface Design for the Intelligent Management of a Differential Robot Applied to IoT Systems"
     anio 2025
     isbn "979-8-3315-7591-5"
@@ -28606,7 +28607,6 @@ graph [
     subarea ""
     keywords "Control engineering computing; Human-robot interaction; Internet; Internet of Things; Microcontrollers; Mobile robots; Path planning; Position control; Robot vision; Sensor fusion; User interfaces; Advanced web-based control interface; Autonomous navigation; Core pillar; Differential robot applied; Digital canvas; Diverse product development; Efficient product development; Encoder-based odometry; ESP32 microcontroller; Intelligent management; IoT systems; Mobile robotics; Monitoring panel; Operating modes; Pioneering trajectory-tracking mode; Real-time information; Real-time monitoring; Robot orientation; User interface; Web client; Web interface design; WebSocket protocol; Control; Differential robot; ESP32; IMU; Monitoring; Odometry; Web interface; WebSocket; Engineering research; Human computer interaction; Intelligent robots; Man machine systems; Navigation; Product development; Websites; Differential robots; Humans-robot interactions; Machine design; Robot kinematics; Real-time systems; Hardware; Software; Routing protocols; Trajectory; Robots"
     abstract "Human-robot interaction is a core pillar in mobile robotics for efficient and diverse product development. This paper provides an advanced web-based control interface for a differential robot which allows full management and real-time monitoring of its behavior. It operates through an ESP32 microcontroller where both sides communicate with a web client using the WebSocket protocol. There are three operating modes: manual by sliders, autonomous navigation toward distinct (X, Y) coordinates, and a pioneering trajectory-tracking mode that lets the operator generate a path directly on a digital canvas. Also, the user interface has a monitoring panel with real-time information on such things as motor RPM, position, and robot orientation, all supported by dynamic charts. Differential kinematics and sensor fusion enable hardware and software integration by merging encoder-based odometry with an IMU for more precise positioning. The final outcome is a powerful, intuitive, and flexible platform which serves as a solid basis for future applications in autonomous exploration, logistics, and educational environments."
-    indice 335
   ]
   node [
     id 4153
@@ -28847,6 +28847,7 @@ graph [
     label "articulo:336"
     tipo "articulo"
     nombre "Web-based wide-area monitoring platform for ringdown and clustering analytics in power systems"
+    indice 336
     titulo "Web-based wide-area monitoring platform for ringdown and clustering analytics in power systems"
     anio 2025
     isbn ""
@@ -28857,7 +28858,6 @@ graph [
     subarea ""
     keywords "Eigenvalues and eigenfunctions; Pattern clustering; Phasor measurement; Power engineering computing; Power grids; Power system interconnection; Python; Clustering analytics tools; Eigensystem realization algorithm; ERA; Generator coherent behaviour; Grid dynamic condition information extraction; Matrix pencil; Mexican interconnected power grid; Nongenerator buses; Open-source research platform; PMU; Power system dynamic analysis requirement; Prony analysis; Python-based development; Ringdown analysis; State-of-the-art techniques; Web-based wide-area monitoring platform; Hierarchical systems; Image retrieval; Online searching; Clusterings; Data-driven methods; Electromechanical oscilla-tions; Electromechanical oscillation; Monitoring platform; Power; Ringdown analyze; Rotor angle stability; Web based; Wide area monitoring; Electromechanical oscillations; Data-driven method; Clustering; WAMS"
     abstract "This paper introduces an open-source research platform for monitoring the Mexican interconnected power grid, allowing real-time processing and information extraction of the grid's dynamic condition. Moreover, the platform is a Python-based development that embeds different ringdown and clustering analytics tools. In the case of ringdown analysis, the modal information can be extracted using some of the most known algorithms, i.e., Prony analysis, eigensystem realization algorithm (ERA), and matrix pencil (MP). For clustering analysis, the coherent behaviour of generator and non-generator buses is provided by applying recent state-of-the-art techniques such as affinity propagation, K-means, hierarchical agglomerative clustering, and typicality data analysis. The results of up to 93 PMUs show that this open-source platform suits researchers' and engineers' power system dynamic analysis requirements."
-    indice 336
   ]
   node [
     id 4193
@@ -29020,6 +29020,7 @@ graph [
     label "articulo:337"
     tipo "articulo"
     nombre "A Parallel Steganography Algorithm Using a New Secret Key Generation"
+    indice 337
     titulo "A Parallel Steganography Algorithm Using a New Secret Key Generation"
     anio 2024
     isbn "979-8-3315-4090-6"
@@ -29030,7 +29031,6 @@ graph [
     subarea ""
     keywords "Image coding; Mean square error methods; Multiprocessing systems; Parallel processing; Steganography; Confidential, data; Crucial data; Generation method; High-performance computation; Least Significant Bit algorithm; LSB algorithm; New secret key generation; Parallel computing; Parallel steganography algorithm; Parallelism; Processing time; Robustness parameter; Secret data; Secret key steganography; Securely exchange confidential data; Hiding data; Image steganography; Parallel steganography; Processing time improvement; Image enhancement; Mean square error; Least significant bits; Parallel com- puting; Secret key; Visualization; PSNR; Program processors; Multicore processing; Receivers; Mobile communication; Robustness; Security; Parallel algorithm; Information hiding"
     abstract "Computation has mostly used parallelism for high-performance computation, and multicore processors have gained popularity because they offer better processing time. However, one of the most challenging tasks to achieve is securely exchange confidential data over the network between sender and receiver. The research work in this paper explains how secret key steganography, combined with parallel processing, is utilized to conceal secret data within an image. The proposed algorithm describes and focuses on the generation method of a secret key while merging it with the Least Significant Bit (LSB) algorithm to achieve robustness, as well as parallel computing to improve the processing time in both the encoding/decoding phases. The proposed algorithm adds another layer of security by adding a robustness parameter (secret key), convenient for keeping secret, confidential, and crucial data. Parallel processing, combined with the new method to formulate the secret key is the novelty and strongest attribute of the proposed algorithm. When parallel computing is applied, the process speeds up compared with the same algorithm in the sequential version. The results are compared with the LSB algorithm in terms of the peak signal to noise ratio (PSNR) and mean square error (MSE) values, aspiring to present that the proposed algorithm adds robustness without affecting image imperceptibility."
-    indice 337
   ]
   node [
     id 4220
@@ -29235,6 +29235,7 @@ graph [
     label "articulo:338"
     tipo "articulo"
     nombre "A Protocol for Solving Certificate Poisoning for the OpenPGP Keyserver Network"
+    indice 338
     titulo "A Protocol for Solving Certificate Poisoning for the OpenPGP Keyserver Network"
     anio 2024
     isbn ""
@@ -29245,7 +29246,6 @@ graph [
     subarea ""
     keywords "Cryptography; Certificate poisoning; Distributed trust; Distribution models; Encryption standards; KeyServer; OpenPGP; Transitive trust model; Transitive trusts; Trust models; Web of trust; Transitive trust models; Computer Science, Information Systems; Computer Science; Keyservers; Public-key infrastructure; Security protocol"
     abstract "The OpenPGP encryption standard builds on a transitive trust distribution model for identity assertion, using a non-authenticated, distributed keyserver network for key distribution and discovery. An attack termed 'certificate poisoning', surfaced in 2019 and consisting in adding excessive trust signatures from inexistent actors to the victim key so that it is no longer usable, has endangered the continued operation of said keyserver network. In this article, we explore a protocol modification in the key acceptance and synchronization protocol termed First-party attested third-party certification that, without requiring the redeployment of updated client software, prevents the ill effects of certificate poisoning without breaking compatibility with the OpenPGP installed base. We also discuss some potential challenges and limitations of this approach, providing recommendations for its adoption."
-    indice 338
   ]
   node [
     id 4254
@@ -29342,6 +29342,7 @@ graph [
     label "articulo:339"
     tipo "articulo"
     nombre "A State of the Art of Non-fungible Tokens: A Literature Review"
+    indice 339
     titulo "A State of the Art of Non-fungible Tokens: A Literature Review"
     anio 2024
     isbn "978-3-031-34749-8"
@@ -29352,7 +29353,6 @@ graph [
     subarea ""
     keywords "Blockchain; Literature review; Non-fungible token; Block-chain; Digital assets; Economical value; Future applications; Human lives; Literature reviews; Research fields; State of the art; Systematic Review"
     abstract "Non-fungible tokens, also known as NFTs, are based on the blockchain and are a type of proprietary digital asset registered on the blockchain, making them unique, irreplaceable, and indivisible assets. This main feature makes up the nascent and emerging phenomenon that has revolutionized the way digital assets are and will be handled in the future. Its success and importance has resonated particularly in the first and second quarter of 2022, and however, the full application and reach of NFTs through its technology in human life are still yet to be discovered. The main objective of this chapter is to inform the audience of developments in the research field, discuss the importance and significance of the issues investigated to analyze the relevance and suitability of the topic in order to inform the audience about its operations, and generate, through the NFTs, economical value and further knowledge for future applications. This is the reason why a systematic review of the literature on the subject of &#8220;non-fungible tokens&#8221; is carried out based on publications of Scopus indexed journals, with a collection of information from 2017 to 2022."
-    indice 339
   ]
   node [
     id 4270
@@ -29413,6 +29413,7 @@ graph [
     label "articulo:340"
     tipo "articulo"
     nombre "AMIND: An Asynchronous Middleware for Improving Neighborhood Discovery in Crowded Networks"
+    indice 340
     titulo "AMIND: An Asynchronous Middleware for Improving Neighborhood Discovery in Crowded Networks"
     anio 2024
     isbn ""
@@ -29423,7 +29424,6 @@ graph [
     subarea ""
     keywords "Collisions; Middleware; Neighbor discovery; Neighborhood; Wireless sensor networks; Collision; Cyclic behavior; Deterministics; Neighbor discovery protocol; Neighbourhood; Operations forces; Periodic behavior; Sensors network; Wireless sensor; Protocols; Proposals; Schedules; Urban areas; Synchronization; Energy efficiency; Nearest neighbor methods; Crowded networks"
     abstract "Neighbor discovery (ND) is crucial in deploying wireless sensor networks. Despite the considerable research on ND, most studies focus on networks composed of only two nodes. However, for cases in which more than two nodes are involved, the probability of collision increases, potentially preventing a node from discovering all its neighbors. This problem is especially aggravated for ND protocols that exhibit periodic behaviors that can lead to recurring collisions. This behavior is typical of deterministic ND protocols, in which its inherent operation forces regular on/off patterns and cyclical collisions. To address this problem, this paper introduces AMIND, a new middleware capable of disrupting the cyclic behavior of deterministic ND protocols. It achieves this goal by introducing random shifts in their operation, significantly increasing the number of nodes discovered compared to the existing ND protocols. As a result, AMIND allows a node to discover unknown neighbors after each shift. Simulation results show that the proposed middleware enhances node discoveries that previous ND protocols can achieve, even in scenarios with high collision rates."
-    indice 340
   ]
   node [
     id 4280
@@ -29532,6 +29532,7 @@ graph [
     label "articulo:341"
     tipo "articulo"
     nombre "Blockchain-based decentralization approach for Ciphertext-Policy Attribute-Based Encryption schemes"
+    indice 341
     titulo "Blockchain-based decentralization approach for Ciphertext-Policy Attribute-Based Encryption schemes"
     anio 2025
     isbn ""
@@ -29542,7 +29543,6 @@ graph [
     subarea ""
     keywords "Blockchain; Ciphertext-policy attribute-based encryption; Confidentiality; Decentralization; Privacy; Trusted authority"
     abstract "Since the rise of the Internet, several IT services and applications have become widely accessible, making cloud computing a vital solution for its deployment for corporate and personal use. Additionally, the Internet of Things (IoT) has accelerated large-scale data generation, e.g., for monitoring applications in medical and industrial environments. Cloud computing and IoT are seamlessly integrated: IoT devices generate data later stored and accessed in the cloud, enabling efficient data use across multiple applications and processing models. Consequently, cloud services are increasingly being used for outsourcing the high processing and storage requirements demanded by IoT applications. While this integration offers significant advantages, it also presents major data security challenges, particularly concerning the confidentiality and access control of outsourced sensitive data. It is especially relevant because cloud service providers are typically assumed to be honest but curious and, hence, untrustworthy. In this context, Ciphertext-Policy Attribute-Based Encryption (CP-ABE) can successfully enforce complex access control over outsourced data. It is achieved by encrypting it using fine-grained access policies and delegating access control to decryption keys dependent on end-user attributes. Although CP-ABE offers several advantages, its wide adoption and efficient deployment in practical applications is still hindered by some issues. One of the major concerns involves the strong dependency on a centralized trusted authority setting and managing CP-ABE&#8217;s access control policies and attribute sets. This dependency represents a single point of failure that threatens the system&#8217;s continuous operation. In this paper, we eliminate CP-ABE&#8217;s dependency on a single trusted authority by adopting a decentralization strategy relying on blockchain&#8217;s main features. Therefore, we propose a blockchain-based approach to distribute among multiple peers the users&#8217; secret keys generation and management tasks performed by the trusted authority, solving CP-ABE&#8217;s centralization problem. By combining blockchain, CP-ABE, and Elliptic Curve Integrated Encryption Scheme (ECIES), we ensure the confidentiality of CP-ABE critical components regardless of their heterogeneous privacy requirements. We evaluated our proposal considering a case study in the eHealth domain, whose results confirm its deployment feasibility in practical applications, where confidentiality and access control hold while resiliency and the system&#8217;s continuous operation are achieved."
-    indice 341
   ]
   node [
     id 4298
@@ -29579,6 +29579,7 @@ graph [
     label "articulo:342"
     tipo "articulo"
     nombre "Color Image Protection via Quantum Encryption and HVS-Based Mini-Block Data Hiding"
+    indice 342
     titulo "Color Image Protection via Quantum Encryption and HVS-Based Mini-Block Data Hiding"
     anio 2025
     isbn "979-8-3315-7442-0"
@@ -29589,7 +29590,6 @@ graph [
     subarea ""
     keywords "Braided Quantum; Quantum Operators; Dynamic Matrices; Finite Fields; Visualization; Steganography; Signal processing algorithms; Color; Signal processing; Robustness; Real-time systems; Encryption; Data mining; Protection; Mathematical operators; Binary images; Embeddings; Information hiding; Privacy-preserving techniques; Quantum cryptography; RGB color model; Colour image; Data-hiding; Dynamic matrix; Encryption technique; Image protection; Matrix; Quantum encryption"
     abstract "With the growing demand for secure and efficient digital image processing, the integration of data hiding and encryption techniques has become essential to ensure both confidentiality and integrity of visual information. This paper proposes a hybrid approach that combines a low complexity steganographic scheme for binary and color images with a computationally efficient encryption technique inspired by quantum operators. In the data hiding component, an RGB channel of a color image is selected, and its least significant bit plane is extracted. This bit plane is then divided into suitable blocks, and HVS-based encoding tables are used to embed the information within these blocks, achieving high embedding capacity while preserving visual quality. In parallel, the encryption stage operates on color images and is based on a novel operator model that simulates quantum behaviors such as creation, exchange, and annihilation, enabling effective protection without requiring intensive mathematical processing. Experimental validation confirms the robustness of the combined approach through quality metrics such as PSNR, SSIM and entropy."
-    indice 342
   ]
   node [
     id 4304
@@ -29704,6 +29704,7 @@ graph [
     label "articulo:343"
     tipo "articulo"
     nombre "Connectivity and stochastic robustness of synchronized multi-drone systems"
+    indice 343
     titulo "Connectivity and stochastic robustness of synchronized multi-drone systems"
     anio 2024
     isbn ""
@@ -29714,7 +29715,6 @@ graph [
     subarea ""
     keywords "Unmanned aerial vehicles; Synchronized communication system; Communication graph; Connectivity; Probabilistic model"
     abstract "The work analyzes synchronized multi-drone systems in which drones patrol separate trajectories and exchange information when they reach communication links simultaneously. It gives centralized and decentralized algorithms for determining connected components after drone failures and studies coverage, isolation and connectivity under probabilistic failures, including robustness results for grid configurations."
-    indice 343
   ]
   node [
     id 4323
@@ -29751,6 +29751,7 @@ graph [
     label "articulo:344"
     tipo "articulo"
     nombre "Cryptographic Consensus Protocols in Blockchain for the Internet of Things"
+    indice 344
     titulo "Cryptographic Consensus Protocols in Blockchain for the Internet of Things"
     anio 2025
     isbn ""
@@ -29761,7 +29762,6 @@ graph [
     subarea ""
     keywords "Blockchain; Consensus protocol; Internet of Things (IoT)"
     abstract "The success of Blockchain in the field of cryptocurrencies opens the possibility of leveraging the main advantages of this technology in other areas such as financial services, public services, social services, and the Internet of Things (IoT). Using these features helps preserve various security services such as decentralization, integrity, and pseudo-anonymity, and even allows for complete traceability of all transactions. Exploiting these features offered by Blockchain in the IoT network generates high expectations regarding computing power, storage, and decentralized, tamper-resistant transactions. However, most existing consensus protocols were created to be executed by nodes with high computing and storage capacity, characteristics that the devices that make up an IoT network do not have. Although new protocols have emerged that require less computing power or storage, none are tailored to be executed by nodes with limited resources. Based on the above, this article presents the cryptographic consensus protocols that could be used in the IoT network."
-    indice 344
   ]
   node [
     id 4329
@@ -29780,6 +29780,7 @@ graph [
     label "articulo:345"
     tipo "articulo"
     nombre "Cryptographic consensus protocols in Blockchain for the Internet of Things; [Protocolos criptogr&#225;ficos de consenso en Blockchain para el Internet de las Cosas]"
+    indice 345
     titulo "Cryptographic consensus protocols in Blockchain for the Internet of Things; [Protocolos criptogr&#225;ficos de consenso en Blockchain para el Internet de las Cosas]"
     anio 2025
     isbn ""
@@ -29790,13 +29791,13 @@ graph [
     subarea ""
     keywords "Blockchain; Consensus protocol; Internet of Things (IoT)"
     abstract "Blockchain&#8217;s success in the cryptocurrency space has motivated its exploration in other sectors, such as financial, public, and social services, and the Internet of Things (IoT). This technology offers key advantages such as decentralization, integrity, pseudo-anonymity, and full transaction traceability. Its application in IoT networks raises expectations for the potential for distributed computing, decentralized storage, and tamper resistance. However, most current consensus protocols were designed for nodes with high processing and storage capacity, resources that typical IoT devices lack. Although proposals have emerged that reduce computational or storage requirements, there are still no protocols specifically designed for resource-constrained nodes. This article analyzes various cryptographic consensus protocols and identifies those that could be adapted to IoT networks."
-    indice 345
   ]
   node [
     id 4332
     label "articulo:346"
     tipo "articulo"
     nombre "Designing Gig Worker Sousveillance Tools"
+    indice 346
     titulo "Designing Gig Worker Sousveillance Tools"
     anio 2024
     isbn "979-8-4007-0330-0"
@@ -29807,7 +29808,6 @@ graph [
     subarea ""
     keywords "Gig work; Crowd work; Job market; Labor market; Freelancers; Surveillance; Sousveillance"
     abstract "As independently-contracted employees, gig workers disproportionately suffer the consequences of workplace surveillance, which include increased pressures to work, breaches of privacy, and decreased digital autonomy. Despite the negative impacts of workplace surveillance, gig workers lack the tools, strategies, and workplace social support to protect themselves against these harms. Meanwhile, some critical theorists have proposed sousveillance as a potential means of countering such abuses of power, whereby those under surveillance monitor those in positions of authority. To understand the benefits of sousveillance systems in the gig economy, we conducted semi-structured interviews and led co-design activities with gig workers. We use care ethics as a guiding concept to understand our interview and co-design data, while also focusing on empathic sousveillance technology design recommendations. Through our study we identify gig workers&#8217; attitudes towards and past experiences with sousveillance. We also uncover the type of sousveillance technologies imagined by workers, provide design recommendations, and finish by discussing how to create empowering, empathic spaces on gig platforms."
-    indice 346
   ]
   node [
     id 4333
@@ -29850,6 +29850,7 @@ graph [
     label "articulo:347"
     tipo "articulo"
     nombre "Detection of DoS and DDoS Attacks Using LSTM in Computer Networks: A Systematic Literature Review"
+    indice 347
     titulo "Detection of DoS and DDoS Attacks Using LSTM in Computer Networks: A Systematic Literature Review"
     anio 2025
     isbn "979-8-3315-8719-2"
@@ -29860,7 +29861,6 @@ graph [
     subarea ""
     keywords "Denial-of-service attack; Long short term memory; Machine learning; Network security; Systematic literature review; Computer networks; Distributed computer systems; Learning systems; Reviews; Communications networks; DDoS Attack; Denialof- service attacks; DoS/DDoS attacks; Machine learning models; Memory modeling; Networks security; Short term memory; Measurement; Computational modeling; NSL-KDD; Market research; Communication networks; Software defined networking; Cyberattack"
     abstract "Artificial Intelligence (AI), with machine learning (ML) models and deep learning (DL) neural networks, represents a possibility for detecting DoS/DDoS attacks more effectively. The LSTM (Long Short-Term Memory) model is one of the options for detecting these increasingly varied and sophisticated attacks. The objective of this research was to evaluate the application of the LSTM model in the detection of DoS and DDoS cyber attacks on communications networks. This research was designed as a Systematic Literature Review to obtain the most recent studies on the subject. As a result, 86 initial studies were obtained from the databases. Once the entire procedure, including the quality assessment of the studies, was completed, 15 final primary studies were selected. With these primary studies, it was possible to answer all the questions in the review. It should be noted that modern SDN (Software Defined Network) networks, Cloud Computing networks, and classic networks are threatened by this type of attack. The LSTM models applied in the detection of DoS/DDoS attacks can be hybrid or combined. The most commonly used evaluation metrics are Accuracy, Recall, Precision, and F1-Score, and the most frequently found public datasets include NSL-KDD, CICDoS2019, and CICIDS2017. A wide variety of LSTM-based models and approaches that can be used to experiment and compare their performance in terms of communications network security."
-    indice 347
   ]
   node [
     id 4340
@@ -29945,6 +29945,7 @@ graph [
     label "articulo:348"
     tipo "articulo"
     nombre "DICOMIST: An methodology for Performing Distributed Computing in Heterogeneous ad hoc Networks"
+    indice 348
     titulo "DICOMIST: An methodology for Performing Distributed Computing in Heterogeneous ad hoc Networks"
     anio 2024
     isbn ""
@@ -29955,7 +29956,6 @@ graph [
     subarea ""
     keywords "Consensus; Distributed Processing; Fog Computing; Mesh Network"
     abstract "The Internet of Things (IoT) has emerged as a cornerstone technology, transforming how we interact with our surroundings. Despite their widespread adoption, IoT devices encounter challenges related to processing capabilities and connectivity, frequently necessitating the delegation of tasks to remote cloud servers. This offloading, essential for enhancing user experience, poses challenges, particularly for latency-sensitive applications. Edge-centric paradigms like fog and mist computing have emerged to address these challenges, bringing computational resources closer to end-users. However, efficiently managing task offloading in dynamic IoT environments remains a complex issue. This paper introduces DIstributed COmputing for MIST (dicomist), a methodology designed to facilitate task offloading in IoT settings. Dicomist utilizes wireless mesh networks to organize mobile nodes, employing clustering and classification techniques. Tasks are treated as consensus problems, enabling distributed computation among selected nodes. Real-world experiments demonstrate dicomist&#8217;s effectiveness, underscoring its potential to enhance task offloading in IoT environments."
-    indice 348
   ]
   node [
     id 4354
@@ -29980,6 +29980,7 @@ graph [
     label "articulo:349"
     tipo "articulo"
     nombre "Energy Analysis of a Broadcast MAC Protocol for IEEE 802.11bc Enhanced Broadcast Services"
+    indice 349
     titulo "Energy Analysis of a Broadcast MAC Protocol for IEEE 802.11bc Enhanced Broadcast Services"
     anio 2025
     isbn "978-3-903176-76-8; 979-8-3315-7224-2"
@@ -29990,7 +29991,6 @@ graph [
     subarea ""
     keywords "Access protocols; Broadcast communication; Computer network reliability; Energy consumption; Reinforcement learning; RSSI; Wireless LAN; Broadcast access mechanism; Broadcast MAC protocol; Broadcast protocol; Energy analysis; Energy consumption analysis; IEEE 802.11bc enhanced broadcast services; Medium access transmission mechanism; Statistical model; Successful broadcast transmissions; Broadcast; DCF; Markov model; Unicast; Broadcasting; IEEE Standards; Intelligent systems; Internet protocols; Markov processes; Medium access control; Access mechanism; Broadcast services; Mac protocols; Markov modeling; Energy utilization; Performance evaluation; Analytical models; Protocols; Wireless networks; Media Access Control; IEEE 802.11 Standard; IEEE 802.11bc"
     abstract "In this paper, we conduct an energy consumption analysis of a broadcast access mechanism over IEEE 802.11 networks. By assuming non-saturated conditions, we provide a statistical model of the energy consumed during one cycle period, defined as the duration between two successful broadcast transmissions. The model includes a characterization of the medium access transmission mechanism. Our results show that the broadcast protocol is a good candidate to be included in future amendments of the IEEE 802.11 standard."
-    indice 349
   ]
   node [
     id 4358
@@ -30189,6 +30189,7 @@ graph [
     label "articulo:350"
     tipo "articulo"
     nombre "Enhancing the Capacity and Robustness of an LSB Algorithm Using a Novel Insertion Method, Hashing Function, and Secret Key"
+    indice 350
     titulo "Enhancing the Capacity and Robustness of an LSB Algorithm Using a Novel Insertion Method, Hashing Function, and Secret Key"
     anio 2024
     isbn ""
@@ -30199,7 +30200,6 @@ graph [
     subarea ""
     keywords "Hiding data; Image steganography; Improve capacity; Insertion method; Robustness; Secret key steganography; Steganography; Cover-image; Hashing functions; Insertion methods; Peak signal to noise ratio; Secret key; Hash functions; Image color analysis; PSNR; Receivers; Transforms; Payloads; Discrete cosine transforms; Color; Vectors; Substitution; Computer Science, Information Systems; Engineering, Electrical &#38; Electronic; Telecommunications; Computer Science; Engineering; Least significant bit; Hashing"
     abstract "Steganography hides a secret message inside another medium (cover-image) while maintaining imperceptibility and/or robustness/embedding capacity, making it a suitable candidate for keeping information safe and hiding the existence of data itself inside another medium. Secret data is susceptible to attacks or may be modified while steg-image is transiting through the Internet. The present paper explains how secret key steganography uses a new insertion method to hide information inside an image and a hashing function applied on the secret data. The SHA 256 function detects errors in data and assures its arrival without modifications. The proposed algorithm improves the security level by adding a robustness parameter (secret key and hash function) and creating a new insertion method that doubles the cover-image capacity to hide a secret message inside a color image compared with LSB, useful for keeping sensitive, relevant, and important information invulnerable. The results are compared with the LSB algorithm and related work in terms of the peak signal to noise ratio (PSNR) values, cover-image maximum capacity (MX), image quality index (Q), bit per pixel (BPP), processing time and robustness, showing that the proposed algorithm has a great balance between capacity and PSNR (big capacity with high PSNR level). It also increases the robustness level using secret key and hash function without affecting image imperceptibility. The proposed algorithm speed is outstanding, despite having complex calculations. This makes it eligible to be used in online platforms."
-    indice 350
   ]
   node [
     id 4391
@@ -30296,6 +30296,7 @@ graph [
     label "articulo:351"
     tipo "articulo"
     nombre "GUI_srsRAN_5G: Free Software for Deploying Private 5G Cellular Networks and Its Use in Teaching at Educational Institutions"
+    indice 351
     titulo "GUI_srsRAN_5G: Free Software for Deploying Private 5G Cellular Networks and Its Use in Teaching at Educational Institutions"
     anio 2025
     isbn ""
@@ -30306,7 +30307,6 @@ graph [
     subarea ""
     keywords "GUI; Open-source software; srsRAN; 5G cellular networks; Software-defined radios (SDR); Telecommunications"
     abstract "The article presents an open-source graphical interface for installing, configuring, and visualizing metrics for private 5G cellular networks based on srsRAN and software-defined radios. It also evaluates its instructional use in a telecommunications laboratory exercise."
-    indice 351
   ]
   node [
     id 4407
@@ -30343,6 +30343,7 @@ graph [
     label "articulo:352"
     tipo "articulo"
     nombre "Improved protection for colour images via invertible colour-to-grey, image distortion, and visible-imperceptible watermarking"
+    indice 352
     titulo "Improved protection for colour images via invertible colour-to-grey, image distortion, and visible-imperceptible watermarking"
     anio 2024
     isbn ""
@@ -30353,7 +30354,6 @@ graph [
     subarea ""
     keywords "Image processing; Image watermarking; Watermarking; Color image processing; Crime; Image enhancement; Image reconstruction; Color information; Color recovery; Colour image; Content security; Gray image; Gray scale; Image distortions; Images processing; Peak signal to noise ratio; Processing time"
     abstract "Invertible colour-to-grey algorithms protect the colour of an image against illegal usage and distribution. These schemes hide the colour information into a grayscale version of the image, making colour recovery without proper authorization challenging. A previous study proposed the incorporation of content security by distorting the protected image to hinder illegal structure restoration. This work addresses the limitations of this method, significantly improving both processing time and the quality of the recovered colour image. Specifically, processing times are reduced from 45 h to 9 s, and the mean PSNR value is increased by up to 2.23 dB. Furthermore, this proposal achieves competitive results compared to existing approaches that do not implement content security, obtaining mean peak signal-to-noise ratio (PSNR) and structural similarity index measure (SSIM) values above 42.32 dB and 0.992, respectively. Finally, quantitative results are supported by visual comparisons."
-    indice 352
   ]
   node [
     id 4413
@@ -30432,6 +30432,7 @@ graph [
     label "articulo:353"
     tipo "articulo"
     nombre "Locally Private Sampling with Public Data"
+    indice 353
     titulo "Locally Private Sampling with Public Data"
     anio 2025
     isbn ""
@@ -30442,7 +30443,6 @@ graph [
     subarea ""
     keywords "Data privacy; Differential privacies; Image texts; Machine-learning; Minimax; Optimal mechanism; Privacy preserving; Public data; Public dataset; Time-series data; User data; Optimization"
     abstract "Local differential privacy (LDP) is increasingly employed in privacy-preserving machine learning to protect user data before sharing it with an untrusted aggregator. Most LDP methods assume that users possess only a single data record, which is a significant limitation since users often gather extensive datasets (e.g., images, text, time-series data) and frequently have access to public datasets. To address this limitation, we propose a locally private sampling framework that leverages both the private and public datasets of each user. Specifically, we assume each user has two distributions: p and q that represent their private dataset and the public dataset, respectively. The objective is to design a mechanism that generates a private sample approximating p while simultaneously preserving q. We frame this objective as a minimax optimization problem using f-divergence as the utility measure. We fully characterize the minimax optimal mechanisms for general f-divergences provided that p and q are discrete distributions. Remarkably, we demonstrate that this optimal mechanism is universal across all f-divergences. Experiments validate the effectiveness of our minimax optimal sampler compared to the state-of-the-art private sampler."
-    indice 353
   ]
   node [
     id 4426
@@ -30503,6 +30503,7 @@ graph [
     label "articulo:354"
     tipo "articulo"
     nombre "ODIF: Optimum Duty Cycle Selection Using Indirect Feedback for Neighborhood-Discovery in Crowded Scenarios"
+    indice 354
     titulo "ODIF: Optimum Duty Cycle Selection Using Indirect Feedback for Neighborhood-Discovery in Crowded Scenarios"
     anio 2025
     isbn ""
@@ -30513,7 +30514,6 @@ graph [
     subarea ""
     keywords "Adaptive algorithms; Duty cycling; Energy efficiency; Latency minimization; Neighbor discovery; Network optimization; Randomized protocols; Wireless networks; Feedback; Internet protocols; Optimization; Duty-cycle; Energy; Minimisation; Neighbourhood; Off state; Protocols; Energy consumption; Measurement; Power demand; Urban areas; Synchronization; Physical layer; Heuristic algorithms; Hands; Energy conservation; Neighborhood discovery; IoT"
     abstract "A significant amount of research has focused on minimizing the time it takes for two nodes to discover each other when operating in on-off states to conserve energy, a process known as neighbor discovery. However, less attention has been paid to the related issue of neighborhood-discovery, which involves multiple nodes attempting to find each other. We consider the latter problem to be quite relevant, especially with the increasing popularity of networks made up of multiple IoT devices. This issue is more complex because the likelihood of collisions increases with a greater number of nodes and as the time nodes remain awake (duty cycle) extends. The method we propose, called ODIF, uses indirect feedback (collisions and no-encounters) to estimate the number of nodes and employs a dynamic duty cycle algorithm to minimize either latency or energy expenditure during neighborhood-discovery. We compare ODIF with a randomized discovery protocol (referred to as Plain) and two other similar methods found in the existing literature. It was found that ODIF significantly reduces the neighbor discovery latency (or the expected number of attempts) compared to the baseline randomized neighbor discovery protocol for most values of the duty cycle. Similarly, ODIF achieved neighborhood-discovery 1 to 10 times faster for high node densities compared to similar protocols."
-    indice 354
   ]
   node [
     id 4436
@@ -30592,6 +30592,7 @@ graph [
     label "articulo:355"
     tipo "articulo"
     nombre "On the Privacy Guarantees of Differentially Private Stochastic Gradient Descent"
+    indice 355
     titulo "On the Privacy Guarantees of Differentially Private Stochastic Gradient Descent"
     anio 2024
     isbn "979-8-3503-8284-6"
@@ -30602,7 +30603,6 @@ graph [
     subarea ""
     keywords "Training; Privacy; Upper bound; Machine learning algorithms; Stochastic processes; Machine learning; Rendering (computer graphics); Adversarial machine learning; Data privacy; Stochastic models; Stochastic systems; Direct analysis; Loss functions; Machine learning models; Nonconvexity; Nonlinear data; Stochastic gradient descent; Stochastics; Training machines; Differential privacy"
     abstract "Differentially Private Stochastic Gradient Descent (DP-SGD) is a widely adopted algorithm for privately training machine learning models. An inherent feature of this algorithm is the incorporation of gradient clipping to counteract the influence of individual samples during training. Nevertheless, the introduction of gradient clipping also introduces non-convexity into the problem, rendering it challenging to derive upper bounds on the privacy loss. In this paper, we establish effective upper bounds for the privacy loss of both projected DP-SGD and regularized DP-SGD, without relying on convexity or smoothness assumptions regarding the loss function. Our approach involves a direct analysis of the hockey-stick divergence between coupled stochastic processes through the application of nonlinear data processing inequalities."
-    indice 355
   ]
   node [
     id 4449
@@ -30657,6 +30657,7 @@ graph [
     label "articulo:356"
     tipo "articulo"
     nombre "Ownership Authentication and Clinical Data Backup in DICOM Images via Robust Watermarking and Binary Data Hiding"
+    indice 356
     titulo "Ownership Authentication and Clinical Data Backup in DICOM Images via Robust Watermarking and Binary Data Hiding"
     anio 2025
     isbn "979-8-3315-7442-0; 979-8-3315-7443-7"
@@ -30667,7 +30668,6 @@ graph [
     subarea ""
     keywords "Clinical research; Authentication; Bit error rate; Computer aided diagnosis; Convolution; Digital image storage; Digital Imaging and Communications in Medicine (DICOM); Encoding (symbols); Image compression; Information hiding; Information management; Medical computing; Medical image processing; Signal encoding; Authentication data; Binary data; Binary data hiding; Clinical data; Convolutional encoding; Data backups; Data-hiding; DICOM imaging; Ownership authentication; Robust watermarking; Information security; Measurement; Image coding; Transform coding; Watermarking; Robustness; DICOM; Medical diagnostic imaging; Image segmentation"
     abstract "Medical information is very important and delicate due to its relevance in clinical diagnosis, treatments, research and other commercial and non-commercial applications of governmental and private organizations. Recent advances in information and communication technologies have transformed the paradigm of medical data management, but also introduced new risks related to unauthorized access, manipulation, and distribution. To solve part of these problems, this paper proposes a method that employs two information security levels based on robust watermarking and binary data hiding, respectively. Firstly, clinical data is embedded into a logo using binary data hiding. Then, this logo is inserted into the spatial domain of a medical image through block segmentation, statistical information, and convolutional encoding for ownership authentication. Experimental results demonstrate logo robustness against JPEG DICOM compression in conjunction with aggressive attacks like cropping and copy-move, using bit error rate as a metric. The imperceptibility has been measured via peak signal-to-noise ratio and structural similarity index metrics."
-    indice 356
   ]
   node [
     id 4458
@@ -30788,6 +30788,7 @@ graph [
     label "articulo:357"
     tipo "articulo"
     nombre "Protection Of Sensitive Personal Information Contained In Digital Files Held By Individuals With Homomorphic Encryption And AI Assistance"
+    indice 357
     titulo "Protection Of Sensitive Personal Information Contained In Digital Files Held By Individuals With Homomorphic Encryption And AI Assistance"
     anio 2025
     isbn "979-8-3315-3559-9"
@@ -30798,7 +30799,6 @@ graph [
     subarea ""
     keywords "Deep fake; Encryption; Hormomorphic encryption; Artificial intelligence; Symmetric encryption; Asymmetric encryption; Multimedia files; Filtering; Filters; Deepfakes; Protocols; Videos; Cyberspace; Mobile handsets; Social computing; Cyberbullying; Communication systems"
     abstract "In today&#8217;s digital landscape, the exchange of sensitive personal data via mobile devices is widespread, yet inadequate safeguards often expose users to risks such as identity theft and online harassment. This research introduces Kamplae, a system crafted in Python and deployed through a Flask-based REST API, employing homomorphic encryption and artificial intelligence to protect personal information embedded in digital images. Kamplae secures metadata and bitmap content in jpeg, jpg, and png formats, adhering to legal standards in Mexico and the European Union. The study reviews prior work on personal data protection and the challenges posed by deep fakes, emphasising the need for robust regulatory frameworks to counter digital violence. It explores various encryption methods&#8212;symmetric, asymmetric, and hybrid&#8212;alongside relevant legal provisions across regions. Kamplae aims to prevent image misuse and foster a secure, ethical digital environment. While promising, it highlights areas for enhancement, such as broader format support and user interface refinement, with limitations tied to specific format compatibility and mobile performance."
-    indice 357
   ]
   node [
     id 4478
@@ -30877,6 +30877,7 @@ graph [
     label "articulo:358"
     tipo "articulo"
     nombre "Representative Time Series Fractal Analysis of the Traffic Flows of a Dedicated High-Speed Link"
+    indice 358
     titulo "Representative Time Series Fractal Analysis of the Traffic Flows of a Dedicated High-Speed Link"
     anio 2025
     isbn ""
@@ -30887,7 +30888,6 @@ graph [
     subarea ""
     keywords "Correlation coefficient (p); Fractal dimension (D); Fractals; Hurst exponent (H); Long-range dependence (LRD); Time series"
     abstract "The fractal behavior is ubiquitously observed in measurements and characterization of traffic flow in high-speed computer networks of different technologies and coverage levels. This paper presents the results obtained when applying fractal analysis techniques on a time series obtained from traffic captures coming from an application server connected to the Internet through a high-speed link. The results obtained show that traffic flow in the dedicated high-speed network link exhibited fractal behavior since the Hurst exponent was in the range of 0.5, 1, the fractal dimension between 1, 1.5, and the correlation coefficient between -0.5, 0. Based on these results, it is ideal to characterize both the singularities of the fractal traffic and its impulsiveness during a fractal analysis of temporal scales. Finally, based on the results of the time series analysis, the fact that the traffic flows of current computer networks exhibit fractal behavior with a long-range dependency is reaffirmed."
-    indice 358
   ]
   node [
     id 4491
@@ -30924,6 +30924,7 @@ graph [
     label "articulo:359"
     tipo "articulo"
     nombre "Robust Image Tampering Detection and Ownership Authentication Using Zero-Watermarking and Siamese Neural Networks"
+    indice 359
     titulo "Robust Image Tampering Detection and Ownership Authentication Using Zero-Watermarking and Siamese Neural Networks"
     anio 2024
     isbn ""
@@ -30934,7 +30935,6 @@ graph [
     subarea ""
     keywords "Neural network; Ownership authentication; Tampering detection; Zero-watermarking; Authentication; Digital watermarking; Image enhancement; Watermarking; Digital image; Geometric processing; Halftone images; Image editing tools; Image tampering; Neural-networks; Tamper detection; Discrete wavelet transforms"
     abstract "The development of advanced image editing tools has significantly increased the manipulation of digital images, creating a pressing need for robust tamper detection and ownership authentication systems. This paper presents a method that combines zero-watermarking with Siamese neural networks to detect image tampering and verify ownership. The approach utilizes features from the Discrete Wavelet Transform (DWT) and employs two halftone images as watermarks: one representing the owner's portrait and the other corresponding to the protected image. A feature matrix is generated from the owner's portrait using the Siamese network and securely linked to the image's halftone watermark through an XOR operation. Additionally, data augmentation enhances the model's robustness, ensuring effective learning of image features even under geometric and signal processing distortions. Experimental results demonstrate high accuracy in recovering halftone images, enabling precise tamper detection and ownership verification across different datasets and image distortions (geometric and image processing distortions)."
-    indice 359
   ]
   node [
     id 4497
@@ -31001,6 +31001,7 @@ graph [
     label "articulo:360"
     tipo "articulo"
     nombre "Self-Tuning Model for Energy-Context Optimization in Perpetual Sensor Nodes Within IoT-Integrated Hydroponic Systems"
+    indice 360
     titulo "Self-Tuning Model for Energy-Context Optimization in Perpetual Sensor Nodes Within IoT-Integrated Hydroponic Systems"
     anio 2024
     isbn ""
@@ -31011,7 +31012,6 @@ graph [
     subarea ""
     keywords "Decision making; Embedded systems; Energy harvesting; Internet of Things; Microcontrollers; Sensors; Wireless sensor networks; Autonomous operation; Continuous operation; Energy harvesting-based hydroponics; Energy optimization technique; Energy-constrained embedded systems; Energy-context optimization; Growth environment; Hydroponic farming; Hydroponic system; IoT-integrated hydroponic systems; Low-power microcontroller; Perpetual sensor nodes; Self-tuning model; Sensor node; Soil-based farming; Stored energy; Uniform 5-min duty cycle; Embedded sensor networks; Hydroponics; Low-power design; Wireless sensor nodes; Cost effectiveness; Electric power supplies to apparatus; Electric power systems; Low power electronics; Sensor nodes; Supercapacitor; Temperature measurement; Virtual storage; Duty-cycle; Embedded sensor network; Embedded sensors; Hydroponic systems; Optimisations; Selftuning; Sensors network; Wireless sensor node; Optimization; Voltage measurement; Supercapacitors"
     abstract "Hydroponic farming is a promising alternative to soil-based farming. However, it requires a precise control of the growth environment, which is hard to achieve with energy-constrained embedded systems. This letter presents an energy optimization technique for the continuous operation of energy harvesting-based hydroponics sensor nodes. The proposed technique is based on the self-tuning model, that dynamically adjust the duty cycle of the node, ensuring the autonomous operation of the Internet of Things system. The model can be programmed in a low-power microcontroller, allowing the decision-making process to reside entirely on the sensor node. Experimental results show that in the same time period, the self-tuning model allows 3.5&#215; more data transmissions than a uniform 5-min duty cycle, while ensuring a minimum voltage level in the storage device. This balance allows the stored energy to be enough for continuous monitoring, providing a clean and cost-effective alternative to perpetually power the hydroponic system."
-    indice 360
   ]
   node [
     id 4508
@@ -31228,6 +31228,7 @@ graph [
     label "articulo:361"
     tipo "articulo"
     nombre "Sustainable GIoT-Based Mangrove Monitoring System for Smart Coastal Cities with Energy Harvesting from SMFCs"
+    indice 361
     titulo "Sustainable GIoT-Based Mangrove Monitoring System for Smart Coastal Cities with Energy Harvesting from SMFCs"
     anio 2025
     isbn ""
@@ -31238,7 +31239,6 @@ graph [
     subarea ""
     keywords "Energy harvesting; GIoT; Sediment microbial fuel cell; Wireless sensor networks; Data communication systems; Ecology; Energy efficiency; Energy management; Energy utilization; Environmental monitoring; Forest ecology; Green computing; Low power electronics; Secondary batteries; Sustainable development; Temperature measurement; Coastal cities; Energy; Environmental conservation; Green internet of thing; Green internets; Microbials; Monitoring system; Sensors network; Wireless sensor"
     abstract "The Green Internet of Things (GIoTs) has emerged as a transformative paradigm for environmental conservation, enabling autonomous, self-sustaining sensor networks that operate without batteries and with minimal ecological footprint. This approach is especially critical for long-term mangrove monitoring in smart coastal cities, where conventional battery-powered systems are impractical due to frequent, costly, and environmentally disruptive replacements that hinder continuous data collection. This paper presents a self-sustaining GIoT sensing system for mangrove monitoring powered by sedimentary microbial fuel cells (SMFCs), enabling perpetual, battery-less, and zero-emission operation. A spatial dynamic energy management (DPM) strategy is implemented for the efficient integration of a microcontroller unit with a LoRa wireless communication transceiver and the SMFC harvested energy, ensuring a balanced self-sustained approach into a GIoT sensing network. Experimental results demonstrate an average power consumption of 190.45 &#956;W per 14-byte data packet transmission, with each packet containing pH, electrical conductivity and ambient temperature measurements from the mangrove environment. Under the spatial DPM strategy, the network of four sensing nodes exhibited an energy consumption of 1.14 mWh. Given a harvested power density of 15.1 mW/m2 from the SMFC, and utilizing a 0.1 F supercapacitor as an energy buffer, the system can support at least six consecutive data transmissions. These findings validate the feasibility of sustainable, low-power GIoT architectures for ecological monitoring."
-    indice 361
   ]
   node [
     id 4544
@@ -31329,6 +31329,7 @@ graph [
     label "articulo:362"
     tipo "articulo"
     nombre "Symmetric Cipher for Grayscale Images Based on Quantum Differential Geometry"
+    indice 362
     titulo "Symmetric Cipher for Grayscale Images Based on Quantum Differential Geometry"
     anio 2024
     isbn "979-8-3503-7754-5"
@@ -31339,7 +31340,6 @@ graph [
     subarea ""
     keywords "Configurable Cipher; Finite Fields; Grayscale Images; Quantum Operators; Subkey Generation; Ciphertext; Geometry; Mathematical operators; Quantum cryptography; Differential geometry; Exchange of information; Gray-scale images; Image-based; Sub-keys; Symmetric cipher; Encryption algorithms; Ciphers; Visualization; PSNR; Correlation; Quantum computing; Merging; Gray-scale; Encryption; Proposals"
     abstract "The increase in information technologies has generated the need to implement new methodologies to secure the exchange of information. This paper proposes a cryptographic algorithm based on the use of quantum differential geometry operators. These operators exhibit mathematical behaviors similar to quantum behavior, with the advantage that specialized equipment is not required to perform the encryption process. The algorithm is composed of two phases: In the first phase, a subkey is generated through an addition and multiplication process in Z_16 based on a user-defined key. In the second phase, three types of fundamental quantum operators are employed: creation, annihilation, and crossing, which are sequentially connected. The specific selection and configuration of these operators are based on their ability to avoid generating correlation between the data. The method proposed in this work is implemented using grayscale images, obtaining the Peak Signal-To-Noise Ratio (PSNR), the Structural Similarity Index Measure (SSIM), and the Correlation Value, in order to evaluate the fidelity and integrity of the recovered images."
-    indice 362
   ]
   node [
     id 4559
@@ -31430,6 +31430,7 @@ graph [
     label "articulo:363"
     tipo "articulo"
     nombre "Symmetric Grayscale Image Encryption Based on Quantum Operators with Dynamic Matrices"
+    indice 363
     titulo "Symmetric Grayscale Image Encryption Based on Quantum Operators with Dynamic Matrices"
     anio 2025
     isbn ""
@@ -31440,7 +31441,6 @@ graph [
     subarea ""
     keywords "Braided quantum groups; Finite fields; Image encryption; Quantum operators; Security analysis"
     abstract "Image encryption is crucial for ensuring the confidentiality and integrity of digital images, preventing unauthorized access and alterations. However, existing encryption algorithms often involve complex mathematical operations or require specialized hardware, which limits their efficiency and practicality. To address these challenges, we propose a novel image encryption scheme based on the emulation of fundamental quantum operators from a multi-braided quantum group in the sense of Durdevich. These operators&#8212;coproduct, product, and braiding&#8212;are derived from quantum differential geometry and enable the dynamic generation of encryption values, avoiding the need for computationally intensive processes. Unlike quantum encryption methods that rely on physical quantum hardware, our approach simulates quantum behavior through classical computation, enhancing accessibility and efficiency. The proposed method is applied to grayscale images with 8-, 10-, and 12-bit depth per pixel. To validate its effectiveness, we conducted extensive experiments, including visual quality metrics (PSNR, SSIM), randomness evaluation using NIST 800-22, entropy and correlation analysis, key sensitivity tests, and execution time measurements. Additionally, comparative tests against AES encryption demonstrate the advantages of our approach in terms of performance and security. The results show that the proposed method provides a high level of security while maintaining computational efficiency."
-    indice 363
   ]
   node [
     id 4574
@@ -31477,6 +31477,7 @@ graph [
     label "articulo:364"
     tipo "articulo"
     nombre "3D statistical shape models for automatic segmentation of the fetal cerebellum in ultrasound images"
+    indice 364
     titulo "3D statistical shape models for automatic segmentation of the fetal cerebellum in ultrasound images"
     anio 2025
     isbn ""
@@ -31487,7 +31488,6 @@ graph [
     subarea ""
     keywords "3D segmentation of the cerebellum; Point distribution models; Spherical harmonics; Convolutional neural networks; Harmonic analysis; Image segmentation; Neonatal monitoring; Pulse width modulation; Ultrasonic imaging; 3D segmentation; Automatic segmentations; Fetal development; Gestational age; Point distribution modeling; Statistical shape model; Ultrasound images; Ultrasound volume; Spheres"
     abstract "The cerebellum is an important structure to determine fetal development because its volume has a high correlation with gestational age. Manual annotation of the cerebellum in 3D ultrasound images (to measure the cerebellar volume) requires highly trained experts to perform a time-consuming task. To assist in this task, we developed a totally automatic system for the 3D segmentation of the cerebellum in ultrasound images of the fetal brain, using a 3D Point Distribution Model (PDM) obtained from another statistical shape model based on a spherical harmonics (SPHARMs) representation, which provides a very efficient basis for the construction of statistical shape models of 3D organs with a spherical topology. Our PDM of the fetal cerebellum was automatically adjusted with the optimization of an objective function based on gray level voxel profiles, using a genetic algorithm. An automatic initialization and plane selection scheme was also developed, based on the detection of the cerebellum on each plane by a convolutional neural network (YOLO v2). Our results of the 3D segmentation of 18 ultrasound volumes of the fetal brain are: Dice coefficient of 0.83 &#177; 0.10 and Hausdorff distance of 3.61 &#177; 0.83 mm. The methods reported show potential to successfully assist the experts in the assessment of fetal growth in ultrasound volumes."
-    indice 364
   ]
   node [
     id 4580
@@ -31578,6 +31578,7 @@ graph [
     label "articulo:365"
     tipo "articulo"
     nombre "3D Tortuosity computation as a shape descriptor and its application to brain structure analysis"
+    indice 365
     titulo "3D Tortuosity computation as a shape descriptor and its application to brain structure analysis"
     anio 2024
     isbn ""
@@ -31588,7 +31589,6 @@ graph [
     subarea ""
     keywords "3D tortuosity; Brain morphology; Alzheimer&#8217;s disease; Discrete tortuosity"
     abstract "The study develops a three-dimensional discrete tortuosity descriptor for characterizing complex brain structures. The measure is applied to neuroanatomical data to assess shape differences, including changes associated with Alzheimer&#8217;s disease, illustrating how 3D tortuosity can complement conventional geometric descriptors in medical-image analysis."
-    indice 365
   ]
   node [
     id 4595
@@ -31619,6 +31619,7 @@ graph [
     label "articulo:366"
     tipo "articulo"
     nombre "A Comparison of Algorithms to Estimate Heart and Respiratory Rate from Face Video Processing"
+    indice 366
     titulo "A Comparison of Algorithms to Estimate Heart and Respiratory Rate from Face Video Processing"
     anio 2024
     isbn "978-3-031-67439-6"
@@ -31629,7 +31630,6 @@ graph [
     subarea ""
     keywords "Photoplethysmography; Fourier analysis; Image enhancement; Remote patient monitoring; Video analysis; Video signal processing; Analysis method; Heart-rate; Independent components analysis; Measurement methods; Noncontact measurements; Performance; Remote monitoring; Remote photoplethysmography; Respiratory rate; Video processing; rPPG"
     abstract "The growing importance of remote monitoring of heart rate (HR) and respiratory rate (RR) has heightened the relevance of noncontact measurement methods. In this chapter, we compare the performance of independent component analysis (ICA) method and Green&#8211;Red Differences (GRD) method in extracting the remote photoplethysmography (rPPG) signal from both simulated and real images captured by a webcam and compute the instantaneous values of HR and RR using the processed signals. In all cases, the best algorithm was GRD with Fourier analysis, so this method should be analyzed in greater depth to propose improvements in its performance and make it a reliable method for the estimation of HR and RR."
-    indice 366
   ]
   node [
     id 4600
@@ -31720,6 +31720,7 @@ graph [
     label "articulo:367"
     tipo "articulo"
     nombre "A Method to Visualize Cell Proliferation of Arabidopsis thaliana: A Case Study of the Root Apical Meristem"
+    indice 367
     titulo "A Method to Visualize Cell Proliferation of Arabidopsis thaliana: A Case Study of the Root Apical Meristem"
     anio 2025
     isbn ""
@@ -31730,7 +31731,6 @@ graph [
     subarea ""
     keywords "5-ethynyl-2-deoxyuridine (EdU); Cell and nuclear markers; Cell cycle; Root apical meristem"
     abstract "The article presents a method for visualizing cell proliferation in the Arabidopsis thaliana root apical meristem by combining EdU labeling, cell and nuclear markers, tissue clarification, and high-resolution three-dimensional microscopy. The protocol is designed to preserve spatial information so that proliferating cells can be examined quantitatively within the root structure."
-    indice 367
   ]
   node [
     id 4615
@@ -31761,6 +31761,7 @@ graph [
     label "articulo:368"
     tipo "articulo"
     nombre "A mixed-design passive acoustic array to support Gulf-wide marine mammal science and restoration"
+    indice 368
     titulo "A mixed-design passive acoustic array to support Gulf-wide marine mammal science and restoration"
     anio 2025
     isbn ""
@@ -31771,7 +31772,6 @@ graph [
     subarea ""
     keywords "Acoustic arrays; Acoustic signal processing; Ecology; Oceanographic regions; Oceanographic techniques; Sensor arrays; Underwater sound; Continuous temporal monitoring; Deep water Gulf; Distributed passive acoustic sensor array; Gulf-wide marine mammal science; Long-term moored stations; Long-term stations; Marine mammal species; Mixed monitoring strategy; Mixed-design passive acoustic array; Offshore marine mammal populations; Potential activity hotspots; Short-term deployment; Short-term stations captures key phenomena; Space-filling design; Spatial patterns; Species density; Temporal patterns"
     abstract "Limited understanding of connectivity across the deep Gulf of Mexico has impeded efforts to effectively manage offshore marine mammal populations. In 2020, an international team established a distributed passive acoustic sensor array across the deep water Gulf, combining eight long-term moored stations with four annually relocated short-term stations selected using a space-filling design. This design provides a balance between continuous temporal monitoring at fixed sites and expanded spatial coverage through short-term deployments. Weekly density estimates for eight marine mammal species were analyzed to identify spatial and temporal patterns of occurrence and potential activity hotspots. To evaluate the utility of this mixed monitoring strategy, we applied an information-theoretic approach, quantifying the incremental variance in species density explained by each short-term deployment when integrated into a baseline model using only long-term stations. Preliminary results suggest incorporating short-term stations captures key phenomena&#8212;such as rare species occurrences, relationships with transient oceanographic features, and anthropogenic noise impacts&#8212;that may be missed by relying on a limited number of long-term stations, particularly in regions influenced by mesoscale processes. Long-term stations provide an essential temporal context for seasonal and interannual variability. This mixed monitoring strategy appears effective for pelagic species in large, dynamic ecosystems like the Gulf of Mexico."
-    indice 368
   ]
   node [
     id 4620
@@ -31916,6 +31916,7 @@ graph [
     label "articulo:369"
     tipo "articulo"
     nombre "A novel method for ECG signal morphology analysis using tortuosity estimation"
+    indice 369
     titulo "A novel method for ECG signal morphology analysis using tortuosity estimation"
     anio 2024
     isbn ""
@@ -31926,7 +31927,6 @@ graph [
     subarea ""
     keywords "Electrocardiogram; Morphology analysis; Slope chain code; Tortuosity; Chain codes; Electrocardiogram signal; Novel methods; Performance; RR intervals; Signal information; Study Groups; Adult; Algorithm; Article; Clinical evaluation; Controlled study; Digitization; Electrocardiography; Embryo segmentation; Feature detection; Female; Heart arrhythmia; Heart bundle branch block; Heart failure; Heart infarction; Human; Major clinical study; Male; Mathematical analysis; Middle aged; Morphology; Radiological parameters; RR interval; Signal modulation"
     abstract "Objective: The present work aims to evaluate an electrocardiogram (ECG) signal with a new algorithm based on the tortuosity of the signal, which seeks a better performance in differentiating pathologies without losing signal information due to abnormalities. Methods: The digitized ECG signal is studied as a set of segments that make up the complete signal. For each segment, the associated slope is calculated and, using the chain code, the change in the slope between contiguous segments is obtained to conform the tortuosity of the signal. This procedure was used for 12-lead ECG signals for 14 subjects from the arrhythmia group and 14 subjects form the control group, resulting in 168 signals analyzed per study group. Results: The tortuosity results between both study groups were compared using the statistical t-test, showing a significant difference (p < 0.05) in 9 of 12 leads of the ECG signal. This was compared with the RR-interval values, in which no significant difference was found in any lead between the study groups, indicating better discrimination performance with the proposed algorithm. Conclusions: The proposed method can differentiate for most of the ECG leads between pathological and healthy signals. Significance: This method was compared to the widely used method RR-interval estimation and outperformed it by obtaining statistical differences in 9 more leads between the study groups."
-    indice 369
   ]
   node [
     id 4644
@@ -32059,6 +32059,7 @@ graph [
     label "articulo:370"
     tipo "articulo"
     nombre "A three-dimensional extension of the slope chain code: analyzing the tortuosity of the flagellar beat of human sperm"
+    indice 370
     titulo "A three-dimensional extension of the slope chain code: analyzing the tortuosity of the flagellar beat of human sperm"
     anio 2024
     isbn ""
@@ -32069,7 +32070,6 @@ graph [
     subarea ""
     keywords "3D sperm flagellar beat; 3D tortuosity; Slope chain code"
     abstract "In the realm of 3D image processing, accurately representing the geometric nuances of line curves is crucial. Building upon the foundation set by the slope chain code, which adeptly represents intricate two-dimensional curves using an array capturing the exterior angles at each vertex, this study introduces an innovative 3D encoding method tailored for polygonal curves. This 3D encoding employs parallel slope and torsion chains, ensuring invariance to common transformations like translations, rotations, and uniform scaling, while also demonstrating robustness against mirror imaging and variable starting points. A hallmark feature of this method is its ability to compute tortuosity, a descriptor of curve complexity or winding nature. By applying this technique to biomedical engineering, we delved into the flagellar beat patterns of human sperm. These insights underscore the versatility of our 3D encoding across diverse computer vision applications."
-    indice 370
   ]
   node [
     id 4666
@@ -32082,6 +32082,7 @@ graph [
     label "articulo:371"
     tipo "articulo"
     nombre "A TinyML device for risk identification for people with hearing loss"
+    indice 371
     titulo "A TinyML device for risk identification for people with hearing loss"
     anio 2025
     isbn ""
@@ -32092,7 +32093,6 @@ graph [
     subarea ""
     keywords "TinyML; Hearing impairment; MEMS; FFT; Sound awareness; Portable device"
     abstract "The article presents a portable TinyML system for recognizing emergency sounds for people with hearing impairment. A compact CNN operates on MEL-frequency features at the edge and combines sound classification with direction-of-arrival estimation and haptic feedback."
-    indice 371
   ]
   node [
     id 4668
@@ -32135,6 +32135,7 @@ graph [
     label "articulo:372"
     tipo "articulo"
     nombre "Added value of feature uncertainty in a radiomic analysis of Contrast-Enhanced Digital Mammography boosted by deep learning"
+    indice 372
     titulo "Added value of feature uncertainty in a radiomic analysis of Contrast-Enhanced Digital Mammography boosted by deep learning"
     anio 2024
     isbn "978-1-5106-8020-3"
@@ -32145,7 +32146,6 @@ graph [
     subarea ""
     keywords "Deep-radiomics; Imaging features; Immunohistochemical status; Out-of-domain; Decision support systems; Deep learning; Image enhancement; Image segmentation; Learning systems; Mammography; Tomography; Uncertainty analysis; Contrast-enhanced; Deep-radiomic; Detection models; Feature uncertainty; Lesion detection; Performance; Prediction modelling; Forecasting"
     abstract "Deep learning models are the state-of-the-art for most medical imaging application, including mammography. However, large amounts of data are generally required for their usage. Radiomic analysis has shown the potential to improve clinical decision support systems for small datasets. One of the challenges facing the clinical implementation of radiomics is reproducibility. Our goal is to show that assessing radiomic features uncertainty can improve the robustness and performance of radiomic-based prediction models for contrast-enhanced digital mammographic images. Additionally, we propose the use of a pretrained tomosynthesis (DBT) lesion detection model as feature extractor for the boosting of the prediction framework. The prediction goal was the immunohistochemical status of breast cancer in 33 patients. We assessed two sources of uncertainty: misalignment between the subtracted images and region-of-interest delineation variability. Including uncertainties in the training step improved the performance of the prediction models, and the use of the DBT lesion detection model to boost the prediction improved the overall radiomic model performance for PR, ER and Ki67 receptors."
-    indice 372
   ]
   node [
     id 4675
@@ -32218,6 +32218,7 @@ graph [
     label "articulo:373"
     tipo "articulo"
     nombre "Advanced Dual-Branch U-Net Decoder for Precise and Robust Surgical Instrument and Organ Segmentation"
+    indice 373
     titulo "Advanced Dual-Branch U-Net Decoder for Precise and Robust Surgical Instrument and Organ Segmentation"
     anio 2025
     isbn ""
@@ -32228,7 +32229,6 @@ graph [
     subarea ""
     keywords "Computer-assisted surgery; Deep learning for medical imaging; Dual branch network; Organ segmentation; Surgical instrument segmentation; U-Net; Decoding; Deep learning; Laparoscopy; Medical imaging; Network architecture; Neural networks; Surgical equipment; Transplantation (surgical); Real- time; Robot-assisted surgery; Surgical environment; Surgical instrument; Anatomical concepts; Article; Artificial neural network; Gated recurrent unit network; Human; Image noise; Image processing; Image segmentation; Laparoscopic cholecystectomy; Long short term memory network; Minimally invasive surgery; Recurrent neural network"
     abstract "The accurate segmentation of surgical instruments and organs is crucial for improving the safety, precision, and efficiency of laparoscopic and robot-assisted surgeries, where real-time guidance and error reduction are paramount. Surgical environments present significant challenges, such as image noise, organ deformation, and tool occlusion, making precise segmentation difficult. This paper presents a surgical image segmentation approach based on a modified U-Net model. The encoder of the neural network used residual blocks, and the decoder architecture is based on a dual-branch model to improve the segmentation performance. One branch focuses on segmenting surgical instruments, while the other on the intervened organ. This design ensures the detection of specific features from the surgical instruments and organs, improving segmentation accuracy. Experimental results evaluate the performance of the proposed neural network model using real surgical datasets. The proposed method achieved superior results, with a mean Intersection over Union (IoU) of 92% for surgical instruments segmentation and 96% for organ segmentation. These findings demonstrate the robustness of the proposed model in challenging surgical environments."
-    indice 373
   ]
   node [
     id 4687
@@ -32361,6 +32361,7 @@ graph [
     label "articulo:374"
     tipo "articulo"
     nombre "AI-Based Mobile App for Segmentation and Tissue Classification on Diabetic Foot Ulcer: A Step Forward in Patient Care"
+    indice 374
     titulo "AI-Based Mobile App for Segmentation and Tissue Classification on Diabetic Foot Ulcer: A Step Forward in Patient Care"
     anio 2025
     isbn "978-3-031-95840-3"
@@ -32371,7 +32372,6 @@ graph [
     subarea ""
     keywords "Deep Learning Models; Diabetic Foot Ulcers; Medical Segmentation; Mobile App Monitoring; Tissue Classification; Artificial limbs; Classification (of information); Computer aided diagnosis; Deep learning; Diseases; Medical computing; Mobile applications; Tissue; Deep learning model; Diabetic foot ulcer; Learning models; Lower-limb amputations; Medical segmentations; Mobile app; Patient care; World Health Organization; Image segmentation"
     abstract "The World Health Organization estimates that every 30 s, a lower-limb amputation occurs due to diabetes mellitus, with studies indicating that in Mexico, nearly 50% of these amputations could be prevented through early detection and timely intervention. Classifying tissue within and around diabetic foot ulcers, as well as monitoring their size, is crucial for effective diagnosis and treatment. To address this, we propose a mobile virtual assistant that integrates artificial intelligence algorithms for the automatic segmentation of ulcers and affected tissue from images. The models were trained using the Foot Ulcer Segmentation (FUSeg) Challenge 2021 dataset from MICCAI, which includes 1,010 binary segmentation images, and the DFUTissue dataset, consisting of 110 images annotated with callus, fibrinous, and granulation tissues. The segmentation models, based on the Unet architecture, were validated using 68 images from Mexican adults aged 65-70 years with diabetic foot ulcers, collected during specialist-assisted care, achieving 96% accuracy in ulcer segmentation with a Dice coefficient close to 0.8. The developed mobile application integrates these models, providing additional metrics of interest and enabling users to track their progress over time."
-    indice 374
   ]
   node [
     id 4709
@@ -32468,6 +32468,7 @@ graph [
     label "articulo:375"
     tipo "articulo"
     nombre "Alternative Strategies for Feature Engineering in a Mexican Sign Language Recognition"
+    indice 375
     titulo "Alternative Strategies for Feature Engineering in a Mexican Sign Language Recognition"
     anio 2025
     isbn "978-3-031-97909-5"
@@ -32478,7 +32479,6 @@ graph [
     subarea ""
     keywords "First Keyword; Second Keyword; Third Keyword; Feature engineerings; Sign Language recognition; Simple++; Pattern recognition; Mexican Sign Language; Feature engineering; Recognition; Machine learning"
     abstract "This work shows our pipeline for performing Mexican Sign Language recognition. We show the main steps of our process, which perform well when detecting letter signing (spelling). In particular, we propose to exploit alternative strategies for features of landmarks from the hand so that a simple MLP network can perform well. This approach will allow us to transport our model to a more extensive vocabulary and devices without heavy computing."
-    indice 375
   ]
   node [
     id 4725
@@ -32533,6 +32533,7 @@ graph [
     label "articulo:376"
     tipo "articulo"
     nombre "An Improved Object Detection Algorithm Based on the Hessian Matrix and Conformable Derivative"
+    indice 376
     titulo "An Improved Object Detection Algorithm Based on the Hessian Matrix and Conformable Derivative"
     anio 2024
     isbn ""
@@ -32543,7 +32544,6 @@ graph [
     subarea ""
     keywords "Conformable Gaussian Kernel; Conformable Hessian matrix; Edge detection; Khalil conformable derivative; Medical images; Biomineralization; Computerized tomography; Diagnosis; Eye protection; Image enhancement; Image quality; Image segmentation; Magnetic resonance imaging; Medical imaging; Object detection; Quality control; Signal detection; Signal to noise ratio; Textures; Gaussian kernels; Hessian matrices; Image gray level; Image noise; Medical image; Object detection algorithms; Spatial derivatives"
     abstract "In this paper, a newfangled technique for edge detection that combines the Khalil conformable derivative and the Hessian matrix is developed and experimentally validated. The following main aspects are considered: (i) to attenuate image noise a Gaussian kernel inspired by the Khalil conformable derivative was developed. (ii) The spatial derivatives of the image gray level are calculated via the Khalil derivative, which is suitable for maintaining object contours and texture information even in low-contrast and resolution images. (iii) The conformable Hessian matrix is obtained from these image derivatives, generating continuous, thicker, and brighter edges. Our operator is compared with some existing techniques. Simulation results on different test images confirm a greater robustness to noise by our operator as well as a better visual quality of the edge maps obtained. This statement is validated through a comparative analysis based on peak signal-to-noise ratio and edge-strength-similarity-based image quality. In addition, it is applied in medical image processing and analysis tasks such as mammogram images, computed tomography scans, and magnetic resonance imaging for identification tasks of middle cerebral artery aneurysms, calcifications and breast cancer, proliferative Diabetic Retinopathy, and cerebral arteriovenous malformations. According to our findings, the conformable operator allows better visual identification of the structure of these conditions, improving the accuracy of clinical diagnosis and its subsequent monitoring."
-    indice 376
   ]
   node [
     id 4734
@@ -32658,6 +32658,7 @@ graph [
     label "articulo:377"
     tipo "articulo"
     nombre "Analysis of the Image Magnification Produced by Inline Holographic Systems Based on the Double-Sideband Filter"
+    indice 377
     titulo "Analysis of the Image Magnification Produced by Inline Holographic Systems Based on the Double-Sideband Filter"
     anio 2024
     isbn ""
@@ -32668,7 +32669,6 @@ graph [
     subarea ""
     keywords "Digital holography; Double-sideband filter; Image reconstruction; In-line interferometer; Longitudinal magnification; Transverse magnification"
     abstract "In-line digital holography is a powerful tool widely used for microscopic object imaging. Usually, in-line and out-line configurations are used to implement holographic systems, but in-line-based set-ups are preferable as they are less sensitive to mechanical vibrations and refraction index variations. However, non-desired blurred conjugate images are superposed to the reconstructed object image by using in-line systems. One strategy to remove the conjugate image contribution is to include a double-sideband filter at the Fourier plane of the system. After using the filter, data obtained at the CCD are processed to retrieve the magnitude and phase (hologram) of the diffracted wavefront while removing the conjugated image. Afterwards, a diffraction integral equation is used to digitally propagate the hologram. Despite the above-mentioned factors, there is not a thorough analysis in the literature of magnification parameters associated with the final reconstructed image, this aspect being crucial for the experimental application of the above-stated approach. Under this scenario, a theoretical analysis of the longitudinal and transverse magnifications of the reconstructed images is provided in this work. The method is validated through the simulation and experimental results of different microscopic objects: glass microspheres, a micrometric reticle, and a resolution test chart USAF 1951. The obtained results provide that the combination of magnification relations with methods for hologram propagation and optimal focused image identification is effective for object position determination. This approach could be useful for 3D microparticle localization and monitoring with optimized magnification within real-time applications."
-    indice 377
   ]
   node [
     id 4753
@@ -32705,6 +32705,7 @@ graph [
     label "articulo:378"
     tipo "articulo"
     nombre "Artifacts in single pixel imaging of complex light fields"
+    indice 378
     titulo "Artifacts in single pixel imaging of complex light fields"
     anio 2024
     isbn "978-1-5106-7958-0"
@@ -32715,7 +32716,6 @@ graph [
     subarea ""
     keywords "Complex Light Field; Resolution; Signal and Image Processing; Single Pixel Imaging; Wavefront Shaping; Electron holography; Holograms; Image coding; Image reconstruction; Image resolution; Light modulation; Modulators; Complex fields; Light fields; Phase distribution; Single pixel; Spatial light modulators; Wave front shaping; Mach-Zehnder interferometers"
     abstract "This work demonstrates the impact of sampling basis resolution on Single Pixel Imaging's ability to accurately measure the amplitude and phase of an arbitrary complex light field. We observe that phase crosstalk occurs in the reconstructed amplitude when the sampling basis is coarser than the underlying phase distribution. To investigate this phenomenon, a spatial light modulator is employed to prepare the complex field-comprising both amplitude and phase-utilizing a phase-only hologram. The field is then sampled at various resolutions using the Hadamard basis on the same SLM with interferometric Single Pixel Imaging. Measurement of the field takes place on a single point through 3-step interferometry and a Mach-Zehnder interferometer. While the phase is correctly reconstructed for each resolution, our findings reveal distinctive attributes of the phase distribution in the reconstructed amplitude for coarser sampling resolutions."
-    indice 378
   ]
   node [
     id 4759
@@ -32818,6 +32818,7 @@ graph [
     label "articulo:379"
     tipo "articulo"
     nombre "Assessing User Experience with Piezoresistive Force Sensors: Interpreting Button Press Impulse and Duration"
+    indice 379
     titulo "Assessing User Experience with Piezoresistive Force Sensors: Interpreting Button Press Impulse and Duration"
     anio 2025
     isbn ""
@@ -32828,7 +32829,6 @@ graph [
     subarea ""
     keywords "Embedded UX; Force sensors; Human-robot interaction; Physical human-robot interaction; Piezoresistive force sensors; Privacy-aware sensing; User experience; Adult; Female; Humans; Male; Robotics; Embedded systems; Human computer interaction; Man machine systems; Presses (machine tools); User interfaces; Daily lives; Force sensor; Humans-robot interactions; Physical humanrobot interaction (phri); Privacy aware; Robotic systems; Users' experiences; Devices; Human; Procedures"
     abstract "As robotic systems become increasingly integrated into daily life, the need for user experience (UX) assessment methods that are both privacy-conscious and suitable for embedded hardware platforms has grown. Traditional UX evaluations relying on vision, audio, or lengthy questionnaires are often intrusive, computationally demanding, or impractical for low-power devices. In this study, we introduce a novel sensor-based method for assessing UX through direct physical interaction. We designed a robot lamp with a force-sensing button interface and conducted a user study involving controlled robot errors. Participants interacted with the lamp during a reading task and rated their UX on a 7-point Likert scale. Using force and time data from button presses, we correlated force and time data to user experience and demographic information. Our results demonstrate the potential of bodily interaction metrics as a viable alternative for UX assessment in human-robot interaction, enabling real-time, embedded, and privacy-aware evaluation of user satisfaction in robotic systems."
-    indice 379
   ]
   node [
     id 4776
@@ -32907,6 +32907,7 @@ graph [
     label "articulo:380"
     tipo "articulo"
     nombre "Association Between Healthy Aging and the Dynamical Behavior of Heart Rate Variability Revealed by Recurrence Quantification Analysis"
+    indice 380
     titulo "Association Between Healthy Aging and the Dynamical Behavior of Heart Rate Variability Revealed by Recurrence Quantification Analysis"
     anio 2025
     isbn "978-3-031-91061-6"
@@ -32917,7 +32918,6 @@ graph [
     subarea ""
     keywords "Aging; Heart rate variability; Recurrence quantification analysis"
     abstract "Age strongly affects many regulatory systems, including the autonomic nervous system. Heart rate variability (HRV) analysis shows changes in the cardiac autonomic modulation during the aging process, even in healthy subjects. Recurrence quantification analysis (RQA) of HRV has demonstrated differences in the dynamical behavior of HRV on several chronic diseases when compared with age-matched healthy controls. Notwithstanding that these and other studies have suggested a link between cardiac age and the HRV dynamical behavior, the effect of the aging process on the HRV dynamical behavior from healthy subjects has been assessed by RQA only in a relatively small sample of individuals. We evaluated the association of age with the RQA indices in 1026 healthy adults between 18 and 69 years old obtained from a public database. Recurrence plots were obtained with ad-hoc embedding dimension (false nearest neighbors), ad-hoc embedding delay (mutual information function), and fixed amount of neighbors&#8217; norm with a recurrence density of 0.07. RQA indices were obtained. The association between age and the mean values of each HRV index was tested by ANOVA with age and gender as independent factors. Body mass index (BMI) and mean heart rate were also assessed as covariates. Determinism, laminarity, trapping time, and type-2 recurrence time increased significantly with age, while type-1 recurrence time decreased with age. These relationships with age remained significant after considering the effect of gender, BMI, and mean heart rate. No significant changes were observed in the mean diagonal length and Shannon entropy. In conclusion, the aging process in healthy humans is associated with changes in the dynamic behavior of HRV that suggest higher laminar states and periodicity."
-    indice 380
   ]
   node [
     id 4789
@@ -32942,6 +32942,7 @@ graph [
     label "articulo:381"
     tipo "articulo"
     nombre "Automatic Detection of Optic Disc and Fovea from Colour Fundus Images"
+    indice 381
     titulo "Automatic Detection of Optic Disc and Fovea from Colour Fundus Images"
     anio 2024
     isbn "978-3-031-62280-9; 978-3-031-62281-6"
@@ -32952,7 +32953,6 @@ graph [
     subarea ""
     keywords "Automatic detection; Fovea; Fundus photography; Optic disc; Eye protection; Photography; Diabetes mellitus; Diabetic retinopathy; Eye disease; Fundus image; Fundus imaging; Optic disks; Optic nerve head; Blood vessels"
     abstract "Diabetic Retinopathy (DR) is a chronic eye disease. More specifically, it is the manifestation of diabetes mellitus in the retina. DR is diagnosed by ophthalmoscopy or fundus imaging. Photographs of the retina are obtained using a fundus camera consisting of a low magnification microscope to which a digital camera is mounted. Three important anatomical areas are of great importance for the automated detection of DR: blood vessels, optic nerve head (ONH) region, and the central macular area termed fovea (fov). This work presents a methodology to detect and segment the ONH based on multispectral analysis and its amount of entropy, and a method to localise the fov centre based on level contour maps. As a pilot study, this methodology is tested using two different databases: APEC and MESSIDOR, with a total of 93 fundus images. Based on these we conclude that ONH and fov centres were successfully detected automatically, with low errors in average of 0.17% and 0.30% for ONH and fov respectively. An average p value of 0.5189 from a paired t-student test shows that the manual vs the automatic distance between ONH and fov centers is not statistically significantly different. These preliminary results show that the used methodology is promising. A more thorough evaluation has to be made using larger databases."
-    indice 381
   ]
   node [
     id 4793
@@ -33037,6 +33037,7 @@ graph [
     label "articulo:382"
     tipo "articulo"
     nombre "Automatic Segmentation of Facial Regions of Interest and Stress Detection Using Machine Learning"
+    indice 382
     titulo "Automatic Segmentation of Facial Regions of Interest and Stress Detection Using Machine Learning"
     anio 2024
     isbn ""
@@ -33047,7 +33048,6 @@ graph [
     subarea ""
     keywords "Face detection; Face landmarks; Machine learning; Short TSST; Stress; Thermography; Face; Forehead; Humans; Nose; Quality of Life; Support vector machines; Automatic segmentations; Faces detection; Facial regions; Region-of-interest; Regions of interest; Thermal images; Diagnostic imaging; Human; Face recognition"
     abstract "Stress is a factor that affects many people today and is responsible for many of the causes of poor quality of life. For this reason, it is necessary to be able to determine whether a person is stressed or not. Therefore, it is necessary to develop tools that are non-invasive, innocuous, and easy to use. This paper describes a methodology for classifying stress in humans by automatically detecting facial regions of interest in thermal images using machine learning during a short Trier Social Stress Test. Five regions of interest, namely the nose, right cheek, left cheek, forehead, and chin, are automatically detected. The temperature of each of these regions is then extracted and used as input to a classifier, specifically a Support Vector Machine, which outputs three states: baseline, stressed, and relaxed. The proposal was developed and tested on thermal images of 25 participants who were subjected to a stress-inducing protocol followed by relaxation techniques. After testing the developed methodology, an accuracy of 95.4% and an error rate of 4.5% were obtained. The methodology proposed in this study allows the automatic classification of a person&#8217;s stress state based on a thermal image of the face. This represents an innovative tool applicable to specialists. Furthermore, due to its robustness, it is also suitable for online applications."
-    indice 382
   ]
   node [
     id 4807
@@ -33138,6 +33138,7 @@ graph [
     label "articulo:383"
     tipo "articulo"
     nombre "Bessel and cosine filtering approaches for electromechanical modes identification"
+    indice 383
     titulo "Bessel and cosine filtering approaches for electromechanical modes identification"
     anio 2025
     isbn ""
@@ -33148,7 +33149,6 @@ graph [
     subarea ""
     keywords "Spectrum analysis; Bessel functions; Circuit oscillations; Electric power system control; Electric power transmission networks; Identification (control systems); Mathematical transformations; Modal analysis; Nonlinear analysis; Oscillators (mechanical); Real time systems; Signal processing; Bessel filter; Cosine filter; Electromechanical modes; Electromechanical oscilla-tions; Electromechanical oscillation; Modal patterns; Mode identification; Power grids; Real; Time system; Time-frequency representations"
     abstract "The real-time system monitoring of electromechanical oscillations in power grids is essential to maintain operational control in an optimal state and to make the right decisions in any adverse situation. In this context, this investigation proposes two filtering approaches to identify modal patterns (damping and frequency) from multivariate and multi-modal oscillation signals stemming from multiple PMUs and locations. The key idea behind this proposal lies in introducing the cosine- and Bessel-based filtering to conduct a time&#8211;frequency analysis for dealing with the modal identification of nonlinear signals that arise after disturbance in the grid. Thereby, this research develops the theoretical foundations of both filtering perspectives forming bi-orthogonal bases that support their analysis and synthesis equations. Then, mono-component signals are extracted by spectral analysis, and their modal patterns are extracted via Hilbert transform. Numerical experiments conducted on synthetical oscillating signals, simulated-based signals extracted from a well-known power grid, and synchrophasors captured by the Mexican WAMS, demonstrate the applicability of the proposal."
-    indice 383
   ]
   node [
     id 4822
@@ -33233,6 +33233,7 @@ graph [
     label "articulo:384"
     tipo "articulo"
     nombre "Bioarchaeology of Care in Tzintzuntzan, Western Mexico: A Multimethod Approach"
+    indice 384
     titulo "Bioarchaeology of Care in Tzintzuntzan, Western Mexico: A Multimethod Approach"
     anio 2025
     isbn ""
@@ -33243,7 +33244,6 @@ graph [
     subarea ""
     keywords "Fishing community; Mastoiditis; Otitis; Tzintzuntzan; Western Mexico"
     abstract "This multimethod bioarchaeological study examines temporal-bone lesions from a pre-Hispanic population at Tzintzuntzan using morphoscopic analysis, multidetector CT and virtual reconstruction. Findings compatible with chronic otitis and mastoiditis suggest that hearing impairment may have been relatively common and could have influenced activities and care within the community."
-    indice 384
   ]
   node [
     id 4836
@@ -33274,6 +33274,7 @@ graph [
     label "articulo:385"
     tipo "articulo"
     nombre "Blood Flow Emulator for Testing, Calibration and Training in Ultrasonic Doppler Instrumentation"
+    indice 385
     titulo "Blood Flow Emulator for Testing, Calibration and Training in Ultrasonic Doppler Instrumentation"
     anio 2025
     isbn "979-8-4007-0962-3"
@@ -33284,7 +33285,6 @@ graph [
     subarea ""
     keywords "Blood flow; Blood flow phantom; Dopple ultrasound instrumentation; Doppler ultrasound; Experimental platform; Flow phantom; Phantoms; Revascularization; Ultrasonic doppler"
     abstract "The paper describes a phantom blood-flow emulator for testing, calibration, and training with Doppler ultrasound instrumentation. The platform combines components that emulate a circulatory system, including pulsatile flow, vessel structures, and a blood-mimicking fluid, and is evaluated as an experimental setup for detecting and measuring flow relevant to vascular procedures."
-    indice 385
   ]
   node [
     id 4841
@@ -33345,6 +33345,7 @@ graph [
     label "articulo:386"
     tipo "articulo"
     nombre "Brain Connectivity Hypergraphs"
+    indice 386
     titulo "Brain Connectivity Hypergraphs"
     anio 2024
     isbn "979-8-3503-9083-4"
@@ -33355,7 +33356,6 @@ graph [
     subarea ""
     keywords "Hypergraph; Brain connectivity; Cognitive neuroscience; Visual perception; Magnetoencephalography (MEG); Reviews; Time series analysis; Coherence; Reliability theory; Brain modeling; Graph theory; Time measurement; Occipital Lobe; Optimization; Brain mapping; Neurophysiology; Vision; Brain regions; Brain-imaging data; Cognitive neurosciences; Connectivity analysis; Functional connectivity networks; Hyper graph; Magnetoencephalography; Times series"
     abstract "Hypergraphs are a rapidly developing area of graph theory that has important applications in many fields, including cognitive neuroscience and medicine. In this paper, we review recent advances in the application of hypergraphs to brain connectivity analysis using brain imaging data. We also present our results on the construction of a hypergraph of brain connectivity during visual perception based on the analysis of magnetoencephalography (MEG) data. The hypergraph approach allowed us to identify individual differences in frequency bands, offering deeper insights into the dynamic nature of brain connectivity. Extending traditional graph theory, we defined a functional network connecting different brain regions (vertices) across time segments by generating edge time series that capture temporal fluctuations in connectivity. Using a coherence measure, we created edge time series to illustrate how connections evolve over time. These series contribute to the edge-to-edge functional connectivity network, highlighting hyperedges as connected components in the absolute value functional connectivity network. We identified key features of the brain network across the delta, theta, alpha, beta, and gamma frequency bands and examined interactions among the frontal, parietal, temporal, and occipital lobes in both hemispheres. Our findings support the existence of cortico-cortical interactions, and the resulting hypergraph revealing robust activation patterns in specific brain regions. These results suggest potential integration and multifunctionality within the lobes, providing valuable insights into brain dynamics during visual perception."
-    indice 386
   ]
   node [
     id 4851
@@ -33464,6 +33464,7 @@ graph [
     label "articulo:387"
     tipo "articulo"
     nombre "Breast glandular density in contrast mammography with dual-energy decomposition into 3 elements"
+    indice 387
     titulo "Breast glandular density in contrast mammography with dual-energy decomposition into 3 elements"
     anio 2025
     isbn "9780735453029"
@@ -33474,7 +33475,6 @@ graph [
     subarea ""
     keywords "Biological organs; Biological tissues; Calibration; Cancer; Density measurement; Diagnostic radiography; Mammography; Medical image processing; Phantoms; 14 cancer patients; 56 CEDM images; Assumed breast thickness; Breast glandular density; Breast thickness nonuniformity; CEDM mammograms; Clinical contrast-enhanced mammography; Constituent element; Contrast mammography; Decomposition method; Diagnosed lesion; Dual-energy decomposition; Glandular thickness; Inverse mapping calibration; Iodine concentration results; Iodine maps; Low-energy CEDM; Median values; Nominal compression plate values; Pixel level; Slanted breast compression; Tissue-equivalent phantoms; Unknown breast thickness; VBD calculation; VBD values; Volumetric breast density"
     abstract "This study aims to develop a method for quantifying volumetric breast density (VBD) in clinical contrast-enhanced mammography (CEDM) images considering the presence of iodine as a third constituent element. The method used 3-element dual-energy decomposition to assess breast density at the pixel level in CEDM mammograms. Inverse mapping calibration was applied to tissue-equivalent phantoms. Glandular thickness and iodine maps were obtained in 56 CEDM images from 14 cancer patients. The breast thickness non-uniformity caused by the slanted breast compression was considered and nominal compression plate values were corrected. Median values of VBD for the breast with the diagnosed lesion and the contralateral one were similar, indicating that the presence of a lesion did not significantly affect the VBD calculation. The VBD and iodine concentration results depended strongly on the assumed breast thickness. VBD values were compared with Volpara's for single-projection (low-energy CEDM) images. The decomposition method yielded VBD values, on average, 1.35 times higher than the commercial tool. The unknown breast thickness was the main limitation of this study."
-    indice 387
   ]
   node [
     id 4869
@@ -33655,6 +33655,7 @@ graph [
     label "articulo:388"
     tipo "articulo"
     nombre "Building a Methodological Reference Framework for Quantifying Tropical Deforestation with Remote Sensing"
+    indice 388
     titulo "Building a Methodological Reference Framework for Quantifying Tropical Deforestation with Remote Sensing"
     anio 2025
     isbn ""
@@ -33665,7 +33666,6 @@ graph [
     subarea ""
     keywords "Decision support tool; Estimates; Land use land cover change; Tree cover loss; Uncertainty; Mexico; Decision support system; Deforestation; Land cover; Land use change; Natural resource; Remote sensing; Sustainability; Uncertainty analysis"
     abstract "Deforestation is a major threat to the sustainability of natural resources. Thus, adequate estimates of deforestation are crucial for evaluating how sustainable programs are implemented. Still, there is controversy in estimating deforestation, as different estimates often produce contrasting or even conflicting results. It is known that variation in estimates depends on a wide diversity of variables that modify the methods for measuring deforestation, such as scale, types and complexity of vegetation, the definition used, and available inputs of information. This study developed a methodological tool to select the most suitable remote sensing method to measure deforestation in tropical forests. We conducted a systematic review of peer-reviewed publications quantifying deforestation with remote sensing and field data. The information was analyzed and synthesized to build a methodological framework of reference. The methodological and descriptive information of the selected publications served to construct four decision rules (excluding factors, classifier options, elements for choosing a classification, and additional information) for selecting a method for quantifying deforestation. We tested the functionality of this methodological framework of reference by quantifying the deforestation of tropical rainforests in southern Mexico. Based on the decision rules of the framework, two deforestation quantification classifiers were used in the study area (Maximum likelihood and spectral angle mapper (SAM)). We observed that Maximum likelihood had higher values of accuracy than SAM, although both values of accuracy were acceptable. This framework facilitates the selection of remote sensing methods for measuring deforestation by considering the characteristics of each study area and the available inputs. The use of this framework reduced the uncertainty in the estimates of deforestation by controlling a greater number of variables and provided a robust approach for adequately implementing sustainable programs in these threatened rainforests."
-    indice 388
   ]
   node [
     id 4899
@@ -33726,6 +33726,7 @@ graph [
     label "articulo:389"
     tipo "articulo"
     nombre "Cloud Detection using Night Sky Background Light at the Pierre Auger Observatory"
+    indice 389
     titulo "Cloud Detection using Night Sky Background Light at the Pierre Auger Observatory"
     anio 2025
     isbn ""
@@ -33736,7 +33737,6 @@ graph [
     subarea ""
     keywords "Observatories; Augers; Cameras; Image processing; Satellite imagery; Background light; Cloud detection; Detector monitoring; IR camera; Large database; Monitoring measurements; Pierre Auger observatory; Rejection threshold; Satellite imaging; Sky background"
     abstract "Rejection of cloud-contaminated data is a complex and important process at the Pierre Auger Observatory, one which combines information from several sources, including IR cameras, lidars, and satellite imaging. With the deteriorating quality of the IR cameras and challenges in using other sources, we propose a new method. We use continuous detector monitoring measurements to build a large database of night sky background fluxes for each pixel across 27 telescopes. Using this database, we generate the expected background flux and define cloud rejection thresholds. Through a straightforward analysis we construct boolean cloud-contamination masks. We demonstrate some results of the analysis, including comparisons with cloud detected using infra-red observations."
-    indice 389
   ]
   node [
     id 4909
@@ -33809,6 +33809,7 @@ graph [
     label "articulo:390"
     tipo "articulo"
     nombre "Cloud Detection using Night Sky Background Light at the Pierre Auger Observatory"
+    indice 390
     titulo "Cloud Detection using Night Sky Background Light at the Pierre Auger Observatory"
     anio 2025
     isbn ""
@@ -33819,13 +33820,13 @@ graph [
     subarea ""
     keywords "Observatories; Augers; Cameras; Image processing; Satellite imagery; Background light; Cloud detection; Detector monitoring; IR camera; Large database; Monitoring measurements; Pierre Auger observatory; Rejection threshold; Satellite imaging; Sky background"
     abstract "Rejection of cloud-contaminated data is a complex and important process at the Pierre Auger Observatory, one which combines information from several sources, including IR cameras, lidars, and satellite imaging. With the deteriorating quality of the IR cameras and challenges in using other sources, we propose a new method. We use continuous detector monitoring measurements to build a large database of night sky background fluxes for each pixel across 27 telescopes. Using this database, we generate the expected background flux and define cloud rejection thresholds. Through a straightforward analysis we construct boolean cloud-contamination masks. We demonstrate some results of the analysis, including comparisons with cloud detected using infra-red observations."
-    indice 390
   ]
   node [
     id 4921
     label "articulo:391"
     tipo "articulo"
     nombre "Comparison of Manual, Automatic, and Voice Control in Wheelchair Navigation Simulation in Virtual Environments: Performance Evaluation of User and Motion Sickness"
+    indice 391
     titulo "Comparison of Manual, Automatic, and Voice Control in Wheelchair Navigation Simulation in Virtual Environments: Performance Evaluation of User and Motion Sickness"
     anio 2025
     isbn ""
@@ -33836,7 +33837,6 @@ graph [
     subarea ""
     keywords "Daily life scenarios; Immersive environments; Navigation performance; Navigation systems; Virtual reality; Voice control; Wheelchair user interfaces; Adult; Algorithms; Female; Humans; Male; Motion Sickness; Persons with Disabilities; User-Computer Interface; Voice; Wheelchairs; Young Adult; Adaptive control systems; Disease control; Rapid prototyping; Risk management; Usability engineering; User centered design; Virtual environments; Control modes; Daily life scenario; Daily lives; Immersive environment; Wheelchair control; Wheelchair user interface; Wheelchair users; Algorithm; Comparative study; Computer interface; Disabled person; Human; Pathophysiology; Physiology; Prevention and control; Wheelchair; Adaptive algorithms; Wheelchair navigation; Automatic navigation; Human&#8211;computer interaction"
     abstract "Mobility is essential for individuals with physical disabilities, and wheelchairs significantly enhance their quality of life. Recent advancements focus on developing sophisticated control systems for effective and efficient interaction. This study evaluates the usability and performance of three wheelchair control modes manual, automatic, and voice controlled using a virtual reality (VR) simulation tool. VR provides a controlled and repeatable environment to assess navigation performance and motion sickness across three scenarios: supermarket, museum, and city. Twenty participants completed nine tests each, resulting in 180 trials. Findings revealed significant differences in navigation efficiency, distance, and collision rates across control modes and scenarios. Automatic control consistently achieved faster navigation times and fewer collisions, particularly in the supermarket. Manual control offered precision but required greater user effort. Voice control, while intuitive, resulted in longer distances traveled and higher collision rates in complex scenarios like the city. Motion sickness levels varied across scenarios, with higher discomfort reported in the city during voice and automatic control. Participant feedback, gathered via a Likert scale questionnaire, highlighted the potential of VR simulation for evaluating user comfort and performance. This research underscores the advantages of VR-based testing for rapid prototyping and user-centered design, offering valuable insights into improving wheelchair control systems. Future work will explore adaptive algorithms to enhance usability and accessibility in real world applications."
-    indice 391
   ]
   node [
     id 4922
@@ -34011,6 +34011,7 @@ graph [
     label "articulo:392"
     tipo "articulo"
     nombre "Computation of Human-Sperm Local Flagellar Instantaneous Velocity"
+    indice 392
     titulo "Computation of Human-Sperm Local Flagellar Instantaneous Velocity"
     anio 2024
     isbn "978-3-031-46932-9; 978-3-031-46933-6"
@@ -34021,7 +34022,6 @@ graph [
     subarea ""
     keywords "Instantaneous velocity; Fourier transform; Fourier series; Vector resultant; Human sperm; 3D microscopy"
     abstract "The work computes local instantaneous velocities along human-sperm flagella from three-dimensional time-resolved trajectory data using a Fourier fitting method. A velocity-based descriptor and its distribution are compared between sperm samples induced to capacitate and control samples, revealing distinct motion distributions between the experimental conditions."
-    indice 392
   ]
   node [
     id 4951
@@ -34064,6 +34064,7 @@ graph [
     label "articulo:393"
     tipo "articulo"
     nombre "Convolutional Neural Network Trained with Heatmaps for Segmentation and Measurement of the Femur in Fetal Ultrasound"
+    indice 393
     titulo "Convolutional Neural Network Trained with Heatmaps for Segmentation and Measurement of the Femur in Fetal Ultrasound"
     anio 2025
     isbn "979-8-3315-5456-9"
@@ -34074,7 +34075,6 @@ graph [
     subarea ""
     keywords "Bone; Convolution; Convolutional neural networks; Diagnosis; Fetal monitoring; Learning systems; Neonatal monitoring; Personnel; Screening; Biparietal diameters; Convolutional neural network; Femur length; Fetal ultrasound; Fetal weight; Heatmaps; Length measurement; Manual intervention; Measurements of; Sonographers; Ultrasonics; Heating systems; Ultrasonic imaging; Ultrasonic variables measurement; Measurement uncertainty; Estimation; Medical services; Manuals; Biomedical measurement"
     abstract "Fetal femur length measurement via ultrasound, alongside abdominal circumference, biparietal diameter, and cranial circumference assessments, are key components of prenatal screening, as they enable the estimation of fetal weight and the evaluation of intrauterine development. Currently, this procedure still heavily relies on manual intervention by expert radiologists or sonographers, who must identify anatomical landmarks to perform the measurements. This dependence on specialized human expertise limits diagnostic accessibility in remote areas far from major urban centers. In this work, we propose a novel convolutional neural network trained on binary masks and heatmaps of femur endpoints. The model achieves robust performance, segmenting the femur with an 88% Dice coefficient, and measuring its length with only a 2.515% error margin. This work is part of a broader machine learning based system for fetal weight estimation, aiming to expand diagnostic capabilities to healthcare centers with limited human resources."
-    indice 393
   ]
   node [
     id 4958
@@ -34177,6 +34177,7 @@ graph [
     label "articulo:394"
     tipo "articulo"
     nombre "Crossing Gate Detection Using Audio Frequency Pitch Tracking"
+    indice 394
     titulo "Crossing Gate Detection Using Audio Frequency Pitch Tracking"
     anio 2024
     isbn ""
@@ -34187,13 +34188,13 @@ graph [
     subarea ""
     keywords ""
     abstract "The conference paper presents an audio-based method for detecting crossing gates by tracking characteristic frequency or pitch components, with potential use in autonomous aerial or robotic navigation."
-    indice 394
   ]
   node [
     id 4975
     label "articulo:395"
     tipo "articulo"
     nombre "Data Acquisition System for the Mexican Sign Language"
+    indice 395
     titulo "Data Acquisition System for the Mexican Sign Language"
     anio 2025
     isbn ""
@@ -34204,7 +34205,6 @@ graph [
     subarea ""
     keywords "Inclusive Technology; Mexican Sign Language; Flex Sensors; Assisted Communication"
     abstract "The article presents a low-cost data-acquisition system for a translator glove that captures Mexican Sign Language hand movements and converts them into text. Flex sensors connected to an Arduino measure finger movements, and the resulting prototype demonstrates translation of nine representative phrases, supporting technological accessibility for deaf users."
-    indice 395
   ]
   node [
     id 4976
@@ -34229,6 +34229,7 @@ graph [
     label "articulo:396"
     tipo "articulo"
     nombre "Data augmentation via video frame interpolation: An application to cardiac ultrasound videos"
+    indice 396
     titulo "Data augmentation via video frame interpolation: An application to cardiac ultrasound videos"
     anio 2024
     isbn "978-1-5106-7314-4"
@@ -34239,7 +34240,6 @@ graph [
     subarea ""
     keywords "Cardiac ultrasound images; Data augmentation; Expert evaluation; Synthetic images; Transfer learning; Video frame interpolation; Interpolation; Medical imaging; Ultrasonic applications; Video signal processing; Cardiac ultrasound; Cardiac ultrasound image; Frame interpolation; Ultrasound images; Video frame; Deep learning"
     abstract "In Machine Learning projects effective preparation of training datasets is essential. When dealing with image datasets, especially limited ones, data augmentation techniques play a crucial role in increasing the dataset size and diversity. These techniques, spanning from basic to deformable to deep learning augmentations, offer varying effects from simple noise addition to generating entirely new synthetic images. In this study, we propose an alternative approach to augmenting a dataset utilizing a technique found in video processing called Video Frame Interpolation (VFI). Unlike traditional methods, with VFI we aim to produce images that are neither mere variations of the original images nor entirely synthetic ones, instead providing a middle ground where the images generated are synthetic temporal variations of the original ones. We propose to use pre-trained VFI networks in conjunction with Transfer Learning to develop specialized models capable of interpolating medical images with enough precision so that a medical specialist would deem them clinically plausible. For this study, we worked with a model developed by Niklaus et al. [4], on cardiac ultrasound videos and images alongside a seasoned cardiologist to provide an expert evaluation on the viability of this technique. Our findings indicate that the results produced by our fine-tuned model can indeed be considered realistic, and depending on the use case, the results of the pre-trained model can also be useful."
-    indice 396
   ]
   node [
     id 4980
@@ -34294,6 +34294,7 @@ graph [
     label "articulo:397"
     tipo "articulo"
     nombre "Deep Learning Applied to Automatic Fetometry"
+    indice 397
     titulo "Deep Learning Applied to Automatic Fetometry"
     anio 2025
     isbn "978-3-031-82122-6; 978-3-031-82123-3"
@@ -34304,7 +34305,6 @@ graph [
     subarea ""
     keywords "Fetal ultrasound; Fetometry; Convolutional neural networks"
     abstract "The work develops a deep-learning pipeline for automatic fetal biometry in ultrasound images, combining fetal standard-plane detection with region detection and segmentation methods for measurements such as femur length. The approach is intended to support remote and reproducible assessment of fetal growth while reducing dependence on manual measurements."
-    indice 397
   ]
   node [
     id 4989
@@ -34317,6 +34317,7 @@ graph [
     label "articulo:398"
     tipo "articulo"
     nombre "Deep Learning Approach for Aortic Valve Localization, Detection and Segmentation in Computed Tomography Volumes"
+    indice 398
     titulo "Deep Learning Approach for Aortic Valve Localization, Detection and Segmentation in Computed Tomography Volumes"
     anio 2025
     isbn "979-8-3315-2610-8"
@@ -34327,7 +34328,6 @@ graph [
     subarea ""
     keywords "3D volume Cardiac CT; Attention; Deep Learning; Regression; Rotation matrix; Segmentation; Blood vessels; Computerized tomography; Convolutional neural networks; Diagnosis; Medical image processing; 3d volume cardiac computed tomography; Aortic valves; Cardiac-computed tomography; Performance; Rotation parameters; Rotations matrix; Image segmentation; Three-dimensional displays; Computed tomography; Computational modeling; Pipelines; Predictive models; Valves; Data models; Standards; Aortic valve; Localization"
     abstract "Standard view cardiac computed tomography (CT) images are of great importance in clinical practice due to the valuable diagnostic information they provide. However, navigating these (3D) medical images to identify such a view can represent a time-consuming process, subject to inter-operator variability. This study presents an approach using a Multiscale Vision Transformer (MViT) to infer the rotation parameters required to obtain standard views and subsequently focus on extracting the left ventricular outflow tract (LVOT) view. Once this view is obtained, the aortic valve is detected and segmented using well-known convolutional neural networks (CNNs), specifically ResNet18 for detection and U-Net for segmentation. The methodology used for its training is detailed, along with the metrics employed to evaluate their performance. Finally, the results obtained for each stage are presented. This approach provides a clear understanding of the performance of each model, from rotation parameter prediction to aortic valve detection and segmentation."
-    indice 398
   ]
   node [
     id 4991
@@ -34418,6 +34418,7 @@ graph [
     label "articulo:399"
     tipo "articulo"
     nombre "Deep learning for Chagas disease: YOLOv8-based automatic detection of amastigote nests"
+    indice 399
     titulo "Deep learning for Chagas disease: YOLOv8-based automatic detection of amastigote nests"
     anio 2025
     isbn "979-8-3315-5456-9"
@@ -34428,7 +34429,6 @@ graph [
     subarea ""
     keywords "Biomedical imaging; Chagas disease; Computer vision; Deep learning; Object detection; YOLOv8; Learning algorithms; Medical imaging; Public health; Automatic Detection; Clinical manifestation; Global public health; Histopathological images; Objects detection; Trypanosoma cruzi parasites; Training; Accuracy; Sensitivity; Histopathology; Computer architecture; Public healthcare; Diseases"
     abstract "Chagas disease, caused by the Trypanosoma cruzi parasite, remains a global public health problem, with cases reported even outside its traditional endemic areas. Its primary clinical manifestation occurs at the cardiac level, characterized by the formation of amastigote nests. This work presents a deep learning algorithm for automatic detection of amastigote nests in cardiac histopathological images obtained from a murine model. For the nests&#8217; detection, a YOLOv8-based architecture was trained on histological images performing a 5-fold cross-validation, while the final tests were carried out with data unseen by the YOLOv8 from four image groups of different post-infection days. In training stage, YOLOv8 achieved 97.9% in accuracy, 98.6&#177;0.3% in precision, and 97.2&#177;0.8% in recall, while in the final test, the best result identified was 78.6% in accuracy, 76.4% in precision, and 81.1% in recall on images at 100&#215; magnification. These metrics reveal the model&#8217;s ability to generalize well and its high sensitivity to unseen data. The results of this study show that the proposed algorithm is capable of identifying amastigote nests, which may be useful in clinical areas to understand the damage caused by Trypanosoma cruzi infection."
-    indice 399
   ]
   node [
     id 5006
@@ -34489,6 +34489,7 @@ graph [
     label "articulo:400"
     tipo "articulo"
     nombre "Deep Learning-based Echocardiography Enhancement: Reducing Speckle Noise and Improving Temporal Resolution"
+    indice 400
     titulo "Deep Learning-based Echocardiography Enhancement: Reducing Speckle Noise and Improving Temporal Resolution"
     anio 2025
     isbn "979-8-3315-5456-9"
@@ -34499,7 +34500,6 @@ graph [
     subarea ""
     keywords "Cost effectiveness; Deep learning; Interpolation; Medical imaging; Noise abatement; Personnel training; Speckle; Statistical tests; Ultrasonics; De-noising; Echocardiographic imaging; Intermediate flow; Learning-based approach; Net model; Real- time; Resolution improvement; Speckle noise; Speckle noise reduction; Temporal resolution; Echocardiography; Heart rate; Training; Ultrasonic imaging; Noise reduction; Pipelines; Noise; Spatial resolution; Testing; Image enhancement"
     abstract "Ultrasound is widely used in medical imaging due to its accessibility and cost-effectiveness. This paper presents a Deep Learning-based approach for enhancing echocardiographic imaging by addressing two challenges: speckle noise reduction and temporal resolution improvement. For denoising task, we propose the SE-U-Net model, while for temporal enhancement we employ Real-Time Intermediate Flow Estimation for frame interpolation. Multiple datasets were used for training, validation, and testing of both models. The proposed pipeline was applied in high heart rate murine models to enhance relevant information. In final evaluation, the denoising model achieved SSIM=0.99 and PSNR=38.27dB, indicating effective contrast enhancement, preservation of homogeneous regions, and reduction of small artifacts. The interpolation model, on the other hand, achieved SSIM=0.87 and PSNR=33.23dB, enabling the increase of ultrasound temporal resolution from 37 to 296 frames per second without losing image quality."
-    indice 400
   ]
   node [
     id 5016
@@ -34590,6 +34590,7 @@ graph [
     label "articulo:401"
     tipo "articulo"
     nombre "Deep learning-based estimation of left ventricle myocardial strain from echocardiograms with occlusion artifacts"
+    indice 401
     titulo "Deep learning-based estimation of left ventricle myocardial strain from echocardiograms with occlusion artifacts"
     anio 2025
     isbn ""
@@ -34600,7 +34601,6 @@ graph [
     subarea ""
     keywords "Automatic segmentation; Deep learning; Left ventricle; Myocardial strain; Speckle tracking; Ultrasound"
     abstract "The work develops a deep-learning approach for estimating left-ventricular myocardial strain from echocardiographic image sequences affected by occlusion artifacts. Automatic image analysis is used to obtain motion and deformation information intended to make strain estimation more robust when conventional visual tracking is degraded."
-    indice 401
   ]
   node [
     id 5031
@@ -34637,6 +34637,7 @@ graph [
     label "articulo:402"
     tipo "articulo"
     nombre "Design of Partial Mueller-Matrix Polarimeters for Application-Specific Sensors"
+    indice 402
     titulo "Design of Partial Mueller-Matrix Polarimeters for Application-Specific Sensors"
     anio 2025
     isbn ""
@@ -34647,7 +34648,6 @@ graph [
     subarea ""
     keywords "Cone theory; Laser polarimeter; Mueller matrix; Remote sensing; Stokes vector; Subspace projection; Vector space; Budget control; Data handling; Design; Light modulators; Polarimeters; Polarization; Space optics; Transfer matrix method; Vectors; Application specific; Mueller; Mueller's matrices; Polarization signatures; Specific sensors; Article; Artifact; Calibration; Classifier; Controlled study; Data interpretation; Depolarization; Human; Laser; Phenomenology; Polarimeter; Sensor; Vector spaces"
     abstract "At a particular frequency, most materials and objects of interest exhibit a polarization signature, or Mueller matrix, of limited dimensionality, with many matrix elements either negligibly small or redundant due to symmetry. Robust design of a polarization sensor for a particular material or object of interest, or for an application with a limited set of materials or objects, will adapt to the signature subspace, as well as the available modulators, in order to avoid unnecessary measurements and hardware and their associated budgets, errors, and artifacts. At the same time, measured polarization features should be expressed in the Stokes&#8211;Mueller basis to allow use of known phenomenology for data interpretation and processing as well as instrument calibration and troubleshooting. This approach to partial Mueller-matrix polarimeter (pMMP) design begins by defining a vector space of reduced Mueller matrices and an instrument vector representing the polarization modulators and other components of the sensor. The reduced-Mueller vector space is proven to be identical to (Formula presented.) and to provide a completely linear description constrained to the Mueller cone. The reduced irradiance, the inner product of the reduced instrument and target vectors, is then applied to construct classifiers and tune modulator parameters, for instance to maximize representation of a specific target in a fixed number of measured channels. This design method eliminates the use of pseudo-inverses and reveals the optimal channel compositions to capture a particular signature feature, or a limited set of features, under given hardware constraints. Examples are given for common optical division-of-amplitude (DoA) 2-channel passive and serial/DoT-DoA 4-channel active polarimeters with rotating crystal modulators for classification of targets with diattenuation and depolarization characteristics."
-    indice 402
   ]
   node [
     id 5037
@@ -34786,6 +34786,7 @@ graph [
     label "articulo:403"
     tipo "articulo"
     nombre "Development and evaluation of customized software to automatically align macula and optic disc centered scanning laser ophthalmoscope fundus images"
+    indice 403
     titulo "Development and evaluation of customized software to automatically align macula and optic disc centered scanning laser ophthalmoscope fundus images"
     anio 2025
     isbn ""
@@ -34796,7 +34797,6 @@ graph [
     subarea ""
     keywords "Fovea; Imaging; MATLAB; OCT mosaicing; Ophthalmology; Optic disc; Optical coherence tomography; R; Scanning laser ophthalmoscope; SLO registration; Decision tables; Disks (structural components); Eyeglasses; Fiber optic sensors; Fracture fixation; High modulus textile fibers; Input output programs; Optical tomography; Single mode fibers; Time sharing programs; UNIX; Coherence tomography; Mosaicing; Optic disks; Optical coherence tomography mosaicing; Optical-; Scanning laser ophthalmoscope registration"
     abstract "In ophthalmology, the angle between the center of the optic nerve head and the center of sharpest vision (foveola) is a posterior fundus landmark parameter of the retina of the human eye. Together with the optic disc-fovea distance, it characterizes the position of the optic nerve head in relationship to the foveola. The optic disc-fovea angle markedly influences the regional distribution of retinal layer thickness patterns, specifically the retinal nerve fiber layer thickness measured at the optic disc. Thus, the optic disc-fovea angle needs to be determined and routinely taken into account in morphological glaucoma diagnosis and in the assessment of structure-function relationship in optic nerve diseases. However, despite the urgency of this information, currently the optic disc-fovea line and its angle are routinely not measured. Obtaining it post-measurement requires manual registration of the macula and optic disc optical coherence tomography (OCT) imaging data. OCT manufacturer-delivered software does not provide automated image registration. Therefore researchers are forced to manually perform the alignment over different scanning regions. To fill this gap, we provide two software packages which can be applied to routinely acquired clinical OCT data to automatically align macula and optic disc images. In this work, we introduce and comparatively evaluate two separate software packages (BloodVesselReg and OCTFundusReg) to automatically align macula and optic disc centered OCT volume scans based on their respective scanning laser ophthalmoscope (SLO) fundus images. BloodVesselReg implements an image registration and mosaicing algorithm based on retinal blood vessels. OCTFundusReg optimizes a general-purpose image registration toolkit to operate on SLO images. Both methods were independently developed by different subgroups of authors of this study using a training dataset of 18,047 eyes from a population-based study. The methods were tested on a dataset of 3,570 eyes from glaucoma patients, with success/failure assessed by visual inspection and compared to failure reporting of the methods themselves. BloodVesselReg had a slightly higher accuracy (94.7%) than OCTFundusReg (93.9%). Both methods together failed on only 1% of the eyes. BloodVesselReg reported 165 out of its 190 failures. OCTFundusReg provides a continuous failureAlert parameter which resulted in an area under the receiver operating characteristics curve (AUC) of 0.91 from a logistic regression model. When including the difference of fitting related parameters between the two methods, the AUC improved to 0.95. Both methods had success rates of over 90% when applied in isolation to a clinical testing dataset. When applying them together, the rate of at least one of the method succeeding was 99%. The methods are highly promising for applications under real-world clinical conditions and might help to facilitate disease detection and monitoring over time."
-    indice 403
   ]
   node [
     id 5060
@@ -34929,6 +34929,7 @@ graph [
     label "articulo:404"
     tipo "articulo"
     nombre "Development of a color-based, non-destructive method to determine leaf N levels of Hass avocado under field conditions"
+    indice 404
     titulo "Development of a color-based, non-destructive method to determine leaf N levels of Hass avocado under field conditions"
     anio 2025
     isbn ""
@@ -34939,7 +34940,6 @@ graph [
     subarea ""
     keywords "Deep learning; Digital imaging; Foliar nutrition; Machine learning; RGB"
     abstract "Excessive fertilization in avocado trees might be avoided by providing producers with affordable supporting tools for constant monitoring of nutrient levels. Leaf color guides have been produced for cereals and might be useful, but they are so far rare for trees because of low variation in color. We investigated the potential of leaf color to indicate N and P levels in avocado leaves to develop a monitoring tool not requiring expensive chemical analyses. We carried out three experimental phases towards the development of a solid, reproducible monitoring tool. In the first phase, we found a good relation between color and chemically-measured N levels, but not P levels. That allowed us to develop a leaf color chart only for N levels. In the second phase, this visual guide was tested using print and mobile app versions. We found that visual identification of N levels by the users was highly variable, subjective, and prone to error regardless of the materials used for detection. The third phase aimed to develop a user-independent evaluation of leaf color to define the leaf N level using leaf pictures. Machine and deep learning algorithms were used to generate, calibrate, and validate models for estimating the N concentration of avocado leaves using digital images captured in field conditions. Applying the models generated, we can now develop an automated color detection and N-level identification tool for mobile applications that will assist avocado producers in adequate application of nitrogen fertilizers, saving money and reducing N pollution from leaching in orchards."
-    indice 404
   ]
   node [
     id 5082
@@ -34964,6 +34964,7 @@ graph [
     label "articulo:405"
     tipo "articulo"
     nombre "Development of a Virtual Reality Platform for Multiuser Training in Medical Diagnosis"
+    indice 405
     titulo "Development of a Virtual Reality Platform for Multiuser Training in Medical Diagnosis"
     anio 2024
     isbn "978-3-031-71703-1"
@@ -34974,7 +34975,6 @@ graph [
     subarea ""
     keywords "Cerebrovascular Accident (CVA); Computed Tomography (CT) scans; Virtual Reality (VR); Cardiovascular surgery; Computerized tomography; Diagnosis; Diseases; Electronic health record; Virtualization; Cardiovascular disease; Cerebrovascular accident; Computed tomography scan; Mexico; Medical personnel; Multiusers; Performance; Social Security; Virtual reality; Virtual environments"
     abstract "In Mexico, the increase in mortality due to Cerebrovascular Accidents (CVA) led the Mexican Social Security Institute (IMSS), in January 2022, to create the Comprehensive Care Protocol for Cardiovascular Diseases - Brain Code, aimed at training medical personnel for timely care and treatment of CVAs. In response, the Simulation Center for Clinical and Surgical Excellence (CESIECQ) adapted the protocol to the &#8220;EngageVR&#8221; platform, aiming to enhance the use of virtual reality by comparing its performance against conventional screen-based assessment of images from Computed Tomography (CT) scans. The results of this evaluation showed that 85.7% of the participants preferred the clarity of images using VR, thereby more easily identifying cerebral anatomy. This finding supported the interest in developing a specialized multiuser virtual reality platform for CT scans visualization. Therefore, this document describes the details of creating a virtual reality environment in Unity enabling multiple user connectivity, image loading, and rendering of anatomical volumes from DICOM, RAW, or NRRD stacks of CT scans for visualization and manipulation with multiple tools within the environment."
-    indice 405
   ]
   node [
     id 5086
@@ -35041,6 +35041,7 @@ graph [
     label "articulo:406"
     tipo "articulo"
     nombre "Discrete Neuroimaging Metrics for Identifying Structural Alterations in COVID-19-Related Brain Atrophy"
+    indice 406
     titulo "Discrete Neuroimaging Metrics for Identifying Structural Alterations in COVID-19-Related Brain Atrophy"
     anio 2025
     isbn ""
@@ -35051,7 +35052,6 @@ graph [
     subarea ""
     keywords "COVID-19; Discrete tortuosity; Discrete compactness; Morphological biomarkers"
     abstract "The study evaluates discrete geometric neuroimaging measures, including tortuosity and compactness, for detecting structural brain alterations associated with COVID-19. The proposed metrics are applied to cortical morphology to characterize atrophic changes and assess their potential value as complementary quantitative biomarkers."
-    indice 406
   ]
   node [
     id 5097
@@ -35070,6 +35070,7 @@ graph [
     label "articulo:407"
     tipo "articulo"
     nombre "Dual Illumination and Detection Photoacoustic Tomography of Hollow Metal Cylinders"
+    indice 407
     titulo "Dual Illumination and Detection Photoacoustic Tomography of Hollow Metal Cylinders"
     anio 2025
     isbn ""
@@ -35080,7 +35081,6 @@ graph [
     subarea ""
     keywords "2D imaging; Acoustic impedance contrast; Dual detecting; Dual illumination; Hollow; Metal cylinder; Non-destructive testing; Photoacoustic tomography; Signal processing; Biomedical engineering; Bridge decks; Chemical detection; Light scattering; Metal testing; Nondestructive examination; Object detection; Photoacoustic effect; Signal detection; Tomography; Ultrasonic applications; 2-d imaging; Impedance contrast; Metal cylinders; Cylinders (shapes)"
     abstract "Photoacoustic tomography is an innovative non-ionizing imaging technique that combines optical contrast with ultrasound resolution for 3D object characterization. While promising, its broader adoption is limited by challenges such as shallow penetration depth and strong optical scattering. To address these issues, this study introduces a dual illumination and detection photoacoustic tomography method, specifically designed for symmetrical objects like hollow metallic cylinders. The illumination system plays a critical role in determining the quality of photoacoustic signals and, thus, the final image. This approach enhances spatial resolution and contrast by using complementary light delivery and signal detection. In industrial settings, where accurate and efficient non-destructive testing is essential, traditional techniques often lack the precision required. The dual illumination and detection strategy offers significant improvements in effective resolution, contrast, defect detection, and artifact reduction, surpassing the limitations of unidirectional approaches. This technique not only strengthens the characterization of metal structures but also contributes to a deeper understanding of their physical behavior. Applications extend across various fields, including aerospace and biomedical engineering. This paper explores the underlying principles and potential of this advanced imaging modality, highlighting its value in modern diagnostic and inspection technologies."
-    indice 407
   ]
   node [
     id 5100
@@ -35201,6 +35201,7 @@ graph [
     label "articulo:408"
     tipo "articulo"
     nombre "Edge Computing System for Automatic Detection of Chronic Respiratory Diseases Using Audio Analysis"
+    indice 408
     titulo "Edge Computing System for Automatic Detection of Chronic Respiratory Diseases Using Audio Analysis"
     anio 2025
     isbn ""
@@ -35211,7 +35212,6 @@ graph [
     subarea ""
     keywords "CDR; COPD; Edge computing; Machine learning; Adult; Aged; Asthma; Chronic Disease; Female; Humans; Male; Middle Aged; Pulmonary Disease, Chronic Obstructive; Respiratory Sounds; Sensitivity and Specificity; Signal Processing, Computer-Assisted; Abnormal respiratory sound; Article; Audio recording; Breathing pattern; Chronic obstructive lung disease; Chronic respiratory tract disease; Classifier; Comparative study; Computer assisted diagnosis; Confusion matrix; Controlled study; Convolutional neural network; Coughing; Customer experience; Cystic fibrosis; Diagnostic accuracy; Diagnostic test accuracy study; Disease classification; Evaluation study; Feature extraction; Health status; Human; Lung fibrosis; Major clinical study; Noise reduction; Quality of life; Resource limited setting; Sound analysis; Diagnosis; Pathophysiology; Signal processing"
     abstract "Chronic respiratory diseases affect people worldwide, but conventional diagnostic methods may not be accessible in remote locations far from population centers. Sounds from the human respiratory system have displayed potential in autonomously detecting these diseases using artificial intelligence (AI). This article outlines the development of an audio-based edge computing system that automatically detects chronic respiratory diseases (CRDs). The system utilizes machine learning (ML) techniques to analyze audio recordings of respiratory sounds (cough and breath) and classify the presence or absence of these diseases, using features such as Mel frequency cepstral coefficients (MFCC) and chromatic attributes (chromagram) to capture the relevant acoustic features of breath sounds. The system was trained and tested using a dataset of respiratory sounds collected from 86 individuals. Among them, 53 had chronic respiratory conditions, including asthma and chronic obstructive pulmonary disease (COPD), while the remaining 33 were healthy. The system&#8217;s final evaluation was conducted with a group of 13 patients and 22 healthy individuals. Our approach demonstrated high sensitivity and specificity in the classification of sounds on edge devices, including smartphone and Raspberry Pi. Our best results for CRDs reached a sensitivity of 90.0%, a specificity of 93.55%, and a balanced accuracy of 91.75% for accurately identifying individuals with both healthy and diseased. These results showcase the potential of edge computing and machine learning systems in respiratory disease detection. We believe this system can contribute to developing efficient and cost-effective screening tools."
-    indice 408
   ]
   node [
     id 5120
@@ -35386,6 +35386,7 @@ graph [
     label "articulo:409"
     tipo "articulo"
     nombre "EEG-based Estimation of Cognitive Workload Across Multiple Tasks"
+    indice 409
     titulo "EEG-based Estimation of Cognitive Workload Across Multiple Tasks"
     anio 2024
     isbn "979-8-3503-7149-9"
@@ -35396,7 +35397,6 @@ graph [
     subarea ""
     keywords "Cognition; Electroencephalography; Medical signal processing; Nearest neighbour methods; Random forests; Support vector machines; Augmented cognition systems; Cognitive activities; EEG-based estimation; k-nearest neighbour; KNN model; Machine learning algorithms; Random forest; RF model; Support vector machine; SVM model; Adult; Algorithms; Female; Humans; Machine Learning; Male; Task Performance and Analysis; Workload; Young Adult; Risk perception; Cognitive loads; Cognitive state; Cognitive task; Cognitive workloads; Different level highs; Experimental protocols; High risk environment; High-low; Multiple tasks; Performance; Algorithm; Human; Physiology; Procedures; Task performance; Risk assessment; Radio frequency; Accuracy; Protocols; Estimation; Nearest neighbor methods; Cognitive load; Safety; Reliability; Signal Processing, Computer-Assisted"
     abstract "Key to the efficacy of working in high-risk environments is the reliable estimation of the human's cognitive state for improving safety and to maintain high performance longer. In this study, we developed an experimental protocol in which participants completed three cognitive tasks under two different levels (High, Low) of workload. We then evaluated the effect of the different cognitive activities on EEG signals and its accuracy in predicting respective cognitive load. The analysis was conducted using well-known machine learning algorithms such as SVM, RF, and KNN. An average accuracy of 82.75% was obtained through the proposed SVM model to identify the participant's cognitive workload level. The results obtained through this study indicated the efficacy of the EEG features in predicting the level of cognitive load irrespective of the activity. The proposed set of EEG features represents the cognitive indicators that form the basis for developments of augmented cognition systems in our future works."
-    indice 409
   ]
   node [
     id 5149
@@ -35547,6 +35547,7 @@ graph [
     label "articulo:410"
     tipo "articulo"
     nombre "El Ni&#241;o-Southern Oscillation (ENSO) 2022-2024 in the ocean and coast of the Central Mexican Pacific"
+    indice 410
     titulo "El Ni&#241;o-Southern Oscillation (ENSO) 2022-2024 in the ocean and coast of the Central Mexican Pacific"
     anio 2025
     isbn "978-1-5106-9271-8"
@@ -35557,7 +35558,6 @@ graph [
     subarea ""
     keywords "Coastline; El Nino-Southern Oscillation; Mexican Pacific Sentinel; Oceanographic Campaign; SAR (Synthetic Aperture Radar); Agriculture; Climatology; Edge detection; Land use; Ocean currents; Radar imaging; Remote sensing; Satellite imagery; Space-based radar; Surface waters; Coastal change; Oscillation phasis; Sea surfaces; Surface temperatures; Synthetic aperture radar; Work-flows"
     abstract "The El Ni&#241;o-Southern Oscillation (ENSO) stands out among climate phenomena due to its intensity, predictability, and global reach. However, despite decades of study, its impact on sandy coastlines in the Pacific remain insufficiently explored. This study investigates the 2022-2024 ENSO event and its influence on coastal changes in the central Mexican Pacific, specifically in the state of Sinaloa, Mexico. The analysis focuses on sandy coasts with three types of covers and nearby land use. Three coastal transects were studied: urban, agricultural, and low-disturbance, and an oceanic subtransect near the Mazatl&#225;n shoreline, composed of five stations of an oceanographic campaign. To characterize the ENSO signal in the ocean, we used 30-year climatological averages derived from historical satellite data obtained from the Copernicus Marine Service. The selected variables include sea surface temperature (SST), surface geostrophic currents and surface wind. A comprehensive database was constructed using level-4 satellite products and validated with in situ measurements collected during the 2023-2024 ENSO oceanographic campaign aboard the R/V El Puma (UNAM). While oceanographic analysis provides essential context, the study's contribution to coastal change analysis lies in the use of SENTINEL-1A level-1 satellite imagery from 2022 to 2024. This temporal window encompasses the neutral, La Ni&#241;a (cold), and El Ni&#241;o (warm) ENSO phases. To address computational constraints, an automated processing workflow was developed using the ESA-SNAP Python API. The workflow integrated GLCM texture metrics, edge-detection thresholding algorithms to enhance image binarization, and the Digital Shoreline Analysis System (DSAS) to track shoreline positional changes over time. The methodology was validated using high-resolution PlanetScope imagery. satellite observations were aligned with data obtained from the oceanographic campaign, with SST showing a mean error of - 0.6 &#176;C Coastal accretion was detected during the warm ENSO phase in 2023-2024, particularly in summer and autumn, corresponding to elevated SST anomalies. In contrast, shoreline retreat dominated during the cold phase in 2022-2023, especially in winter and spring, highlighting that in Mazatl&#225;n ENSO's impacts on coastal dynamics diverge from regional patterns and may be strongly modulated by local processes."
-    indice 410
   ]
   node [
     id 5174
@@ -35660,6 +35660,7 @@ graph [
     label "articulo:411"
     tipo "articulo"
     nombre "Emotion detection based on infrared thermography: A review of machine learning and deep learning algorithms"
+    indice 411
     titulo "Emotion detection based on infrared thermography: A review of machine learning and deep learning algorithms"
     anio 2025
     isbn ""
@@ -35670,7 +35671,6 @@ graph [
     subarea ""
     keywords "Deep learning (artificial intelligence); Emotion recognition; Feature extraction; Infrared imaging; Learning (artificial intelligence); Psychology; Affective states; Automatic identification; Complex algorithms; Deep learning algorithms; Deep Learning models; DL algorithms; Emotion detection; Emotion research; Emotional states; Human behavior; Infrared thermography; Machine learning; Popular emotion categories; Sadness; Specific emotions; State-of-the-art articles; Thermography; Region of interest; Deep learning"
     abstract "Thermography has proven to be a valuable tool in the study of psychology and the understanding of emotional states, analyzing how they influence perception, thought and human behavior; the development of technologies capable of monitoring the emotional state of people has become an open field of research, with implications in areas such as robotics, marketing, education and, more specifically, medicine. The aim of this review is to provide an overview of the methods used for automatic identification of affective states using infrared thermography. In this work, we have reviewed most of the state-of-the-art articles published on this topic, specifically considering a methodology based on Machine Learning (ML) and Deep Learning (DL) models, focusing on the six most popular emotion categories used by consumers of emotion research: anger, disgust, fear, happiness, sadness, and surprise, using databases such as IRIS, NIST, VIRI, among others. The articles were analyzed in terms of the use of thermographic images to develop a methodology oriented to the detection of emotions, from identifying regions of interest (such as lips, eyebrows, nose, eyes, etc.) and correlating specific emotions with temperature variations within those regions, to using complex algorithms based on ML and DL. The results show that there is a significant increase in the use of infrared thermography as a tool for emotion detection, with a trend towards the use of DL algorithms in recent years, due to its ease in the process of automatic feature extraction and its versatility in pattern recognition from images, obtaining models with over 90% accuracy. Finally, the importance of these findings is emphasized, highlighting not only the challenges inherent in the need for robust data processing, but also the societal implications of ensuring that the data and conclusions are applicable and relevant in real-world contexts."
-    indice 411
   ]
   node [
     id 5191
@@ -35779,6 +35779,7 @@ graph [
     label "articulo:412"
     tipo "articulo"
     nombre "Enhancing generalization in whole-body MRI-based deep learning models: A novel data augmentation pipeline for cross-platform adaptation"
+    indice 412
     titulo "Enhancing generalization in whole-body MRI-based deep learning models: A novel data augmentation pipeline for cross-platform adaptation"
     anio 2025
     isbn ""
@@ -35789,7 +35790,6 @@ graph [
     subarea ""
     keywords "Data augmentation; Deep learning; Image segmentation; Whole-body MRI; Adaptation; Architecture; Area under the curve; Article; Artificial intelligence; Artificial neural network; Clinical practice; Human; Methodology; Nuclear magnetic resonance imaging; Pipeline; Radiologist"
     abstract "Whole-body magnetic resonance imaging (WB-MRI) is a critical diagnostic tool in clinical practice. However, the manual interpretation of WB-MRI scans is a time-consuming and labor-intensive process. Integrating artificial intelligence (AI) has the potential to streamline these processes, yet the variability in MRI images due to differences in scanner features presents significant challenges for the generalization of AI models across different platforms. This study aims to address these challenges by developing and validating a data augmentation pipeline designed to effectively represent image artifacts from WB-MRI acquisition. The study employs a WB-MRI database to evaluate the generalization power of a segmentation model across platforms, with performance metrics such as the Dice Similarity Coefficient (DSC) and Area Under the Curve (AUC) being reported. The findings suggest that advanced data augmentation techniques can mitigate the impact of scanner variability, thereby enhancing the generalization capabilities of AI models in the context of WB-MRI analysis."
-    indice 412
   ]
   node [
     id 5209
@@ -35826,6 +35826,7 @@ graph [
     label "articulo:413"
     tipo "articulo"
     nombre "Envelope Demodulation via Maximum Subsampling Applied to Impedance Plethysmography Signals"
+    indice 413
     titulo "Envelope Demodulation via Maximum Subsampling Applied to Impedance Plethysmography Signals"
     anio 2025
     isbn ""
@@ -35836,13 +35837,13 @@ graph [
     subarea ""
     keywords ""
     abstract "The paper studies envelope demodulation using maximum subsampling for impedance-plethysmography signals. A numerical measurement-chain simulation is used to evaluate reconstruction of the slowly varying physiological envelope from the modulated electrical signal."
-    indice 413
   ]
   node [
     id 5215
     label "articulo:414"
     tipo "articulo"
     nombre "Estimation of Photoacustic Signals Using Subspace Identification"
+    indice 414
     titulo "Estimation of Photoacustic Signals Using Subspace Identification"
     anio 2024
     isbn ""
@@ -35853,7 +35854,6 @@ graph [
     subarea ""
     keywords "Photoacustic signals; Absorption profile estimation; Subspace identification; Linear state space model; Parameter and state estimation"
     abstract "The work formulates a discrete linear state-space representation for photoacoustic signal estimation and uses subspace identification to recover model dynamics from simulated observations. The computational workflow is assessed as a basis for estimating photoacoustic responses and related absorption information."
-    indice 414
   ]
   node [
     id 5216
@@ -35890,6 +35890,7 @@ graph [
     label "articulo:415"
     tipo "articulo"
     nombre "Event reconstruction using pattern spectra and convolutional neural networks for the Cherenkov Telescope Array"
+    indice 415
     titulo "Event reconstruction using pattern spectra and convolutional neural networks for the Cherenkov Telescope Array"
     anio 2024
     isbn ""
@@ -35900,7 +35901,6 @@ graph [
     subarea ""
     keywords "Cosmology; Airborne telescopes; Cerenkov counters; Computerized tomography; Cosmic ray detectors; Cosmic rays; Feature Selection; Image analysis; Image reconstruction; Optical telescopes; Photons; Array images; Cherenkov emissions; Cherenkov telescope arrays; Convolutional neural network; Event reconstruction; Gamma-rays; Ground based; Ground level; Imaging atmospheric Cherenkov telescopes; Pattern spectrum"
     abstract "The Cherenkov Telescope Array (CTA) is the future observatory for ground-based imaging atmospheric Cherenkov telescopes. Each telescope will provide a snapshot of gamma-ray induced particle showers by capturing the induced Cherenkov emission at ground level. The simulation of such events provides camera images that can be used as training data for convolutional neural networks (CNNs) to differentiate signals from background events and to determine the energy of the initial gamma-ray events. Pattern spectra are commonly used tools for image classification and provide the distributions of the sizes and shapes of features comprising an image. The application of pattern spectra on a CNN allows the selection of relevant combinations of features within an image. In this work, we generate pattern spectra from simulated gamma-ray images to train a CNN for signal-background separation and energy reconstruction for CTA. We compare our results to a CNN trained with CTA images and find that the pattern spectra-based analysis is computationally less expensive but not competitive with the purely CTA images-based analysis. Thus, we conclude that the CNN must rely on additional features in the CTA images not captured by the pattern spectra."
-    indice 415
   ]
   node [
     id 5222
@@ -35979,6 +35979,7 @@ graph [
     label "articulo:416"
     tipo "articulo"
     nombre "Fabrication and Characterization of Brain Tissue Phantoms Using Agarose Gels for Ultraviolet Vision Systems"
+    indice 416
     titulo "Fabrication and Characterization of Brain Tissue Phantoms Using Agarose Gels for Ultraviolet Vision Systems"
     anio 2024
     isbn ""
@@ -35989,7 +35990,6 @@ graph [
     subarea ""
     keywords "Brain tissue phantom; Agarose gel; Ultraviolet imaging"
     abstract "The study fabricates and characterizes agarose-gel brain-tissue phantoms intended for ultraviolet vision systems, evaluating optical and physical properties relevant to controlled biomedical-imaging experiments."
-    indice 416
   ]
   node [
     id 5235
@@ -36014,6 +36014,7 @@ graph [
     label "articulo:417"
     tipo "articulo"
     nombre "Feature-based 3D+t descriptors of hyperactivated human sperm beat patterns"
+    indice 417
     titulo "Feature-based 3D+t descriptors of hyperactivated human sperm beat patterns"
     anio 2024
     isbn ""
@@ -36024,7 +36025,6 @@ graph [
     subarea ""
     keywords "3D+t human sperm motility; Hyperactivated sperm; Sperm flagella; Spatio-temporal patterns; Unsupervised classification; Multi-plane imaging; 3D microscopy"
     abstract "The flagellar movement of the mammalian sperm plays a crucial role in fertilization. In the female reproductive tract, human spermatozoa undergo a process called capacitation which promotes changes in their motility. Only capacitated spermatozoa may be hyperactivated and only those that transition to hyperactivated motility are capable of fertilizing the egg. Hyperactivated motility is characterized by asymmetric flagellar bends of greater amplitude and lower frequency. Historically, clinical fertilization studies have used two-dimensional analysis to classify sperm motility, despite the inherently three-dimensional (3D) nature of sperm motion. Recent research has described several 3D beating features of sperm flagella. However, the 3D motility pattern of hyperactivated spermatozoa has not yet been characterized. One of the main challenges in classifying these patterns in 3D is the lack of a ground-truth reference, as it can be difficult to visually assess differences in flagellar beat patterns. Additionally, it is worth noting that only a relatively small proportion, approximately 10-20% of sperm incubated under capacitating conditions exhibit hyperactivated motility. In this work, we used a multifocal image acquisition system that can acquire, segment, and track sperm flagella in 3D+t. We developed a feature-based vector that describes the spatio-temporal flagellar sperm motility patterns by an envelope of ellipses. The classification results obtained using our 3D feature-based descriptors can serve as potential label for future work involving deep neural networks. By using the classification results as labels, it will be possible to train a deep neural network to automatically classify spermatozoa based on their 3D flagellar beating patterns. We demonstrated the effectiveness of the descriptors by applying them to a dataset of human sperm cells and showing that they can accurately differentiate between non-hyperactivated and hyperactivated 3D motility patterns of the sperm cells. This work contributes to the understanding of 3D flagellar hyperactive motility patterns and provides a framework for research in the fields of human and animal fertility."
-    indice 417
   ]
   node [
     id 5239
@@ -36067,6 +36067,7 @@ graph [
     label "articulo:418"
     tipo "articulo"
     nombre "Filtering of Geophysical Data Using Unsupervised Methods and Multiresolution Analysis"
+    indice 418
     titulo "Filtering of Geophysical Data Using Unsupervised Methods and Multiresolution Analysis"
     anio 2025
     isbn "978-3-031-97909-5; 978-3-031-97910-1"
@@ -36077,7 +36078,6 @@ graph [
     subarea ""
     keywords "Machine Learning; Magnetometry; Multiresolution Analysis; Wavelet Transform; Data handling; Geophysical prospecting; Geophysics; Learning algorithms; Learning systems; Unsupervised learning; Area of interest; Geophysical data; Geophysical exploration methods; Method analysis; Multi-resolution analysis; Multiresolutions analysis; Property; Unsupervised method; Wavelets transform"
     abstract "Magnetometry is a geophysical exploration method that aims to characterize an area of interest based on its magnetic properties, being a technique highly susceptible to ferromagnetic effects. Reducing this type of artifact is challenging, making the data uninterpretable for the expert. Machine learning, along with signal processing, is a powerful tool for analyzing geophysical data. We use the wavelet transform, along with unsupervised machine learning techniques, to characterize the desired signal and distinguish it from the noisy signal; the objective then is to attenuate these effects in the data to be enhanced and further interpreted."
-    indice 418
   ]
   node [
     id 5246
@@ -36162,6 +36162,7 @@ graph [
     label "articulo:419"
     tipo "articulo"
     nombre "Generating a database for deep learning-based applications in multimodal tomography of the human brain"
+    indice 419
     titulo "Generating a database for deep learning-based applications in multimodal tomography of the human brain"
     anio 2025
     isbn "9780735453029"
@@ -36172,7 +36173,6 @@ graph [
     subarea ""
     keywords "Biomedical MRI; Brain; Deep learning (artificial intelligence); Image reconstruction; Image segmentation; Medical image processing; Single photon emission computed tomography; Technetium; Acquisition parameters; Age 18.0 year to 72.0 year; Attenuation-corrected SPECT images; Brain perfusion imaging; Co-registered multimodal images; Deep learning-based applications; DICOM; Expert nuclear medicine radiologists; FLAIR; Human brain studies; Image processing chain; INPRFM ethics committee; Intensity normalization; Magnetic resonance imaging; Multimodal tomography; Neural networks; NIfTI; Synthetic CT images; T1 MRI images; T2-weighted; Tc99m-ECD; Visual inspection; X-ray CT scan"
     abstract "We present a preliminary database of human brain studies of 25 adult subjects (age range 18 to 72 years, 8 men and 17 women). The images were obtained at Instituto Nacional de Psiquiatr&#237;a 'Ram&#243;n de la Fuente Mu&#241;iz' (INPRFM). All subjects underwent brain perfusion imaging using Tc99m-ECD, an X-ray CT scan, and magnetic resonance imaging at T1-weighted, T2-weighted, and FLAIR. The images were passed through visual inspection of expert nuclear medicine radiologists. The specific acquisition parameters and the image processing chain, which included anonymization, removal of the table in CT images, co-registration, and spatial and intensity normalization, are described. The database was compiled in two different formats: DICOM for unprocessed data, and NIfTI for co-registered multimodal images. Results on the application of neural networks in the process of generating attenuation-corrected SPECT images, and synthetic CT images generated from T1 MRI images are presented. Permission was obtained from the INPRFM Ethics Committee to use the images in the database."
-    indice 419
   ]
   node [
     id 5260
@@ -36311,6 +36311,7 @@ graph [
     label "articulo:420"
     tipo "articulo"
     nombre "Human Sperm Flagellar 3D Fractal Dimension as Hyperactivation Indicator"
+    indice 420
     titulo "Human Sperm Flagellar 3D Fractal Dimension as Hyperactivation Indicator"
     anio 2025
     isbn "978-3-031-82122-6; 978-3-031-82123-3"
@@ -36321,7 +36322,6 @@ graph [
     subarea ""
     keywords "Dimension formula; Flagellum; Human sperm; Hyperactivation; Sperm cells; Time distribution; Fractal dimension"
     abstract "The conference paper extends a fractal-dimension measure from two-dimensional curves to three-dimensional sperm flagellar trajectories. The time evolution and distribution of the resulting 3D fractal dimension are analyzed across sperm samples to identify motion patterns associated with hyperactivation."
-    indice 420
   ]
   node [
     id 5283
@@ -36364,6 +36364,7 @@ graph [
     label "articulo:421"
     tipo "articulo"
     nombre "Human-robot physical interaction system as a tool for neurocognitive stimulation in children with ADHD in Mexico"
+    indice 421
     titulo "Human-robot physical interaction system as a tool for neurocognitive stimulation in children with ADHD in Mexico"
     anio 2024
     isbn "979-8-3315-3339-7"
@@ -36374,7 +36375,6 @@ graph [
     subarea ""
     keywords "Brain; Educational institutions; Force feedback; Haptic interfaces; Human-robot interaction; Interactive systems; Learning (artificial intelligence); Medical disorders; Neurophysiology; Patient treatment; Psychology; Virtual reality; Viscoelasticity; ADHD; Attention Deficit Hyperactivity Disorder; Clinical evaluation strategies; Haptic interaction strategies; HRpI system; Human operator; Human-robot physical interaction system; Interactive forces; Interactive virtual environment; Neurocognitive stimulation; Neurodivergent children; Neurophysiological stimulation; Robotic system; Spring-damper system; Biofeedback; Engram; HRpI; Clinical research; Diagnosis; Diseases; Electrotherapeutics; Functional neural stimulation; Medical education; Unsupervised learning; Condition; Energy; Human robots; Interaction systems; Mexico; Physical interactions; Training; Visualization; Protocols; Navigation; Shape; Robot kinematics; Virtual environments; Robot sensing systems; User experience; Biomedical monitoring"
     abstract "This research work promotes the use of an interactive virtual environment, with the purpose of strengthening neurocognitive stimulation in children with ADHD (Attention Deficit Hyperactivity Disorder), through a human-robot physical interaction system (HRpI); as well as establishing the conditions that allow the application of supervised and unsupervised machine learning techniques that favor diagnosis. Clinical evaluation strategies in care and treatment centers for neurodivergent children are based on the Diagnostic and Statistical Manual of Mental Disorders (DSM-5); however, not using integrated technological platforms with biofeedback and neurophysiological stimulation associated with each case study, which contributes to the improvement of the clinical procedure. The proposed HRpI system is constituted by a haptic device with the human operator (patient) in the control loop. The movement instructions are designed based on a clinical protocol that evaluates hand-eye coordination, based on virtual mazes to navigate with one or two upper limbs. The platform is configured with strategies: i) passive haptic guidance and ii) active haptic exploration. In the first case, the robot guides the human in the optimal solution, correcting the interactive forces that condition the presence of disturbances, and shape the required energy; and in the second case, the human voluntarily solves the maze, which implies that the velocity and instantaneous position are variable. Kinesthetic force feedback is based on a viscoelasticity model (spring-damper system) in both haptic interaction strategies. During the development of the task, the instrumentation of brain waves are correlated with the state of the robotic system (position, velocity, energy and instantaneous errors); all this for the evaluation of performance metrics that contribute to the diagnosis. The expected result corresponds to determining the engram in terms of duration and frequency in brain plasticity for self-regulation purposes of the neurodivergent patient; as well as its impact as a value proposition to the Continuous Improvement School Program (PEMC) of basic education institutions in Mexico."
-    indice 421
   ]
   node [
     id 5290
@@ -36543,6 +36543,7 @@ graph [
     label "articulo:422"
     tipo "articulo"
     nombre "HV-Inv: A MATLAB-based graphical tool for the direct and inverse problems of the horizontal-to-vertical spectral ratio under the diffuse field theory"
+    indice 422
     titulo "HV-Inv: A MATLAB-based graphical tool for the direct and inverse problems of the horizontal-to-vertical spectral ratio under the diffuse field theory"
     anio 2024
     isbn ""
@@ -36553,7 +36554,6 @@ graph [
     subarea ""
     keywords "Ambient seismic noise; Diffuse field; H/V spectral ratio; Seismic exploration; Site-effect"
     abstract "The relationship between the horizontal-to-vertical spectral ratio of ambient seismic noise and the elastic Green's function has been established based on the principles of seismic interferometry. We have developed HV-Inv, a software designed in MATLAB for the forward and inverse calculations of the Horizontal-to-Vertical spectral ratio of ambient seismic noise (H/V) under the theory of diffuse fields. HV-Inv features both global and local inversion methods, supporting the simultaneous inversion of Rayleigh and Love wave dispersion curves with H/V. The goal is for it to be an effective tool for passive seismic exploration."
-    indice 422
   ]
   node [
     id 5318
@@ -36590,6 +36590,7 @@ graph [
     label "articulo:423"
     tipo "articulo"
     nombre "Hybrid Empirical and Variational Mode Decomposition of Vibratory Signals"
+    indice 423
     titulo "Hybrid Empirical and Variational Mode Decomposition of Vibratory Signals"
     anio 2025
     isbn ""
@@ -36600,7 +36601,6 @@ graph [
     subarea ""
     keywords "Hilbert&#8211;Huang transform; Hybrid strategy; Intrinsic mode functions; Variational mode decomposition; Vibratory components; Empirical mode decomposition; Fast Fourier transforms; Frequency estimation; Variational techniques; Vibration analysis; Harmonic vibration; Hilbert Huang transforms; Hybrid strategies; Mechanical systems; Mode decomposition; Mode mixing; Multi degree-of-freedom; Vibratory component"
     abstract "Signal analysis is a fundamental field in engineering and data science, focused on the study of signal representation, transformation, and manipulation. The accurate estimation of harmonic vibration components and their associated parameters in vibrating mechanical systems presents significant challenges in the presence of very similar frequencies and mode mixing. In this context, a hybrid strategy to estimate harmonic vibration modes in weakly damped, multi-degree-of-freedom vibrating mechanical systems by combining Empirical Mode Decomposition and Variational Mode Decomposition is described. In this way, this hybrid approach leverages the detection of mode mixing based on the analysis of intrinsic mode functions through Empirical Mode Decomposition to determine the number of components to be estimated and thus provide greater information for Variational Mode Decomposition. The computational time and dependency on a predefined number of modes are significantly reduced by providing crucial information about the approximate number of vibratory components, enabling a more precise estimation with Variational Mode Decomposition. This hybrid strategy is employed to compute unknown natural frequencies of vibrating systems using output measurement signals. The algorithm for this hybrid strategy is presented, along with a comparison to conventional techniques such as Empirical Mode Decomposition, Variational Mode Decomposition, and the Fast Fourier Transform. Through several case studies involving multi-degree-of-freedom vibrating systems, the superior and satisfactory performance of the hybrid method is demonstrated. Additionally, the advantages of the hybrid approach in terms of computational efficiency and accuracy in signal decomposition are highlighted."
-    indice 423
   ]
   node [
     id 5324
@@ -36703,6 +36703,7 @@ graph [
     label "articulo:424"
     tipo "articulo"
     nombre "Hypergraph Analysis of Functional Brain Connectivity During Figurative Attention"
+    indice 424
     titulo "Hypergraph Analysis of Functional Brain Connectivity During Figurative Attention"
     anio 2025
     isbn ""
@@ -36713,7 +36714,6 @@ graph [
     subarea ""
     keywords "Brain connectivity; Cognitive neuroscience; Coherence; Cross-correlation; Electroencephalography (EEG); Hypergraph; Mutual information; Neuronal networks; Visual perception; Brain; Graph theory; Neurons; Vision; Cognitive neurosciences; Cross-correlations; Electroencephalography; Functionals; Hyper graph; Mutual informations; Visual Attention"
     abstract "Hypergraph analysis extends traditional graph theory by enabling the study of complex, many-to-many relationships in networks, offering powerful tools for understanding brain connectivity. This case study introduces a novel methodology for constructing both graphs and hypergraphs of functional brain connectivity during figurative attention tasks, where subjects interpret the ambiguous Necker cube illusion. Using a frequency-tagging approach, we simultaneously modulated two cube faces at distinct frequencies while recording electroencephalography (EEG) responses. Brain connectivity networks were constructed using multiple measures&#8212;coherence, cross-correlation, and mutual information&#8212;providing complementary insights into functional relationships between regions. Our hypergraph analysis revealed distinct connectivity patterns associated with attending to different cube orientations, including previously unobserved higher-order relationships between brain regions. The results demonstrate bilateral cortico&#8211;cortical interactions and suggest integrated processing hubs that may coordinate visual attention networks. This methodological framework not only advances our understanding of the neural basis of visual attention but also offers potential applications in attention monitoring and clinical assessment of attention disorders. While based on a single subject, this proof-of-concept study establishes a foundation for larger-scale investigations of brain network dynamics during ambiguous visual processing."
-    indice 424
   ]
   node [
     id 5341
@@ -36762,6 +36762,7 @@ graph [
     label "articulo:425"
     tipo "articulo"
     nombre "Hypergraph of Functional Connectivity Based on Event-Related Coherence: Magnetoencephalography Data Analysis"
+    indice 425
     titulo "Hypergraph of Functional Connectivity Based on Event-Related Coherence: Magnetoencephalography Data Analysis"
     anio 2024
     isbn ""
@@ -36772,13 +36773,13 @@ graph [
     subarea ""
     keywords "Brain; Coherence; Hypergraph; Magnetoencephalography (MEG); Network; Visual perception"
     abstract "We construct hypergraphs to analyze functional brain connectivity, leveraging event-related coherence in magnetoencephalography (MEG) data during the visual perception of a flickering image. Principal network characteristics are computed for the delta, theta, alpha, beta, and gamma frequency ranges. Employing a coherence measure, a statistical estimate of correlation between signal pairs across frequencies, we generate an edge time series, depicting how an edge evolves over time. This forms the basis for constructing an edge-to-edge functional connectivity network. We emphasize hyperedges as connected components in an absolute-valued functional connectivity network. Our coherence-based hypergraph construction specifically addresses functional connectivity among four brain lobes in both hemispheres: frontal, parietal, temporal, and occipital. This approach enables a nuanced exploration of individual differences within diverse frequency bands, providing insights into the dynamic nature of brain connectivity during visual perception tasks. The results furnish compelling evidence supporting the hypothesis of cortico&#8211;cortical interactions occurring across varying scales. The derived hypergraph illustrates robust activation patterns in specific brain regions, indicative of their engagement across diverse cognitive contexts and different frequency bands. Our findings suggest potential integration or multifunctionality within the examined lobes, contributing valuable perspectives to our understanding of brain dynamics during visual perception."
-    indice 425
   ]
   node [
     id 5349
     label "articulo:426"
     tipo "articulo"
     nombre "Incorporation of Deep Learning Regularization in the Image Reconstruction Algorithm for a Dual-Panel PEM Scanner"
+    indice 426
     titulo "Incorporation of Deep Learning Regularization in the Image Reconstruction Algorithm for a Dual-Panel PEM Scanner"
     anio 2025
     isbn "978-1-6654-7767-3"
@@ -36789,7 +36790,6 @@ graph [
     subarea ""
     keywords "Image reconstruction; Deep learning; Positrons; Physics; Plasmas; Nuclear medicine; Image quality; Distortion; Training data; Single photon emission computed tomography"
     abstract "A dual-panel Positron Emission Mammography (PEM) scanner prototype is under development in our research group, and its imaging performance is currently being evaluated. The main challenge for dual-panel scanners is the presence of limited-angle artifacts, which appear in the images due to the acquisition geometry. These artifacts diminish the quality of the images, degrade the contrast of the lesions, and generate distortions in the cross-plane slices (perpendicular to the panels). To mitigate such distortions, deep learning regularization has been incorporated into the List Mode Ordered Subsets Expectation Maximization (LM-OSEM) image reconstruction algorithm. For the regularization step, a U-Net was trained with Monte-Carlo simulated data for several image quality phantoms. Data augmentation strategies were used to increase the diversity of the training data and to construct a model that generalizes more effectively to unseen data. The deep learning model was trained with 3840 pairs of cross-plane images of a dual-panel PEM scanner as input and corresponding slices from a dedicated breast-PET ring scanner as target. This approach was selected because a ring-shaped scanner does not face the limited-angle problem. The Forward-backward splitting expectation maximization (FBSEM) algorithm was implemented with the trained U-Net. This framework was applied to both MC-simulated and experimentally acquired data. In both cases, the quality of the cross-plane images was enhanced, without hampering the in-plane slices (parallel to the panels), and the enhancement in the quality of the images was quantified by image quality metrics like noise, contrast, and the Mean Absolute Error (MAE)."
-    indice 426
   ]
   node [
     id 5350
@@ -36820,6 +36820,7 @@ graph [
     label "articulo:427"
     tipo "articulo"
     nombre "Intelligent MRI diagnosis of neurological alterations in infants from 4 to 12 months"
+    indice 427
     titulo "Intelligent MRI diagnosis of neurological alterations in infants from 4 to 12 months"
     anio 2024
     isbn ""
@@ -36830,7 +36831,6 @@ graph [
     subarea ""
     keywords "Biomedical MRI; Brain; Convolutional neural nets; Feature extraction; Image segmentation; Logistic regression; Medical disorders; Medical image processing; Neurophysiology; Intelligent MRI diagnosis; Lateral ventricles; Magnetic resonance images; Magnetic resonance imaging; Neurological alterations; Neurological disorders; Neurological problems; Newborns; Segmentation phase; Segmentation stage; Artificial intelligence; Medical imaging; Convolutional neural networks; Diagnosis; Nearest neighbor search; Neurology; Brain development; Cerebral ventricles; Clinical history; Grey values; Neurological alteration; Normalized central moment; Pixel intensities; Region feature"
     abstract "Magnetic resonance imaging is an essential tool for the identification of neurological problems since it provides relevant information on brain development. The aim of the present work was the detection of neurological alterations in newborns from 4 to 12 months of age by segmentation and analysis of lateral ventricles in magnetic resonance images. For this purpose, an automated deep approach based on U-net is proposed to segment the cerebral ventricles of the newborn. Subsequently, for these regions, features were extracted based on the patient's clinical history and on the shape (area, roundness, normalized central moment, among others) and pixel intensity (mean gray value, contrast level, among others). Once the features were extracted, different types of intelligent models (Logistic Regression, k-Nearest Neighbors (kNN), and a Convolutional Neural Network) were assessed to detect the presence of neurological alterations. The segmentation phase of the system was tested on 50 patients and the classification phase on 28 patients (11 healthy, 17 with neurological changes). The results show a DICE similarity coefficient of 0.89 and a volume ratio of 1.05 for the segmentation stage and an accuracy of 98%, precision of 100%, sensitivity of 92%, and specificity of 100% for the classification stage using kNN. The last one proved to be the most computationally feasible model, due to the time required for training and inference (0.36 s and 35.2e-4 s, respectively), as well as the consumption of computational resources (0.1 GB RAM CPU). In conclusion, it is possible to detect neurological alterations in newborns aged 4 to 12 months by segmenting and classifying the lateral ventricles in magnetic resonance images, using image processing techniques, the U-net, as well as the kNN algorithm. This proposed methodology could play an important role in the early diagnosis and treatment of neurological disorders."
-    indice 427
   ]
   node [
     id 5355
@@ -36945,6 +36945,7 @@ graph [
     label "articulo:428"
     tipo "articulo"
     nombre "Kernel-based regularization for photoacoustic pressure reconstruction"
+    indice 428
     titulo "Kernel-based regularization for photoacoustic pressure reconstruction"
     anio 2025
     isbn ""
@@ -36955,13 +36956,13 @@ graph [
     subarea ""
     keywords ""
     abstract "The article proposes kernel-based regularization for model-based reconstruction of photoacoustic pressure fields. Kernel priors encode smoothness and spatial or dynamical structure, and numerical and phantom evaluations examine robustness under noise and limited measurements relative to conventional regularization approaches."
-    indice 428
   ]
   node [
     id 5374
     label "articulo:429"
     tipo "articulo"
     nombre "Light-weight neural network for intra-voxel structure analysis"
+    indice 429
     titulo "Light-weight neural network for intra-voxel structure analysis"
     anio 2024
     isbn ""
@@ -36972,7 +36973,6 @@ graph [
     subarea ""
     keywords "Deep learning; DW-MRI; Fixels; Intra-voxel structure; Neural network; Self-supervised learning; Article; Corpus callosum; Deconvolution; Diffusion weighted imaging; Error; Fractional anisotropy; Human; Intravoxel incoherent motion imaging; Nerve cell network; Nuclear magnetic resonance imaging; Signal noise ratio; Structure analysis; Systematic review; Tractography; Training"
     abstract "We present a novel neural network-based method for analyzing intra-voxel structures, addressing critical challenges in diffusion-weighted MRI analysis for brain connectivity and development studies. The network architecture, called the Local Neighborhood Neural Network, is designed to use the spatial correlations of neighboring voxels for an enhanced inference while reducing parameter overhead. Our model exploits these relationships to improve the analysis of complex structures and noisy data environments. We adopt a self-supervised approach to address the lack of ground truth data, generating signals of voxel neighborhoods to integrate the training set. This eliminates the need for manual annotations and facilitates training under realistic conditions. Comparative analyses show that our method outperforms the constrained spherical deconvolution (CSD) method in quantitative and qualitative validations. Using phantom images that mimic in vivo data, our approach improves angular error, volume fraction estimation accuracy, and success rate. Furthermore, a qualitative comparison of the results in actual data shows a better spatial consistency of the proposed method in areas of real brain images. This approach demonstrates enhanced intra-voxel structure analysis capabilities and holds promise for broader application in various imaging scenarios."
-    indice 429
   ]
   node [
     id 5375
@@ -37057,6 +37057,7 @@ graph [
     label "articulo:430"
     tipo "articulo"
     nombre "Machine learning for interferometric image reconstruction with sparse arrays"
+    indice 430
     titulo "Machine learning for interferometric image reconstruction with sparse arrays"
     anio 2024
     isbn "978-1-5106-7513-1"
@@ -37067,7 +37068,6 @@ graph [
     subarea ""
     keywords "Astronomical image processing; Black holes; Compressed sensing; Image reconstruction; Infrared astronomy; Interferometry; Learning (artificial intelligence); Minimisation; Neural nets; Current regularized minimization algorithms; Generative Neural Networks; Interferometric image reconstruction; Machine learning; Map infrared interferometric data; Neural Network; Predefined priors; Sparse arrays; Sparsely sampled data; Imaging; Neural networks; Image compression; Image denoising; Infrared imaging; Hyper-parameter; Images reconstruction; Interferometric images; Minimization algorithms; Sampled data"
     abstract "Interferometry, essential in radio and infrared astronomy, faces a significant challenge: reconstructing images from sparsely sampled data. Current regularized minimization algorithms rely heavily on predefined priors and hyperparameters, leading to ambiguities and inaccuracies in the images. Here, we present a project to integrate Neural Networks into interferometric image reconstruction. By utilizing the principles of Compressed Sensing and generative Neural Networks, this approach can map infrared interferometric data to reconstruct images more accurately, reducing reliance on rigid priors. The adaptability of the Neural Network ensures that the reconstructions are more precise and less dependent on user input, which is a significant advancement over current methods that require extensive expertise. In this work, we present, as software demonstration, reconstructions obtained from the Event Horizon Telescope data of the black-hole shadow at the core of M87."
-    indice 430
   ]
   node [
     id 5389
@@ -37188,6 +37188,7 @@ graph [
     label "articulo:431"
     tipo "articulo"
     nombre "Mapping spatiotemporal patterns of avocado expansion and land-use intensity in central Mexico and their effects on landscape connectivity"
+    indice 431
     titulo "Mapping spatiotemporal patterns of avocado expansion and land-use intensity in central Mexico and their effects on landscape connectivity"
     anio 2024
     isbn ""
@@ -37198,7 +37199,6 @@ graph [
     subarea ""
     keywords "Commodity frontiers; Deep learning; Agricultural expansion; Agricultural intensification; Biodiversity impacts; Trade-offs"
     abstract "Agricultural expansion and intensification are major drivers of global biodiversity loss, endangering natural habitats and ecosystem functions, such as pollination. In this study, we analyze the spatiotemporal dynamics of avocado frontier expansion and intensification from 2011 to 2019 and assess their effects on landscape connectivity, focusing on Michoac&#225;n, Mexico, the world&#8217;s leading avocado exporter. Using high-resolution satellite imagery combined with deep learning based on convolutional neural networks, we delineated avocado orchards and other land use/cover classes, mapped individual avocado tree crowns and irrigation ponds, and identified hotspots of expanding and intensifying avocado production. We used a circuit theory approach to evaluate the effects of avocado expansion and intensification on the connectivity of natural and semi-natural habitats. Our results reveal a rapid increase in avocado orchards, which expanded by 4175 ha&#8212;a growth from 27.9% to 37% in area&#8212;over the eight-year period. There was also a decline in rainfed agriculture by 3252 ha, and oak-pine forests by 1343 ha. We observed not only the expansion of the avocado frontier into forests but also an intensification of avocado production via increases in high-density plantations, irrigation ponds, and orchards prone to intensive pruning. Moreover, lower-intensity land-use classes, such as rainfed crops, were rapidly converted to avocado orchards. This expansion and intensification have led to increasing isolation of forest fragments. Although we identified routes that could facilitate the movement of species, the dense avocado monocultures continue to threaten the connectivity of natural and semi-natural habitats, causing notable losses of old-growth oak-pine forests and disrupting crucial ecological corridors. Our research underscores the adverse effects of avocado production on land use and landscape connectivity, emphasizing the need for sustainable management practices to ensure the long-term viability of avocado production systems and overall ecosystem functioning."
-    indice 431
   ]
   node [
     id 5409
@@ -37235,6 +37235,7 @@ graph [
     label "articulo:432"
     tipo "articulo"
     nombre "Mapping vegetation-geothermal interactions using VNIR-SWIR, thermal and SAR data"
+    indice 432
     titulo "Mapping vegetation-geothermal interactions using VNIR-SWIR, thermal and SAR data"
     anio 2025
     isbn "979-8-3315-0810-4"
@@ -37245,7 +37246,6 @@ graph [
     subarea ""
     keywords "Hyperspectral imaging; Earth (planet); Geology; Geothermal fields; Photomapping; Remote sensing; Space platforms; Space-based radar; Vegetation mapping; EMIT; EnMAP; Geothermal; Geothermal activity; HyperSpectral; New zealand; PRISMA; Satellite platforms; Thermal; Vegetation cover; Satellites; Biological system modeling; NASA; Predictive models; Antimony; Spatial resolution; Monitoring; Synthetic aperture radar"
     abstract "Monitoring and mapping geothermal activity from airborne and satellite platforms is challenging due to extensive vegetation cover. This study explores the ways to use vegetation and its spectral, thermal, and phenological signatures to track underlying geothermal activity. We explored and developed a series of prediction models for predicting foliar antimony concentration at Waiotapu Geothermal Field in New Zealand using a combination of hyperspectral, thermal, and SAR datasets from high spatial resolution airborne- (e.g., AisaFENIX, thermal, and LiDAR) and coarse resolution satellite platforms (e.g., EMIT, ECOSTRESS and Sentinel-1). Our results indicate that geothermal fields and the extent of the geothermal activity can be successfully mapped using their vegetation cover. This approach can open new uses of Earth observation data to monitor geothermal activity from space."
-    indice 432
   ]
   node [
     id 5415
@@ -37366,6 +37366,7 @@ graph [
     label "articulo:433"
     tipo "articulo"
     nombre "Membrane and vesicle structure detection in cryo-electron tomography based on deep learning"
+    indice 433
     titulo "Membrane and vesicle structure detection in cryo-electron tomography based on deep learning"
     anio 2025
     isbn ""
@@ -37376,7 +37377,6 @@ graph [
     subarea ""
     keywords "Convolutional neural networks; Cryo-electron tomography; Semantic segmentation; Synthetic data generation"
     abstract "The article proposes a hybrid convolutional neural-network architecture for automated semantic segmentation of membranes and vesicle structures in cryo-electron tomography. The method combines ideas from several segmentation and sequence-model architectures and is designed to reproduce expert annotation behavior while reducing the time and subjectivity of manual segmentation."
-    indice 433
   ]
   node [
     id 5435
@@ -37401,6 +37401,7 @@ graph [
     label "articulo:434"
     tipo "articulo"
     nombre "Minimal FCN for image segmentation"
+    indice 434
     titulo "Minimal FCN for image segmentation"
     anio 2024
     isbn "978-1-5106-7314-4"
@@ -37411,7 +37412,6 @@ graph [
     subarea ""
     keywords "Computer vision; Computerised tomography; Convolutional neural nets; Deep learning (artificial intelligence); Feature extraction; Image classification; Image segmentation; Lung; Medical image processing; Object recognition; Accuracy changes; Analyzing accuracy curves; Basic FCN design; Data consumption; Demands efficiency; Distinct semantic segmentation tasks; Energy consumption; Enhanced explainability; Fully Convolutional Network; Hardware costs; Heat maps; Interpretable CNN classifiers; Lightweight deep segmentation models; Lightweight FCN proposals; Medical images; Medium layer; Middle layers; Minimal FCN works; Pivotal task; Robust explanation; Semantic segmentation masks; Simple semantic segmentation task; Training data; Utilizing chest CT imaging; Visual explanations; CNN; Deep learning; Efficiency; Explainability; FCN; Segmentation; Computer hardware; Computerized tomography; Energy efficiency; Energy utilization; Medical imaging; Network architecture; Semantic Segmentation; Semantics; Convolutional networks; Images segmentations; Middle layer; Segmentation masks"
     abstract "Research on interpretable CNN classifiers, involves comparing semantic segmentation masks with heat maps designed as visual explanations. A robust explanation accurately identifies or approximates the segmentation of an object. Our focus is on CNN classifiers with enhanced explainability, particularly in the middle layers. To explore this, we propose testing an encoder, trimmed to a medium layer, within a Fully Convolutional Network (FCN). Semantic segmentation is a pivotal task in computer vision preceding object recognition, and demands efficiency to optimize performance, energy consumption, and hardware costs. While various lightweight FCN proposals exist for distinct semantic segmentation tasks, their designs often introduce additional complexity compared to the more basic FCN design we advocate. Our goal is to see how well a minimal FCN works in a simple semantic segmentation task using medical images and how its accuracy changes when the training dataset is shrunk. The study involves characterizing and comparing our minimal FCN against other lightweight deep segmentation models and analyzing accuracy curves concerning the quantity of training data. Utilizing chest CT imaging, we focus on segmenting the lungs. We highlight the importance of data consumption and model size as decisive factors in selecting an architecture, especially when differences in predictive accuracy are marginal. Characterizing deep architectures based on their data requirements, allows for a thorough comparison fostering a deeper understanding of their suitability for specific applications."
-    indice 434
   ]
   node [
     id 5439
@@ -37610,6 +37610,7 @@ graph [
     label "articulo:435"
     tipo "articulo"
     nombre "MouseClicker: Exploring Tactile Feedback and Physical Agency for People with Hand Motor Impairments"
+    indice 435
     titulo "MouseClicker: Exploring Tactile Feedback and Physical Agency for People with Hand Motor Impairments"
     anio 2024
     isbn ""
@@ -37620,7 +37621,6 @@ graph [
     subarea ""
     keywords "Hand motor impairments; Holistic inclusion; Haptic feedback; Facial expressions; Hands-free input; Computer mouse"
     abstract "Assistive technology (AT) design is critical in enabling functionality for people with disabilities, blending essential elements of both practical utility and user experience. Traditionally, AT has successfully addressed core functional needs, such as enabling cursor movement and clicking actions with devices like computer mice. However, a comprehensive approach to AT design also necessitates a thorough consideration of sensory feedback, including tactile sensations, ergonomics, and auditory cues like button click sounds. These aspects are not merely supplementary but are integral to the device&#8217;s functionality, enhancing user interaction and long-term comfort, especially for individuals with motor impairments. In this work, we present MouseClicker, a mechatronic AT to surrogate physical agency over a computer mouse and to foster the haptic sensory experience of clicking on it tailored specifically for an individual with Spinal Muscular Atrophy (SMA) who faces challenges in using a standard mouse due to severe hand motor impairments. Our design aims at replicating the holistic experience of clicking a mouse, from its functional mechanical actions to its nuanced tactile and auditory feedback. This work details the MouseClicker&#8217;s design and reports on an exploratory user study aimed at identifying optimal vibrotactile feedback parameters &#8211; such as location, and intensity &#8211; that represent mouse button clicks. MouseClicker presents a step forward in AT design by integrating the functionality, sensory feedback, and the overall experience of taking control over non-AT devices."
-    indice 435
   ]
   node [
     id 5472
@@ -37663,6 +37663,7 @@ graph [
     label "articulo:436"
     tipo "articulo"
     nombre "Multi-View Object Recognition and Pose Sequence Estimation Using HMMs"
+    indice 436
     titulo "Multi-View Object Recognition and Pose Sequence Estimation Using HMMs"
     anio 2025
     isbn ""
@@ -37673,7 +37674,6 @@ graph [
     subarea ""
     keywords "Active vision; Hidden Markov model; Multi-view recognition; Next best view; Pose estimation; Classification (of information); Computer vision; Object recognition; Robots; Trellis codes; Hidden-Markov models; Human support robot; Multi-view object recognition; Multi-views; Real objects; Vision systems; Pose sequence estimation; Service robots"
     abstract "This work proposes an integration of a vision system for a service robot when its gripper holds an object. Based on the particular conditions of the problem, the solution is modular and allows one to use various options to extract features and classify data. Since the robot can move the object and has information about its position, the proposed solution takes advantage of this by applying preprocessing techniques to improve the performance of classifiers that can be considered weak. In addition to being able to classify the object, it is possible to infer the sequence of movements that it carries out using hidden Markov models (HMMs). The system was tested using a public dataset, the COIL-100, as well as with a dataset of real objects using the human support robot (HSR). The results show that the proposed vision system is able to work with a low number of shots in each class. Two HMM architectures are tested. In order to enhance classification by adding information from multiple perspectives, various criteria were analyzed. A simple model is built to integrate information and infer object movements. The system also has an next best view algorithm where different parameters are tested in order to improve both accuracy in the classification of the object and its pose, especially in objects that may be similar in several of their views. The system was tested using COIL-100 dataset and with real objects in common use and a HSR robot to take the real dataset. In general, using relatively few shots of each class and a plain computer, consistent results were obtained, requiring only 8.192&#215;10&#8722;3 MFLOPs for sequence processing using concatenated HMMs compared to 404.34 MFLOPs for CNN+LSTM."
-    indice 436
   ]
   node [
     id 5479
@@ -37746,6 +37746,7 @@ graph [
     label "articulo:437"
     tipo "articulo"
     nombre "Neural style transfer in tiny sets of ultrasound images for data augmentation"
+    indice 437
     titulo "Neural style transfer in tiny sets of ultrasound images for data augmentation"
     anio 2024
     isbn "978-1-5106-7314-4"
@@ -37756,7 +37757,6 @@ graph [
     subarea ""
     keywords "Medical imaging; Deep learning; Image enhancement; Image segmentation; Learning systems; Ultrasonics; Classification tasks; Data augmentation; Learning models; Medical image classification; Medical image segmentation; Neural style transfer; Performance; Style interpolation; Ultrasound images; Ultrasound"
     abstract "Deep learning models (DLM) encounter challenges in medical image segmentation and classification tasks, primarily due to the requirement for a substantial volume of annotated images, which are both time-consuming and expensive to acquire. In our work, we utilize neural style transfer (NST) to enhance a tiny dataset of ultrasound images, significantly improving the performance of deep learning models (DLM). Additionally, we explore style interpolation to generate new target styles, specifically tailored for ultrasound images. In summary, our objective is to demonstrate the potential utility of neural style transfer in scenarios with limited datasets, particularly in the context of ultrasound images using the dataset of breast ultrasound images (Walid Al-Dhabyani, Mohammed Gomaa, Hussien Khaled, &#38; Aly Fahmy, 2020)."
-    indice 437
   ]
   node [
     id 5491
@@ -37781,6 +37781,7 @@ graph [
     label "articulo:438"
     tipo "articulo"
     nombre "Optical model for 3D reconstruction of aerodynamic surfaces on blades by using pattern projection"
+    indice 438
     titulo "Optical model for 3D reconstruction of aerodynamic surfaces on blades by using pattern projection"
     anio 2025
     isbn "978-1-5106-9044-8"
@@ -37791,7 +37792,6 @@ graph [
     subarea ""
     keywords "3D reconstruction; Airfoils; Null test; Renewable energy; Stereo vision; 3D modeling; Aerodynamics; CMOS integrated circuits; Computer vision; Optical projectors; Pinhole cameras; Stereo image processing; Surface reconstruction; Three dimensional computer graphics; Turbomachine blades; Wind turbines; Aerodynamic surfaces; Blade section; Geometric shape; Hartmann; Optical modelling; Pattern projection; Renewable energies; Vision model"
     abstract "In this work we describe a stereo vision model to design Ronchi-Hartmann type patterns for testing, either qualitatively or quantitatively the geometric shape of the aerodynamic profiles or surface in a blade section of a low-power wind turbine. We calculate both non-regular fringes and non-uniform drop shape spots patterns to project and illuminate an array uniformly distributed on the aerodynamic surface, considering that a camera is placed at an angle to the center of the surface. We can evaluate the expected deformed patterns at the CMOS sensor to reconstruct the 3D surface. The design of these projected patterns is based on the knowledge of the ray trace along two different pinhole systems, taking account three positions, a projection plane, a reference plane or surface of interest and the detection plane. The experimental setup for a qualitative test consists of a commercial projector, a flat surface for calibration, and a CMOS camera. We evaluate qualitatively two blade sections formed by the NACA 0012 airfoil, one where the profile does not change throughout the section and second has a variable torsion from 0-10 degrees."
-    indice 438
   ]
   node [
     id 5495
@@ -37906,6 +37906,7 @@ graph [
     label "articulo:439"
     tipo "articulo"
     nombre "PCA-enhanced Speckle Interferometry with Bicubic Interpolation at the OAN-SPM M&#233;xico"
+    indice 439
     titulo "PCA-enhanced Speckle Interferometry with Bicubic Interpolation at the OAN-SPM M&#233;xico"
     anio 2025
     isbn ""
@@ -37916,7 +37917,6 @@ graph [
     subarea ""
     keywords "Astronomical image processing; Astronomical telescopes; Binary stars; Calibration; Image reconstruction; Interpolation; Light interferometry; Principal component analysis; Speckle; Stellar motion; Bicubic interpolation; Binary detection algorithm; Binary systems; Morphological filtering; OAN-SPM M&#233;xico; Observatorio Astron&#243;mico Nacional; Orbit calibration campaigns; Principal component analysis-enhanced speckle interferometry measurements; Sierra San Pedro M&#225;rtir; Signal-to-noise ratio; Size 2.1 m; Spatial resolution; Spatial sampling; Speckle cube; Speckle interferometry data; Stellar multiplicity surveys; Tangential coordinates"
     abstract "We present an improved methodology for the reduction and analysis of speckle interferometry data, based on observations obtained with the 2.1 m telescope at the Observatorio Astron&#243;mico Nacional in Sierra San Pedro M&#225;rtir, M&#233;xico. Our approach combines Principal Component Analysis (PCA) filtering with bicubic interpolation to enhance both the signal-to-noise ratio and spatial resolution of the speckle data, while preserving the morphology of the autocorrelation functions. PCA is employed to suppress incoherent noise by reconstructing the speckle cube using only the dominant components, which correspond to consistent features across frames. Bicubic interpolation is then applied to refine the spatial sampling of the reconstructed images. Following these procedures, we apply a binary detection algorithm based on morphological filtering and adaptive threshold masking to identify companion candidates. The method was validated using a sample of 97 binary systems with well-determined orbital solutions. Our results show a substantial improvement in measurement precision: the average uncertainty in angular separation decreased from 10.3 to 4.5 mas, in position angle from 1.&#176;85 to 0.&#176;91, and in magnitude difference from 0.09 to 0.05 mag&#8212;corresponding to average improvements of 56.4%, 51.8%, and 42.6%, respectively. In tangential coordinates, the propagated uncertainty &#961;&#963;&#952; exhibits a median reduction of 57.4%, commensurate with the radial uncertainty &#963;&#961;. These results demonstrate the effectiveness of our technique for increasing the reliability of speckle interferometry measurements, particularly in the context of stellar multiplicity surveys and orbit calibration campaigns."
-    indice 439
   ]
   node [
     id 5514
@@ -38043,6 +38043,7 @@ graph [
     label "articulo:440"
     tipo "articulo"
     nombre "Peering into the 3D world of rat brain tissue with digital holographic microscopy"
+    indice 440
     titulo "Peering into the 3D world of rat brain tissue with digital holographic microscopy"
     anio 2025
     isbn "978-1-5106-9146-9"
@@ -38053,7 +38054,6 @@ graph [
     subarea ""
     keywords "3d Image Reconstruction; Digital Holographic Microscopy; Digital Holography; Image Processing; Spatial Light Modulator; Tissue Imaging; 3D reconstruction; Brain; Brain mapping; Electron holography; Image reconstruction; Imaging systems; Lithography; Microscopic examination; Phase measurement; Repair; Three dimensional computer graphics; Tissue; Tissue engineering; Human brain; Images processing; Phase-encoding; Rat brain tissue; Spatial light modulators; Transmitted light intensity; Holograms; Light modulators"
     abstract "Mapping the human brain's microscopic architecture requires advanced imaging techniques. Conventional microscopy measures transmitted light intensity through thin brain sections, while digital holographic microscopy captures both transmitted amplitude and phase, encoding 3D structural information in a hologram. Despite its promise, applying holography to brain tissue has been hindered by biological complexity. In this study, we integrate in-line holography with bright-field microscopy to capture the first holograms of rat brain tissue to our knowledge. Using Double Side Band (DSB) filtering with a Spatial Light Modulator (SLM), we effectively achieve high-contrast amplitude and phase maps with 2.5&#956;m lateral resolution. By solving the diffraction equation, we reconstruct 3D tissue volumes with submicron axial precision. This method, offering amplitude and phase modalities alongside conventional imaging, holds promise for advancing volumetric brain mapping at microscopic scales."
-    indice 440
   ]
   node [
     id 5535
@@ -38156,6 +38156,7 @@ graph [
     label "articulo:441"
     tipo "articulo"
     nombre "Photoacoustic Image Analysis of Dental Tissue Using Two Wavelengths: A Comparative Study"
+    indice 441
     titulo "Photoacoustic Image Analysis of Dental Tissue Using Two Wavelengths: A Comparative Study"
     anio 2024
     isbn ""
@@ -38166,7 +38167,6 @@ graph [
     subarea ""
     keywords "Photoacoustic effect; Photoacoustic signal; Photoacoustic imaging; Dental hard tissue; Ultrasound transducer"
     abstract "The study compares photoacoustic dental-tissue images acquired at two excitation wavelengths. Reconstructed images and signal-derived measures are analyzed with quantitative image and spectral metrics to characterize wavelength-dependent differences in dental structures."
-    indice 441
   ]
   node [
     id 5552
@@ -38191,6 +38191,7 @@ graph [
     label "articulo:442"
     tipo "articulo"
     nombre "Photoacoustic Tomography in Forward-Detection Mode for Monitoring Structural Changes in an Extracted Wisdom Tooth"
+    indice 442
     titulo "Photoacoustic Tomography in Forward-Detection Mode for Monitoring Structural Changes in an Extracted Wisdom Tooth"
     anio 2025
     isbn ""
@@ -38201,7 +38202,6 @@ graph [
     subarea ""
     keywords "Photoacoustic tomography; Forward-detection mode; Extracted wisdom tooth; Image similarity metrics; Intensity profile of images; Dehydration"
     abstract "The article uses forward-detection photoacoustic tomography to monitor structural changes in an extracted wisdom tooth over time. Reconstructed images are compared with quantitative similarity and intensity-profile metrics to characterize changes associated with dehydration and tissue structure."
-    indice 442
   ]
   node [
     id 5556
@@ -38238,6 +38238,7 @@ graph [
     label "articulo:443"
     tipo "articulo"
     nombre "Potential of a Low-Cost System for Measuring Indoor Environmental Quality in Extreme Latin American Climates toward Energy Equity"
+    indice 443
     titulo "Potential of a Low-Cost System for Measuring Indoor Environmental Quality in Extreme Latin American Climates toward Energy Equity"
     anio 2024
     isbn ""
@@ -38248,7 +38249,6 @@ graph [
     subarea ""
     keywords "Environmental measurement system; Low-cost sensors; Indoor environmental quality; Pollutant measurement"
     abstract "Public health has multidisciplinary challenges involving a combination of physical, mental, and social welfare. Two limitations to quantifying indoor pollutants (gases, chemical compounds, and suspended particles) are the high cost and the complexity of available measurement systems. Under this scenario, an experimental approach was used to develop a low-cost system to measure variables that affect human and environmental health. Calibration, validation, and technical adjustment processes were conducted in an extreme-climate location in southern Mexico, following domestic and international standards. The key results showed the feasibility of using low-cost tools to measure pollutants in developing countries. 57% of the data for H2S had a result above 150 ppm, which is considered harmful to human health. On the other hand, developing the measurement system in the studied locality showed the importance of having data to measure environmental pollution levels according to each region's habits and customs. Sensors and open access systems were used as these can directly benefit resource-constrained researchers and the public and private sectors interested in measuring environmental and comfort variables to promote universal access to knowledge."
-    indice 443
   ]
   node [
     id 5562
@@ -38279,6 +38279,7 @@ graph [
     label "articulo:444"
     tipo "articulo"
     nombre "Power System Coherency via Taylor-Fourier Modal Extraction and Elbow-Based Clustering on Merging Costs"
+    indice 444
     titulo "Power System Coherency via Taylor-Fourier Modal Extraction and Elbow-Based Clustering on Merging Costs"
     anio 2025
     isbn "979-8-3315-7673-8"
@@ -38289,7 +38290,6 @@ graph [
     subarea ""
     keywords "Fourier series; Clustering algorithms; FIR filters; Hierarchical clustering; Merging; Clustering techniques; Coherency; Discrete time; Discrete time taylor-fourier transform; Elbow method; Fourier; Hierarchical agglomerative clustering; Modal extraction; Oscillatory mode; Power system coherency; Oscillatory modes"
     abstract "This paper addresses power system coherency by extracting oscillatory modal characteristics, which in turn inform a hierarchical agglomerative clustering (HAC) technique. The phase of the slower frequency modes is extracted from rotor speed measurements after a large disturbance occurs using a set of FIR filters built with the discrete-time Taylor-Fourier transform (DTTFT). These are clustered using the hierarchical agglomerative clustering (HAC) technique, with a subsequent optimal determination of the number of clusters guided by a customized Elbow heuristic, constructed explicitly over the HAC cluster merging distance/cost curve. Finally, the attained results demonstrate that the DTTFT's noise tolerance under polluted conditions and the effectiveness of the HAC for properly clustering generating units in the 10-machine and 39-bus benchmark power grid."
-    indice 444
   ]
   node [
     id 5567
@@ -38362,6 +38362,7 @@ graph [
     label "articulo:445"
     tipo "articulo"
     nombre "Power System Harmonics Identification Powered by an Eigensystem Realization Approach"
+    indice 445
     titulo "Power System Harmonics Identification Powered by an Eigensystem Realization Approach"
     anio 2025
     isbn ""
@@ -38372,7 +38373,6 @@ graph [
     subarea ""
     keywords "Eigensystem realization algorithm; Filter bank frequency response; Power quality; System identification; Total harmonic distortion; Electric power system measurement; Electric power transmission networks; Filter banks; Harmonic analysis; Identification (control systems); Renewable energy; Transients; Actual measurements; Eigensystem realization algorithms; Fast fourier; Filters bank; Harmonic identification; Power; Power systems harmonics; Total harmonic distortions; Harmonic distortion"
     abstract "The proliferation of power electronic devices through the massive integration of renewable energy sources on the small and medium scales in power systems has unleashed high harmonic distortions visible in electrical variables such as voltages and currents. Besides the deteriorating power quality, this fact also imposes challenges in quantifying power quality indicators, advocating novel approaches that deal with this issue. In this context, this paper counteracts such challenges by proposing a strategy to effectively measure the individual and total harmonic distortions in modern power grids. The proposal conceives the well-known system identification technique, the eigensystem realization algorithm, as a filter bank to extract the harmonic components from actual measurements and simulated data. Simulation results of two test systems confirm the effectiveness of the proposed method in attaining reliable estimates for the power system transient harmonics, inter-harmonics, and sub-harmonics. Furthermore, actual measurements corresponding to the energizing of a bank of three single-phase transformers connected in grounded Wye-Delta in an isolated lab-scale system are used. The well-known fast Fourier transform (FFT) approach is also applied to validate the proposition, resulting in the proposed ERA-based method is up to 50 times more precise in some cases than FFT."
-    indice 445
   ]
   node [
     id 5579
@@ -38457,6 +38457,7 @@ graph [
     label "articulo:446"
     tipo "articulo"
     nombre "PQ-SyDa: power quality synthetic disturbances dataset"
+    indice 446
     titulo "PQ-SyDa: power quality synthetic disturbances dataset"
     anio 2024
     isbn "979-8-3315-3054-9"
@@ -38467,7 +38468,6 @@ graph [
     subarea ""
     keywords "Deep learning (artificial intelligence); Graphical user interfaces; Power engineering computing; Power supply quality; Power systems; Automated label options; Deep learning algorithms; GUI; Machine learning algorithm; Phyton-based user-friendly graphical user interface toolbox; Power quality events dataset; Power quality synthetic disturbances dataset; PQ events; PQ-SyDa; Realistic datasets; Robust datasets; Adversarial machine learning; Deep learning; Event generators; Machine-learning; Power; Power quality event; Power quality event generator; PQ event; Python toolbox; User friendly; Power quality events generator; Training; Machine learning algorithms; Power quality; Predictive models; Prediction algorithms; Classification algorithms; Load modeling"
     abstract "This paper presents a Phyton-based user-friendly graphical user interface (GUI) toolbox to synthetically generate power quality events dataset. This GUI is able to provide and export a versatile collection of tools designed specifically to create robust and realistic datasets for their utilization in the evaluation and testing of machine learning and deep learning algorithms for PQ events in power systems. A straightforward implementation is adopted to generate datasets with up to 29 different PQ events with automated label options. Numerical and graphical results demonstrate the effectiveness of the GUI."
-    indice 446
   ]
   node [
     id 5593
@@ -38582,6 +38582,7 @@ graph [
     label "articulo:447"
     tipo "articulo"
     nombre "Proximity Sensor for Measuring Social Interaction in a School Environment"
+    indice 447
     titulo "Proximity Sensor for Measuring Social Interaction in a School Environment"
     anio 2024
     isbn ""
@@ -38592,7 +38593,6 @@ graph [
     subarea ""
     keywords "Interaction; Sensors; Spatial configuration; Received signal strength indicator"
     abstract "A multi-sensor proximity device combining Bluetooth, GPS and accelerometer information is designed and evaluated for measuring interpersonal proximity and social interaction in school environments. Received-signal-strength profiles and spatial measurements are analyzed to assess whether the device can reliably characterize face-to-face proximity and support quantitative studies of social interaction."
-    indice 447
   ]
   node [
     id 5612
@@ -38611,6 +38611,7 @@ graph [
     label "articulo:448"
     tipo "articulo"
     nombre "Pseudo-Temporal Modeling with 2D CNNs for Framewise Surgical Gesture Segmentation in Robot-Assisted Surgery"
+    indice 448
     titulo "Pseudo-Temporal Modeling with 2D CNNs for Framewise Surgical Gesture Segmentation in Robot-Assisted Surgery"
     anio 2025
     isbn "979-8-3315-0119-8"
@@ -38621,7 +38622,6 @@ graph [
     subarea ""
     keywords "2d convolutional neural networks; Exponential moving average; Pseudo-temporal modeling; ResNet 50; Surgical gesture segmentation; Convolutional neural networks; Intelligent robots; Jigs; Robotic surgery; Surgical equipment; Transplantation (surgical); 2d convolutional neural network; Convolutional neural network; Exponential moving averages; Gesture segmentation; Knot-tying; Surgical gestures; Temporal models; Convolution; Training; Adaptation models; Accuracy; Computational modeling; Surgery; Needles; Real-time systems; Windows; Videos"
     abstract "Surgical procedures can be decomposed into elementary units (tasks, surgemes, and dexemes) that represent the building blocks of surgical performance. Segmenting gestures at this level is crucial for objective skill assessment and for understanding how simple movements are concatenated to form complete procedures, ultimately supporting the development of training and evaluation systems. In this work, we present a pseudo-temporal modeling approach for surgical gesture segmentation using a 2D ResNet-50 convolutional network trained exclusively on RGB frames. During training, each video was divided into eight equal segments, which were used to feed the network and generate gesture-level probabilities. To optimize learning, an adaptive Exponential Moving Average (EMA) mechanism was applied to stabilize weight updates and reinforce poorly performing gesture classes. At inference, complete surgical videos were processed with an overlapping sliding window of eight frames, where each frame could be evaluated multiple times in different contexts. Frame-level probabilities were averaged across overlapping windows and refined through a temporal mode filter, producing stable and coherent gesture sequences. The method was validated on the JIGSAWS dataset, which includes the Suturing, Knot Tying, and Needle Passing tasks. Results showed reliable recognition across all procedures: Suturing achieved 82.26%, Knot Tying 91.97%, and Needle Passing 79.35%. Training required approximately one hour, and inference on a complete video of 2950 frames was performed in about 45 seconds, also generating a labeled output video. By relying solely on 2D convolutions and RGB input, the approach achieves accurate and efficient segmentation with low computational cost, making it suitable for surgical training environments with limited resources and applicable in near real-time scenarios."
-    indice 448
   ]
   node [
     id 5615
@@ -38724,6 +38724,7 @@ graph [
     label "articulo:449"
     tipo "articulo"
     nombre "Robo-Surveillance of a Solar Park for a Workshop in Interdisciplinary Education"
+    indice 449
     titulo "Robo-Surveillance of a Solar Park for a Workshop in Interdisciplinary Education"
     anio 2024
     isbn "978-3-031-71360-6; 978-3-031-71359-0"
@@ -38734,7 +38735,6 @@ graph [
     subarea ""
     keywords "Bluetooth; Mobile robots; Solar panels (photovoltaic); Cognition; Computer science; Diverse disciplines; Dusty solar panels; Electric, engineering; Electronic engineering; Experience work; Intelligent mobile robotics; Interdisciplinary education; Interdisciplinary workshop; Mechanical engineering; Neuroscience; Omnidirectional robot whose task; One-week workshop; Panel; Robo-surveillance; Simple differential robot; Solar park; U-net neural network; Undergraduate education; Educative Robots; Educative Workshop Design; Renewable Energies; Robotic Network; Behavioral research; Computer workstations; Educational robots; Engineering education; Integrated circuit design; Intelligent robots; Machine design; Wi-Fi; Wireless local area networks (WLAN); Educative robot; Mechanical; Mobile robotic; Robotic networks; Simple++; Solar parks; Students"
     abstract "The field of intelligent mobile robotics is highly interdisciplinary by nature, spanning interest from mechanical, electric, and electronic engineering to computer science, physics, cognition and neuroscience. Yet, there are few opportunities during undergraduate education to experience work and communication between students from these disciplines. For this reason, we devised a scenario where knowledge from these diverse disciplines could be demonstrated and used for experiments by students during a one-week workshop. This scenario consists of trials with two different robots. The first phase of the trials makes use of a simple differential robot where the basics of electronics, communications over WiFi and Bluetooth networks are taught. The second phase makes use of an omnidirectional robot whose task is to survey a solar park to detect dusty solar panels. Its job is only to navigate through the park detecting the panels and sending one photo of the panel to a nearby workstation. This workstation processes the images captured by the small robots to detect whether the panels in them are clean or dusty, using a U-net neural network. Here we report our experience on the first two editions of this interdisciplinary workshop."
-    indice 449
   ]
   node [
     id 5632
@@ -38927,6 +38927,7 @@ graph [
     label "articulo:450"
     tipo "articulo"
     nombre "Slope Chain Code-based scale-independent tortuosity measurement on retinal vessels"
+    indice 450
     titulo "Slope Chain Code-based scale-independent tortuosity measurement on retinal vessels"
     anio 2025
     isbn ""
@@ -38937,7 +38938,6 @@ graph [
     subarea ""
     keywords "Extended Slope Chain Code; Tortuosity measurement; Scale invariance; Fundus photography; Scanning laser ophthalmoscopy; Retinal vessels"
     abstract "Retinal vascular tortuosity presents valuable potential as a clinical biomarker for many relevant vascular and systemic diseases. Our work exhibits twofold: first, the definition of a novel scale-invariant metric to measure retinal blood vessel tortuosity; and second, the generation of a local database, called SCALE-TORT, with the intention of providing a means to test the scale invariance property on real retinal vessels rather than on synthetic data. The proposed scale invariant tortuosity metric is based on the Extended Slope Chain Code which uses variable straight-line segments for describing curves. It is focused on the representation of high-definition curves, the length of the segments is a function of the slope changes of the curve. Scale invariance is an important property when several different retinal image settings or different acquisition sources are used during a particular study or in clinical practice. The database SCALE-TORT, introduced herein, was built semi-automatically from digital images containing the coordinates of blood vessel central lines (curves) taken from images of the same eye obtained by two different imaging methodologies: retinal fundus camera and scanning laser ophthalmoscope. The vessel curves extracted from the same eye are paired for images acquired by the fundus camera and those acquired by the scanning laser ophthalmoscope to evaluate the scale invariance of the metric. Ten different tortuosity metrics were implemented and compared including our proposed metric. Three experiments were conducted to test the metrics and their properties. The first aimed to determine which tortuosity metrics possess the following properties: scale invariance, sensitivity to sudden tortuosity changes when the curve remains constant in size, and how they behave when curves are concatenated. In the second experiment, all reviewed metrics were tested on the publicly available RET-TORT database, to compare the results of the specific metric with the tortuosity classification provided by their experts and in comparison with other authors. Finally, in the third experiment, the behavior of different metrics, including those which are scale-invariant, were tested by utilizing the paired retinal vessel curves from our new SCALE-TORT database. In comparison with other tortuosity metrics, we show that the metric Extended Slope Chain Code proposed in this work optimally complies with scale invariance, in addition to having sufficient sensitivity to detect abrupt changes in tortuosity. Easy implementation being a further plus. Furthermore, we present a new and valuable database for scale property evaluation on images of retinal blood vessels called SCALE-TORT. As far as we are aware, there is no public database with these characteristics."
-    indice 450
   ]
   node [
     id 5664
@@ -38974,6 +38974,7 @@ graph [
     label "articulo:451"
     tipo "articulo"
     nombre "Smart Machine Vision for Universal Spatial-Mode Reconstruction"
+    indice 451
     titulo "Smart Machine Vision for Universal Spatial-Mode Reconstruction"
     anio 2025
     isbn ""
@@ -38984,7 +38985,6 @@ graph [
     subarea ""
     keywords "Artificial intelligence (AI); Neural networks; Smart machine-vision device; Spatial-mode reconstruction; Image reconstruction; Artificial intelligence; High-order; Higher-order; Machine-vision; Orbital angular momentum; Smarter machines; Spatial modes; Adult; Algorithm; Article; Artificial neural network; Controlled study; Glass fiber; Human; Nerve cell network; Nonhuman; Protocol; Vision; Light transmission; Accuracy; Laser beams; Optical distortion; Optical fiber networks; Optical beams; Convolutional neural networks; Optical fibers; Deep learning; Crosstalk"
     abstract "Structured light beams, in particular, those carrying orbital angular momentum (OAM), have gained a lot of attention due to their potential for enlarging the transmission capabilities of communication systems. However, the use of OAM-carrying light in communications faces two major problems, namely distortions introduced during propagation in disordered media, such as the atmosphere or optical fibers, and the large divergence that high-order OAM modes experience. While the use of nonorthogonal modes may offer a way to circumvent the divergence of high-order OAM fields, artificial intelligence (AI) algorithms have shown promise for solving the mode-distortion issue. Unfortunately, current AI-based algorithms make use of large-amount data-handling protocols that generally lead to large processing time and high power consumption. Here, we show that a low-power, low-cost image sensor can act as an artificial neural network that simultaneously detects and reconstructs distorted OAM-carrying beams. We demonstrate the capabilities of our device by reconstructing (with a 95% efficiency) individual Vortex, Laguerre-Gaussian (LG), and Bessel modes, as well as hybrid (nonorthogonal) coherent superpositions of such modes. Our work provides a potentially useful basis for the development of low-power-consumption, light-based communication devices."
-    indice 451
   ]
   node [
     id 5670
@@ -39081,6 +39081,7 @@ graph [
     label "articulo:452"
     tipo "articulo"
     nombre "Spectral characterization of the ictal phase in epileptic seizures of temporal lobe using the wavelet transform"
+    indice 452
     titulo "Spectral characterization of the ictal phase in epileptic seizures of temporal lobe using the wavelet transform"
     anio 2025
     isbn "979-8-3315-5315-9"
@@ -39091,7 +39092,6 @@ graph [
     subarea ""
     keywords "Diseases; Electroencephalography; Medical disorders; Medical signal processing; Neurophysiology; Spectral analysis; Time-frequency analysis; Wavelet transforms; Brain damage; Brain function; Chronic disorder; Dispersion analysis; Electroencephalogram; Epilepsy diagnosis; Epileptic activity; Epileptic seizures; Frequency patterns; Hypersychronization; Ictal phase; Neuronal hyperactivity; Recurrent seizures; Spectral characterization; Spectral time-frequency analysis; Spectrograms; Temporal lobe epilepsy; Wavelet transform; Epilepsy; Neuronal synchronization; Wavelet analysis; Brain; Classification (of information); Dispersion (waves); Dispersions; Neurons; Power; Temporal lobes; Wavelet analyze; Wavelets transform"
     abstract "Epilepsy is a chronic disorder of brain function related to neuronal hyperactivity and hypersychronization. The electroencephalogram is the main clinical technic used to the epilepsy diagnosis and study. The ictal phase of the epileptic activity occurs when the brain and behavior manifestations are most prominent, however, there are no objective parameters to determine it, as well as to identify its onset and offset. In this research we propose a spectral time-frequency analysis to characterize this phase. Twenty-one ictal phases of temporal lobe epilepsy from men and women with focal onset were analyzed with the wavelet transform. Specific power and frequency patterns on the spectrograms were identified in 75% of ictal phases: an intermittent activity in &#948; band, followed by a hypersynchronization in &#948; and &#952; bands, and finally a power dispersion from 2 to 30 Hz; regardless of onset lateralization and sex. This pattern clearly limited the onset and offset of the seizure. Additionally, power and frequencies dispersion analysis between the nearest channels to the focus and the other channels were performed. No dispersion patterns were observed, but it was proposed that it could be related to the individual brain damage caused by the recurrent seizures. In conclusion, the quantitative analysis of ictal phases by means of wavelet transform offered a new visualization of the ictal phase and highlighted objective information in power and frequency, which can be used for helping with understanding and classification of this kind of seizures."
-    indice 452
   ]
   node [
     id 5686
@@ -39242,6 +39242,7 @@ graph [
     label "articulo:453"
     tipo "articulo"
     nombre "Study of erythrocyte sedimentation in human blood through the photoacoustic signals analysis"
+    indice 453
     titulo "Study of erythrocyte sedimentation in human blood through the photoacoustic signals analysis"
     anio 2024
     isbn ""
@@ -39252,7 +39253,6 @@ graph [
     subarea ""
     keywords "Whole human blood; Aggregation; Erythrocyte sedimentation; Anemia; Speed of sound; Pulsed photoacoustic"
     abstract "The article analyzes temporal and spectral characteristics of photoacoustic signals to follow erythrocyte aggregation and sedimentation in whole human blood. The method is evaluated with healthy and hemolytic-anemia samples as a computational and optical alternative for characterizing sedimentation behavior."
-    indice 453
   ]
   node [
     id 5711
@@ -39295,6 +39295,7 @@ graph [
     label "articulo:454"
     tipo "articulo"
     nombre "Testing Three Different Speech Synthesizers to Acknowledge the Advantages of DNN Systems against HMM Methods"
+    indice 454
     titulo "Testing Three Different Speech Synthesizers to Acknowledge the Advantages of DNN Systems against HMM Methods"
     anio 2025
     isbn ""
@@ -39305,7 +39306,6 @@ graph [
     subarea ""
     keywords "Deep neural networks; Hidden Markov models; Line spectral pair; Speech synthesis; Voice parameterization"
     abstract "This document reports MOS results after testing naturalness and expressiveness in three different speech synthesis systems. A first system is based on HMM, the second one combines HMM and DNN and the third one is solely based on DNN. According to the results, DNN systems outperform HMM systems in synthetic speech quality."
-    indice 454
   ]
   node [
     id 5718
@@ -39336,6 +39336,7 @@ graph [
     label "articulo:455"
     tipo "articulo"
     nombre "The Yucatan HF Radar Network: A Multinational Technology Demonstration to Advance Monitoring of Western Boundary Currents"
+    indice 455
     titulo "The Yucatan HF Radar Network: A Multinational Technology Demonstration to Advance Monitoring of Western Boundary Currents"
     anio 2025
     isbn "979-8-218-73628-6"
@@ -39346,7 +39347,6 @@ graph [
     subarea ""
     keywords "Calibration; Marine radar; Ocean dynamics; Oceanographic regions; Oceanographic techniques; Quality control; Radar antennas; Remote sensing by radar; Ships; Storms; Atlantic ocean conveyor belt; Calibrate receiver antenna patterns; Climate variability; Cuba; Derived velocity transect product; Flow variability; Hourly surface currents; Hurricane prediction; Impacts hurricane intensification; Isla contoy; Long-range CODAR seasonde systems; Loop current; Multinational technology demonstration; Near-real-time observations; Ocean forecasting; On-water calibration; Real-time radar products; Targeted ship sampling; Trilateral collaboration; UNAM 's Puerto Morelos facility; Validate ocean models; Western boundary currents; Yucatan channel; Yucatan current; Yucatan HF radar network"
     abstract "The Yucatan High Frequency Radar (HFR) Network is a trilateral collaboration between the U.S., Mexico, and Cuba designed to monitor surface currents in the Yucatan Channel, a critical segment of the Atlantic Ocean conveyor belt. Two long-range CODAR SeaSonde systems were installed on Isla Contoy and at UNAM's Puerto Morelos facility to provide sustained, near-real-time observations of the Yucatan Current, which feeds the Loop Current and impacts hurricane intensification and climate variability. A key innovation is the use of Automatic Identification System (AIS) ship-tracking data to continuously calibrate receiver antenna patterns, eliminating the need for traditional on-water calibration. Hourly surface currents are processed, quality-controlled using QARTOD standards, and publicly distributed via an ERDDAP server. A derived velocity transect product along the strait's axis is used to analyze flow variability and validate ocean models, which often misrepresent the spatial structure observed by HFR. During the 2024 Mini-Adaptive Sampling Test Run (MASTR), real-time radar products supported autonomous vehicle missions and targeted ship sampling. Expansion to Cuba and additional Mexican sites is underway, positioning the network as a foundation for Caribbeanwide HFR coverage under GOOS and TAC-OOFS to improve ocean forecasting and hurricane prediction."
-    indice 455
   ]
   node [
     id 5723
@@ -39539,6 +39539,7 @@ graph [
     label "articulo:456"
     tipo "articulo"
     nombre "Tool-Assisted Annotation of Seafloor Sediment-Linked Features Using Weakly Supervised Semantic Segmentation"
+    indice 456
     titulo "Tool-Assisted Annotation of Seafloor Sediment-Linked Features Using Weakly Supervised Semantic Segmentation"
     anio 2025
     isbn "979-8-3315-8654-6"
@@ -39549,7 +39550,6 @@ graph [
     subarea ""
     keywords "Weakly supervised learning; Semantic segmentation; Few-shot learning; Feature enhancement; Self-supervised learning; Seafloor sediment; Weak supervision; Annotations; Scalability; Sea floor; Habitats; Streaming media; Sediments; Iterative methods; Monitoring; Computer vision; Ecosystems; Semantics; Supervised learning; Benthic habitat monitoring; Pixel-wise labeling; Seafloor imagery; Seafloor sediments; Underwater computer vision; Vision research"
     abstract "Pixel-wise labeling of seafloor imagery is highly time-consuming, limiting the scalability of benthic habitat monitoring. While existing underwater computer vision research has largely focused on visually prominent habitats, sediment-linked benthic features remain underexplored and lack annotated datasets. To address this gap, we propose a tool-assisted annotation framework based on weakly supervised semantic segmentation. The framework follows a three-phase pipeline: feature-based pseudo-mask generation, binary class-specific segmentation, and iterative multiclass segmentation with pseudo-mask expansion and affinity-field regularization. Applied to six ecologically important sediment features, the approach progressively improves pseudo-label quality while reducing reliance on dense expert annotations, providing a scalable solution that can accelerate the annotation of seafloor sediment features. Code is available at: https://github.com/shahrokh1106/seafloor-sediment-segmentation"
-    indice 456
   ]
   node [
     id 5755
@@ -39658,6 +39658,7 @@ graph [
     label "articulo:457"
     tipo "articulo"
     nombre "Topological Data Analysis in Cardiovascular Signals: An Overview"
+    indice 457
     titulo "Topological Data Analysis in Cardiovascular Signals: An Overview"
     anio 2024
     isbn ""
@@ -39668,7 +39669,6 @@ graph [
     subarea ""
     keywords "Alegbraic topology; Cardiovascular signals; Mapper algorithm; Persistent homology; Topological data analysis"
     abstract "Topological data analysis (TDA) is a recent approach for analyzing and interpreting complex data sets based on ideas a branch of mathematics called algebraic topology. TDA has proven useful to disentangle non-trivial data structures in a broad range of data analytics problems including the study of cardiovascular signals. Here, we aim to provide an overview of the application of TDA to cardiovascular signals and its potential to enhance the understanding of cardiovascular diseases and their treatment in the form of a literature or narrative review. We first introduce the concept of TDA and its key techniques, including persistent homology, Mapper, and multidimensional scaling. We then discuss the use of TDA in analyzing various cardiovascular signals, including electrocardiography, photoplethysmography, and arterial stiffness. We also discuss the potential of TDA to improve the diagnosis and prognosis of cardiovascular diseases, as well as its limitations and challenges. Finally, we outline future directions for the use of TDA in cardiovascular signal analysis and its potential impact on clinical practice. Overall, TDA shows great promise as a powerful tool for the analysis of complex cardiovascular signals and may offer significant insights into the understanding and management of cardiovascular diseases."
-    indice 457
   ]
   node [
     id 5773
@@ -39705,6 +39705,7 @@ graph [
     label "articulo:458"
     tipo "articulo"
     nombre "Towards Robotic Object Recognition and Pick and Place: A Simulation-Based Approach with the KUKA KR5 HW-2"
+    indice 458
     titulo "Towards Robotic Object Recognition and Pick and Place: A Simulation-Based Approach with the KUKA KR5 HW-2"
     anio 2024
     isbn "979-8-3503-7811-5; 979-8-3503-7812-2"
@@ -39715,7 +39716,6 @@ graph [
     subarea ""
     keywords "Kinect 2.0; Kuka kr5 arc hw-2; Moveit!; Object recognition; Robotic manipulation; Simulation; URDF; Vision System; Ability testing; Flexible manipulators; Industrial manipulators; Rapid prototyping; Robot vision; Virtual environments; Objects recognition; Pick and place; Simulation based approaches; Vision systems; Robot programming; Moveit; Automation &#38; Control Systems; Computer Science, Interdisciplinary Applications; Engineering, Multidisciplinary; Engineering, Electrical &#38; Electronic; Computer Science; Engineering; Service robots; Trajectory planning; Object detection; Manipulators; Manufacturing; Optimization; Testing"
     abstract "This paper presents a simulation-based approach to robotic object recognition and rearrangement using the KUKA KR5 HW-2 manipulator. The research focuses on developing and implementing advanced algorithms for object detection, classification, and manipulation within a virtual environment. The KUKA KR5 HW-2, a versatile industrial robot, is modelled in the simulation to perform complex pick and place operations. It emphasizes the integration of computer vision techniques with the robot's kinematic model to enhance its ability to recognize various object geometries and efficiently plan rearrangement tasks. The simulation environment allows for rapid prototyping and testing of different scenarios, enabling the optimization of trajectory planning and grip strategies. Our results demonstrate significant improvements in the manipulator's adaptability to diverse object types and arrangement patterns. This work contributes to the advancement of flexible automation in manufacturing and logistics, offering insights into the potential of simulation-based development for robotic manipulation tasks."
-    indice 458
   ]
   node [
     id 5779
@@ -39812,6 +39812,7 @@ graph [
     label "articulo:459"
     tipo "articulo"
     nombre "University membership through immersive virtual environments and a sense of belongingness"
+    indice 459
     titulo "University membership through immersive virtual environments and a sense of belongingness"
     anio 2024
     isbn ""
@@ -39822,7 +39823,6 @@ graph [
     subarea ""
     keywords "Education; Sense of belongingness; Sense of school membership; Serious video game; Virtual environment; Immersive virtual environments; University membership; Sense of belonging"
     abstract "In this work, we study the feeling of membership in undergraduate students who interact with their higher education institution through a virtual environment. We explore the Centro de Investigaciones en Dise&#241;o Industrial (CIDI) case, in which a virtual environment was built using the Roblox platform to enhance the online experience that students were having during the COVID-19 pandemic. Through the application of the Psychological Sense of School Membership scale, we show that it is possible to evoke a sense of belonging in a physical space with a virtual representation. We achieved this by virtually replicating the physicality of the original CIDI and by promoting social behaviors using three modalities of social interaction."
-    indice 459
   ]
   node [
     id 5795
@@ -39871,6 +39871,7 @@ graph [
     label "articulo:460"
     tipo "articulo"
     nombre "Using the Java Programming Language for Automated Digital Counting from Images of Aedes aegypti (Linnaeus, 1762) (Diptera: Culicidae) Eggs"
+    indice 460
     titulo "Using the Java Programming Language for Automated Digital Counting from Images of Aedes aegypti (Linnaeus, 1762) (Diptera: Culicidae) Eggs"
     anio 2024
     isbn ""
@@ -39881,7 +39882,6 @@ graph [
     subarea ""
     keywords "Arbovirosis; Dengue control; Digital images; Ovitrap; Entomological surveillance"
     abstract "The work presents CERECOVE, free-of-charge software developed in Java to automate the counting of Aedes aegypti eggs from digitized images of ovitrap papers. The program exploits the contrast between the eggs and the substrate, runs on basic computers without an internet connection, and is compared with manual counting to assess its usefulness in entomological surveillance."
-    indice 460
   ]
   node [
     id 5803
@@ -39918,6 +39918,7 @@ graph [
     label "articulo:461"
     tipo "articulo"
     nombre "Visual Servoing and Kalman Filter Applied to Parallel Manipulator 3-RRR"
+    indice 461
     titulo "Visual Servoing and Kalman Filter Applied to Parallel Manipulator 3-RRR"
     anio 2024
     isbn ""
@@ -39928,7 +39929,6 @@ graph [
     subarea ""
     keywords "Kalman filter; Parallel manipulator 3-RRR; Visual servoing"
     abstract "This study introduces a novel methodology integrating computer vision, visual servo control, and the Kalman Filter to precisely estimate object locations for a 3-RRR planar type parallel manipulator. Through kinematic analysis and the development of a vision system using color indicators, the research enhances the ability of the manipulator to track object trajectories, especially in cases of occlusion. Employing Eye-to-Hand visual servo control, the research further refines the visual orientation of the sensor for optimal end effector and object identification. The incorporation of the Kalman Filter as a robust estimator for occluded objects underscores the predictive accuracy of the system. Results demonstrate the effectiveness of the methodology in trajectory generation and object tracking, with potential implications for improving robotic manipulators in dynamic environments. This comprehensive approach not only advances the fields of kinematic control and visual servoing but also opens new avenues for future research in complex spatial manipulations."
-    indice 461
   ]
   node [
     id 5809
@@ -39947,6 +39947,7 @@ graph [
     label "articulo:462"
     tipo "articulo"
     nombre "XR for educational anatomy: an Immersive human atlas with chatbot"
+    indice 462
     titulo "XR for educational anatomy: an Immersive human atlas with chatbot"
     anio 2025
     isbn "979-8-3315-1484-6"
@@ -39957,7 +39958,6 @@ graph [
     subarea ""
     keywords "Extended Reality; Immersive Environments; Anatomy Education; Large Language Models; Cross Computing; Visualization; Solid modeling; Three-dimensional displays; Conferences; Education; User interfaces; Software; Anatomy; Medical education; 3D modeling; Teaching; Anatomy educations; Chatbots; Immersive; Immersive environment; Interactivity; Language model; Large language model; Learning experiences"
     abstract "Immersive reality has emerged as a groundbreaking and promising approach for teaching anatomy, providing unique learning experiences while complementing traditional educational methods. Existing immersive software, such as Organon&#174; and HoloLens&#174;, offer valuable tools but remain limited in anatomical detail and interactivity. We present a novel educational approach: an immersive human atlas that integrates anatomical slices from the Visible Korean Human dataset (male and female) into a 3D environment. This platform enhances anatomical visualization and incorporates a Large Language Model (LLM) to support user interaction and understanding. By combining precise anatomical slices within the 3D model, the atlas provides an enriched and comprehensive learning experience for medical education."
-    indice 462
   ]
   node [
     id 5812
@@ -40030,6 +40030,7 @@ graph [
     label "articulo:463"
     tipo "articulo"
     nombre "&#8220;ShapeNet&#8221;: A Shape Regression Convolutional Neural Network Ensemble Applied to the Segmentation of the Left Ventricle in Echocardiography"
+    indice 463
     titulo "&#8220;ShapeNet&#8221;: A Shape Regression Convolutional Neural Network Ensemble Applied to the Segmentation of the Left Ventricle in Echocardiography"
     anio 2025
     isbn ""
@@ -40040,7 +40041,6 @@ graph [
     subarea ""
     keywords "Active shape models; Convolutional neural networks; Echocardiography; Left ventricle segmentation; Shape constraints; Ultrasound segmentation; Semantic Segmentation; Convolutional neural network; Dice coefficient; ECHONET; Hausdorff distance; Leave ventricle segmentation; Left ventricles; Neural network's ensemble"
     abstract "Left ventricle (LV) segmentation is crucial for cardiac diagnosis but remains challenging in echocardiography. We present ShapeNet, a fully automatic method combining a convolutional neural network (CNN) ensemble with an improved active shape model (ASM). ShapeNet predicts optimal pose (rotation, translation, and scale) and shape parameters, which are refined using the improved ASM. The ASM optimizes an objective function constructed from gray-level profiles concatenated into a single contour appearance vector. The model was trained on 4800 augmented CAMUS images and tested on both CAMUS and EchoNet databases. It achieved a Dice coefficient of 0.87 and a Hausdorff Distance (HD) of 4.08 pixels on CAMUS, and a Dice coefficient of 0.81 with an HD of 10.21 pixels on EchoNet, demonstrating robust performance across datasets. These results highlight the improved accuracy in HD compared to previous semantic and shape-based segmentation methods by generating statistically valid LV contours from ultrasound images."
-    indice 463
   ]
   node [
     id 5824
@@ -40107,6 +40107,7 @@ graph [
     label "articulo:464"
     tipo "articulo"
     nombre "2-polarity and algorithmic aspects of polarity variants on cograph superclasses"
+    indice 464
     titulo "2-polarity and algorithmic aspects of polarity variants on cograph superclasses"
     anio 2024
     isbn ""
@@ -40117,7 +40118,6 @@ graph [
     subarea ""
     keywords "2-polar graph; Cograph; Graph algorithms; P&#8324;-extendible graph; P&#8324;-sparse graph; Polar graph; Consensus algorithm; Algorithmic aspects; Monopolar; P4-extendible graph; P4-sparse graph; Polar graphs; Sparse graphs; Undirected graphs"
     abstract "A graph G is said to be an (s, k)-polar graph if its vertex set admits a partition (A, B) such that A and B induce, respectively, a complete s-partite graph and the disjoint union of at most k complete graphs. Polar graphs and monopolar graphs are defined as (&#8734;, &#8734;)- and (1, &#8734;)-polar graphs, respectively, and unipolar graphs are those graphs with a polar partition (A, B) such that A is a clique. The problems of deciding whether an arbitrary graph is a polar graph or a monopolar graph are known to be NP-complete. In contrast, deciding whether a graph is a unipolar graph can be done in polynomial time. In this work we prove that the three previous problems can be solved in linear time on the classes of P4-sparse and P4-extendible graphs, generalizing analogous results previously known for cographs. Additionally, we provide finite forbidden subgraph characterizations for (2, 2)-polar graphs on P4-sparse and P4-extendible graphs, also generalizing analogous results recently obtained for the class of cographs."
-    indice 464
   ]
   node [
     id 5835
@@ -40196,6 +40196,7 @@ graph [
     label "articulo:465"
     tipo "articulo"
     nombre "A fuzzy description logic based IoT framework: Formal verification and end user programming"
+    indice 465
     titulo "A fuzzy description logic based IoT framework: Formal verification and end user programming"
     anio 2024
     isbn ""
@@ -40206,7 +40207,6 @@ graph [
     subarea ""
     keywords "Internet of Things; Fuzzy description logic; Formal verification; End-user programming"
     abstract "The article proposes an IoT framework that lets nontechnical users define smart-environment behavior through everyday fuzzy rules while formally checking rule consistency. A fuzzy-description-logic reasoner translates vague language into actuator actions, detects contradictions in real time, and is evaluated through a smart-home security scenario."
-    indice 465
   ]
   node [
     id 5848
@@ -40231,6 +40231,7 @@ graph [
     label "articulo:466"
     tipo "articulo"
     nombre "A Reasoning System for Graded Modal Logic"
+    indice 466
     titulo "A Reasoning System for Graded Modal Logic"
     anio 2024
     isbn "979-8-3315-3211-6"
@@ -40241,7 +40242,6 @@ graph [
     subarea ""
     keywords "Graded modalities; Proof theory; Hypersequents; Automated reasoning; Technological innovation; Interpolation; Program processors; Computational modeling; Syntactics; Cognition; Numerical models; Logic; Iterative methods; Formal verification; Graded modal logic; Reasoning system; Formal methods"
     abstract "In this paper, we propose a deduction system for the modal logic $\mathbf{K}$ with graded modalities, which is obtained by adding numerical constraints to the modal operators. Graded modalities can be seen as a generalization of traditional modal operators since they include numerical bounds in the modalities, thus enabling the formal treatment of more detailed expressions, such as &#8220;there are at least $n+1$ individuals satisfying a certain property&#8221;, where $n$ is a natural number. This kind of properties commonly arise in contexts such as concurrent systems: &#8220;if at least 3 processors are free, then proceed to compute the next task&#8221;, or epistemic logic:&#8221;if more than 2 people know $P$, then $P$ is known&#8221;. The system is based on the notion of tree-hypersequents. We show the system is correct, i.e. sound and complete."
-    indice 466
   ]
   node [
     id 5852
@@ -40302,6 +40302,7 @@ graph [
     label "articulo:467"
     tipo "articulo"
     nombre "A speedup theorem for asynchronous computation with applications to consensus and approximate agreement"
+    indice 467
     titulo "A speedup theorem for asynchronous computation with applications to consensus and approximate agreement"
     anio 2025
     isbn ""
@@ -40312,7 +40313,6 @@ graph [
     subarea ""
     keywords "Computational complexity; Concurrency theory; Distributed algorithms; Multi-agent systems; Theorem proving; Approximate agreement; Asynchronous computation; Asynchronous speedup theorem states; Binary consensus; Computability perspective; Consensus closure; Distributed computing; n-process task; Read/write registers; Wait-free impossibility; Wait-free solving approximate agreement; Computational modelling; Impossibility results; Iterated models; Low bound; Power; Register sets; Test sets; Wait free; Distributed computer systems"
     abstract "We study two fundamental problems of distributed computing, consensus and approximate agreement, through a novel approach for proving lower bounds and impossibility results, that we call the asynchronous speedup theorem. For a given n-process task &#928; and a given computational model M, we define a new task, called the closure of &#928; with respect to M. The asynchronous speedup theorem states that if a task &#928; is solvable in t&#8805;1 rounds in M, then its closure w.r.t. M is solvable in t-1 rounds in M. We prove this theorem for iterated models, as long as the model allows solo executions. We illustrate the power of our asynchronous speedup theorem by providing a new proof of the wait-free impossibility of consensus using read/write registers, and a new proof of the wait-free impossibility of solving consensus using registers and test&#38;set objects for n>2. The proof is merely by showing that, in each case, the closure of consensus (w.r.t. the corresponding model) is consensus itself. Our main application is the study of the power of additional objects, namely test&#38;set and binary consensus, for wait-free solving approximate agreement faster. By analyzing the closure of approximate agreement w.r.t. each of the two models, we show that while these objects are more powerful than read/write registers from the computability perspective, they are not more powerful as far as helping solving approximate agreement faster is concerned."
-    indice 467
   ]
   node [
     id 5862
@@ -40439,6 +40439,7 @@ graph [
     label "articulo:468"
     tipo "articulo"
     nombre "An Additively Optimal Interpreter for Approximating Kolmogorov Prefix Complexity"
+    indice 468
     titulo "An Additively Optimal Interpreter for Approximating Kolmogorov Prefix Complexity"
     anio 2024
     isbn ""
@@ -40449,7 +40450,6 @@ graph [
     subarea ""
     keywords "Algorithmic complexity; Coding theorem method; Complexity approximation; Kolmogorov complexity"
     abstract "We study practical approximations of Kolmogorov prefix complexity (K) using IMP2, a high-level programming language. Our focus is on investigating the optimality of the interpreter for this language as the reference machine for the Coding Theorem Method (CTM). This method is designed to address applications of algorithmic complexity that differ from the popular traditional lossless compression approach based on the principles of algorithmic probability. The chosen model of computation is proven to be suitable for this task, and a comparison to other models and methods is conducted. Our findings show that CTM approximations using our model do not always correlate with the results from lower-level models of computation. This suggests that some models may require a larger program space to converge to Levin&#8217;s universal distribution. Furthermore, we compare the CTM with an upper bound on Kolmogorov complexity and find a strong correlation, supporting the CTM&#8217;s validity as an approximation method with finer-grade resolution of K."
-    indice 468
   ]
   node [
     id 5883
@@ -40480,6 +40480,7 @@ graph [
     label "articulo:469"
     tipo "articulo"
     nombre "An efficient algorithm for identifying rainbow ortho-convex 4-sets in k-colored point sets"
+    indice 469
     titulo "An efficient algorithm for identifying rainbow ortho-convex 4-sets in k-colored point sets"
     anio 2025
     isbn ""
@@ -40490,7 +40491,6 @@ graph [
     subarea ""
     keywords "Algebraic computation tree model; Colored point sets; Orthogonal convexity; Separability; Algebra; Consensus algorithm; Algebraic computations; Colored point set; Computation trees; Convex hull; Four-point; Point set; Tree modeling; Trees (mathematics)"
     abstract "Let P be a k-colored set of n points in the plane, 4 &#8804; k &#8804; n. We study the problem of deciding if P contains a subset of four points of different colors such that its Rectilinear Convex Hull has positive area. We show this problem to be equivalent to deciding if there exists a point c in the plane such that each of the open quadrants defined by c contains a point of P, each of them having a different color. We provide an O(n log n)-time algorithm for this problem, where the hidden constant does not depend on k; then, we prove that this problem has time complexity &#937;(n log n) in the algebraic computation tree model. No general position assumptions for P are required."
-    indice 469
   ]
   node [
     id 5888
@@ -40575,6 +40575,7 @@ graph [
     label "articulo:470"
     tipo "articulo"
     nombre "ARCH-COMP24 Category Report: Artificial Intelligence and Neural Network Control System(AINNCS) for Continuous and Hybrid Systems Plants"
+    indice 470
     titulo "ARCH-COMP24 Category Report: Artificial Intelligence and Neural Network Control System(AINNCS) for Continuous and Hybrid Systems Plants"
     anio 2024
     isbn ""
@@ -40585,7 +40586,6 @@ graph [
     subarea ""
     keywords "Adaptive control systems; Benchmarking; Closed loop control systems; Feedback control; Feedforward neural networks; Speed reducers; Artificial intelligence and neural networks; Closed-loop system; Cybe-physical systems; Cyber-physical systems; Feed forward; Feedback controller; Machine-learning; Network control systems; Neural network control; Neural-networks; Arches"
     abstract "This report presents the results of a friendly competition for formal verification of continuous and hybrid systems with artificial intelligence (AI) components. Specifically, machine learning (ML) components in cyber-physical systems (CPS), such as feedforward neural networks used as feedback controllers in closed-loop systems, are considered, which is a class of systems classically known as intelligent control systems, or in more modern and specific terms, neural network control systems (NNCS). We broadly refer to this category as AI and NNCS (AINNCS). The friendly competition took place as part of the workshop Applied Verification for Continuous and Hybrid Systems (ARCH) in 2024. In the 8th edition of this AINNCS category at ARCH-COMP, five tools have been applied to solve 12 benchmarks, which are CORA, CROWN-Reach, GoTube, JuliaReach, and NNV. This is the year with the largest interest in the community, with two new, and three previous participants. Following last year&#8217;s trend, despite the additional challenges presented, the verification results have improved year-over-year. In terms of computation time, we can observe that the previous participants have improved as well, showing speed-ups of up to one order of magnitude, such as JuliaReach on the TORA benchmark with ReLU controller, and NNV on the TORA benchmark with both heterogeneous controllers."
-    indice 470
   ]
   node [
     id 5902
@@ -40658,6 +40658,7 @@ graph [
     label "articulo:471"
     tipo "articulo"
     nombre "ARCH-COMP24 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics"
+    indice 471
     titulo "ARCH-COMP24 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics"
     anio 2024
     isbn ""
@@ -40668,7 +40669,6 @@ graph [
     subarea ""
     keywords "Continuous systems; Formal methods; Hybrid systems; Nonlinear dynamics; Reachability analysis; Verification; Analysis problems; Ariadne; Benchmark problems; Continuous dynamics; Continuous system; Current status; Hybrid dynamics; Formal verification"
     abstract "We present the results of a friendly competition for formal verification of continuous and hybrid systems with nonlinear continuous dynamics. The friendly competition took place as part of the workshop Applied Verification for Continuous and Hybrid Systems (ARCH) in 2024. This year, 5 tools participated: Ariadne, CORA, DynIbex, JuliaReach and KeYmaera X (in alphabetic order). These tools are applied to solve reachability analysis problems on six benchmark problems, two of them featuring hybrid dynamics. We do not rank the tools based on the results, but show the current status and discover the potential advantages of different tools."
-    indice 471
   ]
   node [
     id 5914
@@ -40741,6 +40741,7 @@ graph [
     label "articulo:472"
     tipo "articulo"
     nombre "ARCH-COMP25 Category Report: Artificial Intelligence and Neural Network Control Systems (AINNCS) for Continuous and Hybrid Systems Plants"
+    indice 472
     titulo "ARCH-COMP25 Category Report: Artificial Intelligence and Neural Network Control Systems (AINNCS) for Continuous and Hybrid Systems Plants"
     anio 2025
     isbn ""
@@ -40751,7 +40752,6 @@ graph [
     subarea ""
     keywords "Control system; Neural feedback loop; Neural network control system; Verification; Adaptive control systems; Closed loop control systems; Embedded systems; Feedback; Feedforward neural networks; Formal verification; Hybrid systems; Intelligent control; Learning systems; Machine components; Nonlinear control systems; Artificial intelligence and neural networks; Cybe-physical systems; Cyber-physical systems; Feedback loops; Machine-learning; Network control systems; Neural feedback; Neural network control; Arches"
     abstract "This report presents the results of a friendly competition for formal verification of continuous and hybrid systems with artificial intelligence (AI) components. Specifically, machine learning (ML) components in cyber-physical systems (CPS), such as feedforward neural networks used as feedback controllers in closed-loop systems, are considered, which is a class of systems classically known as intelligent control systems, or in more modern and specific terms, neural network control systems (NNCS). We broadly refer to this category as AI and NNCS (AINNCS). The friendly competition took place as part of the workshop Applied Verification for Continuous and Hybrid Systems (ARCH) in 2025. In this edition of the AINNCS category at ARCH-COMP, five tools have been applied to solve 12 benchmarks, which are CORA, CROWN-Reach, immrax, JuliaReach, and NNV. For the second year in a row, we have the largest interest in the community, with four previous participants and one new participant, immrax. In reusing the hardware infrastructure and benchmarks from last year, we can observe comparable results from previous improvements, with slight improvements in computation time by CORA and NNV in selected benchmarks. A novelty of this year is the different problem abstraction between immrax and the rest of tools, leading to result disparities in 2 benchmarks: Single Pendulum and Attitude Control."
-    indice 472
   ]
   node [
     id 5926
@@ -40800,6 +40800,7 @@ graph [
     label "articulo:473"
     tipo "articulo"
     nombre "ARCH-COMP25 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics"
+    indice 473
     titulo "ARCH-COMP25 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics"
     anio 2025
     isbn ""
@@ -40810,13 +40811,13 @@ graph [
     subarea ""
     keywords "Formal verification; Hybrid systems; Nonlinear systems; Reachability analysis; Theorem proving; Arches; Dynamics; Nonlinear analysis; Analysis problems; Ariadne; Benchmark problems; Continuous dynamics; Current status; Hybrid dynamics"
     abstract "We present the results of a friendly competition for formal verification of continuous and hybrid systems with nonlinear continuous dynamics. The friendly competition took place as part of the workshop Applied Verification for Continuous and Hybrid Systems (ARCH) in 2025. This year, 5 tools participated: Ariadne, CORA, DynIbex, JuliaReach and KeYmaera X (in alphabetic order). These tools are applied to solve reachability analysis problems on seven benchmark problems, three of them featuring some aspects of hybrid dynamics. We do not rank the tools based on the results, but show the current status and discover the potential advantages of different tools."
-    indice 473
   ]
   node [
     id 5934
     label "articulo:474"
     tipo "articulo"
     nombre "Asynchronous Fault-Tolerant Language Decidability for Runtime Verification of Distributed Systems"
+    indice 474
     titulo "Asynchronous Fault-Tolerant Language Decidability for Runtime Verification of Distributed Systems"
     anio 2025
     isbn "979-8-4007-1885-4"
@@ -40827,7 +40828,6 @@ graph [
     subarea ""
     keywords "Concurrent algorithms; Distributed runtime verification; Distributed systems; Eventual consistency fault-tolerance; Linearizability; Lockfreedom; Monitoring; Sequential consistency; Shared memory; Verification; Wait-freedom; Computability and decidability; Distributed computer systems; Fault tolerant computer systems; Formal verification; Interactive computer systems; Real time systems; Distributed runtime; Eventual consistency; Lock freedoms; Run-time verification; Fault tolerance; Lock-freedom; Formal methods; Correctness properties; Error prone tasks; Fault-tolerant; Property; Real- time; Time ordering; Weak models"
     abstract "Implementing correct distributed systems is an error-prone task. Runtime Verification (RV) offers a lightweight formal method to improve reliability by monitoring system executions against correctness properties. However, applying RV in distributed settings&#8212;where no process has global knowledge&#8212;poses fundamental challenges, particularly under full asynchrony and fault tolerance. This paper addresses the Distributed Runtime Verification (DRV) problem under such conditions. In our model, each process in a distributed monitor receives a fragment of the input word describing system behavior and must decide whether this word belongs to the language representing the correctness property being verified. Hence, the goal is to decide languages in a distributed fault-tolerant manner. We propose several decidability definitions, study the relations among them, and prove possibility and impossibility results. One of our main results is a characterization of the correctness properties that can be decided asynchronously. Remarkably, it applies to any language decidability definition. Intuitively, the characterization is that only properties with no real-time order constraints can be decided in asynchronous fault-tolerant settings. These results expose the expressive limits of DRV in realistic systems, as several properties of practical interest rely on reasoning about real-time order of events in executions. To overcome these limitations, we introduce a weaker model where the system under inspection is verified indirectly. Under this weaker model we define predictive decidability, a decidability definition that turn some real-time sensitive correctness properties verifiable. Our framework unifies and extends existing DRV theory and sharpens the boundary of runtime monitorability under different assumptions."
-    indice 474
   ]
   node [
     id 5935
@@ -40966,6 +40966,7 @@ graph [
     label "articulo:475"
     tipo "articulo"
     nombre "Asynchronous Fault-Tolerant Language Decidability for Runtime Verification of Distributed Systems"
+    indice 475
     titulo "Asynchronous Fault-Tolerant Language Decidability for Runtime Verification of Distributed Systems"
     anio 2025
     isbn ""
@@ -40976,13 +40977,13 @@ graph [
     subarea ""
     keywords "Concurrent algorithms; Distributed runtime verification; Distributed systems; Eventual consistency fault-tolerance; Linearizability; Lockfreedom; Monitoring; Sequential consistency; Shared memory; Verification; Wait-freedom; Computability and decidability; Distributed computer systems; Fault tolerant computer systems; Formal verification; Interactive computer systems; Real time systems; Distributed runtime; Eventual consistency; Lock freedoms; Run-time verification; Fault tolerance; Lock-freedom; Formal methods; Correctness properties; Error prone tasks; Fault-tolerant; Property; Real- time; Time ordering; Weak models"
     abstract "Implementing correct distributed systems is an error-prone task. Runtime Verification (RV) offers a lightweight formal method to improve reliability by monitoring system executions against correctness properties. However, applying RV in distributed settings&#8212;where no process has global knowledge&#8212;poses fundamental challenges, particularly under full asynchrony and fault tolerance. This paper addresses the Distributed Runtime Verification (DRV) problem under such conditions. In our model, each process in a distributed monitor receives a fragment of the input word describing system behavior and must decide whether this word belongs to the language representing the correctness property being verified. Hence, the goal is to decide languages in a distributed fault-tolerant manner. We propose several decidability definitions, study the relations among them, and prove possibility and impossibility results. One of our main results is a characterization of the correctness properties that can be decided asynchronously. Remarkably, it applies to any language decidability definition. Intuitively, the characterization is that only properties with no real-time order constraints can be decided in asynchronous fault-tolerant settings. These results expose the expressive limits of DRV in realistic systems, as several properties of practical interest rely on reasoning about real-time order of events in executions. To overcome these limitations, we introduce a weaker model where the system under inspection is verified indirectly. Under this weaker model we define predictive decidability, a decidability definition that turn some real-time sensitive correctness properties verifiable. Our framework unifies and extends existing DRV theory and sharpens the boundary of runtime monitorability under different assumptions."
-    indice 475
   ]
   node [
     id 5958
     label "articulo:476"
     tipo "articulo"
     nombre "Brief Announcement: Solvability of Three-Process General Tasks"
+    indice 476
     titulo "Brief Announcement: Solvability of Three-Process General Tasks"
     anio 2024
     isbn "978-3-95977-352-2"
@@ -40993,7 +40994,6 @@ graph [
     subarea ""
     keywords "Lower bounds; Topology; Wait-free computing; Computability and decidability; Distributed computer systems; Geometry; Articulation points; Colorless tasks; Continuous map; Low bound; Splittings; Topological deformation; Wait free"
     abstract "The topological view on distributed computing represents a task T as a relation &#8710; between the complex I of its inputs and the complex O of its outputs. A cornerstone result in the field is an elegant computability characterization of the solvability of colorless tasks in terms of I, O and &#8710;. Essentially, a colorless task is wait-free solvable if and only if there is a continuous map from the geometric realization of I to that of O that respects &#8710;. This paper makes headway towards providing an analogous characterization for general tasks, which are not necessarily colorless, by concentrating on the case of three-process inputless tasks. Our key contribution is identifying local articulation points as an obstacle for the solvability of general tasks, and defining a topological deformation on the output complex of a task T, which eliminates these points by splitting them, to obtain a new task T&#8242;, with an adjusted relation &#8710;&#8242; between the input complex I and an output complex O&#8242; without articulation points. We obtain a new characterization of wait-free solvability of three-process general tasks: T is wait-free solvable if and only if there is a continuous map from the geometric realization of I to that of O&#8242; that respects &#8710;&#8242;."
-    indice 476
   ]
   node [
     id 5959
@@ -41042,6 +41042,7 @@ graph [
     label "articulo:477"
     tipo "articulo"
     nombre "Consistency in Smart Contracts Design"
+    indice 477
     titulo "Consistency in Smart Contracts Design"
     anio 2025
     isbn ""
@@ -41052,7 +41053,6 @@ graph [
     subarea ""
     keywords "Design; Computational grammars; Formal languages; Smart contract; Analysis and verifications; Analyze and verification of smart contract; Consistency in smart contract; Contract design; DAO attack; Design stage; Finite state machine; Finite states machine; Formal grammars; Rule set; Analysis and verification of smart contracts; Consistency in smart contracts; Finite state machines (FSMs); Formal grammar; Smart contracts; Consistency; Formal verification"
     abstract "The reliability and security of Smart Contracts largely depend on the consistency of their rule design. This paper introduces a novel approach for analyzing and ensuring consistency in Smart Contracts prior to their implementation. By proposing a formal grammar that captures the concurrent primitives inherent in Smart Contracts, and an algorithm that generates finite state machines (FSMs) from these grammar-based rule sets, the study enables the identification of several problems at the design stage. The paper compares this methodology with related works that focus on post-implementation verification, highlighting the advantages of early-stage analysis. Through theoretical and real-world examples, including an analysis of the DAO attack, the paper demonstrates how inconsistencies can be detected systematically. Finally, a formal definition of consistency is presented, offering a foundation for future tools aimed at enhancing Smart Contract designs."
-    indice 477
   ]
   node [
     id 5967
@@ -41173,6 +41173,7 @@ graph [
     label "articulo:478"
     tipo "articulo"
     nombre "Consistent IoT Systems: A Perspective Based on Paraconsistent Descriptive Logic"
+    indice 478
     titulo "Consistent IoT Systems: A Perspective Based on Paraconsistent Descriptive Logic"
     anio 2024
     isbn "979-8-3503-8679-0; 979-8-3503-8680-6"
@@ -41183,7 +41184,6 @@ graph [
     subarea ""
     keywords "Formal logic; Internet of Things; Consistency theorem; Consistent IoT systems; Contradictory data streams; Data coherence; Data reliability; Internet of Things devices; Nonclassical logic; Paraconsistent descriptive logic; PDL; User-friendly IoT systems; Data inconsistency; Paracon-sistent logic; Computer circuits; Computer hardware description languages; Data inconsistencies; Data stream; Decision-based; Non-classical logic; User friendly; Accuracy; Coherence; Reliability theory; Logic; Streams; Paraconsistent logic; Description logic; Consistency"
     abstract "Internet of Things (IoT) devices generate vast and often contradictory data streams. This poses a challenge for IoT systems, which must make accurate and reliable decisions based on this data. Paraconsistent descriptive logic (PDL) is a branch of non-classical logic that can handle inconsistencies without compromising data reliability. We propose the integration of PDL into IoT systems to improve data coherence and reliability. We also introduce a Consistency Theorem that establishes rules for managing inconsistencies systematically and in a controlled way. Our efforts aim to pave the way for more robust, reliable, and user-friendly IoT systems."
-    indice 478
   ]
   node [
     id 5987
@@ -41316,6 +41316,7 @@ graph [
     label "articulo:479"
     tipo "articulo"
     nombre "Constrained many-to-many point matching in two dimensions"
+    indice 479
     titulo "Constrained many-to-many point matching in two dimensions"
     anio 2024
     isbn ""
@@ -41326,7 +41327,6 @@ graph [
     subarea ""
     keywords "Many-to-many point matching; Computational geometry; Geometric constraints; Optimization"
     abstract "Motivated by similarity problems in music theory, the paper studies constrained minimum-weight many-to-many matching between red and blue points in the plane. It replaces unrestricted pairings with geometric closeness conditions and develops algorithms for several restricted matching variants intended to be more useful than a general cubic-time matching reduction in large online comparisons."
-    indice 479
   ]
   node [
     id 6009
@@ -41351,6 +41351,7 @@ graph [
     label "articulo:480"
     tipo "articulo"
     nombre "Constructions of Small Regular Mixed Graphs with Girth 5 and 6"
+    indice 480
     titulo "Constructions of Small Regular Mixed Graphs with Girth 5 and 6"
     anio 2025
     isbn ""
@@ -41361,7 +41362,6 @@ graph [
     subarea ""
     keywords "Elliptic semiplane; Girth; Mixed cages; Projective plane; Regular graphs; Artificial intelligence; Computational methods; Undirected graphs; Incidence graphs; Mixed cage; Mixed graph; Power; Projective planes; Graphic methods"
     abstract "A mixed regular graph is a graph where every vertex has z incoming arcs, z outgoing arcs, and r edges. If in addition it has girth g, we say that the graph is a [z, r; g]-mixed graph. A [z, r; g]-mixed cage is a [z, r; g]-mixed graph with the smallest number of vertices. We give constructions for mixed graphs with girth 5 and 6 using the incidence graph of projective planes. In particular, we present a family of [z, q; 5]-mixed graphs for a power of prime q &#8805; 7 such that q - 1 &#8804; 4z + R with z &#8805; 1 and R &#1013; {1,., 5}. For girth 6, we present an infinite family for pairs of a prime q and a number p = q-1/2. If p is odd, the construction gives [p+1/2,q;6]-mixed graphs, otherwise we obtain [p/2,q;6]-mixed graphs."
-    indice 480
   ]
   node [
     id 6013
@@ -41428,6 +41428,7 @@ graph [
     label "articulo:481"
     tipo "articulo"
     nombre "Coordination Through Stochastic Channels"
+    indice 481
     titulo "Coordination Through Stochastic Channels"
     anio 2025
     isbn "978-3-95977-402-4"
@@ -41438,7 +41439,6 @@ graph [
     subarea ""
     keywords "Approximate agreement; Randomized consensus; Stochastic models; Topology; Consensus algorithm; Optimization; Stochastic systems; Communication graphs; Input values; Message-passing; Probability p; Stochastic network models; Stochastic-modeling; Stochastics; Synchronous process"
     abstract "We consider a stochastic network model consisting of a set of n synchronous processes communicating by message passing. In each round, processes send messages directly to each other over a complete communication graph. The processes do not fail, but messages can be lost. Each message is delivered with probability p, for a given parameter p &#8712; [0, 1]. We study the following optimization version of approximate agreement in this model. We assume that processes start with binary input values, execute an algorithm for a fixed number of rounds, and decide values in [0, 1] satisfying the usual validity requirement stating that if all processes start with the same input value, then they should all decide that value. We propose deterministic algorithms that minimize the expected discrepancy, namely, the expected maximum distance between the decided values. We also present lower bounds on the expected discrepancy, which demonstrate the optimality of our algorithms for two processes. Finally, we present applications of our algorithms to solve randomized consensus and randomized approximate agreement."
-    indice 481
   ]
   node [
     id 6024
@@ -41493,6 +41493,7 @@ graph [
     label "articulo:482"
     tipo "articulo"
     nombre "Cops and Robbers on Token Graphs"
+    indice 482
     titulo "Cops and Robbers on Token Graphs"
     anio 2025
     isbn ""
@@ -41503,7 +41504,6 @@ graph [
     subarea ""
     keywords "Cop number; Cops; Robbers; Star graph; Token graph; Application programs; Artificial intelligence; Computation theory; Computational geometry; Computational methods; Graphic methods; Multimedia systems; Operations research; Stars; Undirected graphs; AS paths; Cop; Cop numbers; Cops-and-robbers; Positive integers; Robber; Star graphs; Symmetric difference; Vertex set; Information management"
     abstract "Let G = (V, E) be a graph and k a positive integer such that k &#8804; |V|. The k-token graph of G is the graph Fk(G) having the set of all k-sets of V as vertex set, and such that two k-sets of V, say A and B, are adjacent if and only if the symmetric difference of A and B is an edge of G. In this work we study the cop number of token graphs of graphs in some classic families, such as paths, stars, and subdivided stars. We obtain the exact cop number for k-token graphs of paths and stars. We also obtain the exact cop number for subdivided stars when the number of branches is large enough. Probably more interesting than the aforementioned results, we introduce a variant of the Cops and Robbers game where R controls a team of robbers and C controls some teams of cops. A game of Cops and Robbers with this new variant played on a graph G is equivalent to a classic game of Cops and Robbers played on Fk(G). This turns out to be very useful, as Fk(G) is usually very large and complex when compared to G."
-    indice 482
   ]
   node [
     id 6033
@@ -41606,6 +41606,7 @@ graph [
     label "articulo:483"
     tipo "articulo"
     nombre "Determining the Complete Weight Distributions of Some Families of Cyclic Codes"
+    indice 483
     titulo "Determining the Complete Weight Distributions of Some Families of Cyclic Codes"
     anio 2025
     isbn "978-3-031-81823-3; 978-3-031-81824-0"
@@ -41616,7 +41617,6 @@ graph [
     subarea ""
     keywords "Complete weight enumerator; Cyclic codes; Gauss sums; One- and two-weight irreducible cyclic codes; Weight distribution; Gaussian distribution; Cyclic code; Exponential sums; Gauss sum; Hamming weights; Hard problems; Irreducible cyclic codes; Non-binary codes; One-weight and two-weight irreducible cyclic code; Weight distributions; Turbo codes; One-weight codes; Two-weight codes"
     abstract "Obtaining the complete weight distributions for nonbinary codes is an even harder problem than obtaining their Hamming weight distributions. In fact, obtaining these distributions is a problem that usually involves the evaluation of sophisticated exponential sums, which leaves this problem open for most of the linear codes. In this work we present a method that uses the known complete weight distribution of a given cyclic code, to determine the complete weight distributions of other cyclic codes. In addition we also obtain the complete weight distributions for a particular kind of one- and two-weight irreducible cyclic codes, and use these distributions and the method, in order to determine the complete weight distributions of infinite families of cyclic codes. As an example, and as a particular instance of our results, we determine in a simple way the complete weight distribution for one of the two families of reducible cyclic codes studied by Bae, Li and Yue [Discrete Mathematics, 338 (2015) 2275-2287]."
-    indice 483
   ]
   node [
     id 6050
@@ -41719,6 +41719,7 @@ graph [
     label "articulo:484"
     tipo "articulo"
     nombre "Finding &#1013;-locally optimal solutions for multiobjective multimodal optimization"
+    indice 484
     titulo "Finding &#1013;-locally optimal solutions for multiobjective multimodal optimization"
     anio 2025
     isbn ""
@@ -41729,7 +41730,6 @@ graph [
     subarea ""
     keywords "Evolutionary computation; Pareto optimisation; MMO; MOEA; Multiobjective evolutionary algorithm; Multiobjective multimodal optimization; Pareto front; &#1013;-acceptable solutions; &#1013;-locally optimal solutions; Local solutions; Multimodal optimization (MMO); Multiobjective optimization; Optimal systems; Pareto principle; Benchmark functions; Local solution; Multi objective; Multi-modal optimization; Multi-Objective Evolutionary Algorithm; Multi-objective problem; Multi-objectives optimization; Optimal solutions; Performance; Optimization algorithms; Optimization; Approximation algorithms; Benchmark testing; Vectors; Surveys; Pareto optimization"
     abstract "In this article, we address the problem of computing all locally optimal solutions of a given multiobjective problem whose images are sufficiently close to the Pareto front. Such $\epsilon $ -locally optimal solutions are particularly interesting in the context of multiobjective multimodal optimization (MMO). To accomplish this task, we first define a new set of interest, $L_{Q,\epsilon }$ , that is strongly related to the recently proposed set of $\epsilon $ -acceptable solutions. Next, we propose a new unbounded archiver, $ArchiveUpdateL_{Q,\epsilon }$ , aiming to capture $L_{Q,\epsilon }$ in the limit. This archiver can in principle be used in combination with any multiobjective evolutionary algorithm (MOEA). Further, we equip numerous MOEAs with $ArchiveUpdateL_{Q,\epsilon }$ , investigate their performances across several benchmark functions, and compare the enhanced MOEAs with their archive-free counterparts. For our experiments, we utilize the well-established metrics HV, IGDX, and $\Delta _{p}$ . Additionally, we propose and use a new performance indicator, $I_{\mathrm { EDR}}$ , which results in comparable performances but which is applicable to problems defined in higher dimensions (in particular in decision variable space)."
-    indice 484
   ]
   node [
     id 6067
@@ -41814,6 +41814,7 @@ graph [
     label "articulo:485"
     tipo "articulo"
     nombre "Hot off the Press: Finding the Set of Nearly Optimal Solutions of a Multi-objective Optimization Problem"
+    indice 485
     titulo "Hot off the Press: Finding the Set of Nearly Optimal Solutions of a Multi-objective Optimization Problem"
     anio 2025
     isbn "979-8-4007-1464-1"
@@ -41824,7 +41825,6 @@ graph [
     subarea ""
     keywords "Archiving; Convergence analysis; Multi-objective optimization; Nearly optimal solutions; Decision making; Evolutionary algorithms; Human engineering; Information systems; Optimal systems; Optimization algorithms; Decision makers; Multi-Objective Evolutionary Algorithm; Multi-objective optimization problem; Multi-objectives optimization; Nearly optimal solution; Optimal solutions; Performance indicators; Subset selection; Multiobjective optimization; Computer Science, Artificial Intelligence; Computer Science, Software Engineering; Computer Science, Theory &#38; Methods; Mathematics, Applied; Computer Science; Mathematics"
     abstract "Here we briefly summarize the main findings of the above mentioned paper by Sch&#252;tze et al., 2024. In this work, the authors argue that the entire set of nearly optimal solutions of a given multi-objective optimization problem (MOP) is of potential interest for the decision maker (DM) to realize his/her project. To be more precise, in this work, first, a new set of interest, NQ,&#949;, is proposed. Next, an unbounded archiver that aims to capture this set is proposed and analyzed. Further, four different subset selection strategies and a new performance indicator tailored to the problem at hand are proposed and discussed. Finally, the behavior of the archiver as external archiver within several multi-objective evolutionary algorithms (MOEAs) is presented indicating the benefit of the novel approach."
-    indice 485
   ]
   node [
     id 6081
@@ -41873,6 +41873,7 @@ graph [
     label "articulo:486"
     tipo "articulo"
     nombre "Hot off the Press: Finding &#949;-locally Optimal Solutions for Multi-objective Multimodal Optimization"
+    indice 486
     titulo "Hot off the Press: Finding &#949;-locally Optimal Solutions for Multi-objective Multimodal Optimization"
     anio 2025
     isbn "979-8-4007-1464-1"
@@ -41883,7 +41884,6 @@ graph [
     subarea ""
     keywords "Multi-objective Optimization; Evolutionary Computation; Multimodal Optimization; Local Solutions; Multi-modal Optimization; Benchmarking; Decision making; Evolutionary algorithms; Optimal systems; Benchmark problems; Decision variables; Local solution; Multi objective; Multi-objective problem; Multi-objectives optimization; Optimal solutions; Pareto front; Performance indicators; Multiobjective optimization; Computer Science, Artificial Intelligence; Computer Science, Software Engineering; Computer Science, Theory &#38; Methods; Mathematics, Applied; Computer Science; Mathematics"
     abstract "Here we briefly summarize the main findings of the above mentioned paper by Rodriguez-Fernandez et al., 2024. In this work, the authors address the problem of computing all locally optimal solutions of a given multi-objective problem whose images are sufficiently close to the Pareto front. Such &#949;-locally optimal solutions are particularly interesting in the context of multi-objective multimodal optimization (MMO). To this end, first a new set of interest, LQ,&#949;, is defined. Second, a new unbounded archiver, ArchiveUpdateLQ,&#949;, is proposed that aims to capture this set in the limit. Third, several MOEAs are equipped with ArchiveUpdateLQ,&#949; as external archiver and compared to their archive-free counterparts on selected benchmark problems. Finally, in order to make a fair comparison of the outcomes in particular for MOPs with a larger number of decision variables, a new performance indicator, IEDR, is proposed and used."
-    indice 486
   ]
   node [
     id 6089
@@ -41926,6 +41926,7 @@ graph [
     label "articulo:487"
     tipo "articulo"
     nombre "Invited Paper: Further Decentralizing Decentralized Finance: Loss vs Rebalancing Without a Shared Reference Market"
+    indice 487
     titulo "Invited Paper: Further Decentralizing Decentralized Finance: Loss vs Rebalancing Without a Shared Reference Market"
     anio 2024
     isbn "979-8-3503-6784-3"
@@ -41936,7 +41937,6 @@ graph [
     subarea ""
     keywords "Analytical models; Protocols; Closed-form solutions; Finance; Stochastic processes; Decentralized applications; Particle measurements; Proposals; Financial services; Convergence; Commerce; Costs; Decentralized control; Decentralized systems; Profitability; Centralised; Decentralised; Market-maker; Rebalancing; Stable prices; Decentralized finance"
     abstract "Automated market makers (AMMs) typically rely on arbitrage agents to keep prices in line with a shared reference market such as a large centralized exchange. This paper considers an alternative, even-more-decentralized model where prices must stabilize without a shared reference market. We first consider a model where there is one population of AMMs, and another of arbitrage agents who seek to profit from pairwise price differences between randomly-chosen AMMs. For constant-product AMMs, repeated random pair-wise arbitrage causes the AMMs&#8217; expected prices to converge within any precision &#1013; > 0 in $\Theta \left( {\max \left( {{n^2}\log n,\log \frac{1}{\varepsilon }} \right)} \right.$ interactions, and arbitrage agents&#8217; profits are proportional to the original price imbalances. Within certain limits, the arbitrage agents can collude to set the final stable price. If, instead, randomly-chosen pairs of AMMs could rebalance their asset pools directly, capturing profits that would have gone to arbitrage agents, then expected AMM prices converge within &#1013; with respective upper and lower bounds of $\Omega \left( {\max \left( {{n^2}\log n,\log \frac{1}{\varepsilon }} \right)} \right.$ and $O\left( {\max \left( {{n^2}\log n,\log \frac{1}{\varepsilon }} \right)} \right.$ interactions. Within certain limits, the AMMs can collude to set the final stable price."
-    indice 487
   ]
   node [
     id 6096
@@ -42033,6 +42033,7 @@ graph [
     label "articulo:488"
     tipo "articulo"
     nombre "Invited Paper: The Smart Contract Model"
+    indice 488
     titulo "Invited Paper: The Smart Contract Model"
     anio 2025
     isbn "978-3-031-74497-6; 978-3-031-74498-3"
@@ -42043,7 +42044,6 @@ graph [
     subarea ""
     keywords "Blockchain; Distributed ledger; Block-chain; Classical modeling; Classical problems; Concurrent computing; Decentralised; Game-theoretic; Power; Task output; Decentralized finance"
     abstract "Many of the problems that arise in the context of blockchains and decentralized finance can be seen as variations on classical problems of distributed computing. The smart contract model proposed here is intended to capture both the similarities and the differences between classical and blockchain-based models of distributed computing. The focus is on cross-chain protocols in which a collection of parties, some honest and some perhaps not, interact through trusted smart contracts residing on multiple, independent ledgers. While cross-chain protocols are capable of general computations, they are primarily used to track ownership of assets such as cryptocurrencies or other valuable data. For this reason, the smart contract model differs in some essential ways from familiar models of distributed and concurrent computing. Because parties are potentially Byzantine, tasks to be solved are formulated using elementary game-theoretic notions, taking into account the utility to each party of each possible outcome. As in the classical model, the parties provide task inputs and agree on a desired sequence of proposed asset transfers. Unlike the classical model, the contracts provide task outputs in the form of executed asset transfers, since they alone have the power to control ownership. The model is illustrated with an atomic cross-chain swap task, where parties exchange assets across ledgers."
-    indice 488
   ]
   node [
     id 6112
@@ -42080,6 +42080,7 @@ graph [
     label "articulo:489"
     tipo "articulo"
     nombre "Justification Logic and the Epistemic Contribution of Deduction"
+    indice 489
     titulo "Justification Logic and the Epistemic Contribution of Deduction"
     anio 2024
     isbn ""
@@ -42090,7 +42091,6 @@ graph [
     subarea ""
     keywords "Epistemic contribution; Propositional logic; Justification logic; Deduction"
     abstract "The paper addresses the problem of explaining how deduction can contribute new knowledge when a valid conclusion is already implied by its premises. It models epistemic gain through the justifications or proofs attached to the individual steps of a derivation and develops a justification-logic system in which the result of deduction is represented as a justified formula."
-    indice 489
   ]
   node [
     id 6118
@@ -42121,6 +42121,7 @@ graph [
     label "articulo:490"
     tipo "articulo"
     nombre "Maya-Tupi graphs: A generalization of split graphs"
+    indice 490
     titulo "Maya-Tupi graphs: A generalization of split graphs"
     anio 2025
     isbn ""
@@ -42131,7 +42132,6 @@ graph [
     subarea ""
     keywords "Certifying algorithm; Forbidden induced subgraph characterization; Maya-Tupi graph; Split graph; Graph algorithms; Graph embeddings; Undirected graphs; Certifying algorithms; Complete multipartite graph; Computational experiment; Connected component; Forbidden induced subgraphs; Generalisation; Splits graphs; Vertex set; Graphic methods"
     abstract "We define the family of Maya-Tupi graphs as those graphs that admit a partition (A, B) of their vertex sets such that A induces a complete multipartite graph where each part has size at most two, and B induces a graph where every connected component is K_1 or K_2. The family of Maya-Tupi graphs is self complementary, generalizes split graphs, falls into the sparse-dense partitioning schema and is characterized by finitely many forbidden induced subgraphs. Unfortunately, our computational experiments show that the number of minimal forbidden induced subgraphs to characterize Maya-Tupi graphs is greater than 2000. In this work, we study Maya-Tupi graphs when restricted to some well-known graph classes. We find characterizations in terms of minimal forbidden induced subgraphs for disconnected graphs, trees and cographs; our results imply linear time certifying recognition algorithms for Maya-Tupi graphs within these classes. We also show that Maya-Tupi graphs can be recognized in O(n^3)-time in C_4-free graphs and in graphs with bounded neighborhood diversity."
-    indice 490
   ]
   node [
     id 6123
@@ -42198,6 +42198,7 @@ graph [
     label "articulo:491"
     tipo "articulo"
     nombre "Minimal Obstructions for Polarity, Monopolarity, Unipolarity and (s, 1)-Polarity in Generalizations of Cographs"
+    indice 491
     titulo "Minimal Obstructions for Polarity, Monopolarity, Unipolarity and (s, 1)-Polarity in Generalizations of Cographs"
     anio 2024
     isbn ""
@@ -42208,13 +42209,13 @@ graph [
     subarea ""
     keywords "P&#8324;-sparse graph; P&#8324;-extendible graph; Cograph; Polar graph"
     abstract "The article studies minimal forbidden induced subgraphs and structural characterizations for polarity, monopolarity, unipolarity and (s,1)-polarity in graph classes that generalize cographs, with implications for recognition algorithms."
-    indice 491
   ]
   node [
     id 6134
     label "articulo:492"
     tipo "articulo"
     nombre "Modular Baskets Queue"
+    indice 492
     titulo "Modular Baskets Queue"
     anio 2025
     isbn "979-8-4007-2006-2"
@@ -42225,7 +42226,6 @@ graph [
     subarea ""
     keywords "Linearizability; Nonblocking; Concurrent Queue; Computer aided design; Atomic primitives; Experimental evaluation; Modulars; Non-blocking; Performance; Queue algorithms; Read-modify writes; Simple++; Queueing theory; Computer Science, Hardware &#38; Architecture; Computer Science, Interdisciplinary Applications; Computer Science, Software Engineering; Computer Science, Theory &#38; Methods; Computer Science"
     abstract "A modular version of the baskets queue of Hoffman, Shalev and Shavit is presented. It manipulates the head and tail using a novel object called load-link/increment-conditional, which admits implementations based solely on READ/WRITE instructions, as well as versions that internally use CAS. These variants offer flexibility in balancing simplicity and performance, and admits implementations that spread contention. While other components of the queue still require stronger atomic primitives such as CAS or FAI, this separation highlights the potential for designs that mitigate the seemingly inherent bottleneck in previous queue implementations that manipulate the head and tail using read-modify-write (RMW) instructions over a single shared register. We propose a modular queue algorithm that isolates head/tail coordination from other synchronization, enabling simpler and potentially more scalable composition of concurrent components. An experimental evaluation supports the theoretical results, showing that the proposed queue achieves performance comparable to that of existing state-of-the-art implementations. While no scalability improvements are observed, the modular approach offers conceptual clarity and flexibility, and may serve as a foundation for future concurrent queue designs."
-    indice 492
   ]
   node [
     id 6135
@@ -42298,6 +42298,7 @@ graph [
     label "articulo:493"
     tipo "articulo"
     nombre "Musical Composition and Two-Dimensional Cellular Automata Based on Music Intervals"
+    indice 493
     titulo "Musical Composition and Two-Dimensional Cellular Automata Based on Music Intervals"
     anio 2025
     isbn ""
@@ -42308,7 +42309,6 @@ graph [
     subarea ""
     keywords "Cellular automata; Complex systems; Data analysis; Music creativity; Music intervals; Musical composition; Computer music; Data reduction; Large scale systems; Cellular automatons; Music interval; Music theory; Musical creativities; Musical notes; Random array; Theoretical approach; Two-dimensional cellular automata"
     abstract "This paper uses a theoretical approach to explore the applicability of a two-dimensional cellular automaton based on melodic and harmonic intervals in random arrays of musical notes. Our aim is to explore alter-native uses for a cellular automaton in the musical context for better understanding musical creativity. We use the complex systems and humanities approaches as a framework for capturing the essence of cre-ating music based on rules of music theory. Findings suggest that such rules matter for generating large-scale patterns of organized notes. Therefore, our formulation provides a novel approach for understanding and replicating aspects of musical creativity."
-    indice 493
   ]
   node [
     id 6147
@@ -42387,6 +42387,7 @@ graph [
     label "articulo:494"
     tipo "articulo"
     nombre "Non-negotiating Distributed Computing"
+    indice 494
     titulo "Non-negotiating Distributed Computing"
     anio 2024
     isbn "978-3-031-60602-1; 978-3-031-60603-8"
@@ -42397,7 +42398,6 @@ graph [
     subarea ""
     keywords "Colorless tasks; Communication capabilities; Computing capability; Crash failures; Full informations; Insect cells; Non-trivial tasks; Recent trends; Shared memory model; Simple++; Artificial intelligence"
     abstract "A recent trend in distributed computing aims at designing models as simple as possible for capturing the inherently limited computing and communication capabilities of insects, cells, or tiny technological artefacts, yet powerful enough for solving non trivial tasks. This paper is contributing further in this field, by introducing a new model of distributed computing, that we call non-negotiating. In the non-negotiating model, a process decides a priori what it is going to communicate to the other processes, before the computation starts. Thus, the information a process sends does not depend on what the process hears from others during an execution. We consider non-negotiating distributed computing in the read/write shared memory model in which processes are asynchronous and subject to crash failures. We show that non-negotiating distributed computing is universal, in the sense that it is capable of solving any colorless task solvable by an unrestricted full-information algorithm in which processes can remember all their history, and send it to the other processes at any point in time. To prove this universality result, we present a non-negotiating algorithm for solving multidimensional approximate agreement, with arbitrary precision &#1013;>0."
-    indice 494
   ]
   node [
     id 6160
@@ -42452,6 +42452,7 @@ graph [
     label "articulo:495"
     tipo "articulo"
     nombre "Obtaining new classes of optimal linear codes by puncturing and shortening optimal cyclic codes"
+    indice 495
     titulo "Obtaining new classes of optimal linear codes by puncturing and shortening optimal cyclic codes"
     anio 2024
     isbn ""
@@ -42462,7 +42463,6 @@ graph [
     subarea ""
     keywords "Optimal linear codes; Almost MDS codes; Punctured codes; Shortened codes; Griesmer bound"
     abstract "Puncturing and shortening are applied to known families of optimal cyclic codes to construct three new classes of optimal linear codes. The resulting codes are analyzed through their parameters, weight distributions and dual properties; several meet the Griesmer bound, and the paper also discusses consequences for error detection and secret-sharing applications."
-    indice 495
   ]
   node [
     id 6169
@@ -42499,6 +42499,7 @@ graph [
     label "articulo:496"
     tipo "articulo"
     nombre "On polynomials associated to Voronoi diagrams of point sets and crossing numbers"
+    indice 496
     titulo "On polynomials associated to Voronoi diagrams of point sets and crossing numbers"
     anio 2024
     isbn ""
@@ -42509,7 +42510,6 @@ graph [
     subarea ""
     keywords "(at most k)-edges; Crossing numbers; Roots of polynomials; Voronoi diagrams; Graphic methods; (at most k)-edge; Crossing number; K points; Order-k Voronoi diagrams; Point set; Points in general position; Rectilinear crossing numbers; Voronoi; Polynomials"
     abstract "Three polynomials are defined for given sets S of n points in general position in the plane: The Voronoi polynomial with coefficients the numbers of vertices of the order-k Voronoi diagrams of S, the circle polynomial with coefficients the numbers of circles through three points of S enclosing k points of S, and the E&#8804;k polynomial with coefficients the numbers of (at most k)-edges of S. We present several formulas for the rectilinear crossing number of S in terms of these polynomials and their roots. We also prove that the roots of the Voronoi polynomial lie on the unit circle if, and only if, S is in convex position. Further, we present bounds on the location of the roots of these polynomials."
-    indice 496
   ]
   node [
     id 6175
@@ -42582,6 +42582,7 @@ graph [
     label "articulo:497"
     tipo "articulo"
     nombre "On the Approximation of the Entire Pareto Front of a Constrained Multi-objective Optimization Problem"
+    indice 497
     titulo "On the Approximation of the Entire Pareto Front of a Constrained Multi-objective Optimization Problem"
     anio 2025
     isbn "978-981-96-3538-2; 978-981-96-3537-5"
@@ -42592,7 +42593,6 @@ graph [
     subarea ""
     keywords "Approximation theory; Evolutionary computation; Pareto optimisation; Allow specialized multiobjective; Approximation qualities; ArchiveUpdate PQ; CHT; CMOP; Constrained multiobjective optimization problem; Constraint-handling techniques; Entire Pareto front; Lightly constrained MOPs; Unconstrained constrained MOPs; Archiving; Constraint handling; Multi-objective optimization; Consensus algorithm; Evolutionary algorithms; Multiobjective optimization; Optimization algorithms; Pareto principle; Approximation quality; Complex domains; Constrained multi-objective optimizations; Multi-Objective Evolutionary Algorithm; Multi-objective optimization problem; Multi-objectives optimization; Pareto front; Constrained optimization; Convergence; Algorithms; Selection; Computer Science, Artificial Intelligence; Computer Science, Theory &#38; Methods; Computer Science"
     abstract "So far, many constraint-handling techniques (CHTs) exist that allow specialized multi-objective evolutionary algorithms (MOEAs) to deal with constrained multi-objective optimization problems (CMOPs). In contrast, all existing external archivers that yield certain approximation qualities in the limit still assume the feasibility of each incoming candidate solution. While this is acceptable for unconstrained or lightly constrained MOPs, this assumption is inadequate for the consideration of problems with complex domains. In this study, we make a first effort to investigate how these external archivers can be prepared for CMOPs. To this end, we discuss if and how existing CHTs can be leveraged. In this study, we consider the problem of capturing the entire Pareto front (ideally in the mathematical sense). As the base algorithm we will take ArchiveUpdate PQ that stores all non-dominated solutions found during the run of the algorithm. Our discussion and results indicate that while existing CHTs work adequately, they come with certain issues, such as introducing additional parameters that need adjustment, lacking theoretical results, or incurring a certain computational overhead. Finally, we performe a numerical analysis, integrating several MOEAs with the investigated CHTs and comparing the performance of all methods using HV and &#916;p as indicators."
-    indice 497
   ]
   node [
     id 6187
@@ -42695,6 +42695,7 @@ graph [
     label "articulo:498"
     tipo "articulo"
     nombre "On the Existence of Extension-Based Proofs of Impossibility for Set-Agreement"
+    indice 498
     titulo "On the Existence of Extension-Based Proofs of Impossibility for Set-Agreement"
     anio 2025
     isbn "978-3-031-91735-6; 978-3-031-91736-3"
@@ -42705,7 +42706,6 @@ graph [
     subarea ""
     keywords "Distributed Computing; Extension-Based Proof; Set-Agreement; C (programming language); Consensus algorithm; Contracts; Theorem proving; Approximate agreement; Memoryless; Non-existence; Non-trivial tasks; Non-uniform; Snapshot algorithms; Distributed computer systems"
     abstract "A recent breakthrough by Alistarh, Aspnes, Ellen, Gelashvili, and Zhu [STOC 2019] established that there are no extension-based proofs of impossibility for set-agreement within the class of non-uniform iterated immediate snapshot (NIIS) algorithms. An extension-based proof can be modeled as a game between a prover and an algorithm claiming to solve set-agreement, where this algorithm can be from a class C of algorithms. Note that the non-existence of extension-based proofs of impossibility for a class C of algorithms implies the non-existence of extension-based proofs of impossibility for all classes of algorithms containing C. This result has then been revisited by Attiya, Casta&#241;eda, and Rajsbaum [OPODIS 2020] who showed that the same holds for the smaller class of uniform iterated immediate snapshot (IIS) algorithms, and even with a slightly stronger prover. The main takeaway message of our work is that these previous results, which show the non-existence of extension-based proofs of impossibility for set-agreement within smaller and smaller universal classes of algorithms, do not necessarily preclude the existence of an extension-based proof of impossibility for set-agreement for an even smaller class of algorithms. To illustrate this, we exhibit an extension-based proof of impossibility for set-agreement for the class of memoryless IIS algorithms. This latter class may not be universal but is strong enough to solve non-trivial tasks such as approximate agreement and renaming. Moreover, we show that the result by Attiya et al. for IIS algorithms, with the stronger prover, does not extend to colorless IIS algorithms. These two results underline the fact that the existence of an extension-based proof of impossibility for a task strongly depends on the considered class of algorithms, and is still open even for set-agreement."
-    indice 498
   ]
   node [
     id 6204
@@ -42754,6 +42754,7 @@ graph [
     label "articulo:499"
     tipo "articulo"
     nombre "On the orthogonal Gr&#252;nbaum partition problem in dimension three"
+    indice 499
     titulo "On the orthogonal Gr&#252;nbaum partition problem in dimension three"
     anio 2025
     isbn ""
@@ -42764,7 +42765,6 @@ graph [
     subarea ""
     keywords "Gr&#252;nbaum partition problem; Measure equipartitions; Orthogonal planes; Equipartition; Measure equipartition; Orthogonal plane; Partition problem; Random set"
     abstract "Gr&#252;nbaum&#8217;s equipartition problem asked if for any measure &#956; on R^d there are always d hyperplanes which divide R^d into 2^d &#956;-equal parts. This problem is known to have a positive answer for d &#8804; 3 and a negative one for d &#8805; 5. A variant of this question is to require the hyperplanes to be mutually orthogonal. This variant is known to have a positive answer for d &#8804; 2 and there is reason to expect it to have a negative answer for d &#8805; 3. In this note we exhibit measures that prove this. Additionally, we describe an algorithm that checks if a set of 8n in R^3 can be split evenly by 3 mutually orthogonal planes. To our surprise, it seems the probability that a random set of 8 points chosen uniformly and independently in the unit cube does not admit such a partition is less than 0.001."
-    indice 499
   ]
   node [
     id 6212
@@ -42819,6 +42819,7 @@ graph [
     label "articulo:500"
     tipo "articulo"
     nombre "On Time-Optimal, Fault-Tolerant Algorithms for Connected Consensus Beyond Grade Two"
+    indice 500
     titulo "On Time-Optimal, Fault-Tolerant Algorithms for Connected Consensus Beyond Grade Two"
     anio 2025
     isbn "978-3-95977-409-3"
@@ -42829,7 +42830,6 @@ graph [
     subarea ""
     keywords "Approximate Agreement; Binding; Connected Consensus; Accidents; Binding energy; Consensus algorithm; Failure (mechanical); Fault tolerant computer systems; Network security; Optimization; Parameter estimation; Agreement problems; Asynchronous models; Asynchronous system; Fault-tolerant algorithms; Optimality; Positive integers; Time-optimal; Fault tolerance"
     abstract "A common question in the asynchronous model is whether some given notion of agreement between processes is achievable. Usually, we formalise such agreement notions in the form of agreement problems. Some of these problems also receive the name of coordination primitives. Several fault-tolerant algorithms in asynchronous systems rely upon the use of different primitives as building blocks, such as adopt-commit, crusader agreement, or graded broadcast. Recently, the connected consensus problem - a form of agreement over a specific family of graphs parametrised by a positive integer R- was introduced. This problem unifies the three mentioned primitives while extending them for multi-valued inputs. Moreover, the problem is equipped with a security condition called binding, which limits the effect of malicious processes over the decision of correct parties. While fault-tolerant connected consensus algorithms for R = 1 and R = 2 are known, the existence of algorithmic solutions for any positive integer parameter remained an open question. In this work, we introduce a pair of fault-tolerant algorithms for connected consensus when the R parameter is any positive integer. We introduce a crash-resilient algorithm, which is optimal with respect to the maximum number of possible faulty processes. Our second algorithm is resilient to Byzantine failures; whose failure-resilience is optimal for a specific class of algorithms. Both algorithms satisfy the binding property and match the best known time complexities achieved for the R = 1 and R = 2 cases, further achieving time optimality for the general case in the crash-failure setting, and asymptotic time optimality in the Byzantine scenario."
-    indice 500
   ]
   node [
     id 6221
@@ -42902,6 +42902,7 @@ graph [
     label "articulo:501"
     tipo "articulo"
     nombre "Ortho-Unit Polygons can be Guarded with at most floor((n-4)/8) Guards"
+    indice 501
     titulo "Ortho-Unit Polygons can be Guarded with at most floor((n-4)/8) Guards"
     anio 2025
     isbn ""
@@ -42912,7 +42913,6 @@ graph [
     subarea ""
     keywords "Art gallery problem; Orthogonal polygons; Ortho-unit polygons; Guards"
     abstract "The paper studies ortho-unit polygons, orthogonal polygons whose vertices have integer coordinates and whose edges have unit length. It proves that every such polygon with at least twelve vertices can be guarded using at most floor((n-4)/8) guards and establishes that this bound is tight."
-    indice 501
   ]
   node [
     id 6233
@@ -42943,6 +42943,7 @@ graph [
     label "articulo:502"
     tipo "articulo"
     nombre "Pair Crossing Number, Cutwidth, and Good Drawings on Arbitrary Point Sets"
+    indice 502
     titulo "Pair Crossing Number, Cutwidth, and Good Drawings on Arbitrary Point Sets"
     anio 2025
     isbn ""
@@ -42953,7 +42954,6 @@ graph [
     subarea ""
     keywords "Crossing numbers; Cutwidth; Geometric graph theory; Graph drawing"
     abstract "Determining whether there exists a graph such that its crossing number and pair crossing number are distinct is an important open problem in geometric graph theory. We show that cr(G)=O(pcr(G)^(3/2)) for every graph G, improving the previous best bound by a logarithmic factor. Answering a question of Pach and T&#243;th, we prove that the bisection width (and, in fact, the cutwidth as well) of a graph G with degree sequence d_1,d_2,...,d_n satisfies bw(G)=O(sqrt(pcr(G)+sum_{k=1}^n d_k^2)). Then we show that there is a constant C&#8805;1 such that the following holds: For any graph G of order n and any set S of at least n^C points in general position on the plane, G admits a straight-line drawing which maps the vertices to points of S and has no more than O(log n &#183; (pcr(G)+sum_{k=1}^n d_k^2)) crossings. Our proofs rely on a slightly modified version of a separator theorem for string graphs by Lee, which might be of independent interest."
-    indice 502
   ]
   node [
     id 6238
@@ -42978,6 +42978,7 @@ graph [
     label "articulo:503"
     tipo "articulo"
     nombre "Partitioning P5-free graphs into an independent set and a complete multipartite graph"
+    indice 503
     titulo "Partitioning P5-free graphs into an independent set and a complete multipartite graph"
     anio 2025
     isbn ""
@@ -42988,7 +42989,6 @@ graph [
     subarea ""
     keywords "3-coloring; Certifying recognition algorithms; Forbidden induced subgraph characterization; Hereditary classes; Matrix partition; P&#8325;-free graph; Polar graph; Vertex partition; Graph structures; Information use; Knowledge graph; Set theory; Undirected graphs; Certifying recognition algorithm; Free graphs; Hereditary class; Matrix partitions; P5-free graph; Polar graphs; Recognition algorithm; Vertex partitions; Graph algorithms"
     abstract "An M9-partition of a graph is a partition of its vertex set into an independent set and a set inducing a complete bipartite graph, i.e. an M9-partition is a 3-coloring (I, J, K) with the additional restriction that each vertex in part J is adjacent to all vertices in part K. A counipolar partition of a graph is a partition of its vertex set into an independent set and a set inducing a complete multipartite graph. In this work, we present partial results on the structure of the families of P5-free graphs admitting either a counipolar or an M9-partition. Specifically, we focus on forbidden induced subgraph characterizations and recognition algorithms for these graph classes."
-    indice 503
   ]
   node [
     id 6242
@@ -43085,6 +43085,7 @@ graph [
     label "articulo:504"
     tipo "articulo"
     nombre "Pattern Models: A Dynamic Epistemic Logic for Distributed Systems"
+    indice 504
     titulo "Pattern Models: A Dynamic Epistemic Logic for Distributed Systems"
     anio 2024
     isbn ""
@@ -43095,7 +43096,6 @@ graph [
     subarea ""
     keywords "Consensus; Distributed computing; Dynamic epistemic logic; Dynamic-network models; Computation theory; Computer circuits; Deterministic protocols; Distributed computabilities; Distributed systems; Dynamic network modeling; Full informations; Information protocols; Model dynamics; Product definition; Distributed computer systems"
     abstract "We introduce pattern models, a dynamic epistemic logic for analyzing distributed systems. First, we present a version of pattern models where the full-information protocol, widely studied in distributed computability, is static in the product definition of pattern models. Next, we parametrize such a logic so as to add the capability to model dynamics of arbitrary deterministic protocols. We thus give a systematic construction of pattern models for a large variety of distributed-computing models called dynamic-network models. Using pattern models, the epistemic dynamics of a proper subclass of dynamic-network models called oblivious can be described using a static pattern model, hence using constant space. For this case, we present a sufficient unsolvability condition for the consensus task that can be easily verified analyzing the structure of the initial epistemic model and the pattern model for a given oblivious dynamic-network model."
-    indice 504
   ]
   node [
     id 6258
@@ -43150,6 +43150,7 @@ graph [
     label "articulo:505"
     tipo "articulo"
     nombre "Preserving hyperproperties of programs using primitives with consensus number 2"
+    indice 505
     titulo "Preserving hyperproperties of programs using primitives with consensus number 2"
     anio 2025
     isbn ""
@@ -43160,13 +43161,13 @@ graph [
     subarea ""
     keywords ""
     abstract "The article defines strong observational refinement as a way to preserve hypersafety properties when refining concurrent objects and relates it to strong linearizability and forward simulations. It then studies strongly linearizable implementations built from consensus-number-2 primitives such as test-and-set and fetch-and-add, giving positive constructions for some objects and impossibility results for others."
-    indice 505
   ]
   node [
     id 6267
     label "articulo:506"
     tipo "articulo"
     nombre "Realizable signatures in upward pointset embeddings of directed paths"
+    indice 506
     titulo "Realizable signatures in upward pointset embeddings of directed paths"
     anio 2025
     isbn ""
@@ -43177,7 +43178,6 @@ graph [
     subarea ""
     keywords "Directed paths; Graph embeddability; Signature realizability; Upward pointset embeddings; Computational methods; Graph embeddings; Information use; Undirected graphs; Non-crossing constraint; Point set; Point-set embedding; Points in general position; Realizability; Upward pointset embedding; Vertical movement; Information systems"
     abstract "In this work we study geometric realizations of permutations of point sets in the plane under strict non-crossing constraints. Specifically, we consider non-self-intersecting paths over sets of n + 1 points in general position with distinct y-coordinates. Each such path has a signature (a word in {&#8722;, +}n), describing the vertical movement along the path. A signature is always-realizable if it can be realized by a non-self-intersecting path for every such point set. A well-known conjecture in upward planar embedding problems is that every signature is always-realizable. We provide new constructive methods that yield broad families of such signatures, including all signatures of length up to 9. We introduce the concept of forward-convex paths, which serves as a key tool for algorithmic path construction. Our framework allows for systematic composition of signature fragments, enabling general constructions. Our results generalize and unify previous work on upward path embeddings onto arbitrary point sets."
-    indice 506
   ]
   node [
     id 6268
@@ -43238,6 +43238,7 @@ graph [
     label "articulo:507"
     tipo "articulo"
     nombre "Recent Advances on Principles of Concurrent Data Structures"
+    indice 507
     titulo "Recent Advances on Principles of Concurrent Data Structures"
     anio 2024
     isbn ""
@@ -43248,13 +43249,13 @@ graph [
     subarea ""
     keywords ""
     abstract "Our research group at the Instituto de Matem&#225;ticas of the Universidad Nacional Aut&#243;noma de M&#233;xico focuses on studying the principles underlying distributed computing, which covers a wide range of services in our everyday life, for example, cloud storage, cryptocurrencies, collaborative editing, as well as concurrent software that governs modern multicore computers. The goal here is to survey our recent advances on one of our research lines: concurrent data structures."
-    indice 507
   ]
   node [
     id 6278
     label "articulo:508"
     tipo "articulo"
     nombre "Rectilinear convex hull of points in 3D and applications"
+    indice 508
     titulo "Rectilinear convex hull of points in 3D and applications"
     anio 2024
     isbn ""
@@ -43265,7 +43266,6 @@ graph [
     subarea ""
     keywords "52A15; 52C35; 52C45; 68U05; Fitting in 3D; Rectilinear convex hull; Rotation around the Z-axis; Computational geometry; Combinatorial properties; Convex hull; Space algorithms; Approximation algorithms"
     abstract "Let P be a set of n points in R^3 in general position, and let RCH(P) be the rectilinear convex hull of P. In this paper we obtain an optimal O(n log n) time and O(n) space algorithm to compute RCH(P). We also obtain an efficient O(n log^2 n) time and O(n log n) space algorithm to compute and maintain the set of vertices of the rectilinear convex hull of P as we rotate R^3 around the Z-axis. We study some combinatorial properties of the rectilinear convex hulls of point sets in R^3. Finally, as an application of the obtained results, we show an approximation algorithm to an optimization fitting problem in R^3."
-    indice 508
   ]
   node [
     id 6279
@@ -43326,6 +43326,7 @@ graph [
     label "articulo:509"
     tipo "articulo"
     nombre "Representing the inverse map as a composition of quadratics in a finite field of characteristic 2"
+    indice 509
     titulo "Representing the inverse map as a composition of quadratics in a finite field of characteristic 2"
     anio 2024
     isbn ""
@@ -43336,7 +43337,6 @@ graph [
     subarea ""
     keywords "Algorithm; Decompositions; Permutations; Primes; Quadratics; Sieves; Number theory; Polynomials; 11a41; 11n13; 11n36; 20b99; 94a60; 94d10; Permutation; Permutation polynomials; Prime; Quadratic; Decomposition"
     abstract "In 1953, Carlitz showed that all permutation polynomials over Fq, where q>2 is a power of a prime, are generated by the special permutation polynomials xq-2 (the inversion) and ax+b (affine functions, where 0&#8800;a,b&#8712;Fq). Recently, Nikova, Nikov and Rijmen (2019) proposed an algorithm (NNR) to find a decomposition of the inverse function in quadratics, and computationally covered all dimensions n&#8804;16. Petrides (2023) theoretically found a class of integers for which it is easy to decompose the inverse into quadratics, and improved the NNR algorithm, thereby extending the computation up to n&#8804;32. In this paper, we extend Petrides&#8217; result, as well as we propose a new number theoretical approach, which allows us to easily cover all (surely, odd) exponents up to 250, at least."
-    indice 509
   ]
   node [
     id 6289
@@ -43445,6 +43445,7 @@ graph [
     label "articulo:510"
     tipo "articulo"
     nombre "Simplicial models for the epistemic logic of faulty agents"
+    indice 510
     titulo "Simplicial models for the epistemic logic of faulty agents"
     anio 2024
     isbn ""
@@ -43455,7 +43456,6 @@ graph [
     subarea ""
     keywords "Epistemic logic; Simplicial complexes; Distributed computing"
     abstract "The article develops epistemic logics based on impure simplicial models, classifies design choices that arise when agents may be absent, and connects the resulting semantics with fault-tolerant distributed-computing scenarios."
-    indice 510
   ]
   node [
     id 6307
@@ -43474,6 +43474,7 @@ graph [
     label "articulo:511"
     tipo "articulo"
     nombre "Smart Contracts Formal Verification: A Systematic Literature Review"
+    indice 511
     titulo "Smart Contracts Formal Verification: A Systematic Literature Review"
     anio 2025
     isbn ""
@@ -43484,13 +43485,13 @@ graph [
     subarea ""
     keywords "Blockchain; Smart contracts; Verification; Description logic"
     abstract "Formal verification entails testing software to ensure it operates as specified. Smart contracts are self-executing contracts with the terms of the agreement directly written into lines of code. They run on blockchain platforms and automatically enforce and execute the terms of an agreement when meeting predefined conditions. However, Smart Contracts, as software models, often contain notable errors in their operation or specifications. This observation prompts us to conduct a focused study examining related works published across various sources. These publications detail specifications, verification tools, and relevant experiments. Subsequently, this survey proposes an alternative formal verification based on description logic."
-    indice 511
   ]
   node [
     id 6310
     label "articulo:512"
     tipo "articulo"
     nombre "Solution Algorithms for the Capacitated Location Tree Problem with Interconnections"
+    indice 512
     titulo "Solution Algorithms for the Capacitated Location Tree Problem with Interconnections"
     anio 2025
     isbn ""
@@ -43501,7 +43502,6 @@ graph [
     subarea ""
     keywords "Combinatorial mathematics; Integer programming; Metaheuristics; Transportation; Trees (mathematics); Capacitated location tree problem with interconnections; Capacity constraints; Combinatorial optimization problem; Decoder procedure; Demand satisfaction; Distribution network; Electrical transportation system; Exact solution method; Facility opening costs; Link capacities; Metaheuristic solution approaches; Mixed-integer programming; Network design; Network links; Network resilience; Tree-shaped network; Capacitated Location Tree Problem; Location; BRKGA; PSO; Swarm optimization algorithm; Key genetic algorithm; Routing problem; Search; Computer Science, Artificial Intelligence; Computer Science, Theory &#38; Methods; Computer Science; Mixed-integer linear programming; Capacitated location; Combinatorial optimization problems; In networks; Location tree; Solution algorithms; Solution approach; Combinatorial optimization"
     abstract "This paper addresses the Capacitated Location Tree Problem with Interconnections, a new combinatorial optimization problem with applications in network design. In this problem, the required facilities picked from a set of potential facilities must be opened to serve customers using a tree-shaped network. Costs and capacities are associated with the opening of facilities and the establishment of network links. Customers have a given demand that must be satisfied while respecting the facilities and link capacities. The problem aims to minimize the total cost of designing a distribution network while considering facility opening costs, demand satisfaction, capacity constraints, and the creation of interconnections to enhance network resilience. A valid mixed-integer programming was proposed and an exact solution method based on the formulation was used to solve small- and medium-sized instances. To solve larger instances two metaheuristic approaches were used. A specific decoder procedure for the metaheuristic solution approaches was also proposed and used to help find solutions, especially for large instances. Computational experiments and results using the three solution approaches are also presented. Finally, a case study on the design of electrical transportation systems was presented and solved."
-    indice 512
   ]
   node [
     id 6311
@@ -43688,6 +43688,7 @@ graph [
     label "articulo:513"
     tipo "articulo"
     nombre "Solvability Characterization for General Three-Process Tasks"
+    indice 513
     titulo "Solvability Characterization for General Three-Process Tasks"
     anio 2025
     isbn "979-8-4007-1885-4"
@@ -43698,7 +43699,6 @@ graph [
     subarea ""
     keywords "Topology; Chromatic tasks; Read / write shared memory; Wait-free; Color; Distributed computer systems; Specifications; Asynchronous system; Chromatic task; Colorless tasks; Continuous map; Shared memory; Simple++; Simplicial complex; Task specifications"
     abstract "A key result of distributed computing in asynchronous systems is a characterization for the wait-free solvability of colorless tasks by the existence of a continuous map from the task&#8217;s input complex (representing the valid input configurations) to its output complex (representing the valid output configurations) which respects that task&#8217;s specification. This natural characterization led to many proofs, mainly of impossibility: showing that a colorless task is not wait-free solvable, can be done by proving that there is no continuous map (respecting the task&#8217;s specification) between two simplicial complexes, which can be done using classical topological machinery. The seminal work of Herlihy and Shavit (JACM &#8217;99) characterized the solvability of general (not necessarily colorless) tasks. However, this characterization is much more involved than the colorless one, as it uses the new notions of chromatic subdivisions and color-preserving maps. The characterization asks whether there exists a chromatic subdivision of the input complex and a color-preserving map from the resulting subdivided complex to the output complex. This characterization is much harder to check as there are no ready-made topological tools for it, and in fact, finding such a subdivision and map is related to finding an algorithm for the task. This work presents a new and simpler characterization for the solvability of general tasks with three processes. In our characterization, the output complex undergoes a bounded number of simple combinatorial transformations. Then, we check if there is a continuous map from the input complex to the resulting output complex; we show that this suffices for determining whether the original task is solvable. Our approach provides a new and more direct way for deciding the solvability of a task, and also for proving impossibility and possibility of wait-free solutions for general tasks."
-    indice 513
   ]
   node [
     id 6342
@@ -43747,6 +43747,7 @@ graph [
     label "articulo:514"
     tipo "articulo"
     nombre "Strong Linearizability using Primitives with Consensus Number 2"
+    indice 514
     titulo "Strong Linearizability using Primitives with Consensus Number 2"
     anio 2024
     isbn "979-8-4007-0668-4"
@@ -43757,7 +43758,6 @@ graph [
     subarea ""
     keywords "Concurrency; Consensus numbers; Linearizability; Lock-freedom; Shared memory; Strong linearizability; Wait-freedom"
     abstract "A powerful tool for designing complex concurrent programs is through composition with object implementations from lower-level primitives. Strongly-linearizable implementations allow to preserve hyper-properties, e.g., probabilistic guarantees of randomized programs. However, the only known wait-free strongly-linearizable implementations for many objects rely on compare&#38;swap, a universal primitive that allows any number of processes to solve consensus. This is despite the fact that these objects have wait-free linearizable implementations from read / write primitives, which do not support consensus. This paper investigates a middle-ground, asking whether there are wait-free strongly-linearizable implementations from realistic primitives such as test&#38;set or fetch&#38;add, whose consensus number is 2. We show that many objects with consensus number 1 have wait-free strongly-linearizable implementations from fetch&#38;add. We also show that several objects with consensus number 2 have wait-free or lock-free implementations from other objects with consensus number 2. In contrast, we prove that even when fetch&#38;add, swap and test&#38;set primitives are used, some objects with consensus number 2 do not have lock-free strongly-linearizable implementations. This includes queues and stacks, as well as relaxed variants thereof."
-    indice 514
   ]
   node [
     id 6350
@@ -43782,6 +43782,7 @@ graph [
     label "articulo:515"
     tipo "articulo"
     nombre "Tensorization of f-Divergences"
+    indice 515
     titulo "Tensorization of f-Divergences"
     anio 2025
     isbn "979-8-3315-4399-0"
@@ -43792,7 +43793,6 @@ graph [
     subarea ""
     keywords "Learning systems; Differential privacy; Independent component analysis; Condition; Differential privacies; F-divergence; Formal definition; Independent components; KL-divergence; Machine-learning; Random vectors; Simple++; Tensorization; Additives; Total variance; Polynomials; Vectors; Information theory"
     abstract "In many applications across statistics, differential privacy, and machine learning, it is necessary to evaluate or bound an f-divergence between distributions of random vectors with independent components. Even for relatively simple distributions, such computations can become intractable unless the chosen f-divergence tensorizes. In this work, we introduce a formal definition of tensorization for f-divergences and present a necessary condition under which such tensorization can occur. Moreover, we demonstrate - under certain assumptions - that the only f-divergences admitting a polynomial tensorization formula of degree at most two are, essentially, the KL divergence, cross-entropy, and Hellinger divergences of order &#945;. Taken together, our findings represent an initial step toward a complete characterization of f-divergences that tensorize."
-    indice 515
   ]
   node [
     id 6354
@@ -43859,6 +43859,7 @@ graph [
     label "articulo:516"
     tipo "articulo"
     nombre "The Computational Power of Distributed Shared-Memory Models with Bounded-Size Registers"
+    indice 516
     titulo "The Computational Power of Distributed Shared-Memory Models with Bounded-Size Registers"
     anio 2024
     isbn "979-8-4007-0668-4"
@@ -43869,7 +43870,6 @@ graph [
     subarea ""
     keywords "Approximate agreement; Shared memory; Space complexity; t-resiliency; Wait-freedom; Computation theory; Bounded size; Full informations; Information protocols; Shared memory model; Wait free; Memory architecture; Computational complexity; Distributed shared memory systems; Shared memory systems; 1-bit registers; 1-resilient computing; Asynchronous Computability Theorem; Bounded registers; Bounded size registers; Computational power; Constant size registers; Distributed shared-memory models; Full-information protocol; Full-information wait-free protocol; Iterated model; Iterated shared memory model; Reading shared registers; Register; Unbounded registers; Unbounded size registers; Wait-free case; Wait-free computing coincide; Wait-free shared-memory model"
     abstract "The celebrated Asynchronous Computability Theorem of Herlihy and Shavit (JACM 1999) provided a topological characterization of the tasks that are wait-free solvable by processes communicating through writing and reading shared registers. This characterization assumes the use of full-information protocols, in which each time a process writes in the shared memory, it communicates everything it learned since the beginning of the execution. Thus, each register in the shared memory is of unbounded size. Whether unbounded size registers are unavoidable for the model of computation to be universal is the central question studied in this paper. More generally, when at most t out of n processes can crash, is the model with bounded size registers universal? We show that when 1 &#8804; t < n/2 registers of size O(t) bits are sufficient to solve any task that is solvable by a full-information protocol. The situation is radically different when n/2 < t < n, which includes the wait-free case. We show that bounded registers are not universal. Specifically, we show that, for any bound f: &#8469; &#8594; &#8469;, and for any n > 2, there exists a task that cannot be solved by n processes communicating via registers of size f(n) bits, but is solvable by n processes using unbounded registers. The case n = 2, t = 1, where 1-resilient computing and wait-free computing coincide, does not display the same behavior. We show that any task solvable by 2 processes in the wait-free shared-memory model with unbounded-size registers can be solved by 2 processes in the wait-free shared-memory model with constant size registers. Finally, we consider the iterated shared memory model, which has played a crucial role since Herlihy and Shavit's characterization. We show that 1-bit registers (per iteration) are sufficient for solving wait-free any task that is solvable by a full-information wait-free protocol. Therefore, while the wait-free read/write shared-memory model is known to be computationally equivalent to the iterated model, this equivalence only holds if registers are unbounded."
-    indice 516
   ]
   node [
     id 6365
@@ -44020,6 +44020,7 @@ graph [
     label "articulo:517"
     tipo "articulo"
     nombre "The mode of computing"
+    indice 517
     titulo "The mode of computing"
     anio 2024
     isbn ""
@@ -44030,7 +44031,6 @@ graph [
     subarea ""
     keywords "Consciousness; Interpretation; Mode of computing; Natural computing; Representation; Electrophysiology; Computing machinery; Computing machines; Computing process; Knowledge level; System levels; Article; Human; Intuition; Male; Mental function; Nerve cell network; Thinking; Turing machine; Turing machines"
     abstract "The Turing Machine is the paradigmatic case of computing machines, but there are others such as analogical, connectionist, quantum and diverse forms of unconventional computing, each based on a particular intuition of the phenomenon of computing. This variety can be captured in terms of system levels, re-interpreting and generalizing Newell's hierarchy, which includes the knowledge level at the top and the symbol level immediately below it. In this re-interpretation the knowledge level consists of human knowledge and the symbol level is generalized into a new level that here is called The Mode of Computing. Mental processes performed by natural brains are often thought of informally as computing processes and that the brain is alike to computing machinery. However, if natural computing does exist it should be characterized on its own. A proposal to such an effect is that natural computing appeared when interpretations were first made by biological entities, so natural computing and interpreting are two aspects of the same phenomenon, or that consciousness and experience are the manifestations of computing/interpreting. By analogy with computing machinery, there must be a system level at the top of the neural circuitry and directly below the knowledge level that is named here The mode of Natural Computing. If it turns out that such putative object does not exist the proposition that the mind is a computing process should be dropped; but characterizing it would come with solving the hard problem of consciousness."
-    indice 517
   ]
   node [
     id 6390
@@ -44127,6 +44127,7 @@ graph [
     label "articulo:518"
     tipo "articulo"
     nombre "Towards Efficient Runtime Verified Linearizable Algorithms"
+    indice 518
     titulo "Towards Efficient Runtime Verified Linearizable Algorithms"
     anio 2025
     isbn "978-3-031-74233-0; 978-3-031-74234-7"
@@ -44137,7 +44138,6 @@ graph [
     subarea ""
     keywords "Asynchronous concurrent algorithms; Distributed runtime verification; Fault-tolerance; Linearizability; Distributed computer systems; Asynchronous concurrent; Asynchronous concurrent algorithm; Concurrent algorithms; Distributed runtime; Fault-tolerant; Run-time verification; Runtimes; Simple++; Consensus algorithm"
     abstract "An asynchronous, fault-tolerant, sound and complete algorithm for runtime verification of linearizability of concurrent algorithms was proposed in [7]. This solution relies on the snapshot abstraction in distributed computing. The fastest known snapshot algorithms use complex constructions, hard to implement, and the simplest ones provide large step complexity bounds or only weak termination guarantees. Thus, the snapshot-based verification algorithm is not completely satisfactory. In this paper, we propose an alternative solution, based on the collect abstraction, which can be optimally implemented in a simple manner. As a final result, we offer a simple and generic methodology that takes any presumably linearizable algorithm and produces a lightweight runtime verified linearizable version of it."
-    indice 518
   ]
   node [
     id 6406
@@ -44168,6 +44168,7 @@ graph [
     label "articulo:519"
     tipo "articulo"
     nombre "What Cannot Be Implemented on Weak Memory?"
+    indice 519
     titulo "What Cannot Be Implemented on Weak Memory?"
     anio 2024
     isbn "978-3-95977-352-2"
@@ -44178,7 +44179,6 @@ graph [
     subarea ""
     keywords "Impossibility; Release-Acquire; Total-Store Order; Weak Memory Models; Concurrent objects; Distributed objects; General methodologies; Impossibility results; Memory modeling; Property"
     abstract "We present a general methodology for establishing the impossibility of implementing certain concurrent objects on different (weak) memory models. The key idea behind our approach lies in characterizing memory models by their mergeability properties, identifying restrictions under which independent memory traces can be merged into a single valid memory trace. In turn, we show that the mergeability properties of the underlying memory model entail similar mergeability requirements on the specifications of objects that can be implemented on that memory model. We demonstrate the applicability of our approach to establish the impossibility of implementing standard distributed objects with different restrictions on memory traces on three memory models: strictly consistent memory, total store order, and release-acquire. These impossibility results allow us to identify tight and almost tight bounds for some objects, as well as new separation results between weak memory models, and between well-studied objects based on their implementability on weak memory models."
-    indice 519
   ]
   node [
     id 6411
@@ -44308,15 +44308,15 @@ graph [
   ]
   node [
     id 6429
-    label "afiliacion:Centro de Ciencias de la Complejidad"
-    tipo "afiliacion"
-    nombre "Centro de Ciencias de la Complejidad"
-  ]
-  node [
-    id 6430
     label "afiliacion:Facultad de Medicina"
     tipo "afiliacion"
     nombre "Facultad de Medicina"
+  ]
+  node [
+    id 6430
+    label "afiliacion:Centro de Ciencias de la Complejidad"
+    tipo "afiliacion"
+    nombre "Centro de Ciencias de la Complejidad"
   ]
   node [
     id 6431
@@ -44374,15 +44374,15 @@ graph [
   ]
   node [
     id 6438
-    label "afiliacion:Facultad de Ciencias"
-    tipo "afiliacion"
-    nombre "Facultad de Ciencias"
-  ]
-  node [
-    id 6439
     label "afiliacion:Grupo de Ingenier&#237;a Ling&#252;&#237;stica"
     tipo "afiliacion"
     nombre "Grupo de Ingenier&#237;a Ling&#252;&#237;stica"
+  ]
+  node [
+    id 6439
+    label "afiliacion:Facultad de Ciencias"
+    tipo "afiliacion"
+    nombre "Facultad de Ciencias"
   ]
   node [
     id 6440
@@ -58347,7 +58347,7 @@ graph [
     target 6849
     tipo "autoria"
     afiliacion1 "Instituto de Investigaciones Biom&#233;dicas"
-    afiliacion2 "Instituto de Investigaciones Biom&#233;dicas"
+    afiliacion2 ""
   ]
   edge [
     source 636
@@ -73805,13 +73805,6 @@ graph [
   ]
   edge [
     source 2372
-    target 7128
-    tipo "autoria"
-    afiliacion1 "Instituto de Ingenier&#237;a"
-    afiliacion2 ""
-  ]
-  edge [
-    source 2372
     target 6686
     tipo "autoria"
     afiliacion1 "Instituto de Ingenier&#237;a"
@@ -73834,6 +73827,13 @@ graph [
   edge [
     source 2372
     target 7069
+    tipo "autoria"
+    afiliacion1 "Instituto de Ingenier&#237;a"
+    afiliacion2 ""
+  ]
+  edge [
+    source 2372
+    target 7128
     tipo "autoria"
     afiliacion1 "Instituto de Ingenier&#237;a"
     afiliacion2 ""
@@ -74410,13 +74410,6 @@ graph [
   ]
   edge [
     source 2454
-    target 7128
-    tipo "autoria"
-    afiliacion1 "Grupo de Ingenier&#237;a Ling&#252;&#237;stica"
-    afiliacion2 "Posgrado en Ciencia e Ingenier&#237;a de la Computaci&#243;n"
-  ]
-  edge [
-    source 2454
     target 6608
     tipo "autoria"
     afiliacion1 "Grupo de Ingenier&#237;a Ling&#252;&#237;stica"
@@ -74439,6 +74432,13 @@ graph [
   edge [
     source 2454
     target 6858
+    tipo "autoria"
+    afiliacion1 "Grupo de Ingenier&#237;a Ling&#252;&#237;stica"
+    afiliacion2 "Posgrado en Ciencia e Ingenier&#237;a de la Computaci&#243;n"
+  ]
+  edge [
+    source 2454
+    target 7128
     tipo "autoria"
     afiliacion1 "Grupo de Ingenier&#237;a Ling&#252;&#237;stica"
     afiliacion2 "Posgrado en Ciencia e Ingenier&#237;a de la Computaci&#243;n"
@@ -88546,13 +88546,6 @@ graph [
   ]
   edge [
     source 4406
-    target 7127
-    tipo "autoria"
-    afiliacion1 "Facultad de Ingenier&#237;a"
-    afiliacion2 ""
-  ]
-  edge [
-    source 4406
     target 6596
     tipo "autoria"
     afiliacion1 "Facultad de Ingenier&#237;a"
@@ -88575,6 +88568,13 @@ graph [
   edge [
     source 4406
     target 7110
+    tipo "autoria"
+    afiliacion1 "Facultad de Ingenier&#237;a"
+    afiliacion2 ""
+  ]
+  edge [
+    source 4406
+    target 7127
     tipo "autoria"
     afiliacion1 "Facultad de Ingenier&#237;a"
     afiliacion2 ""
@@ -90006,14 +90006,14 @@ graph [
   ]
   edge [
     source 4614
-    target 6947
+    target 6943
     tipo "autoria"
     afiliacion1 "Instituto de Ecolog&#237;a"
     afiliacion2 ""
   ]
   edge [
     source 4614
-    target 6943
+    target 6947
     tipo "autoria"
     afiliacion1 "Instituto de Ecolog&#237;a"
     afiliacion2 ""
@@ -93228,16 +93228,16 @@ graph [
   ]
   edge [
     source 5081
-    target 6949
+    target 6933
     tipo "autoria"
-    afiliacion1 "Instituto de Investigaciones en Ecosistemas y Sustentabilidad"
+    afiliacion1 "Centro de Investigaciones en Geograf&#237;a Ambiental"
     afiliacion2 ""
   ]
   edge [
     source 5081
-    target 6933
+    target 6949
     tipo "autoria"
-    afiliacion1 "Centro de Investigaciones en Geograf&#237;a Ambiental"
+    afiliacion1 "Instituto de Investigaciones en Ecosistemas y Sustentabilidad"
     afiliacion2 ""
   ]
   edge [
@@ -94195,14 +94195,14 @@ graph [
   ]
   edge [
     source 5234
-    target 6975
+    target 6970
     tipo "autoria"
     afiliacion1 "Instituto de Ciencias Aplicadas y Tecnolog&#237;a"
     afiliacion2 ""
   ]
   edge [
     source 5234
-    target 6970
+    target 6975
     tipo "autoria"
     afiliacion1 "Instituto de Ciencias Aplicadas y Tecnolog&#237;a"
     afiliacion2 ""
@@ -102292,141 +102292,141 @@ graph [
   ]
   edge [
     source 6429
-    target 6456
-    tipo "afiliacion"
-    articulos "[260]"
-  ]
-  edge [
-    source 6429
-    target 6562
-    tipo "afiliacion"
-    articulos "[47, 78, 149, 260]"
-  ]
-  edge [
-    source 6429
-    target 6580
-    tipo "afiliacion"
-    articulos "[12, 102]"
-  ]
-  edge [
-    source 6429
-    target 6603
-    tipo "afiliacion"
-    articulos "[47]"
-  ]
-  edge [
-    source 6429
-    target 6650
-    tipo "afiliacion"
-    articulos "[297]"
-  ]
-  edge [
-    source 6429
-    target 6653
-    tipo "afiliacion"
-    articulos "[11, 219, 457]"
-  ]
-  edge [
-    source 6429
-    target 6669
-    tipo "afiliacion"
-    articulos "[47]"
-  ]
-  edge [
-    source 6429
-    target 6673
-    tipo "afiliacion"
-    articulos "[47]"
-  ]
-  edge [
-    source 6429
-    target 6701
-    tipo "afiliacion"
-    articulos "[447]"
-  ]
-  edge [
-    source 6429
-    target 6723
-    tipo "afiliacion"
-    articulos "[219]"
-  ]
-  edge [
-    source 6429
-    target 6798
-    tipo "afiliacion"
-    articulos "[84]"
-  ]
-  edge [
-    source 6429
-    target 6829
-    tipo "afiliacion"
-    articulos "[12]"
-  ]
-  edge [
-    source 6429
-    target 6853
-    tipo "afiliacion"
-    articulos "[260]"
-  ]
-  edge [
-    source 6429
-    target 6943
-    tipo "afiliacion"
-    articulos "[84]"
-  ]
-  edge [
-    source 6429
-    target 7016
-    tipo "afiliacion"
-    articulos "[47]"
-  ]
-  edge [
-    source 6429
-    target 7049
-    tipo "afiliacion"
-    articulos "[47]"
-  ]
-  edge [
-    source 6429
-    target 7050
-    tipo "afiliacion"
-    articulos "[102]"
-  ]
-  edge [
-    source 6429
-    target 7061
-    tipo "afiliacion"
-    articulos "[11]"
-  ]
-  edge [
-    source 6430
     target 6501
     tipo "afiliacion"
     articulos "[452]"
   ]
   edge [
-    source 6430
+    source 6429
     target 6527
     tipo "afiliacion"
     articulos "[102]"
   ]
   edge [
-    source 6430
+    source 6429
     target 6762
     tipo "afiliacion"
     articulos "[380]"
   ]
   edge [
-    source 6430
+    source 6429
     target 6850
     tipo "afiliacion"
     articulos "[462]"
   ]
   edge [
-    source 6430
+    source 6429
     target 6855
     tipo "afiliacion"
     articulos "[110]"
+  ]
+  edge [
+    source 6430
+    target 6456
+    tipo "afiliacion"
+    articulos "[260]"
+  ]
+  edge [
+    source 6430
+    target 6562
+    tipo "afiliacion"
+    articulos "[47, 78, 149, 260]"
+  ]
+  edge [
+    source 6430
+    target 6580
+    tipo "afiliacion"
+    articulos "[12, 102]"
+  ]
+  edge [
+    source 6430
+    target 6603
+    tipo "afiliacion"
+    articulos "[47]"
+  ]
+  edge [
+    source 6430
+    target 6650
+    tipo "afiliacion"
+    articulos "[297]"
+  ]
+  edge [
+    source 6430
+    target 6653
+    tipo "afiliacion"
+    articulos "[11, 219, 457]"
+  ]
+  edge [
+    source 6430
+    target 6669
+    tipo "afiliacion"
+    articulos "[47]"
+  ]
+  edge [
+    source 6430
+    target 6673
+    tipo "afiliacion"
+    articulos "[47]"
+  ]
+  edge [
+    source 6430
+    target 6701
+    tipo "afiliacion"
+    articulos "[447]"
+  ]
+  edge [
+    source 6430
+    target 6723
+    tipo "afiliacion"
+    articulos "[219]"
+  ]
+  edge [
+    source 6430
+    target 6798
+    tipo "afiliacion"
+    articulos "[84]"
+  ]
+  edge [
+    source 6430
+    target 6829
+    tipo "afiliacion"
+    articulos "[12]"
+  ]
+  edge [
+    source 6430
+    target 6853
+    tipo "afiliacion"
+    articulos "[260]"
+  ]
+  edge [
+    source 6430
+    target 6943
+    tipo "afiliacion"
+    articulos "[84]"
+  ]
+  edge [
+    source 6430
+    target 7016
+    tipo "afiliacion"
+    articulos "[47]"
+  ]
+  edge [
+    source 6430
+    target 7049
+    tipo "afiliacion"
+    articulos "[47]"
+  ]
+  edge [
+    source 6430
+    target 7050
+    tipo "afiliacion"
+    articulos "[102]"
+  ]
+  edge [
+    source 6430
+    target 7061
+    tipo "afiliacion"
+    articulos "[11]"
   ]
   edge [
     source 6431
@@ -102900,385 +102900,385 @@ graph [
     source 6437
     target 6438
     tipo "afiliacion"
-    articulos "[184]"
+    articulos "[184, 186]"
   ]
   edge [
     source 6437
     target 6439
     tipo "afiliacion"
-    articulos "[184, 186]"
+    articulos "[184]"
   ]
   edge [
     source 6438
-    target 6460
-    tipo "afiliacion"
-    articulos "[203]"
-  ]
-  edge [
-    source 6438
-    target 6483
-    tipo "afiliacion"
-    articulos "[449]"
-  ]
-  edge [
-    source 6438
-    target 6536
-    tipo "afiliacion"
-    articulos "[125]"
-  ]
-  edge [
-    source 6438
-    target 6552
-    tipo "afiliacion"
-    articulos "[482]"
-  ]
-  edge [
-    source 6438
-    target 6576
-    tipo "afiliacion"
-    articulos "[464, 482, 490, 491, 503]"
-  ]
-  edge [
-    source 6438
-    target 6608
-    tipo "afiliacion"
-    articulos "[221]"
-  ]
-  edge [
-    source 6438
-    target 6611
-    tipo "afiliacion"
-    articulos "[204]"
-  ]
-  edge [
-    source 6438
-    target 6620
-    tipo "afiliacion"
-    articulos "[129]"
-  ]
-  edge [
-    source 6438
-    target 6658
-    tipo "afiliacion"
-    articulos "[152]"
-  ]
-  edge [
-    source 6438
-    target 6673
-    tipo "afiliacion"
-    articulos "[47]"
-  ]
-  edge [
-    source 6438
-    target 6676
-    tipo "afiliacion"
-    articulos "[464, 491]"
-  ]
-  edge [
-    source 6438
-    target 6685
-    tipo "afiliacion"
-    articulos "[449]"
-  ]
-  edge [
-    source 6438
-    target 6687
-    tipo "afiliacion"
-    articulos "[468, 489]"
-  ]
-  edge [
-    source 6438
-    target 6691
-    tipo "afiliacion"
-    articulos "[146, 309, 316, 320]"
-  ]
-  edge [
-    source 6438
-    target 6702
-    tipo "afiliacion"
-    articulos "[204]"
-  ]
-  edge [
-    source 6438
-    target 6704
-    tipo "afiliacion"
-    articulos "[452]"
-  ]
-  edge [
-    source 6438
-    target 6711
-    tipo "afiliacion"
-    articulos "[503]"
-  ]
-  edge [
-    source 6438
-    target 6712
-    tipo "afiliacion"
-    articulos "[380]"
-  ]
-  edge [
-    source 6438
-    target 6740
-    tipo "afiliacion"
-    articulos "[482]"
-  ]
-  edge [
-    source 6438
-    target 6768
-    tipo "afiliacion"
-    articulos "[263]"
-  ]
-  edge [
-    source 6438
-    target 6770
-    tipo "afiliacion"
-    articulos "[409]"
-  ]
-  edge [
-    source 6438
-    target 6772
-    tipo "afiliacion"
-    articulos "[254]"
-  ]
-  edge [
-    source 6438
-    target 6782
-    tipo "afiliacion"
-    articulos "[469]"
-  ]
-  edge [
-    source 6438
-    target 6800
-    tipo "afiliacion"
-    articulos "[337, 338, 350]"
-  ]
-  edge [
-    source 6438
-    target 6804
-    tipo "afiliacion"
-    articulos "[263]"
-  ]
-  edge [
-    source 6438
-    target 6817
-    tipo "afiliacion"
-    articulos "[136]"
-  ]
-  edge [
-    source 6438
-    target 6821
-    tipo "afiliacion"
-    articulos "[469, 496]"
-  ]
-  edge [
-    source 6438
-    target 6826
-    tipo "afiliacion"
-    articulos "[271]"
-  ]
-  edge [
-    source 6438
-    target 6836
-    tipo "afiliacion"
-    articulos "[204]"
-  ]
-  edge [
-    source 6438
-    target 6839
-    tipo "afiliacion"
-    articulos "[207]"
-  ]
-  edge [
-    source 6438
-    target 6857
-    tipo "afiliacion"
-    articulos "[449]"
-  ]
-  edge [
-    source 6438
-    target 6864
-    tipo "afiliacion"
-    articulos "[342, 362]"
-  ]
-  edge [
-    source 6438
-    target 6867
-    tipo "afiliacion"
-    articulos "[67, 267]"
-  ]
-  edge [
-    source 6438
-    target 6870
-    tipo "afiliacion"
-    articulos "[240]"
-  ]
-  edge [
-    source 6438
-    target 6871
-    tipo "afiliacion"
-    articulos "[104]"
-  ]
-  edge [
-    source 6438
-    target 6937
-    tipo "afiliacion"
-    articulos "[385]"
-  ]
-  edge [
-    source 6438
-    target 6952
-    tipo "afiliacion"
-    articulos "[69]"
-  ]
-  edge [
-    source 6438
-    target 6976
-    tipo "afiliacion"
-    articulos "[492]"
-  ]
-  edge [
-    source 6438
-    target 6977
-    tipo "afiliacion"
-    articulos "[181]"
-  ]
-  edge [
-    source 6438
-    target 6978
-    tipo "afiliacion"
-    articulos "[254]"
-  ]
-  edge [
-    source 6438
-    target 6996
-    tipo "afiliacion"
-    articulos "[502]"
-  ]
-  edge [
-    source 6438
-    target 7001
-    tipo "afiliacion"
-    articulos "[171]"
-  ]
-  edge [
-    source 6438
-    target 7015
-    tipo "afiliacion"
-    articulos "[98, 457]"
-  ]
-  edge [
-    source 6438
-    target 7034
-    tipo "afiliacion"
-    articulos "[449]"
-  ]
-  edge [
-    source 6438
-    target 7046
-    tipo "afiliacion"
-    articulos "[449]"
-  ]
-  edge [
-    source 6438
-    target 7049
-    tipo "afiliacion"
-    articulos "[47]"
-  ]
-  edge [
-    source 6438
-    target 7054
-    tipo "afiliacion"
-    articulos "[455]"
-  ]
-  edge [
-    source 6438
-    target 7090
-    tipo "afiliacion"
-    articulos "[54]"
-  ]
-  edge [
-    source 6438
-    target 7091
-    tipo "afiliacion"
-    articulos "[94]"
-  ]
-  edge [
-    source 6438
-    target 7095
-    tipo "afiliacion"
-    articulos "[222, 240, 449]"
-  ]
-  edge [
-    source 6438
-    target 7103
-    tipo "afiliacion"
-    articulos "[204]"
-  ]
-  edge [
-    source 6438
-    target 7104
-    tipo "afiliacion"
-    articulos "[181]"
-  ]
-  edge [
-    source 6438
-    target 7119
-    tipo "afiliacion"
-    articulos "[98]"
-  ]
-  edge [
-    source 6438
-    target 7123
-    tipo "afiliacion"
-    articulos "[100]"
-  ]
-  edge [
-    source 6439
     target 6608
     tipo "afiliacion"
     articulos "[183]"
   ]
   edge [
-    source 6439
+    source 6438
     target 6686
     tipo "afiliacion"
     articulos "[183, 184, 185, 198, 282]"
   ]
   edge [
-    source 6439
+    source 6438
     target 6706
     tipo "afiliacion"
     articulos "[183, 184, 185, 186, 198, 282]"
   ]
   edge [
-    source 6439
+    source 6438
     target 6708
     tipo "afiliacion"
     articulos "[186]"
   ]
   edge [
-    source 6439
+    source 6438
     target 6858
     tipo "afiliacion"
     articulos "[183, 184, 185, 282]"
   ]
   edge [
-    source 6439
+    source 6438
     target 7063
     tipo "afiliacion"
     articulos "[232]"
   ]
   edge [
-    source 6439
+    source 6438
     target 7069
     tipo "afiliacion"
     articulos "[282]"
   ]
   edge [
-    source 6439
+    source 6438
     target 7128
     tipo "afiliacion"
     articulos "[183]"
+  ]
+  edge [
+    source 6439
+    target 6460
+    tipo "afiliacion"
+    articulos "[203]"
+  ]
+  edge [
+    source 6439
+    target 6483
+    tipo "afiliacion"
+    articulos "[449]"
+  ]
+  edge [
+    source 6439
+    target 6536
+    tipo "afiliacion"
+    articulos "[125]"
+  ]
+  edge [
+    source 6439
+    target 6552
+    tipo "afiliacion"
+    articulos "[482]"
+  ]
+  edge [
+    source 6439
+    target 6576
+    tipo "afiliacion"
+    articulos "[464, 482, 490, 491, 503]"
+  ]
+  edge [
+    source 6439
+    target 6608
+    tipo "afiliacion"
+    articulos "[221]"
+  ]
+  edge [
+    source 6439
+    target 6611
+    tipo "afiliacion"
+    articulos "[204]"
+  ]
+  edge [
+    source 6439
+    target 6620
+    tipo "afiliacion"
+    articulos "[129]"
+  ]
+  edge [
+    source 6439
+    target 6658
+    tipo "afiliacion"
+    articulos "[152]"
+  ]
+  edge [
+    source 6439
+    target 6673
+    tipo "afiliacion"
+    articulos "[47]"
+  ]
+  edge [
+    source 6439
+    target 6676
+    tipo "afiliacion"
+    articulos "[464, 491]"
+  ]
+  edge [
+    source 6439
+    target 6685
+    tipo "afiliacion"
+    articulos "[449]"
+  ]
+  edge [
+    source 6439
+    target 6687
+    tipo "afiliacion"
+    articulos "[468, 489]"
+  ]
+  edge [
+    source 6439
+    target 6691
+    tipo "afiliacion"
+    articulos "[146, 309, 316, 320]"
+  ]
+  edge [
+    source 6439
+    target 6702
+    tipo "afiliacion"
+    articulos "[204]"
+  ]
+  edge [
+    source 6439
+    target 6704
+    tipo "afiliacion"
+    articulos "[452]"
+  ]
+  edge [
+    source 6439
+    target 6711
+    tipo "afiliacion"
+    articulos "[503]"
+  ]
+  edge [
+    source 6439
+    target 6712
+    tipo "afiliacion"
+    articulos "[380]"
+  ]
+  edge [
+    source 6439
+    target 6740
+    tipo "afiliacion"
+    articulos "[482]"
+  ]
+  edge [
+    source 6439
+    target 6768
+    tipo "afiliacion"
+    articulos "[263]"
+  ]
+  edge [
+    source 6439
+    target 6770
+    tipo "afiliacion"
+    articulos "[409]"
+  ]
+  edge [
+    source 6439
+    target 6772
+    tipo "afiliacion"
+    articulos "[254]"
+  ]
+  edge [
+    source 6439
+    target 6782
+    tipo "afiliacion"
+    articulos "[469]"
+  ]
+  edge [
+    source 6439
+    target 6800
+    tipo "afiliacion"
+    articulos "[337, 338, 350]"
+  ]
+  edge [
+    source 6439
+    target 6804
+    tipo "afiliacion"
+    articulos "[263]"
+  ]
+  edge [
+    source 6439
+    target 6817
+    tipo "afiliacion"
+    articulos "[136]"
+  ]
+  edge [
+    source 6439
+    target 6821
+    tipo "afiliacion"
+    articulos "[469, 496]"
+  ]
+  edge [
+    source 6439
+    target 6826
+    tipo "afiliacion"
+    articulos "[271]"
+  ]
+  edge [
+    source 6439
+    target 6836
+    tipo "afiliacion"
+    articulos "[204]"
+  ]
+  edge [
+    source 6439
+    target 6839
+    tipo "afiliacion"
+    articulos "[207]"
+  ]
+  edge [
+    source 6439
+    target 6857
+    tipo "afiliacion"
+    articulos "[449]"
+  ]
+  edge [
+    source 6439
+    target 6864
+    tipo "afiliacion"
+    articulos "[342, 362]"
+  ]
+  edge [
+    source 6439
+    target 6867
+    tipo "afiliacion"
+    articulos "[67, 267]"
+  ]
+  edge [
+    source 6439
+    target 6870
+    tipo "afiliacion"
+    articulos "[240]"
+  ]
+  edge [
+    source 6439
+    target 6871
+    tipo "afiliacion"
+    articulos "[104]"
+  ]
+  edge [
+    source 6439
+    target 6937
+    tipo "afiliacion"
+    articulos "[385]"
+  ]
+  edge [
+    source 6439
+    target 6952
+    tipo "afiliacion"
+    articulos "[69]"
+  ]
+  edge [
+    source 6439
+    target 6976
+    tipo "afiliacion"
+    articulos "[492]"
+  ]
+  edge [
+    source 6439
+    target 6977
+    tipo "afiliacion"
+    articulos "[181]"
+  ]
+  edge [
+    source 6439
+    target 6978
+    tipo "afiliacion"
+    articulos "[254]"
+  ]
+  edge [
+    source 6439
+    target 6996
+    tipo "afiliacion"
+    articulos "[502]"
+  ]
+  edge [
+    source 6439
+    target 7001
+    tipo "afiliacion"
+    articulos "[171]"
+  ]
+  edge [
+    source 6439
+    target 7015
+    tipo "afiliacion"
+    articulos "[98, 457]"
+  ]
+  edge [
+    source 6439
+    target 7034
+    tipo "afiliacion"
+    articulos "[449]"
+  ]
+  edge [
+    source 6439
+    target 7046
+    tipo "afiliacion"
+    articulos "[449]"
+  ]
+  edge [
+    source 6439
+    target 7049
+    tipo "afiliacion"
+    articulos "[47]"
+  ]
+  edge [
+    source 6439
+    target 7054
+    tipo "afiliacion"
+    articulos "[455]"
+  ]
+  edge [
+    source 6439
+    target 7090
+    tipo "afiliacion"
+    articulos "[54]"
+  ]
+  edge [
+    source 6439
+    target 7091
+    tipo "afiliacion"
+    articulos "[94]"
+  ]
+  edge [
+    source 6439
+    target 7095
+    tipo "afiliacion"
+    articulos "[222, 240, 449]"
+  ]
+  edge [
+    source 6439
+    target 7103
+    tipo "afiliacion"
+    articulos "[204]"
+  ]
+  edge [
+    source 6439
+    target 7104
+    tipo "afiliacion"
+    articulos "[181]"
+  ]
+  edge [
+    source 6439
+    target 7119
+    tipo "afiliacion"
+    articulos "[98]"
+  ]
+  edge [
+    source 6439
+    target 7123
+    tipo "afiliacion"
+    articulos "[100]"
   ]
   edge [
     source 6441
